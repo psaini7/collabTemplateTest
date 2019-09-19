@@ -463,6 +463,13 @@
       <typeSet uuid="_wEZvXZLvEeeXtsjNCCNsDg" bitSet="393218"/>
     </domain>
   </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_cAFicNrcEemEP5RT1Omybg"
+      name="testVariable" visibility="800">
+    <domain uuid="_cAFicdrcEemEP5RT1Omybg" name="local"
+        visibility="300">
+      <typeSet uuid="_cAFictrcEemEP5RT1Omybg" bitSet="393231"/>
+    </domain>
+  </variables>
   <logic uuid="_Jn5iMJXNEeaPIeZPO84fyg" name="Logic_Rules"
       visibility="800">
     <children xsi:type="array:TableRelation" uuid="_KFCxMJXNEeaPIeZPO84fyg"
