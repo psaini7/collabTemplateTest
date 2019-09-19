@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_PzZAIHmqEeaMX44rrPMmaQ" name="accessory"
+    componentClass="LINK">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_TbehIHmqEeaMX44rrPMmaQ"
+      name="description" visibility="800">
+    <domain uuid="_TbehIXmqEeaMX44rrPMmaQ" name="local"
+        visibility="300">
+      <typeSet uuid="_20QW4aviEeaK7oriseII_A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_gtbfYHmqEeaMX44rrPMmaQ"
+      name="quantity" visibility="800" initValue="1">
+    <domain uuid="_gtbfYXmqEeaMX44rrPMmaQ" name="local"
+        visibility="300">
+      <typeSet uuid="_20QW56viEeaK7oriseII_A" bitSet="393218"/>
+      <values uuid="_j24joHmqEeaMX44rrPMmaQ" name="1..100"
+          visibility="300">
+        <displayName uuid="_dcPZOP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_l1BEQHmqEeaMX44rrPMmaQ"
+      name="combar_name" visibility="800">
+    <domain uuid="_l1BEQXmqEeaMX44rrPMmaQ" name="local"
+        visibility="300">
+      <typeSet uuid="_20QW7qviEeaK7oriseII_A" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_pIv9EH8UEeadrP1TgH8Dow"
+      name="localOrderCode" visibility="800">
+    <domain uuid="_pIv9EX8UEeadrP1TgH8Dow" name="local"
+        visibility="300">
+      <typeSet uuid="_20QW9KviEeaK7oriseII_A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <calculation uuid="_oTq4AHmqEeaMX44rrPMmaQ" name="Calculation_Rules"
+      visibility="800">
+    <text>compbar_name = description + &quot;- Qty: &quot;+quantity;</text>
+  </calculation>
+  <geometry uuid="_PzZAIXmqEeaMX44rrPMmaQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_PzZAInmqEeaMX44rrPMmaQ" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_tGefsHmqEeaMX44rrPMmaQ" name="next_link"
+      public="false" type="LINKINSUBLINK" components="NONE, accessory, "
+      lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_20QW_KviEeaK7oriseII_A"
+        type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_20QW_aviEeaK7oriseII_A"
+        twinRoleName="prev_link"/>
+    <domain uuid="_tGefsXmqEeaMX44rrPMmaQ" name="local"
+        visibility="300">
+      <typeSet uuid="_20QXAKviEeaK7oriseII_A" bitSet="65536"/>
+      <values uuid="_tGefsnmqEeaMX44rrPMmaQ" name="NONE"
+          visibility="300">
+        <displayName uuid="_dcPZSP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_vdCHYHmqEeaMX44rrPMmaQ" name="accessory"
+          visibility="300">
+        <displayName uuid="_dcPZSv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_dcPZS_7nEeiskp2v5nXzHA" value=""/>
+</comp:Component>

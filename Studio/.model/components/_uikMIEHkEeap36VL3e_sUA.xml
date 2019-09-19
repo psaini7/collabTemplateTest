@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_uikMIEHkEeap36VL3e_sUA" name="column_combiline_rbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.rbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2K6EQEHpEeap36VL3e_sUA"
+      name="column_type" visibility="800" initValue="combiline_rbbs">
+    <domain uuid="_2K6EQkHpEeap36VL3e_sUA" name="local"
+        visibility="300">
+      <typeSet uuid="_2z807KviEeaK7oriseII_A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_I4BNMJozEee6odMu3Xy-aA"
+      name="compensator_position" visibility="800" initValue="top">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_vY9v4CbPEeiaC4-cK8_ZNQ"
+        defaultVar="column_compensator_position_toa"/>
+    <domain uuid="_I4BNMZozEee6odMu3Xy-aA" name="local"
+        visibility="300">
+      <typeSet uuid="_I4BNMpozEee6odMu3Xy-aA" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_PdgQEApYEeiG4KMrIZ27cw"/>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_QGqB0CGxEei1bZDqOuJ1VA"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_SEr0wCGxEei1bZDqOuJ1VA"
+        name="mbbs_position_in" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_bgYEYCG3Eei1bZDqOuJ1VA" declared="true"
+          model="_ROPtQCG3Eei1bZDqOuJ1VA" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_SEr0xSGxEei1bZDqOuJ1VA" name="local"
+          visibility="300">
+        <typeSet uuid="_SEr0yCGxEei1bZDqOuJ1VA" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_PdgQEApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_SEsb2yGxEei1bZDqOuJ1VA"
+        name="switchboard_phase_poistion_toa" visibility="800">
+      <domain uuid="_SEsb4CGxEei1bZDqOuJ1VA" name="local"
+          visibility="300">
+        <typeSet uuid="_SEsb4yGxEei1bZDqOuJ1VA" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_PdgQEApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_5Rk38CHmEei1bZDqOuJ1VA"
+        name="mbbs_position_out" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_zgjfECHnEei1bZDqOuJ1VA" declared="true"
+          model="_ROPtQCG3Eei1bZDqOuJ1VA" select="CLOSEST"
+          flow="OUT">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_5Rk39iHmEei1bZDqOuJ1VA" name="local"
+          visibility="300">
+        <typeSet uuid="_5Rk3-SHmEei1bZDqOuJ1VA" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_PdgQEApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_KZbnACkJEeig5pju_IgbPQ"
+        name="net_form" visibility="800">
+      <domain uuid="_KZbnBSkJEeig5pju_IgbPQ" name="local"
+          visibility="300">
+        <typeSet uuid="_KZbnCCkJEeig5pju_IgbPQ" bitSet="393220"/>
+        <values uuid="_KZbnCSkJEeig5pju_IgbPQ" name="TNC"
+            visibility="300">
+          <displayName uuid="_ddGU7v7nEeiskp2v5nXzHA"
+              value="TN-C"/>
+        </values>
+        <values uuid="_KZbnCikJEeig5pju_IgbPQ" name="TNS"
+            visibility="300">
+          <displayName uuid="_ddGU8P7nEeiskp2v5nXzHA"
+              value="TN-S"/>
+        </values>
+        <values uuid="_KZbnCykJEeig5pju_IgbPQ" name="TT"
+            visibility="300">
+          <displayName uuid="_ddGU8v7nEeiskp2v5nXzHA"
+              value="TT"/>
+        </values>
+        <values uuid="_KZbnDCkJEeig5pju_IgbPQ" name="IT"
+            visibility="300">
+          <displayName uuid="_ddGU9P7nEeiskp2v5nXzHA"
+              value="IT"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_KZbnHCkJEeig5pju_IgbPQ"
+        name="net_form_in" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_-sIGsMu8Eeie5uyjTWQVVQ" declared="true"
+          model="_ROPtQCG3Eei1bZDqOuJ1VA">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_KZbnISkJEeig5pju_IgbPQ" name="local"
+          visibility="300">
+        <typeSet uuid="_KZbnJCkJEeig5pju_IgbPQ" bitSet="393220"/>
+        <values uuid="_KZbnJSkJEeig5pju_IgbPQ" name="TNC"
+            visibility="300">
+          <displayName uuid="_ddGU-_7nEeiskp2v5nXzHA"
+              value="TN-C"/>
+        </values>
+        <values uuid="_KZbnJikJEeig5pju_IgbPQ" name="TNS"
+            visibility="300">
+          <displayName uuid="_ddGU_f7nEeiskp2v5nXzHA"
+              value="TN-S"/>
+        </values>
+        <values uuid="_KZbnJykJEeig5pju_IgbPQ" name="TT"
+            visibility="300">
+          <displayName uuid="_ddGU__7nEeiskp2v5nXzHA"
+              value="TT"/>
+        </values>
+        <values uuid="_KZbnKCkJEeig5pju_IgbPQ" name="IT"
+            visibility="300">
+          <displayName uuid="_ddGVAf7nEeiskp2v5nXzHA"
+              value="IT"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_KZbnOCkJEeig5pju_IgbPQ"
+        name="net_form_out" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="__q_isMu8Eeie5uyjTWQVVQ" declared="true"
+          model="_ROPtQCG3Eei1bZDqOuJ1VA" flow="OUT">
+        <priorities href="../product_model.xml#_tKdygAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_KZbnPSkJEeig5pju_IgbPQ" name="local"
+          visibility="300">
+        <typeSet uuid="_KZbnQCkJEeig5pju_IgbPQ" bitSet="393220"/>
+        <values uuid="_KZbnQSkJEeig5pju_IgbPQ" name="TNC"
+            visibility="300">
+          <displayName uuid="_ddGVCP7nEeiskp2v5nXzHA"
+              value="TN-C"/>
+        </values>
+        <values uuid="_KZbnQikJEeig5pju_IgbPQ" name="TNS"
+            visibility="300">
+          <displayName uuid="_ddGVCv7nEeiskp2v5nXzHA"
+              value="TN-S"/>
+        </values>
+        <values uuid="_KZbnQykJEeig5pju_IgbPQ" name="TT"
+            visibility="300">
+          <displayName uuid="_ddGVDP7nEeiskp2v5nXzHA"
+              value="TT"/>
+        </values>
+        <values uuid="_KZbnRCkJEeig5pju_IgbPQ" name="IT"
+            visibility="300">
+          <displayName uuid="_ddGVDv7nEeiskp2v5nXzHA"
+              value="IT"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0-HqECkKEeig5pju_IgbPQ"
+        name="switchboard_busbar_number_of_poles" visibility="800">
+      <domain uuid="_0-HqFikKEeig5pju_IgbPQ" name="local"
+          visibility="300">
+        <typeSet uuid="_0-HqGSkKEeig5pju_IgbPQ" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ZjZRYL-uEeefyu3vouK73A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_RqG9MMvJEeie5uyjTWQVVQ"
+        name="poles_column_in" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_SwRUAMvJEeie5uyjTWQVVQ" declared="true"
+          flow="OUT">
+        <priorities href="../product_model.xml#_tKdygAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_RqHkQsvJEeie5uyjTWQVVQ" name="local"
+          visibility="300">
+        <typeSet uuid="_RqHkRcvJEeie5uyjTWQVVQ" bitSet="393220"/>
+        <values uuid="_RqHkRsvJEeie5uyjTWQVVQ" deletable="false"
+            name="3" visibility="300">
+          <displayName uuid="_ddGVGv7nEeiskp2v5nXzHA"
+              value="3 poles"/>
+        </values>
+        <values uuid="_RqHkR8vJEeie5uyjTWQVVQ" deletable="false"
+            name="'4FS'" visibility="300">
+          <displayName uuid="_ddGVHP7nEeiskp2v5nXzHA"
+              value="4 poles N100%"/>
+        </values>
+        <values uuid="_RqHkSMvJEeie5uyjTWQVVQ" deletable="false"
+            name="'4HS'" visibility="300">
+          <displayName uuid="_ddGVHv7nEeiskp2v5nXzHA"
+              value="4 poles N50%"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_RqILUMvJEeie5uyjTWQVVQ"
+        name="poles_column_out" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_U6qH8MvJEeie5uyjTWQVVQ" declared="true"
+          select="CLOSEST" flow="IN">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_RqILVcvJEeie5uyjTWQVVQ" name="local"
+          visibility="300">
+        <typeSet uuid="_RqILWMvJEeie5uyjTWQVVQ" bitSet="393220"/>
+        <values uuid="_RqILWcvJEeie5uyjTWQVVQ" deletable="false"
+            name="3" visibility="300">
+          <displayName uuid="_ddGVJv7nEeiskp2v5nXzHA"
+              value="3 poles"/>
+        </values>
+        <values uuid="_RqILWsvJEeie5uyjTWQVVQ" deletable="false"
+            name="'4FS'" visibility="300">
+          <displayName uuid="_ddGVKP7nEeiskp2v5nXzHA"
+              value="4 poles N100%"/>
+        </values>
+        <values uuid="_RqILW8vJEeie5uyjTWQVVQ" deletable="false"
+            name="'4HS'" visibility="300">
+          <displayName uuid="_ddGVKv7nEeiskp2v5nXzHA"
+              value="4 poles N50%"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_raz7MDiJEei1FaWQPX5Aow"
+      name="next_column" visibility="800">
+    <domain uuid="_raz7MTiJEei1FaWQPX5Aow" name="local"
+        visibility="300">
+      <typeSet uuid="_raz7MjiJEei1FaWQPX5Aow" bitSet="393220"/>
+      <values uuid="_raz7MziJEei1FaWQPX5Aow" deletable="false"
+          name="breaker" visibility="300">
+        <displayName uuid="_ddGVL_7nEeiskp2v5nXzHA"
+            value="Breaker Column"/>
+      </values>
+      <values uuid="_raz7NDiJEei1FaWQPX5Aow" deletable="false"
+          name="breaker_rbbs" visibility="300">
+        <displayName uuid="_ddGVMf7nEeiskp2v5nXzHA"
+            value="Breaker Column"/>
+      </values>
+      <values uuid="_raz7NTiJEei1FaWQPX5Aow" deletable="false"
+          name="cabinet_twinlineN" visibility="300">
+        <displayName uuid="_ddGVM_7nEeiskp2v5nXzHA"
+            value="Cabinet Twinline N"/>
+      </values>
+      <values uuid="_raz7NjiJEei1FaWQPX5Aow" deletable="false"
+          name="cable_compartment" visibility="300">
+        <displayName uuid="_ddGVNf7nEeiskp2v5nXzHA"
+            value="External Cable Compartment"/>
+      </values>
+      <values uuid="_raz7NziJEei1FaWQPX5Aow" deletable="false"
+          name="combiline_n185" visibility="300">
+        <displayName uuid="_ddGVN_7nEeiskp2v5nXzHA"
+            value="CombiLine Column"/>
+      </values>
+      <values uuid="_raz7ODiJEei1FaWQPX5Aow" deletable="false"
+          name="combiline_rbbs" visibility="300">
+        <displayName uuid="_ddGVOf7nEeiskp2v5nXzHA"
+            value="CombiLine Column"/>
+      </values>
+      <values uuid="_raz7OTiJEei1FaWQPX5Aow" deletable="false"
+          name="corner" visibility="300">
+        <displayName uuid="_ddGVO_7nEeiskp2v5nXzHA"
+            value="Corner Column"/>
+      </values>
+      <values uuid="_raz7OjiJEei1FaWQPX5Aow" deletable="false"
+          name="corner_tbbs" visibility="300">
+        <displayName uuid="_ddGVPf7nEeiskp2v5nXzHA"
+            value="Corner Column"/>
+      </values>
+      <values uuid="_raz7OziJEei1FaWQPX5Aow" deletable="false"
+          name="coupler" visibility="300">
+        <displayName uuid="_ddGVP_7nEeiskp2v5nXzHA"
+            value="Coupler Column"/>
+      </values>
+      <values uuid="_raz7PDiJEei1FaWQPX5Aow" deletable="false"
+          name="empty" visibility="300">
+        <displayName uuid="_ddGVQf7nEeiskp2v5nXzHA"
+            value="Empty Column"/>
+      </values>
+      <values uuid="_raz7PTiJEei1FaWQPX5Aow" deletable="false"
+          name="empty_n185" visibility="300">
+        <displayName uuid="_ddGVQ_7nEeiskp2v5nXzHA"
+            value="Empty Column"/>
+      </values>
+      <values uuid="_raz7PjiJEei1FaWQPX5Aow" deletable="false"
+          name="empty_tbbs" visibility="300">
+        <displayName uuid="_ddGVRf7nEeiskp2v5nXzHA"
+            value="Empty Column"/>
+      </values>
+      <values uuid="_raz7PziJEei1FaWQPX5Aow" deletable="false"
+          name="ext_lateral_cable_compartment_tbbs"
+          visibility="300">
+        <displayName uuid="_ddGVR_7nEeiskp2v5nXzHA"
+            value="External Lateral Cable Compartment"/>
+      </values>
+      <values uuid="_raz7QDiJEei1FaWQPX5Aow" deletable="false"
+          name="fuse_switch_disconnector" visibility="300">
+        <displayName uuid="_ddGVSf7nEeiskp2v5nXzHA"
+            value="Fuse Switch Disconnector Column"/>
+      </values>
+      <values uuid="_raz7QTiJEei1FaWQPX5Aow" deletable="false"
+          name="inline" visibility="300">
+        <displayName uuid="_ddGVS_7nEeiskp2v5nXzHA"
+            value="Inline Column"/>
+      </values>
+      <values uuid="_raz7QjiJEei1FaWQPX5Aow" deletable="false"
+          name="NONE" visibility="300">
+        <displayName uuid="_ddGVTf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_raz7QziJEei1FaWQPX5Aow" deletable="false"
+          name="switch_disconnector_fuse" visibility="300">
+        <displayName uuid="_ddGVT_7nEeiskp2v5nXzHA"
+            value="Switch Disconnector Fuse Column"/>
+      </values>
+      <values uuid="_raz7RDiJEei1FaWQPX5Aow" deletable="false"
+          name="xline_hor" visibility="300">
+        <displayName uuid="_ddGVUf7nEeiskp2v5nXzHA"
+            value="X Line Horizontal Column"/>
+      </values>
+      <values uuid="_raz7RTiJEei1FaWQPX5Aow" deletable="false"
+          name="xline_ver" visibility="300">
+        <displayName uuid="_ddGVU_7nEeiskp2v5nXzHA"
+            value="X Line Vertical Column"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_yvLrQDiKEei1FaWQPX5Aow"
+      name="column_number" visibility="800">
+    <domain uuid="_yvLrQTiKEei1FaWQPX5Aow" name="local"
+        visibility="300">
+      <typeSet uuid="_yvLrQjiKEei1FaWQPX5Aow" bitSet="10"/>
+      <values uuid="_yvLrQziKEei1FaWQPX5Aow" deletable="false"
+          name="1..50" visibility="300">
+        <displayName uuid="_ddGVWP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_vH_3QDiMEei1FaWQPX5Aow"
+      name="prev_column" visibility="800">
+    <domain uuid="_vH_3QTiMEei1FaWQPX5Aow" name="local"
+        visibility="300">
+      <typeSet uuid="_vH_3QjiMEei1FaWQPX5Aow" bitSet="393220"/>
+      <values uuid="_vH_3QziMEei1FaWQPX5Aow" deletable="false"
+          name="breaker" visibility="300">
+        <displayName uuid="_ddGVXf7nEeiskp2v5nXzHA"
+            value="Breaker Column"/>
+      </values>
+      <values uuid="_vH_3RDiMEei1FaWQPX5Aow" deletable="false"
+          name="breaker_rbbs" visibility="300">
+        <displayName uuid="_ddG74P7nEeiskp2v5nXzHA"
+            value="Breaker Column"/>
+      </values>
+      <values uuid="_vH_3RTiMEei1FaWQPX5Aow" deletable="false"
+          name="cabinet_twinlineN" visibility="300">
+        <displayName uuid="_ddG74v7nEeiskp2v5nXzHA"
+            value="Cabinet Twinline N"/>
+      </values>
+      <values uuid="_vH_3RjiMEei1FaWQPX5Aow" deletable="false"
+          name="cable_compartment" visibility="300">
+        <displayName uuid="_ddG75P7nEeiskp2v5nXzHA"
+            value="External Cable Compartment"/>
+      </values>
+      <values uuid="_vH_3RziMEei1FaWQPX5Aow" deletable="false"
+          name="combiline_n185" visibility="300">
+        <displayName uuid="_ddG75v7nEeiskp2v5nXzHA"
+            value="CombiLine Column"/>
+      </values>
+      <values uuid="_vH_3SDiMEei1FaWQPX5Aow" deletable="false"
+          name="combiline_rbbs" visibility="300">
+        <displayName uuid="_ddG76P7nEeiskp2v5nXzHA"
+            value="CombiLine Column"/>
+      </values>
+      <values uuid="_vH_3STiMEei1FaWQPX5Aow" deletable="false"
+          name="corner" visibility="300">
+        <displayName uuid="_ddG76v7nEeiskp2v5nXzHA"
+            value="Corner Column"/>
+      </values>
+      <values uuid="_vH_3SjiMEei1FaWQPX5Aow" deletable="false"
+          name="corner_tbbs" visibility="300">
+        <displayName uuid="_ddG77P7nEeiskp2v5nXzHA"
+            value="Corner Column"/>
+      </values>
+      <values uuid="_vH_3SziMEei1FaWQPX5Aow" deletable="false"
+          name="coupler" visibility="300">
+        <displayName uuid="_ddG77v7nEeiskp2v5nXzHA"
+            value="Coupler Column"/>
+      </values>
+      <values uuid="_vH_3TDiMEei1FaWQPX5Aow" deletable="false"
+          name="empty" visibility="300">
+        <displayName uuid="_ddG78P7nEeiskp2v5nXzHA"
+            value="Empty Column"/>
+      </values>
+      <values uuid="_vH_3TTiMEei1FaWQPX5Aow" deletable="false"
+          name="empty_n185" visibility="300">
+        <displayName uuid="_ddG78v7nEeiskp2v5nXzHA"
+            value="Empty Column"/>
+      </values>
+      <values uuid="_vH_3TjiMEei1FaWQPX5Aow" deletable="false"
+          name="empty_tbbs" visibility="300">
+        <displayName uuid="_ddG79P7nEeiskp2v5nXzHA"
+            value="Empty Column"/>
+      </values>
+      <values uuid="_vH_3TziMEei1FaWQPX5Aow" deletable="false"
+          name="ext_lateral_cable_compartment_tbbs"
+          visibility="300">
+        <displayName uuid="_ddG79v7nEeiskp2v5nXzHA"
+            value="External Lateral Cable Compartment"/>
+      </values>
+      <values uuid="_vH_3UDiMEei1FaWQPX5Aow" deletable="false"
+          name="fuse_switch_disconnector" visibility="300">
+        <displayName uuid="_ddG7-P7nEeiskp2v5nXzHA"
+            value="Fuse Switch Disconnector Column"/>
+      </values>
+      <values uuid="_vH_3UTiMEei1FaWQPX5Aow" deletable="false"
+          name="inline" visibility="300">
+        <displayName uuid="_ddG7-v7nEeiskp2v5nXzHA"
+            value="Inline Column"/>
+      </values>
+      <values uuid="_vH_3UjiMEei1FaWQPX5Aow" deletable="false"
+          name="NONE" visibility="300">
+        <displayName uuid="_ddG7_P7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_vH_3UziMEei1FaWQPX5Aow" deletable="false"
+          name="switch_disconnector_fuse" visibility="300">
+        <displayName uuid="_ddG7_v7nEeiskp2v5nXzHA"
+            value="Switch Disconnector Fuse Column"/>
+      </values>
+      <values uuid="_vH_3VDiMEei1FaWQPX5Aow" deletable="false"
+          name="xline_hor" visibility="300">
+        <displayName uuid="_ddG8AP7nEeiskp2v5nXzHA"
+            value="X Line Horizontal Column"/>
+      </values>
+      <values uuid="_vH_3VTiMEei1FaWQPX5Aow" deletable="false"
+          name="xline_ver" visibility="300">
+        <displayName uuid="_ddG8Av7nEeiskp2v5nXzHA"
+            value="X Line Vertical Column"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_JUolID7hEeitMpuZkF_52g"
+      name="earth_wr_qty" visibility="800" initValue="1">
+    <facets xsi:type="comp:VariableResourcePoolFacet"
+        uuid="_UuyUQD7hEeitMpuZkF_52g" defaultVar="earth_wr_qty"/>
+    <domain uuid="_JUolJj7hEeitMpuZkF_52g" name="local"
+        visibility="300">
+      <typeSet uuid="_JUolKT7hEeitMpuZkF_52g" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_URZBAF0GEeiw3cD1oHS5uQ"
+      name="intermediate_wr_earth_qty" visibility="800">
+    <facets xsi:type="comp:VariableResourcePoolFacet"
+        uuid="_W7IqcF0GEeiw3cD1oHS5uQ" defaultVar="intermediate_wr_earth_qty"/>
+    <domain uuid="_URZBBl0GEeiw3cD1oHS5uQ" name="local"
+        visibility="300">
+      <typeSet uuid="_URZBCV0GEeiw3cD1oHS5uQ" bitSet="393226"/>
+    </domain>
+  </variables>
+  <logic uuid="_ROPtQCG3Eei1bZDqOuJ1VA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_RvWPMCG3Eei1bZDqOuJ1VA"
+        name="column_chain_relation" visibility="800"
+        expression="mainbusbar_position_rbbs=mbbs_position_in;&#xD;&#xA;mbbs_position_out=mbbs_position_in;&#xD;&#xA;//Net-form&#xD;&#xA;net_form=net_form_in;&#xD;&#xA;net_form_out=net_form_in;&#xD;&#xA;//net_form_UI_toa('TNCS') -> net_form_switch_legal(1);"/>
+    <children xsi:type="array:TableRelation" uuid="_GWmqwCkJEeig5pju_IgbPQ"
+        name="net_form" visibility="800">
+      <columns uuid="_GWmqwSkJEeig5pju_IgbPQ" name="net_form"
+          visibility="100" databaseAlias="net_form">
+        <cells uuid="_5jybfoaZEei0J7ssmq29HQ" value="'TNS'"/>
+        <cells uuid="_5jybf4aZEei0J7ssmq29HQ" value="'TNS'"/>
+        <cells uuid="_5jybgIaZEei0J7ssmq29HQ" value="'TNC'"/>
+        <cells uuid="_5jybgYaZEei0J7ssmq29HQ" value="'TT'"/>
+        <cells uuid="_5jybgoaZEei0J7ssmq29HQ" value="'IT'"/>
+        <cells uuid="_5jybg4aZEei0J7ssmq29HQ" value="'TT'"/>
+      </columns>
+      <columns uuid="_GWmqwikJEeig5pju_IgbPQ" name="main_busbar_number_of_poles"
+          visibility="100" databaseAlias="main_busbar_number_of_poles">
+        <cells uuid="_5jybhYaZEei0J7ssmq29HQ" value="'3'"/>
+        <cells uuid="_5jybhoaZEei0J7ssmq29HQ" value="'4FS','4HS'"/>
+        <cells uuid="_5jybh4aZEei0J7ssmq29HQ" value="'3'"/>
+        <cells uuid="_5jybiIaZEei0J7ssmq29HQ" value="'3'"/>
+        <cells uuid="_5jybiYaZEei0J7ssmq29HQ" value="'3'"/>
+        <cells uuid="_5jybioaZEei0J7ssmq29HQ" value="'4FS','4HS'"/>
+      </columns>
+      <columns uuid="_GWmqwykJEeig5pju_IgbPQ" name="n_separated"
+          visibility="100" databaseAlias="N_separated">
+        <cells uuid="_5jybjIaZEei0J7ssmq29HQ" value="'yes'"/>
+        <cells uuid="_5jybjYaZEei0J7ssmq29HQ" value="'no'"/>
+        <cells uuid="_5jybjoaZEei0J7ssmq29HQ" value="'no'"/>
+        <cells uuid="_5jybj4aZEei0J7ssmq29HQ" value="'yes'"/>
+        <cells uuid="_5jybkIaZEei0J7ssmq29HQ" value="'no'"/>
+        <cells uuid="_5jybkYaZEei0J7ssmq29HQ" value="'no'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_QJ7SkDGnEeiJNo2mnNVDDA"
+        name="NPE_relation" visibility="800" expression="mbbs_position_out(top) and NPE_position(top)->!inserterbar_menu(column_xline_hor_rbbs) and !inserterbar_menu(column_xline_hor_rbbs_50) ;&#xD;&#xA;mbbs_position_out(bottom) and NPE_position(bottom)->!inserterbar_menu(column_xline_hor_rbbs) and !inserterbar_menu(column_xline_hor_rbbs_50) ;"/>
+    <children xsi:type="array:Expression" uuid="_xJfX0F2BEeixXLHVYuE7mQ"
+        name="door_type" visibility="800" expression="door(Blind,Glazed,BlindDouble,GlazedDouble);"/>
+  </logic>
+  <calculation uuid="_R-6UQJ0oEeeXqsEq2AgPOQ" name="Calculation_Rules"
+      visibility="800">
+    <text>if (compensator_position==&quot;bottom&quot;) trans_y_compensator = -106.5;&#xD;
+else trans_y_compensator = 0 -switchboard_height_toa - 56.5;&#xD;
+&#xD;
+</text>
+  </calculation>
+  <template href="_ZSZowCS0EemWXd7Dp-ljXg.xml#_ZSZowCS0EemWXd7Dp-ljXg"/>
+  <geometry uuid="_uikMIUHkEeap36VL3e_sUA" deletable="false"
+      name="root">
+    <units uuid="_Qh-w4KnZEee5D5TLhASp2A" name="column_front_view">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_R9Xw0KnZEee5D5TLhASp2A" variable="switch_front_view"/>
+      <children uuid="_ZfWUgKnZEee5D5TLhASp2A" name="compensator"
+          position="(49,0,0)" order="4">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_ZfWUganZEee5D5TLhASp2A" variable="trans_y_compensator">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4lZZ7Vp6Eei01OQ0VFIZlw"
+              z="1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDSVGImportFile"
+            uuid="_ZfWUgqnZEee5D5TLhASp2A" name="compensator_svg"
+            checksum="db9f9fb3cfe1fc932bb70ba04771a488a9feca9b">
+          <translation uuid="_4lZZ71p6Eei01OQ0VFIZlw"/>
+          <file href="../../model.build#_1xlbkJ7XEeeY0P0FfRWL2w"/>
+          <handles uuid="_ZfWUg6nZEee5D5TLhASp2A" name="compensator"
+              visualId="compensator">
+            <fields xsi:type="comp:Field" uuid="_ZfWUhKnZEee5D5TLhASp2A"
+                name="widthManipulation" fieldId="width"
+                variableReference="width_column" target="xml"/>
+          </handles>
+        </twoDElement>
+      </children>
+    </units>
+    <parentPlugs uuid="_uikMIkHkEeap36VL3e_sUA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_ddG8NP7nEeiskp2v5nXzHA" value="Combiline Section"/>
+</comp:Component>

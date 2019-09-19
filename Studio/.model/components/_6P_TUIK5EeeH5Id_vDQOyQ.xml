@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_6P_TUIK5EeeH5Id_vDQOyQ" name="column_panel_bottom_n185"
+    toaPrefix="column_top_bottom_panel" deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_iolO8ADCEeiOuZnHxffO2A"
+      name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_jvP8EADCEeiOuZnHxffO2A"
+        name="display_cap" visibility="800">
+      <domain uuid="_jvP8FQDCEeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_jvP8GADCEeiOuZnHxffO2A" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_jvRKMADCEeiOuZnHxffO2A"
+        name="display_L1_L3_R1_R3" visibility="800">
+      <domain uuid="_jvRKNQDCEeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_jvRKOADCEeiOuZnHxffO2A" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_jvRxRwDCEeiOuZnHxffO2A"
+        name="display_T1_T3_B1_B3" visibility="800">
+      <domain uuid="_jvRxTADCEeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_jvRxTwDCEeiOuZnHxffO2A" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_SfA2oAD_EeiOuZnHxffO2A"
+        name="display_screwRB_LB" visibility="800">
+      <domain uuid="_SfA2pQD_EeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_SfA2qAD_EeiOuZnHxffO2A" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_YD4NYAD_EeiOuZnHxffO2A"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_clW0gAD_EeiOuZnHxffO2A"
+        name="cable_entry" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_clW0hQD_EeiOuZnHxffO2A" declared="true"
+          model="_6QBwSoK5EeeH5Id_vDQOyQ" select="CLOSEST"
+          priority="97"/>
+      <domain uuid="_clW0hgD_EeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_clW0iQD_EeiOuZnHxffO2A" bitSet="10"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_AY1-EApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_clXbqgD_EeiOuZnHxffO2A"
+        name="open_blind" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_clXbrwD_EeiOuZnHxffO2A" declared="true"
+          model="_6QBwSoK5EeeH5Id_vDQOyQ" select="CLOSEST"
+          priority="99"/>
+      <domain uuid="_clXbsAD_EeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_clXbswD_EeiOuZnHxffO2A" bitSet="393220"/>
+        <values uuid="_clXbtAD_EeiOuZnHxffO2A" deletable="false"
+            name="Blind" visibility="300">
+          <displayName uuid="_bKBfB_7nEeiskp2v5nXzHA"
+              value="Blind Panel"/>
+        </values>
+        <values uuid="_clXbtQD_EeiOuZnHxffO2A" deletable="false"
+            name="Open_flange" visibility="300">
+          <displayName uuid="_bKBfCf7nEeiskp2v5nXzHA"
+              value="Open with flange"/>
+        </values>
+        <values uuid="_clXbtgD_EeiOuZnHxffO2A" name="Open_blind_flange"
+            visibility="300">
+          <displayName uuid="_bKBfC_7nEeiskp2v5nXzHA"
+              value="Open with blind flange"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ocJGALf-EeiVxeDD_jTICA"
+        name="delete_mode" visibility="800">
+      <domain uuid="_ocJGBbf-EeiVxeDD_jTICA" name="local"
+          visibility="300">
+        <typeSet uuid="_ocJGCLf-EeiVxeDD_jTICA" bitSet="393217"/>
+        <values uuid="_ocJGCbf-EeiVxeDD_jTICA" name="0"
+            visibility="300">
+          <displayName uuid="_bKBfEP7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_ZI57wAD_EeiOuZnHxffO2A"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_bRlfgAD_EeiOuZnHxffO2A"
+        name="column_type_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_bRlfhQD_EeiOuZnHxffO2A" declared="true"
+          model="_6QBwSoK5EeeH5Id_vDQOyQ" select="CLOSEST"
+          priority="1200"/>
+      <domain uuid="_bRlfhgD_EeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_bRlfiQD_EeiOuZnHxffO2A" bitSet="393220"/>
+        <values uuid="_bRlfigD_EeiOuZnHxffO2A" deletable="false"
+            name="breaker" visibility="300">
+          <displayName uuid="_bKBfF_7nEeiskp2v5nXzHA"
+              value="Breaker Column"/>
+        </values>
+        <values uuid="_bRlfiwD_EeiOuZnHxffO2A" deletable="false"
+            name="breaker_rbbs" visibility="300">
+          <displayName uuid="_bKBfGf7nEeiskp2v5nXzHA"
+              value="Breaker Column"/>
+        </values>
+        <values uuid="_bRlfjAD_EeiOuZnHxffO2A" deletable="false"
+            name="cable_compartment" visibility="300">
+          <displayName uuid="_bKBfG_7nEeiskp2v5nXzHA"
+              value="External Cable Compartment Column"/>
+        </values>
+        <values uuid="_bRlfjQD_EeiOuZnHxffO2A" deletable="false"
+            name="combiline" visibility="300">
+          <displayName uuid="_bKBfHf7nEeiskp2v5nXzHA"
+              value="CombiLine Column"/>
+        </values>
+        <values uuid="_bRlfjgD_EeiOuZnHxffO2A" deletable="false"
+            name="corner" visibility="300">
+          <displayName uuid="_bKBfH_7nEeiskp2v5nXzHA"
+              value="Corner Column"/>
+        </values>
+        <values uuid="_bRlfjwD_EeiOuZnHxffO2A" deletable="false"
+            name="coupler" visibility="300">
+          <displayName uuid="_bKBfIf7nEeiskp2v5nXzHA"
+              value="Coupler Column"/>
+        </values>
+        <values uuid="_bRlfkAD_EeiOuZnHxffO2A" deletable="false"
+            name="empty" visibility="300">
+          <displayName uuid="_bKBfI_7nEeiskp2v5nXzHA"
+              value="Empty Column"/>
+        </values>
+        <values uuid="_bRlfkQD_EeiOuZnHxffO2A" deletable="false"
+            name="fuse_switch_disconnector" visibility="300">
+          <displayName uuid="_bKBfJf7nEeiskp2v5nXzHA"
+              value="Fuse Switch Disconnector Column"/>
+        </values>
+        <values uuid="_bRlfkgD_EeiOuZnHxffO2A" deletable="false"
+            name="inline" visibility="300">
+          <displayName uuid="_bKBfJ_7nEeiskp2v5nXzHA"
+              value="Inline Column"/>
+        </values>
+        <values uuid="_bRlfkwD_EeiOuZnHxffO2A" deletable="false"
+            name="switch_disconnector_fuse" visibility="300">
+          <displayName uuid="_bKBfKf7nEeiskp2v5nXzHA"
+              value="Switch Disconnector Fuse Column"/>
+        </values>
+        <values uuid="_bRlflAD_EeiOuZnHxffO2A" deletable="false"
+            name="xline_hor" visibility="300">
+          <displayName uuid="_bKBfK_7nEeiskp2v5nXzHA"
+              value="X Line Horizontal Column"/>
+        </values>
+        <values uuid="_bRlflQD_EeiOuZnHxffO2A" deletable="false"
+            name="xline_ver" visibility="300">
+          <displayName uuid="_bKBfLf7nEeiskp2v5nXzHA"
+              value="X Line Vertical Column"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_bRmtoAD_EeiOuZnHxffO2A"
+        name="column_width_chain" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_bRmtpQD_EeiOuZnHxffO2A" declared="true"
+          select="CLOSEST" priority="1000"/>
+      <domain uuid="_bRmtpgD_EeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_bRmtqQD_EeiOuZnHxffO2A" bitSet="10"/>
+        <values uuid="_bRmtqgD_EeiOuZnHxffO2A" deletable="false"
+            name="250" visibility="300">
+          <displayName uuid="_bKBfM_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtqwD_EeiOuZnHxffO2A" deletable="false"
+            name="300" visibility="300">
+          <displayName uuid="_bKBfNf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtrAD_EeiOuZnHxffO2A" deletable="false"
+            name="400" visibility="300">
+          <displayName uuid="_bKBfN_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtrQD_EeiOuZnHxffO2A" deletable="false"
+            name="500" visibility="300">
+          <displayName uuid="_bKBfOf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtrgD_EeiOuZnHxffO2A" deletable="false"
+            name="700" visibility="300">
+          <displayName uuid="_bKBfO_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtrwD_EeiOuZnHxffO2A" deletable="false"
+            name="750" visibility="300">
+          <displayName uuid="_bKBfPf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtsAD_EeiOuZnHxffO2A" deletable="false"
+            name="900" visibility="300">
+          <displayName uuid="_bKBfP_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtsQD_EeiOuZnHxffO2A" deletable="false"
+            name="1000" visibility="300">
+          <displayName uuid="_bKBfQf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtsgD_EeiOuZnHxffO2A" deletable="false"
+            name="1100" visibility="300">
+          <displayName uuid="_bKBfQ_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmtswD_EeiOuZnHxffO2A" deletable="false"
+            name="1250" visibility="300">
+          <displayName uuid="_bKBfRf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmttAD_EeiOuZnHxffO2A" name="600"
+            visibility="300">
+          <displayName uuid="_bKBfR_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_bRmttQD_EeiOuZnHxffO2A" name="800"
+            visibility="300">
+          <displayName uuid="_bKBfSf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_dZiqgAD_EeiOuZnHxffO2A"
+        name="switchboard_product_line_toa" visibility="800">
+      <domain uuid="_dZiqhQD_EeiOuZnHxffO2A" name="local"
+          visibility="300">
+        <typeSet uuid="_dZiqiAD_EeiOuZnHxffO2A" bitSet="393220"/>
+        <values uuid="_dZiqiQD_EeiOuZnHxffO2A" deletable="false"
+            name="empty" visibility="300">
+          <displayName uuid="_bKBfTv7nEeiskp2v5nXzHA"
+              value="Empty Enclosures"/>
+        </values>
+        <values uuid="_dZiqigD_EeiOuZnHxffO2A" deletable="false"
+            name="n185" visibility="300">
+          <displayName uuid="_bKBfUP7nEeiskp2v5nXzHA"
+              value="pro E 185mm"/>
+        </values>
+        <values uuid="_dZiqiwD_EeiOuZnHxffO2A" deletable="false"
+            name="rearbusbar" visibility="300">
+          <displayName uuid="_bKBfUv7nEeiskp2v5nXzHA"
+              value="Rear Busbar"/>
+        </values>
+        <values uuid="_dZiqjAD_EeiOuZnHxffO2A" name="tbbs"
+            visibility="300">
+          <displayName uuid="_bKBfVP7nEeiskp2v5nXzHA"
+              value="Top Busbar"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_fi2hIGWsEeiZy-yJIXfwLw"
+        name="switchboard_ip_protection_toa" visibility="800"
+        initValue="40">
+      <domain uuid="_fi2hIWWsEeiZy-yJIXfwLw" name="local"
+          visibility="300">
+        <typeSet uuid="_fi2hImWsEeiZy-yJIXfwLw" bitSet="393218"/>
+        <values uuid="_pP08wGWsEeiZy-yJIXfwLw" name="0"
+            visibility="300">
+          <displayName uuid="_bKBfWf7nEeiskp2v5nXzHA"
+              value="IP00"/>
+        </values>
+        <values uuid="_pP08wWWsEeiZy-yJIXfwLw" name="30"
+            visibility="300">
+          <displayName uuid="_bKBfW_7nEeiskp2v5nXzHA"
+              value="IP30"/>
+        </values>
+        <values uuid="_pP08wmWsEeiZy-yJIXfwLw" name="31"
+            visibility="300">
+          <displayName uuid="_bKBfXf7nEeiskp2v5nXzHA"
+              value="IP31"/>
+        </values>
+        <values uuid="_pP08w2WsEeiZy-yJIXfwLw" name="40"
+            visibility="300">
+          <displayName uuid="_bKBfX_7nEeiskp2v5nXzHA"
+              value="IP40"/>
+        </values>
+        <values uuid="_pP08xGWsEeiZy-yJIXfwLw" name="41"
+            visibility="300">
+          <displayName uuid="_bKCGAf7nEeiskp2v5nXzHA"
+              value="IP41"/>
+        </values>
+        <values uuid="_pP08xWWsEeiZy-yJIXfwLw" name="55"
+            visibility="300">
+          <displayName uuid="_bKCGA_7nEeiskp2v5nXzHA"
+              value="IP55"/>
+        </values>
+        <values uuid="_pP08xmWsEeiZy-yJIXfwLw" name="65"
+            visibility="300">
+          <displayName uuid="_bKCGBf7nEeiskp2v5nXzHA"
+              value="IP65"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_mQqLAGWuEeiZy-yJIXfwLw"
+      name="position" visibility="800">
+    <domain uuid="_mQqLAWWuEeiZy-yJIXfwLw" name="local"
+        visibility="300">
+      <typeSet uuid="_mQqLAmWuEeiZy-yJIXfwLw" bitSet="393220"/>
+      <values uuid="_mQqyEGWuEeiZy-yJIXfwLw" deletable="false"
+          name="External" visibility="300">
+        <displayName uuid="_bKCGCv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_mQqyEWWuEeiZy-yJIXfwLw" deletable="false"
+          name="Internal" visibility="300">
+        <displayName uuid="_bKCGDP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_mQqyEmWuEeiZy-yJIXfwLw" deletable="false"
+          name="NONE" visibility="300">
+        <displayName uuid="_bKCGDv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_6QBwSoK5EeeH5Id_vDQOyQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_FG1EkIK7EeeH5Id_vDQOyQ"
+        name="open_blind_coupler" visibility="800" expression="column_type_toa(coupler) -> open_blind(Blind);"/>
+    <children xsi:type="array:TableRelation" uuid="_GNOE4IK7EeeH5Id_vDQOyQ"
+        name="column_panel_bottom" visibility="800">
+      <columns uuid="_ir7usJR2Eeen7ZcbnuCh8w" name="switchboard_product_line_toa"
+          visibility="100" databaseAlias="switchboard_product_line_toa">
+        <cells uuid="_5G7gioaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gi4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gjIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gjYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gjoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gj4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gkIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gkYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gkoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gk4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7glIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7glYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gloaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gl4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gmIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gmYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gmoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gm4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gnIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gnYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gnoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gn4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7goIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7goYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gooaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7go4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gpIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gpYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gpoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gp4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gqIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gqYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gqoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gq4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7grIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7grYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7groaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gr4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gsIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gsYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gsoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gs4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gtIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gtYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gtoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gt4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7guIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7guYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7guoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gu4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gvIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gvYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gvoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gv4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gwIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gwYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gwoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gw4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gxIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gxYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gxoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gx4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gyIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gyYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gyoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gy4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gzIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gzYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gzoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7gz4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g0IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g0YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g0oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g04aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g1IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g1YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g1oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g14aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g2IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g2YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g2oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g24aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g3IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g3YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g3oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g34aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g4IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g4YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g4oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g44aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g5IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g5YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g5oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g54aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g6IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g6YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g6oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g64aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g7IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g7YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g7oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g74aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g8IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g8YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g8oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g84aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g9IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g9YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g9oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g94aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g-IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g-YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g-oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g-4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g_IaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g_YaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g_oaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7g_4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7hAIaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7hAYaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7hAoaZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7hA4aZEei0J7ssmq29HQ" value="empty,n185"/>
+        <cells uuid="_5G7hBIaZEei0J7ssmq29HQ" value="'tbbs'"/>
+      </columns>
+      <columns uuid="_ir7usZR2Eeen7ZcbnuCh8w" name="panel_product_line"
+          visibility="100" databaseAlias="panel_product_line">
+        <cells uuid="_5G7hBoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hB4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hCIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hCYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hCoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hC4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hDIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hDYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hDoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hD4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hEIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hEYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hEoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hE4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hFIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hFYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G7hFoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hF4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hGIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hGYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hGoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hG4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hHIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hHYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G7hHoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HQIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HQYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HQoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HQ4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HRIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HRYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HRoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HR4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HSIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HSYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HSoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HS4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HTIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HTYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HToaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HT4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HUIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HUYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HUoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HU4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HVIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HVYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HVoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HV4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HWIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HWYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HWoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HW4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HXIaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HXYaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HXoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HX4aZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HYIaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HYYaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HYoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HY4aZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HZIaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HZYaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HZoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HZ4aZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HaIaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HaYaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HaoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8Ha4aZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HbIaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HbYaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5G8HboaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8Hb4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HcIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HcYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HcoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8Hc4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HdIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HdYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HdoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8Hd4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HeIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HeYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HeoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8He4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HfIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HfYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HfoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8Hf4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HgIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5G8HgYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5G8HgoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5G8Hg4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5G8HhIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HhYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HhoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8Hh4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HiIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HiYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HioaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8Hi4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HjIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HjYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HjoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8Hj4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HkIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HkYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HkoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8Hk4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HlIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HlYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HloaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8Hl4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HmIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HmYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HmoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8Hm4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HnIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5G8HnYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HnoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8Hn4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HoIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5G8HoYaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_ir7uspR2Eeen7ZcbnuCh8w" name="column_width_chain"
+          visibility="100" databaseAlias="column_width_chain">
+        <cells uuid="_5G8Ho4aZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HpIaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HpYaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HpoaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8Hp4aZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HqIaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HqYaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HqoaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8Hq4aZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HrIaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HrYaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HroaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8Hr4aZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HsIaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HsYaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HsoaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8Hs4aZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HtIaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HtYaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8HtoaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8Ht4aZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HuIaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HuYaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HuoaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8Hu4aZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HvIaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HvYaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HvoaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8Hv4aZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HwIaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HwYaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HwoaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8Hw4aZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HxIaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HxYaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HxoaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8Hx4aZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HyIaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HyYaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8HyoaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8Hy4aZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8HzIaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8HzYaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8HzoaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8Hz4aZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H0IaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H0YaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H0oaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H04aZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H1IaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H1YaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H1oaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H14aZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H2IaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8H2YaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8H2oaZEei0J7ssmq29HQ" value="1000"/>
+        <cells uuid="_5G8H24aZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8H3IaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8H3YaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5G8H3oaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8H34aZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8H4IaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8H4YaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8H4oaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H44aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H5IaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H5YaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H5oaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H54aZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H6IaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H6YaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H6oaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H64aZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H7IaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H7YaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H7oaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H74aZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H8IaZEei0J7ssmq29HQ" value="750"/>
+        <cells uuid="_5G8H8YaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H8oaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H84aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H9IaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H9YaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H9oaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H94aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H-IaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H-YaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H-oaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H-4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H_IaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H_YaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H_oaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8H_4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IAIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IAYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IAoaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IA4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IBIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IBYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IBoaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IB4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8ICIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8ICYaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8ICoaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IC4aZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IDIaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IDYaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IDoaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8ID4aZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IEIaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IEYaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IEoaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IE4aZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IFIaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IFYaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IFoaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IF4aZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IGIaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IGYaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IGoaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IG4aZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IHIaZEei0J7ssmq29HQ" value="250"/>
+        <cells uuid="_5G8IHYaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_ir7us5R2Eeen7ZcbnuCh8w" name="switchboard_depth_toa"
+          visibility="100" databaseAlias="switchboard_depth_toa">
+        <cells uuid="_5G8IH4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IIIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IIYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IIoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8II4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IJIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IJYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IJoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IJ4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IKIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IKYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IKoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IK4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8ILIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8ILYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8ILoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IL4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IMIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IMYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IMoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IM4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8INIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8INYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8INoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IN4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IOIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IOYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IOoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IO4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IPIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IPYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IPoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IP4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IQIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IQYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IQoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IQ4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IRIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IRYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IRoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IR4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8ISIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8ISYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8ISoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IS4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8ITIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8ITYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IToaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IT4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IUIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IUYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IUoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IU4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IVIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IVYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IVoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IV4aZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IWIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IWYaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IWoaZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IW4aZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IXIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IXYaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IXoaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IX4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IYIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IYYaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IYoaZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IY4aZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IZIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IZYaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IZoaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8IZ4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IaIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IaYaZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IaoaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8Ia4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IbIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IbYaZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8IboaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8Ib4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IcIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IcYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IcoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8Ic4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8IdIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8IdYaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8uUIaZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8uUYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uUoaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uU4aZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8uVIaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uVYaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8uVoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8uV4aZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8uWIaZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8uWYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uWoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8uW4aZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8uXIaZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8uXYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uXoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8uX4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8uYIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8uYYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uYoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8uY4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uZIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8uZYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uZoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8uZ4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8uaIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8uaYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uaoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8ua4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8ubIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8ubYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8uboaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8ub4aZEei0J7ssmq29HQ" value="200"/>
+        <cells uuid="_5G8ucIaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5G8ucYaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5G8ucoaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5G8uc4aZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_ir7utJR2Eeen7ZcbnuCh8w" name="position"
+          visibility="100" databaseAlias="position">
+        <cells uuid="_5G8udYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8udoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ud4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ueIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ueYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ueoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ue4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ufIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ufYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ufoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uf4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ugIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ugYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ugoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ug4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uhIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uhYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uhoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uh4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uiIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uiYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uioaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ui4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ujIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ujYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ujoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uj4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ukIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ukYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ukoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uk4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ulIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8ulYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uloaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ul4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8umIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8umYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8umoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8um4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8unIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8unYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8unoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8un4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uoIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uoYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uooaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uo4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8upIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8upYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8upoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8up4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uqIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uqYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uqoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uq4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8urIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8urYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uroaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ur4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8usIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8usYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8usoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8us4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8utIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8utYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8utoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ut4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uuIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uuYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uuoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uu4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uvIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uvYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uvoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uv4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uwIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uwYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uwoaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uw4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uxIaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uxYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uxoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8ux4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uyIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uyYaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uyoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uy4aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uzIaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uzYaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8uzoaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8uz4aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u0IaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u0YaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u0oaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u04aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u1IaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u1YaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u1oaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u14aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u2IaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u2YaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u2oaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u24aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u3IaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u3YaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u3oaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u34aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u4IaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u4YaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u4oaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u44aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u5IaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u5YaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u5oaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u54aZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u6IaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u6YaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u6oaZEei0J7ssmq29HQ" value="External"/>
+        <cells uuid="_5G8u64aZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u7IaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u7YaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u7oaZEei0J7ssmq29HQ" value="Internal"/>
+        <cells uuid="_5G8u74aZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_ir7utZR2Eeen7ZcbnuCh8w" name="open_blind"
+          visibility="100" databaseAlias="open_blind">
+        <cells uuid="_5G8u8YaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8u8oaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8u84aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8u9IaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8u9YaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u9oaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u94aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u-IaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u-YaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u-oaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u-4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u_IaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u_YaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u_oaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8u_4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vAIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vAYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vAoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vA4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vBIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vBYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vBoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vB4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vCIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vCYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vCoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vC4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vDIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vDYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vDoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vD4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vEIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vEYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vEoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vE4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vFIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vFYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vFoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vF4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vGIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vGYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vGoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vG4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vHIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vHYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vHoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vH4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vIIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vIYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vIoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vI4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vJIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vJYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vJoaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vJ4aZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vKIaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vKYaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vKoaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vK4aZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vLIaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vLYaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vLoaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vL4aZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vMIaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vMYaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vMoaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vM4aZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vNIaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vNYaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vNoaZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vN4aZEei0J7ssmq29HQ" value="Open_blind_flange"/>
+        <cells uuid="_5G8vOIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vOYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vOoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vO4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vPIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vPYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vPoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vP4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vQIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vQYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vQoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vQ4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vRIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vRYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vRoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vR4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vSIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vSYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vSoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vS4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vTIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vTYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vToaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vT4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vUIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vUYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vUoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vU4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vVIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vVYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vVoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vV4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vWIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vWYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vWoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vW4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vXIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vXYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vXoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vX4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vYIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vYYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vYoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vY4aZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vZIaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vZYaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vZoaZEei0J7ssmq29HQ" value="Open_flange"/>
+        <cells uuid="_5G8vZ4aZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vaIaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vaYaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8vaoaZEei0J7ssmq29HQ" value="Blind"/>
+        <cells uuid="_5G8va4aZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_ir7ut5R2Eeen7ZcbnuCh8w" name="cable_entry"
+          visibility="100" databaseAlias="cable_entry">
+        <cells uuid="_5G8vbYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vboaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vb4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vcIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vcYaZEei0J7ssmq29HQ" value="10"/>
+        <cells uuid="_5G8vcoaZEei0J7ssmq29HQ" value="10"/>
+        <cells uuid="_5G8vc4aZEei0J7ssmq29HQ" value="10"/>
+        <cells uuid="_5G8vdIaZEei0J7ssmq29HQ" value="10"/>
+        <cells uuid="_5G8vdYaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8vdoaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8vd4aZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8veIaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8veYaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8veoaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8ve4aZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8vfIaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G8vfYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vfoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vf4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vgIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vgYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vgoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vg4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vhIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vhYaZEei0J7ssmq29HQ" value="8"/>
+        <cells uuid="_5G8vhoaZEei0J7ssmq29HQ" value="8"/>
+        <cells uuid="_5G8vh4aZEei0J7ssmq29HQ" value="8"/>
+        <cells uuid="_5G8viIaZEei0J7ssmq29HQ" value="8"/>
+        <cells uuid="_5G8viYaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vioaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vi4aZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vjIaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vjYaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vjoaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vj4aZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vkIaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G8vkYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vkoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vk4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vlIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vlYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vloaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vl4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vmIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G8vmYaZEei0J7ssmq29HQ" value="6"/>
+        <cells uuid="_5G8vmoaZEei0J7ssmq29HQ" value="6"/>
+        <cells uuid="_5G8vm4aZEei0J7ssmq29HQ" value="6"/>
+        <cells uuid="_5G8vnIaZEei0J7ssmq29HQ" value="6"/>
+        <cells uuid="_5G8vnYaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G8vnoaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G8vn4aZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G8voIaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G8voYaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G8vooaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G8vo4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G8vpIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G8vpYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VYIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VYYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VYoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VY4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VZIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VZYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VZoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VZ4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VaIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VaYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VaoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Va4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VbIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VbYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VboaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9Vb4aZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9VcIaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9VcYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VcoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vc4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VdIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VdYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VdoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vd4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VeIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VeYaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9VeoaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9Ve4aZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9VfIaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9VfYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VfoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Vf4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VgIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VgYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VgoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Vg4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VhIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VhYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VhoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Vh4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9ViIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9ViYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VioaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vi4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VjIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VjYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VjoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vj4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VkIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VkYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VkoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Vk4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VlIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VlYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VloaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Vl4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VmIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VmYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VmoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Vm4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VnIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VnYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VnoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vn4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VoIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VoYaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_ir7uuJR2Eeen7ZcbnuCh8w" name="cable_entry_rows"
+          visibility="100" databaseAlias="cable_entry_rows">
+        <cells uuid="_5G9Vo4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VpIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VpYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VpoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vp4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VqIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VqYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VqoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Vq4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VrIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VrYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VroaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Vr4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VsIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VsYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VsoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Vs4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VtIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VtYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VtoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vt4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VuIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VuYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VuoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vu4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VvIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VvYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9VvoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Vv4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VwIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VwYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VwoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Vw4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VxIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VxYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9VxoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Vx4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VyIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VyYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VyoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vy4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VzIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VzYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9VzoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Vz4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V0IaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V0YaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V0oaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V04aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V1IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V1YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V1oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V14aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V2IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V2YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V2oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V24aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V3IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V3YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V3oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V34aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V4IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V4YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V4oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V44aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V5IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V5YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V5oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V54aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V6IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V6YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V6oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V64aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V7IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V7YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V7oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V74aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V8IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V8YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V8oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V84aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V9IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9V9YaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V9oaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V94aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V-IaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9V-YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V-oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V-4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V_IaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V_YaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V_oaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9V_4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WAIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WAYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WAoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WA4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WBIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WBYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WBoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WB4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WCIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WCYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WCoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WC4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WDIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WDYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WDoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WD4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WEIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WEYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WEoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WE4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WFIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WFYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WFoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WF4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WGIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WGYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WGoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WG4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WHIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WHYaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_ir7uuZR2Eeen7ZcbnuCh8w" name="cable_entry_ratio"
+          visibility="100" databaseAlias="cable_entry_ratio">
+        <cells uuid="_5G9WH4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WIIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WIYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WIoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WI4aZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WJIaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WJYaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WJoaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WJ4aZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WKIaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WKYaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WKoaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WK4aZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WLIaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WLYaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WLoaZEei0J7ssmq29HQ" value="5"/>
+        <cells uuid="_5G9WL4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WMIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WMYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WMoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WM4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WNIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WNYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WNoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WN4aZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WOIaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WOYaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WOoaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WO4aZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WPIaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WPYaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WPoaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WP4aZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WQIaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WQYaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WQoaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5G9WQ4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WRIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WRYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WRoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WR4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WSIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WSYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WSoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WS4aZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WTIaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WTYaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WToaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WT4aZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WUIaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WUYaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WUoaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WU4aZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WVIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WVYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WVoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WV4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WWIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WWYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WWoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WW4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WXIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WXYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WXoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WX4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WYIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WYYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WYoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WY4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WZIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WZYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WZoaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WZ4aZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WaIaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5G9WaYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WaoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Wa4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WbIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WbYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WboaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Wb4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WcIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WcYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WcoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Wc4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WdIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WdYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WdoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Wd4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WeIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WeYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WeoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9We4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WfIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WfYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WfoaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9Wf4aZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WgIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5G9WgYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WgoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Wg4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WhIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WhYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WhoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Wh4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WiIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WiYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WioaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Wi4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WjIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WjYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WjoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Wj4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WkIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WkYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WkoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9Wk4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WlIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5G9WlYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WloaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9Wl4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WmIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5G9WmYaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_TP6BoL_QEeefyu3vouK73A" name="article_type"
+          visibility="100" databaseAlias="article_type">
+        <cells uuid="_5G9Wm4aZEei0J7ssmq29HQ" value="PTBB1226"/>
+        <cells uuid="_5G9WnIaZEei0J7ssmq29HQ" value="PTBB1236"/>
+        <cells uuid="_5G9WnYaZEei0J7ssmq29HQ" value="PTBB1256"/>
+        <cells uuid="_5G9WnoaZEei0J7ssmq29HQ" value="PTBB1276"/>
+        <cells uuid="_5G9Wn4aZEei0J7ssmq29HQ" value="PBWF1257"/>
+        <cells uuid="_5G9WoIaZEei0J7ssmq29HQ" value="PBWF1277"/>
+        <cells uuid="_5G9WoYaZEei0J7ssmq29HQ" value="PTBT1257"/>
+        <cells uuid="_5G9WooaZEei0J7ssmq29HQ" value="PTBT1277"/>
+        <cells uuid="_5G9Wo4aZEei0J7ssmq29HQ" value="PBWF1226"/>
+        <cells uuid="_5G9WpIaZEei0J7ssmq29HQ" value="PBWF1236"/>
+        <cells uuid="_5G9WpYaZEei0J7ssmq29HQ" value="PBWF1256"/>
+        <cells uuid="_5G9WpoaZEei0J7ssmq29HQ" value="PBWF1276"/>
+        <cells uuid="_5G9Wp4aZEei0J7ssmq29HQ" value="PTBT1226"/>
+        <cells uuid="_5G9WqIaZEei0J7ssmq29HQ" value="PTBT1236"/>
+        <cells uuid="_5G9WqYaZEei0J7ssmq29HQ" value="PTBT1256"/>
+        <cells uuid="_5G9WqoaZEei0J7ssmq29HQ" value="PTBT1276"/>
+        <cells uuid="_5G9Wq4aZEei0J7ssmq29HQ" value="PBWP1220"/>
+        <cells uuid="_5G9WrIaZEei0J7ssmq29HQ" value="PBWP1230"/>
+        <cells uuid="_5G9WrYaZEei0J7ssmq29HQ" value="PBWP1250"/>
+        <cells uuid="_5G9WroaZEei0J7ssmq29HQ" value="PBWP1270"/>
+        <cells uuid="_5G9Wr4aZEei0J7ssmq29HQ" value="PTBB1026"/>
+        <cells uuid="_5G9WsIaZEei0J7ssmq29HQ" value="PTBB1036"/>
+        <cells uuid="_5G9WsYaZEei0J7ssmq29HQ" value="PTBB1056"/>
+        <cells uuid="_5G9WsoaZEei0J7ssmq29HQ" value="PTBB1076"/>
+        <cells uuid="_5G9Ws4aZEei0J7ssmq29HQ" value="PBWF1057"/>
+        <cells uuid="_5G9WtIaZEei0J7ssmq29HQ" value="PBWF1077"/>
+        <cells uuid="_5G9WtYaZEei0J7ssmq29HQ" value="PTBT1057"/>
+        <cells uuid="_5G9WtoaZEei0J7ssmq29HQ" value="PTBT1077"/>
+        <cells uuid="_5G9Wt4aZEei0J7ssmq29HQ" value="PBWF1026"/>
+        <cells uuid="_5G9WuIaZEei0J7ssmq29HQ" value="PBWF1036"/>
+        <cells uuid="_5G9WuYaZEei0J7ssmq29HQ" value="PBWF1056"/>
+        <cells uuid="_5G9WuoaZEei0J7ssmq29HQ" value="PBWF1076"/>
+        <cells uuid="_5G9Wu4aZEei0J7ssmq29HQ" value="PTBT1026"/>
+        <cells uuid="_5G9WvIaZEei0J7ssmq29HQ" value="PTBT1036"/>
+        <cells uuid="_5G9WvYaZEei0J7ssmq29HQ" value="PTBT1056"/>
+        <cells uuid="_5G9WvoaZEei0J7ssmq29HQ" value="PTBT1076"/>
+        <cells uuid="_5G9Wv4aZEei0J7ssmq29HQ" value="PBWP1020"/>
+        <cells uuid="_5G9WwIaZEei0J7ssmq29HQ" value="PBWP1030"/>
+        <cells uuid="_5G9WwYaZEei0J7ssmq29HQ" value="PBWP1050"/>
+        <cells uuid="_5G9WwoaZEei0J7ssmq29HQ" value="PBWP1070"/>
+        <cells uuid="_5G9Ww4aZEei0J7ssmq29HQ" value="PTBB7526"/>
+        <cells uuid="_5G9WxIaZEei0J7ssmq29HQ" value="PTBB7536"/>
+        <cells uuid="_5G9WxYaZEei0J7ssmq29HQ" value="PTBB7556"/>
+        <cells uuid="_5G9WxoaZEei0J7ssmq29HQ" value="PTBB7576"/>
+        <cells uuid="_5G98cIaZEei0J7ssmq29HQ" value="PBWF7557"/>
+        <cells uuid="_5G98cYaZEei0J7ssmq29HQ" value="PBWF7577"/>
+        <cells uuid="_5G98coaZEei0J7ssmq29HQ" value="PTBT7557"/>
+        <cells uuid="_5G98c4aZEei0J7ssmq29HQ" value="PTBT7577"/>
+        <cells uuid="_5G98dIaZEei0J7ssmq29HQ" value="PBWF7526"/>
+        <cells uuid="_5G98dYaZEei0J7ssmq29HQ" value="PBWF7536"/>
+        <cells uuid="_5G98doaZEei0J7ssmq29HQ" value="PBWF7556"/>
+        <cells uuid="_5G98d4aZEei0J7ssmq29HQ" value="PBWF7576"/>
+        <cells uuid="_5G98eIaZEei0J7ssmq29HQ" value="PTBT7526"/>
+        <cells uuid="_5G98eYaZEei0J7ssmq29HQ" value="PTBO1030"/>
+        <cells uuid="_5G98eoaZEei0J7ssmq29HQ" value="PTBO1050"/>
+        <cells uuid="_5G98e4aZEei0J7ssmq29HQ" value="PTBO1070"/>
+        <cells uuid="_5G98fIaZEei0J7ssmq29HQ" value="PTBO1230"/>
+        <cells uuid="_5G98fYaZEei0J7ssmq29HQ" value="PTBO1250"/>
+        <cells uuid="_5G98foaZEei0J7ssmq29HQ" value="PTBO1270"/>
+        <cells uuid="_5G98f4aZEei0J7ssmq29HQ" value="PTBO2520"/>
+        <cells uuid="_5G98gIaZEei0J7ssmq29HQ" value="PTBO2530"/>
+        <cells uuid="_5G98gYaZEei0J7ssmq29HQ" value="PTBO2550"/>
+        <cells uuid="_5G98goaZEei0J7ssmq29HQ" value="PTBO2570"/>
+        <cells uuid="_5G98g4aZEei0J7ssmq29HQ" value="PTBO3050"/>
+        <cells uuid="_5G98hIaZEei0J7ssmq29HQ" value="PTBO5020"/>
+        <cells uuid="_5G98hYaZEei0J7ssmq29HQ" value="PTBO5050"/>
+        <cells uuid="_5G98hoaZEei0J7ssmq29HQ" value="PTBO5070"/>
+        <cells uuid="_5G98h4aZEei0J7ssmq29HQ" value="PTBO7520"/>
+        <cells uuid="_5G98iIaZEei0J7ssmq29HQ" value="PTBO7530"/>
+        <cells uuid="_5G98iYaZEei0J7ssmq29HQ" value="PTBO7550"/>
+        <cells uuid="_5G98ioaZEei0J7ssmq29HQ" value="PTBO7570"/>
+        <cells uuid="_5G98i4aZEei0J7ssmq29HQ" value="PTBT7536"/>
+        <cells uuid="_5G98jIaZEei0J7ssmq29HQ" value="PTBT7556"/>
+        <cells uuid="_5G98jYaZEei0J7ssmq29HQ" value="PTBT7576"/>
+        <cells uuid="_5G98joaZEei0J7ssmq29HQ" value="PBWP7520"/>
+        <cells uuid="_5G98j4aZEei0J7ssmq29HQ" value="PBWP7530"/>
+        <cells uuid="_5G98kIaZEei0J7ssmq29HQ" value="PBWP7550"/>
+        <cells uuid="_5G98kYaZEei0J7ssmq29HQ" value="PBWP7570"/>
+        <cells uuid="_5G98koaZEei0J7ssmq29HQ" value="PTBB5026"/>
+        <cells uuid="_5G98k4aZEei0J7ssmq29HQ" value="PTBB3056"/>
+        <cells uuid="_5G98lIaZEei0J7ssmq29HQ" value="PTBB5050"/>
+        <cells uuid="_5G98lYaZEei0J7ssmq29HQ" value="PTBB5076"/>
+        <cells uuid="_5G98loaZEei0J7ssmq29HQ" value="PBWF5057"/>
+        <cells uuid="_5G98l4aZEei0J7ssmq29HQ" value="PBWF5077"/>
+        <cells uuid="_5G98mIaZEei0J7ssmq29HQ" value="PTBT5057"/>
+        <cells uuid="_5G98mYaZEei0J7ssmq29HQ" value="PTBT5077"/>
+        <cells uuid="_5G98moaZEei0J7ssmq29HQ" value="PBWF3056"/>
+        <cells uuid="_5G98m4aZEei0J7ssmq29HQ" value="PBWF5026"/>
+        <cells uuid="_5G98nIaZEei0J7ssmq29HQ" value="PBWF5050"/>
+        <cells uuid="_5G98nYaZEei0J7ssmq29HQ" value="PTBT5051"/>
+        <cells uuid="_5G98noaZEei0J7ssmq29HQ" value="PTBT5031"/>
+        <cells uuid="_5G98n4aZEei0J7ssmq29HQ" value="PBWF5051"/>
+        <cells uuid="_5G98oIaZEei0J7ssmq29HQ" value="PBWF5031"/>
+        <cells uuid="_5G98oYaZEei0J7ssmq29HQ" value="PBWF5076"/>
+        <cells uuid="_5G98ooaZEei0J7ssmq29HQ" value="PTBT3056"/>
+        <cells uuid="_5G98o4aZEei0J7ssmq29HQ" value="PTBT5026"/>
+        <cells uuid="_5G98pIaZEei0J7ssmq29HQ" value="PTBT5050"/>
+        <cells uuid="_5G98pYaZEei0J7ssmq29HQ" value="PTBT5076"/>
+        <cells uuid="_5G98poaZEei0J7ssmq29HQ" value="PBWP3050"/>
+        <cells uuid="_5G98p4aZEei0J7ssmq29HQ" value="PBWP5020"/>
+        <cells uuid="_5G98qIaZEei0J7ssmq29HQ" value="PBWP5050"/>
+        <cells uuid="_5G98qYaZEei0J7ssmq29HQ" value="PBWP5070"/>
+        <cells uuid="_5G98qoaZEei0J7ssmq29HQ" value="PTBB2526"/>
+        <cells uuid="_5G98q4aZEei0J7ssmq29HQ" value="PTBB2536"/>
+        <cells uuid="_5G98rIaZEei0J7ssmq29HQ" value="PTBB2556"/>
+        <cells uuid="_5G98rYaZEei0J7ssmq29HQ" value="PTBB2576"/>
+        <cells uuid="_5G98roaZEei0J7ssmq29HQ" value="PBWF2557"/>
+        <cells uuid="_5G98r4aZEei0J7ssmq29HQ" value="PBWF2577"/>
+        <cells uuid="_5G98sIaZEei0J7ssmq29HQ" value="PTBT2557"/>
+        <cells uuid="_5G98sYaZEei0J7ssmq29HQ" value="PTBT2577"/>
+        <cells uuid="_5G98soaZEei0J7ssmq29HQ" value="PBWF2526"/>
+        <cells uuid="_5G98s4aZEei0J7ssmq29HQ" value="PBWF2536"/>
+        <cells uuid="_5G98tIaZEei0J7ssmq29HQ" value="PBWF2556"/>
+        <cells uuid="_5G98tYaZEei0J7ssmq29HQ" value="PBWF2576"/>
+        <cells uuid="_5G98toaZEei0J7ssmq29HQ" value="PTBT2526"/>
+        <cells uuid="_5G98t4aZEei0J7ssmq29HQ" value="PTBT2536"/>
+        <cells uuid="_5G98uIaZEei0J7ssmq29HQ" value="PTBT2556"/>
+        <cells uuid="_5G98uYaZEei0J7ssmq29HQ" value="PTBT2576"/>
+        <cells uuid="_5G98uoaZEei0J7ssmq29HQ" value="PBWP2520"/>
+        <cells uuid="_5G98u4aZEei0J7ssmq29HQ" value="PBWP2530"/>
+        <cells uuid="_5G98vIaZEei0J7ssmq29HQ" value="PBWP2550"/>
+        <cells uuid="_5G98vYaZEei0J7ssmq29HQ" value="PBWP2570"/>
+        <cells uuid="_5G98voaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_W_fuEGWuEeiZy-yJIXfwLw"
+        name="Expression" visibility="800" expression="switchboard_ip_protection_toa(40) -> position(Internal);&#xD;&#xA;switchboard_ip_protection_toa(55) -> position(External);&#xD;&#xA;"/>
+  </logic>
+  <template href="__SufUIK3EeeH5Id_vDQOyQ.xml#__SufUIK3EeeH5Id_vDQOyQ"/>
+  <geometry uuid="_6QCWuYK5EeeH5Id_vDQOyQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_6QC-KoK5EeeH5Id_vDQOyQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bKFwev7nEeiskp2v5nXzHA" value="Bottom Panel"/>
+</comp:Component>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_06W7kHuNEemieat8GZVJCg"
+    name="template_column_combiline_tbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_08TcUHuNEemieat8GZVJCg"
+      name="kit_posy_n185" visibility="800">
+    <facets xsi:type="comp:VariableResourcePoolFacet"
+        uuid="_08TcU3uNEemieat8GZVJCg" operation="MAX"
+        defaultVar="kit_posy_n185"/>
+    <domain uuid="_08TcVHuNEemieat8GZVJCg" name="local"
+        visibility="300">
+      <typeSet uuid="_08TcVnuNEemieat8GZVJCg" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_08TcV3uNEemieat8GZVJCg"
+      name="delete_without_confirm" visibility="800"
+      initValue="0">
+    <domain uuid="_08TcWnuNEemieat8GZVJCg" name="local"
+        visibility="300">
+      <typeSet uuid="_08TcXHuNEemieat8GZVJCg" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_08TcXXuNEemieat8GZVJCg"
+      name="touch" visibility="800">
+    <domain uuid="_08TcYHuNEemieat8GZVJCg" name="local"
+        visibility="300">
+      <typeSet uuid="_08TcYnuNEemieat8GZVJCg" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_08TcY3uNEemieat8GZVJCg"
+      name="touch1" visibility="800">
+    <domain uuid="_08TcZnuNEemieat8GZVJCg" name="local"
+        visibility="300">
+      <typeSet uuid="_08TcaHuNEemieat8GZVJCg" bitSet="393220"/>
+    </domain>
+  </variables>
+  <logic uuid="_08TcaXuNEemieat8GZVJCg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_08TcanuNEemieat8GZVJCg"
+        name="article_type" visibility="800">
+      <columns uuid="_08Tca3uNEemieat8GZVJCg" name="width_column"
+          visibility="100" databaseAlias="width_column">
+        <cells uuid="_08TcbHuNEemieat8GZVJCg" value="250"/>
+        <cells uuid="_08TcbXuNEemieat8GZVJCg" value="500"/>
+        <cells uuid="_08TcbnuNEemieat8GZVJCg" value="750"/>
+        <cells uuid="_08Tcb3uNEemieat8GZVJCg" value="1000"/>
+        <cells uuid="_08TccHuNEemieat8GZVJCg" value="1250"/>
+      </columns>
+      <columns uuid="_08TccXuNEemieat8GZVJCg" name="article_type"
+          visibility="100" databaseAlias="article_type">
+        <cells uuid="_08TccnuNEemieat8GZVJCg" value="PCCM2025"/>
+        <cells uuid="_08Tcc3uNEemieat8GZVJCg" value="PCCM2050"/>
+        <cells uuid="_08TcdHuNEemieat8GZVJCg" value="PCCM2075"/>
+        <cells uuid="_08TcdXuNEemieat8GZVJCg" value="PCCM2010"/>
+        <cells uuid="_08TcdnuNEemieat8GZVJCg" value="PCCM2012"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_08Tcd3uNEemieat8GZVJCg" name="Calculation_Rules"
+      visibility="800">
+    <text>switchboard_external_height_toa=switchboard_height_toa+100;&#xD;
+&#xD;
+//export&#xD;
+if(touch1==&quot;&quot;){&#xD;
+	touch=&quot;NA&quot;;&#xD;
+}&#xD;
+else{&#xD;
+	touch=touch1;&#xD;
+}</text>
+  </calculation>
+  <template href="_ReBJAG5LEemUHvFbr0AMqw.xml#_ReBJAG5LEemUHvFbr0AMqw"/>
+  <geometry uuid="_08UDYHuNEemieat8GZVJCg" deletable="false"
+      name="root">
+    <units uuid="_08UDYXuNEemieat8GZVJCg" name="column_front_view">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_08UDYnuNEemieat8GZVJCg" variable="switch_front_view"/>
+      <children uuid="_08UDY3uNEemieat8GZVJCg" name="kit_frames_geo"
+          position="(50,0,-57)" order="2"/>
+    </units>
+    <parentPlugs uuid="_08UDZHuNEemieat8GZVJCg" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_08UDZXuNEemieat8GZVJCg" name="kit_frames_n185_rbbs"
+      components="kit_frames_n185_rbbs">
+    <facets xsi:type="comp:PlugFacet" uuid="_08UDanuNEemieat8GZVJCg"
+        geoUnit="_08UDY3uNEemieat8GZVJCg"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_08UDa3uNEemieat8GZVJCg">
+      <chains uuid="_08UDbHuNEemieat8GZVJCg" name="touch1"
+          flow="IN" chained="touch" refVar="touch1"/>
+    </facets>
+    <domain uuid="_08UDbXuNEemieat8GZVJCg" name="local"
+        visibility="300">
+      <typeSet uuid="_08UDb3uNEemieat8GZVJCg" bitSet="65536"/>
+      <values uuid="_08UDcHuNEemieat8GZVJCg" name="kit_frames_n185_rbbs"
+          visibility="300">
+        <displayName uuid="_08UDcnuNEemieat8GZVJCg"/>
+      </values>
+    </domain>
+  </roles>
+  <componentsUsingMe xsi:type="comp:Component" href="_OrNt8HqaEei1KKB2Q07HHA.xml#_OrNt8HqaEei1KKB2Q07HHA"/>
+</comp:ComponentTemplate>

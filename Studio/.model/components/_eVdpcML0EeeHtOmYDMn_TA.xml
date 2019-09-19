@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_eVdpcML0EeeHtOmYDMn_TA"
+    name="template_device_compensator">
+  <variables xsi:type="comp:VariableGroup" uuid="_lN6H8ML0EeeHtOmYDMn_TA"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_lN6H8cL0EeeHtOmYDMn_TA"
+        name="column_type_toa" visibility="800">
+      <domain uuid="_lN6H9sL0EeeHtOmYDMn_TA" name="local"
+          visibility="300">
+        <typeSet uuid="_lN6H-cL0EeeHtOmYDMn_TA" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_SPBToMPGEeecQ9bhsoO8ig"
+        name="switchboard_product_line2_toa" visibility="800">
+      <domain uuid="_SPBTocPGEeecQ9bhsoO8ig" name="local"
+          visibility="300">
+        <typeSet uuid="_SPBTosPGEeecQ9bhsoO8ig" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3L-xUMLwEeiO2Mt2TXzsRA"
+        name="delete_without_confirm" visibility="800"
+        initValue="1">
+      <domain uuid="_3L-xVcLwEeiO2Mt2TXzsRA" name="local"
+          visibility="300">
+        <typeSet uuid="_3L-xWMLwEeiO2Mt2TXzsRA" bitSet="393217"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_rFzD8ApnEeiYaLaa0Exn_w"
+      name="SVG" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_sd3DEApnEeiYaLaa0Exn_w"
+        name="display_compensator" visibility="800">
+      <domain uuid="_sd3DFQpnEeiYaLaa0Exn_w" name="local"
+          visibility="300">
+        <typeSet uuid="_sd3DGApnEeiYaLaa0Exn_w" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_uoUvgApnEeiYaLaa0Exn_w"
+        name="display_compensator_XLH" visibility="800">
+      <domain uuid="_uoUvhQpnEeiYaLaa0Exn_w" name="local"
+          visibility="300">
+        <typeSet uuid="_uoUviApnEeiYaLaa0Exn_w" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+  </variables>
+  <logic uuid="_qRcTQML0EeeHtOmYDMn_TA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_qoNNcML0EeeHtOmYDMn_TA"
+        name="module_height" visibility="800">
+      <columns uuid="_qoNNccL0EeeHtOmYDMn_TA" name="column_type_toa"
+          visibility="100" databaseAlias="column_type_toa">
+        <cells uuid="_4phLf4aZEei0J7ssmq29HQ" value="'fuse_switch_disconnector','inline'"/>
+        <cells uuid="_4phLgIaZEei0J7ssmq29HQ" value="'switch_disconnector_fuse','xline_hor','xline_ver'"/>
+      </columns>
+      <columns uuid="_qoNNcsL0EeeHtOmYDMn_TA" name="module_height"
+          visibility="100" databaseAlias="module_height">
+        <cells uuid="_4phLgoaZEei0J7ssmq29HQ" value="662"/>
+        <cells uuid="_4phLg4aZEei0J7ssmq29HQ" value="590"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_9oXrsML0EeeHtOmYDMn_TA"
+        name="module_width" visibility="800">
+      <columns uuid="_9oXrscL0EeeHtOmYDMn_TA" name="device_width"
+          visibility="100" databaseAlias="device_width">
+        <cells uuid="_4phLhoaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_4phLh4aZEei0J7ssmq29HQ" value="2"/>
+      </columns>
+      <columns uuid="_9oXrssL0EeeHtOmYDMn_TA" name="module_width"
+          visibility="100" databaseAlias="module_width">
+        <cells uuid="_4phLiYaZEei0J7ssmq29HQ" value="50"/>
+        <cells uuid="_4phLioaZEei0J7ssmq29HQ" value="100"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_urP5IMPFEeecQ9bhsoO8ig"
+        name="article_type" visibility="800">
+      <columns uuid="_w2KRgMPFEeecQ9bhsoO8ig" name="switchboard_product_line2_toa"
+          visibility="100" databaseAlias="switchboard_product_line2_toa">
+        <cells uuid="_4phLjYaZEei0J7ssmq29HQ" value="'n185'"/>
+        <cells uuid="_4phLjoaZEei0J7ssmq29HQ" value="'n185'"/>
+        <cells uuid="_4phLj4aZEei0J7ssmq29HQ" value="'rearbusbar'"/>
+        <cells uuid="_4phLkIaZEei0J7ssmq29HQ" value="'rearbusbar'"/>
+        <cells uuid="_4phLkYaZEei0J7ssmq29HQ" value="'rearbusbar'"/>
+        <cells uuid="_4phLkoaZEei0J7ssmq29HQ" value="'rearbusbar'"/>
+        <cells uuid="_4phLk4aZEei0J7ssmq29HQ" value="'rearbusbar'"/>
+        <cells uuid="_J_V2RPnyEeiuy-Ou3-3ANQ" value="'n185'"/>
+      </columns>
+      <columns uuid="_adkWQMRyEeeBQIhDLA0E1g" name="column_type_toa"
+          visibility="100" databaseAlias="column_type_toa">
+        <cells uuid="_4phLlYaZEei0J7ssmq29HQ" value="'fuse_switch_disconnector'"/>
+        <cells uuid="_4phLloaZEei0J7ssmq29HQ" value="'fuse_switch_disconnector'"/>
+        <cells uuid="_4phLl4aZEei0J7ssmq29HQ" value="'inline'"/>
+        <cells uuid="_4phLmIaZEei0J7ssmq29HQ" value="'inline'"/>
+        <cells uuid="_4phLmYaZEei0J7ssmq29HQ" value="'xline_ver'"/>
+        <cells uuid="_4phLmoaZEei0J7ssmq29HQ" value="'xline_ver'"/>
+        <cells uuid="_4phLm4aZEei0J7ssmq29HQ" value="'xline_hor'"/>
+        <cells uuid="_J_V2QfnyEeiuy-Ou3-3ANQ" value="'switch_disconnector_fuse'"/>
+      </columns>
+      <columns uuid="_5ALFkMPFEeecQ9bhsoO8ig" name="module_width"
+          visibility="100" databaseAlias="module_width">
+        <cells uuid="_4phLnYaZEei0J7ssmq29HQ" value="100"/>
+        <cells uuid="_4phLnoaZEei0J7ssmq29HQ" value="50"/>
+        <cells uuid="_4phLn4aZEei0J7ssmq29HQ" value="100"/>
+        <cells uuid="_4phLoIaZEei0J7ssmq29HQ" value="50"/>
+        <cells uuid="_4phLoYaZEei0J7ssmq29HQ" value="100"/>
+        <cells uuid="_4phLooaZEei0J7ssmq29HQ" value="50"/>
+        <cells uuid="_4phLo4aZEei0J7ssmq29HQ" value="50"/>
+        <cells uuid="_J_V2QvnyEeiuy-Ou3-3ANQ" value="50"/>
+      </columns>
+      <columns uuid="_7bWHgMPFEeecQ9bhsoO8ig" name="article_type"
+          visibility="100" databaseAlias="article_type">
+        <cells uuid="_4phLpYaZEei0J7ssmq29HQ" value="ZX961"/>
+        <cells uuid="_4phLpoaZEei0J7ssmq29HQ" value="ZX960"/>
+        <cells uuid="_4phLp4aZEei0J7ssmq29HQ" value="PCNL0101"/>
+        <cells uuid="_4phLqIaZEei0J7ssmq29HQ" value="PCNL0051"/>
+        <cells uuid="_4phLqYaZEei0J7ssmq29HQ" value="PCNL0102"/>
+        <cells uuid="_4phLqoaZEei0J7ssmq29HQ" value="PCNL0052"/>
+        <cells uuid="_4phLq4aZEei0J7ssmq29HQ" value="VBC-XR-50"/>
+        <cells uuid="_J_V2Q_nyEeiuy-Ou3-3ANQ" value="'VBC-XR-50'"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_iull0ML0EeeHtOmYDMn_TA" name="Calculation_Rules"
+      visibility="800">
+    <text>	if (display_device==&quot;none&quot;) {&#xD;
+		display_compensator_XLH=&quot;none&quot;;&#xD;
+		display_compensator=&quot;none&quot;;&#xD;
+	}&#xD;
+	else&#xD;
+	{&#xD;
+		if (column_type_toa==&quot;xline_hor&quot;) {&#xD;
+			device_rotation_rbbs =90;&#xD;
+			device_trans_x_rbbs = module_height+5;&#xD;
+			device_trans_y_rbbs =0;&#xD;
+			move_visual_cursor_rbbs=visual_height;&#xD;
+			display_compensator_XLH=&quot;inline&quot;;&#xD;
+			display_compensator=&quot;none&quot;;&#xD;
+			}&#xD;
+			else if (column_type_toa==&quot;switch_disconnector_fuse&quot;)		{&#xD;
+			rotation_switch_fuse_compensator=90;&#xD;
+			device_trans_x_rbbs = visual_width;&#xD;
+			device_trans_y_rbbs =0;&#xD;
+			move_visual_cursor_rbbs=0;&#xD;
+			display_compensator_XLH=&quot;inline&quot;;&#xD;
+			display_compensator=&quot;none&quot;;&#xD;
+			}&#xD;
+		else&#xD;
+			{&#xD;
+				device_rotation_rbbs =0;&#xD;
+			device_trans_x_rbbs = 0;&#xD;
+			device_trans_y_rbbs =0;&#xD;
+			move_visual_cursor_rbbs=0;&#xD;
+			display_compensator_XLH=&quot;none&quot;;&#xD;
+			display_compensator=&quot;inline&quot;;&#xD;
+			}	&#xD;
+	}&#xD;
+	&#xD;
+elementText_transalation = elementText_transalation - 500;&#xD;
+elementText_transalation_N = elementText_transalation_N - 350;&#xD;
+&#xD;
+//pdc_design_info_position//&#xD;
+if(column_type_toa == &quot;switch_disconnector_fuse&quot; &amp;&amp; column_width_toa == 1250)&#xD;
+{&#xD;
+if(kit_width == 750)	&#xD;
+kit_pdc_center_right_X = kit_pdc_center_X + column_width_toa - (kit_width+500);&#xD;
+else if(kit_width == 500)&#xD;
+kit_pdc_center_right_X = kit_pdc_center_X + column_width_toa - (kit_width+750);&#xD;
+}&#xD;
+else&#xD;
+kit_pdc_center_right_X = kit_pdc_center_X + column_width_toa - kit_width;&#xD;
+&#xD;
+width_devices_left = (device_pos_x-1)*50;&#xD;
+&#xD;
+//PDC LocationX and Y&#xD;
+if(column_type_toa==&quot;fuse_switch_disconnector&quot;){&#xD;
+pdc_locationX_device = kit_pdc_center_X + 25 + width_devices_left;&#xD;
+}&#xD;
+else{pdc_locationX_device = kit_pdc_center_X + 50 + width_devices_left;&#xD;
+}&#xD;
+pdc_locationX_right_device =  kit_pdc_center_right_X + (kit_width-400)/2 + width_devices_left;&#xD;
+pdc_locationY_device = kit_pdc_center_Y + (kit_height - module_height)/2;&#xD;
+&#xD;
+//pdc_design_info_position//&#xD;
+</text>
+  </calculation>
+  <template href="_hUt-cOqHEeWqr4VI49EzRg.xml#_hUt-cOqHEeWqr4VI49EzRg"/>
+  <cursorTwoD uuid="_-sZmYMO2EeeHtOmYDMn_TA" name="Cursor"
+      twoDElementsColor="_IoBf0Ap1EeiYaLaa0Exn_w" twoDElementsBgColor="_IoBf0Ap1EeiYaLaa0Exn_w">
+    <facets xsi:type="comp:CursorTwoDColorFacet" uuid="_MeyiwMO4EeeHtOmYDMn_TA"
+        geoUnit="_xeLKMMO5EeeHtOmYDMn_TA" cursorType="DRAGANDDROP">
+      <visual href="../product_model.xml#_g3i44KG8Eee4u4eQy7yeJg"/>
+    </facets>
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry uuid="_eVdpccL0EeeHtOmYDMn_TA" deletable="false"
+      name="root">
+    <units uuid="_MGqhQML1EeeHtOmYDMn_TA" name="compensator">
+      <facets xsi:type="comp:GeoUnitRotationJointFacet"
+          uuid="_y7g7oApqEeiYaLaa0Exn_w" variable="device_rotation_rbbs">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4F4MUFp6Eei01OQ0VFIZlw"
+            y="-1.0"/>
+      </facets>
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_2cMNEApqEeiYaLaa0Exn_w" variable="device_trans_x_rbbs">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4F4MUlp6Eei01OQ0VFIZlw"
+            x="1.0"/>
+      </facets>
+      <children uuid="_VgOfgPnyEeiuy-Ou3-3ANQ" name="compensator_x">
+        <facets xsi:type="comp:GeoUnitRotationJointFacet"
+            uuid="_VgOfgfnyEeiuy-Ou3-3ANQ" variable="rotation_switch_fuse_compensator">
+          <vector xsi:type="appl:Coordinate3D" uuid="_VgOfhPnyEeiuy-Ou3-3ANQ"
+              y="-1.0"/>
+        </facets>
+        <children uuid="_WM1t4PnyEeiuy-Ou3-3ANQ" name="compensator_y">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_WM1t4fnyEeiuy-Ou3-3ANQ" variable="device_trans_y_rbbs">
+            <vector xsi:type="appl:Coordinate3D" uuid="_WM1t5PnyEeiuy-Ou3-3ANQ"
+                x="-1.0"/>
+          </facets>
+          <facets xsi:type="comp:GeoUnitRotationJointFacet"
+              uuid="_WM1t5fnyEeiuy-Ou3-3ANQ" variable="device_rotation_rbbs">
+            <vector xsi:type="appl:Coordinate3D" uuid="_WM1t6PnyEeiuy-Ou3-3ANQ"
+                y="-1.0"/>
+          </facets>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_WM1t6fnyEeiuy-Ou3-3ANQ" name="compensator_svg"
+              checksum="c918fb2ed4888f5ef8a2fce70470f45510142cc3">
+            <translation uuid="_WM1t7PnyEeiuy-Ou3-3ANQ"/>
+            <file href="../../model.build#_1gggkG4tEeeD85Oua_x4NA"/>
+            <handles uuid="_WM1t7fnyEeiuy-Ou3-3ANQ"
+                name="emptyPanel" visualId="emptyPanel">
+              <fields xsi:type="comp:Field" uuid="_WM1t7vnyEeiuy-Ou3-3ANQ"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="module_height"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_WM1t7_nyEeiuy-Ou3-3ANQ"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="module_width" target="xml"/>
+            </handles>
+            <handles uuid="_WM1t8PnyEeiuy-Ou3-3ANQ"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_WM1t8fnyEeiuy-Ou3-3ANQ"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_compensator"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_WM1t8vnyEeiuy-Ou3-3ANQ" name="compensator_XLH_svg"
+              checksum="46355fc1a6b3351d7ae2d9d47981687526bd8ec3">
+            <translation uuid="_WM1t9fnyEeiuy-Ou3-3ANQ"/>
+            <file href="../../model.build#_o9CIAApkEeiYaLaa0Exn_w"/>
+            <handles uuid="_WM1t9vnyEeiuy-Ou3-3ANQ"
+                name="svg4171" visualId="svg4171">
+              <fields xsi:type="comp:Field" uuid="_WM1t9_nyEeiuy-Ou3-3ANQ"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_compensator_XLH"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_WM1t-PnyEeiuy-Ou3-3ANQ"
+                name="rect4170" visualId="rect4170">
+              <fields xsi:type="comp:Field" uuid="_WM1t-fnyEeiuy-Ou3-3ANQ"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="module_width" target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_WM1t-vnyEeiuy-Ou3-3ANQ"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="module_height"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+        </children>
+      </children>
+    </units>
+    <units uuid="_xeLKMMO5EeeHtOmYDMn_TA" name="Geo_dragndrop_compensator">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_2XGoAMO5EeeHtOmYDMn_TA" variable="move_visual_cursor_rbbs">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4F4Malp6Eei01OQ0VFIZlw"
+            z="-1.0"/>
+      </facets>
+    </units>
+    <units uuid="_GEsAYAp1EeiYaLaa0Exn_w" name="compensator_box">
+      <facets xsi:type="comp:GeoUnitRotationJointFacet"
+          uuid="_KX8lUAp1EeiYaLaa0Exn_w" variable="device_rotation_rbbs">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4F4MbVp6Eei01OQ0VFIZlw"
+            y="1.0"/>
+      </facets>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_IoBf0Ap1EeiYaLaa0Exn_w"
+          name="Box_compensator" order="1" height="650.0"
+          width="400.0" cursorsUsingMeForBgColor="_-sZmYMO2EeeHtOmYDMn_TA"
+          cursorsUsingMeForColor="_-sZmYMO2EeeHtOmYDMn_TA"
+          strokeWidth="15">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_IoBf0Qp1EeiYaLaa0Exn_w" heightDynamic="module_height"
+            widthDynamic="module_width"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_IoBf0gp1EeiYaLaa0Exn_w" scaleDynamic="show_box"/>
+        <translation uuid="_4F4McVp6Eei01OQ0VFIZlw"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_eVdpcsL0EeeHtOmYDMn_TA" name="ParentPlug"/>
+  </geometry>
+  <componentsUsingMe xsi:type="comp:Component" href="_kaz3EMCDEeeJNaYT5Zv9Rg.xml#_kaz3EMCDEeeJNaYT5Zv9Rg"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_zW1-EMLfEeeHtOmYDMn_TA.xml#_zW1-EMLfEeeHtOmYDMn_TA"/>
+</comp:ComponentTemplate>

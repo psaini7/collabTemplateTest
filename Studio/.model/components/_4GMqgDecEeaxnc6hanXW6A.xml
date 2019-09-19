@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_4GMqgDecEeaxnc6hanXW6A" name="device_InLine2_NH00"
+    componentClass="LINK" toaPrefix="device.inline">
+  <logic uuid="_Ssz8QIdUEeerYeAasURCFg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_S_zwwIdUEeerYeAasURCFg"
+        name="device_width" visibility="800" expression="device_width(1);"/>
+    <children xsi:type="array:Expression" uuid="_7wbSoMCDEeeJNaYT5Zv9Rg"
+        name="fuse_size" visibility="800" expression="fuse_size(NH00);"/>
+  </logic>
+  <template href="_m_nG4IcvEeelq-vtiHawFQ.xml#_m_nG4IcvEeelq-vtiHawFQ"/>
+  <geometry uuid="_4GMqgTecEeaxnc6hanXW6A" deletable="false"
+      name="root">
+    <parentPlugs uuid="_4GMqgjecEeaxnc6hanXW6A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_ddKmR_7nEeiskp2v5nXzHA" value="InLine II NH00"/>
+</comp:Component>

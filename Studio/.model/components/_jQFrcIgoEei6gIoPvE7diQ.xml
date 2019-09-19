@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_jQFrcIgoEei6gIoPvE7diQ" name="column_incoming_tbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.tbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_TMIDIIgpEei6gIoPvE7diQ"
+      name="column_type" visibility="800" initValue="incoming_tbbs">
+    <domain uuid="_TMIDIYgpEei6gIoPvE7diQ" name="local"
+        visibility="300">
+      <typeSet uuid="_TMIDIogpEei6gIoPvE7diQ" bitSet="393220"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Vs_FQHxsEemmxLc0OUnhCg"
+      name="world_user_group_toa" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_Wt_PQHxsEemmxLc0OUnhCg" declared="true">
+      <model href="_80p4UG5KEemUHvFbr0AMqw.xml#_80ycu25KEemUHvFbr0AMqw"/>
+      <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_Vs_FQXxsEemmxLc0OUnhCg" name="local"
+        visibility="300">
+      <typeSet uuid="_Vs_FQnxsEemmxLc0OUnhCg" bitSet="393220"/>
+      <values uuid="_Vs_FQ3xsEemmxLc0OUnhCg" deletable="false"
+          name="A" visibility="300">
+        <displayName uuid="_Vs_FRHxsEemmxLc0OUnhCg"
+            value="A  (Empty)"/>
+      </values>
+      <values uuid="_Vs_FRXxsEemmxLc0OUnhCg" deletable="false"
+          name="B" visibility="300">
+        <displayName uuid="_Vs_FRnxsEemmxLc0OUnhCg"
+            value="B  (N185)"/>
+      </values>
+      <values uuid="_Vs_FR3xsEemmxLc0OUnhCg" deletable="false"
+          name="C" visibility="300">
+        <displayName uuid="_Vs_FSHxsEemmxLc0OUnhCg"
+            value="C  (RBBS upto 630A)"/>
+      </values>
+      <values uuid="_Vs_FSXxsEemmxLc0OUnhCg" deletable="false"
+          name="D" visibility="300">
+        <displayName uuid="_Vs_FSnxsEemmxLc0OUnhCg"
+            value="D (RBBS upto 1600A)"/>
+      </values>
+      <values uuid="_Vs_FS3xsEemmxLc0OUnhCg" deletable="false"
+          name="E" visibility="300">
+        <displayName uuid="_Vs_FTHxsEemmxLc0OUnhCg"
+            value="E (RBBS upto 4000A)"/>
+      </values>
+      <values uuid="_Vs_FTXxsEemmxLc0OUnhCg" deletable="false"
+          name="F" visibility="300">
+        <displayName uuid="_Vs_FTnxsEemmxLc0OUnhCg"
+            value="F  (RBBS upto 6300A)"/>
+      </values>
+      <values uuid="_Vs_FT3xsEemmxLc0OUnhCg" deletable="false"
+          name="G" visibility="300">
+        <displayName uuid="_Vs_FUHxsEemmxLc0OUnhCg"
+            value="G  (RBBS CH)"/>
+      </values>
+      <values uuid="_Vs_FUXxsEemmxLc0OUnhCg" deletable="false"
+          name="H" visibility="300">
+        <displayName uuid="_Vs_FUnxsEemmxLc0OUnhCg"
+            value="H (TBBS)"/>
+      </values>
+      <values uuid="_Vs_FU3xsEemmxLc0OUnhCg" deletable="false"
+          name="I" visibility="300">
+        <displayName uuid="_Vs_FVHxsEemmxLc0OUnhCg"
+            value="I (TBBS EE)"/>
+      </values>
+      <values uuid="_Vs_FVXxsEemmxLc0OUnhCg" deletable="false"
+          name="L" visibility="300">
+        <displayName uuid="_Vs_FVnxsEemmxLc0OUnhCg"
+            value="L (RIUS 2)"/>
+      </values>
+      <values uuid="_Vs_FV3xsEemmxLc0OUnhCg" deletable="false"
+          name="M" visibility="300">
+        <displayName uuid="_Vs_FWHxsEemmxLc0OUnhCg"
+            value="M (Twinline N)"/>
+      </values>
+      <values uuid="_Vs_FWXxsEemmxLc0OUnhCg" deletable="false"
+          name="Other" visibility="300">
+        <displayName uuid="_Vs_FWnxsEemmxLc0OUnhCg"
+            value="(Others)"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_x_d1UIpqEeiCc-Q8g1D0VQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_yUJr4IpqEeiCc-Q8g1D0VQ"
+        name="column_type" visibility="800" expression="column_type(incoming_tbbs);&#xD;&#xA;//SOFT.width_column_external=switchboard_width_toa + 100;"/>
+  </logic>
+  <template href="_GwNxUIgDEeiE_eX_e67HSQ.xml#_GwNxUIgDEeiE_eX_e67HSQ"/>
+  <geometry uuid="_jQFrcYgoEei6gIoPvE7diQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_jQFrcogoEei6gIoPvE7diQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aTxzdf7nEeiskp2v5nXzHA" value="Incoming Section"/>
+</comp:Component>

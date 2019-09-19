@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_S07pIOSsEee2N5b2jkRSMA" name="device_XT1"
+    componentClass="LINK" toaPrefix="device">
+  <variables xsi:type="comp:VariableGroup" uuid="_BlL_8AfoEeiSfMrqeS-mBg"
+      name="SVG" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_CgfKkAfoEeiSfMrqeS-mBg"
+        name="height" visibility="800">
+      <facets xsi:type="comp:VariableCalculationConstraintFacet"
+          uuid="_GN2NIAfoEeiSfMrqeS-mBg" declared="true"/>
+      <domain uuid="_CgfKkQfoEeiSfMrqeS-mBg" name="local"
+          visibility="300">
+        <typeSet uuid="_CgfKkgfoEeiSfMrqeS-mBg" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Hhls8AfoEeiSfMrqeS-mBg"
+        name="width" visibility="800">
+      <domain uuid="_Hhls8QfoEeiSfMrqeS-mBg" name="local"
+          visibility="300">
+        <typeSet uuid="_Hhls8gfoEeiSfMrqeS-mBg" bitSet="393226"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_JyUQEAgBEeiSfMrqeS-mBg"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_K7I5UAgBEeiSfMrqeS-mBg"
+        name="device_command" visibility="800">
+      <domain uuid="_K7I5VQgBEeiSfMrqeS-mBg" name="local"
+          visibility="300">
+        <typeSet uuid="_K7I5WAgBEeiSfMrqeS-mBg" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_K7SqUAgBEeiSfMrqeS-mBg"
+        name="device_poles" visibility="800">
+      <domain uuid="_K7SqVQgBEeiSfMrqeS-mBg" name="local"
+          visibility="300">
+        <typeSet uuid="_K7SqWAgBEeiSfMrqeS-mBg" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_LgNfgMLxEeiO2Mt2TXzsRA"
+        name="delete_without_confirm" visibility="800"
+        initValue="1">
+      <domain uuid="_LgNfhcLxEeiO2Mt2TXzsRA" name="local"
+          visibility="300">
+        <typeSet uuid="_LgNfiMLxEeiO2Mt2TXzsRA" bitSet="393217"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_HYUicATvEemhEpjaKzeW5g"
+        name="delete_mode" visibility="800" initValue="0">
+      <domain uuid="_HYUidwTvEemhEpjaKzeW5g" name="local"
+          visibility="300">
+        <typeSet uuid="_HYUieATvEemhEpjaKzeW5g" bitSet="393217"/>
+        <values uuid="_KQ1nsATvEemhEpjaKzeW5g" name="0"
+            visibility="300">
+          <displayName uuid="_KQ1nsQTvEemhEpjaKzeW5g"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_N2dSEOSuEee2N5b2jkRSMA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_OUG3YOSuEee2N5b2jkRSMA"
+        name="size_XT1" visibility="800" expression="TAGLIA(XT1);"/>
+  </logic>
+  <calculation uuid="_btKgIPQ5EeeZWekAE_d58Q" name="Calculation_Rules"
+      visibility="800">
+    <text>//***************************svg area - Start*******************************************&#xD;
+//width&#xD;
+if (number_of_poles==&quot;3&quot;) width=76.2;//76.2;&#xD;
+//else if(RC_INST != &quot;Unassigned&quot;) 	width=131.2;	&#xD;
+else width=101.2;//101.2;&#xD;
+	&#xD;
+//height	&#xD;
+//if (POL==&quot;4&quot; &amp;&amp; RC_INST != &quot;Unassigned&quot;) height=187;&#xD;
+//else&#xD;
+ height=130;&#xD;
+&#xD;
+height_rearbreaker1 = height;&#xD;
+&#xD;
+//width Rock Lever&#xD;
+//if (POL==&quot;4&quot; &amp;&amp; RC_INST != &quot;Unassigned&quot;) width_RL_base=width-5.2-30; //(30 is width of RC_SEL )&#xD;
+//else&#xD;
+ width_RL_base=width-5.2;&#xD;
+&#xD;
+RL_drive_movex=-70.59998 + width-2.6-13-45;&#xD;
+&#xD;
+if (number_of_poles ==&quot;4&quot;)&#xD;
+{&#xD;
+	RL_movex=width-2.6-width_RL_base-32.59999;&#xD;
+	path_movex=width-2.6-width_RL_base/2-32.59999-width_RL_base/2;&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	RL_movex=width/2-33-width_RL_base/2;&#xD;
+	path_movex=width/2-width_RL_base/2-24-width_RL_base/2;&#xD;
+	//path_movex=width_rb-width_RL_base/2-33-width_RL_base/2;&#xD;
+}&#xD;
+//movex_centre=70.5998+45/2-55.0999-76/2;&#xD;
+movex_centre=width -2.6-13-45/2 - 56-76/2;&#xD;
+//RL_Move_y=49;&#xD;
+if (device_command==&quot;motorized&quot;)&#xD;
+{&#xD;
+	visiblity_RLDrive=&quot;hidden&quot;;&#xD;
+	visiblity_motorDrive=&quot;visible&quot;;&#xD;
+		visiblity_pathP4=&quot;hidden&quot;;&#xD;
+	visiblity_pathp3=&quot;hidden&quot;;&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	if (number_of_poles==&quot;4&quot;)&#xD;
+{&#xD;
+	visiblity_pathP4=&quot;visible&quot;;&#xD;
+	visiblity_pathp3=&quot;hidden&quot;;&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	visiblity_pathP4=&quot;hidden&quot;;&#xD;
+	visiblity_pathp3=&quot;visible&quot;;&#xD;
+}&#xD;
+	visiblity_motorDrive=&quot;hidden&quot;;&#xD;
+	visiblity_RLDrive=&quot;visible&quot;;&#xD;
+}&#xD;
+visiblity_Rotary_Drive_Axle=&quot;hidden&quot;;&#xD;
+visiblity_Rotary_Drive=&quot;hidden&quot;;&#xD;
+visiblity_RC_Sel=&quot;hidden&quot;;&#xD;
+&#xD;
+if(device_command == &quot;motorized&quot;) {&#xD;
+	move_x_flanges = movex_centre + 55.1 - 7.5;&#xD;
+	move_y_flanges = 17 - 17.3;&#xD;
+}&#xD;
+else {&#xD;
+	move_x_flanges = -5.9;&#xD;
+	move_y_flanges = 49 - 18.5;&#xD;
+}&#xD;
+&#xD;
+//***************************svg End - Start*******************************************</text>
+  </calculation>
+  <template href="_PETQIOSsEee2N5b2jkRSMA.xml#_PETQIOSsEee2N5b2jkRSMA"/>
+  <cursorTwoD uuid="_wcWFIAfmEeiSfMrqeS-mBg" name="Cursor_XT1"
+      twoDElementsColor="_2VMu4AfmEeiSfMrqeS-mBg" twoDElementsBgColor="_2VMu4AfmEeiSfMrqeS-mBg">
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry uuid="_S07pIeSsEee2N5b2jkRSMA" deletable="false"
+      name="root">
+    <units uuid="_TOI60PQ4EeeZWekAE_d58Q" name="device">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_TOI60fQ4EeeZWekAE_d58Q" name="XT1_svg"
+          checksum="162693c66642541949e9660bd8161668b38acd97">
+        <translation uuid="_4eEC2Vp6Eei01OQ0VFIZlw"/>
+        <file href="../../model.build#_dQiz4PQ4EeeZWekAE_d58Q"/>
+        <handles uuid="_KW3OwPRREee354Vnep7Ryg" name="breakerRear"
+            visualId="breakerRear">
+          <fields xsi:type="comp:Field" uuid="_LaEYMPRREee354Vnep7Ryg"
+              name="heightManipulation" fieldId="height"
+              variableReference="height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="__lj-oPRsEee354Vnep7Ryg"
+              name="widthManipulation" fieldId="width"
+              variableReference="width" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_Jd55kAzTEeiHUOPByl_gLQ"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_rearbreaker"
+              target="css"/>
+        </handles>
+        <handles uuid="_WeThsPRREee354Vnep7Ryg" name="RL_Drive"
+            visualId="RL_Drive">
+          <fields xsi:type="comp:Field" uuid="_WeThsfRREee354Vnep7Ryg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="RL_drive_movex" target="transform"/>
+        </handles>
+        <handles uuid="_dM784PRREee354Vnep7Ryg" name="path4p"
+            visualId="path4p">
+          <fields xsi:type="comp:Field" uuid="_dM784fRREee354Vnep7Ryg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="path_movex" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_JY7KYPRSEee354Vnep7Ryg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_pathP4" target="css"/>
+        </handles>
+        <handles uuid="_fs-3wPRREee354Vnep7Ryg" name="path3p"
+            visualId="path3p">
+          <fields xsi:type="comp:Field" uuid="_fs-3wfRREee354Vnep7Ryg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="path_movex" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_PkIvcPRSEee354Vnep7Ryg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_pathp3" target="css"/>
+        </handles>
+        <handles uuid="_-UdjIPRsEee354Vnep7Ryg" name="RL_Base"
+            visualId="RL_Base">
+          <fields xsi:type="comp:Field" uuid="_-UdjIfRsEee354Vnep7Ryg"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_RL_base" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_bDCVYPX3Eeeq1_SocmAcOw"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="RL_movex" target="transform"/>
+        </handles>
+        <handles uuid="_R3XIwPRyEee354Vnep7Ryg" name="rotaryDriveAxle"
+            visualId="rotaryDriveAxle">
+          <fields xsi:type="comp:Field" uuid="_R3Xv0PRyEee354Vnep7Ryg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="movex_centre" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_U1obQPRzEee354Vnep7Ryg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_Rotary_Drive_Axle"
+              target="css"/>
+        </handles>
+        <handles uuid="_R3Xv0fRyEee354Vnep7Ryg" name="rotaryDrive"
+            visualId="rotaryDrive">
+          <fields xsi:type="comp:Field" uuid="_R3Xv0vRyEee354Vnep7Ryg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="movex_centre" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_WVhgsPRzEee354Vnep7Ryg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_Rotary_Drive"
+              target="css"/>
+        </handles>
+        <handles uuid="_R3Xv0_RyEee354Vnep7Ryg" name="motorDrive"
+            visualId="motorDrive">
+          <fields xsi:type="comp:Field" uuid="_R3Xv1PRyEee354Vnep7Ryg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="movex_centre" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_ZRSuQPRzEee354Vnep7Ryg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_motorDrive"
+              target="css"/>
+        </handles>
+        <handles uuid="_SbIHsPRzEee354Vnep7Ryg" name="RC_Sel"
+            visualId="RC_Sel">
+          <fields xsi:type="comp:Field" uuid="_SbIHsfRzEee354Vnep7Ryg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_RC_Sel" target="css"/>
+        </handles>
+        <handles uuid="_a8gKQPUgEeejrv8UDV3dIw" name="largeRotaryHandle"
+            visualId="largeRotaryHandle">
+          <fields xsi:type="comp:Field" uuid="_a8gKQfUgEeejrv8UDV3dIw"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_Rotary_Drive_Axle"
+              target="css"/>
+        </handles>
+        <handles uuid="_BgEE0AfnEeiSfMrqeS-mBg" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_BgEE0QfnEeiSfMrqeS-mBg"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_device" target="xml"/>
+        </handles>
+        <handles uuid="_HyGqoAfnEeiSfMrqeS-mBg" name="rockerLever"
+            visualId="rockerLever">
+          <fields xsi:type="comp:Field" uuid="_HyGqoQfnEeiSfMrqeS-mBg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visiblity_RLDrive"
+              target="css"/>
+        </handles>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_2VMu4AfmEeiSfMrqeS-mBg"
+          name="Box_XT1" order="1" cursorsUsingMeForBgColor="_wcWFIAfmEeiSfMrqeS-mBg"
+          cursorsUsingMeForColor="_wcWFIAfmEeiSfMrqeS-mBg"
+          strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_2VMu4QfmEeiSfMrqeS-mBg" heightDynamic="height"
+            widthDynamic="width"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_2VMu4gfmEeiSfMrqeS-mBg" scaleDynamic="show_box"/>
+        <translation uuid="_4eEC_lp6Eei01OQ0VFIZlw"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_2VMu9QfmEeiSfMrqeS-mBg"
+          name="Box_XT1_highlighter" strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_2VMu9gfmEeiSfMrqeS-mBg" heightDynamic="height"
+            widthDynamic="width"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_2VMu9wfmEeiSfMrqeS-mBg" scaleDynamic="scale_highlighter"/>
+        <translation uuid="_4eEDBFp6Eei01OQ0VFIZlw"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_S07pIuSsEee2N5b2jkRSMA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bFOenv7nEeiskp2v5nXzHA" value="Circuit Breaker Device"/>
+</comp:Component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_cb9DwMB7EeeJNaYT5Zv9Rg" name="device_InLine2_NH3"
+    componentClass="LINK" toaPrefix="device.inline">
+  <logic uuid="_cb9HfcB7EeeJNaYT5Zv9Rg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_cb9HfsB7EeeJNaYT5Zv9Rg"
+        name="device_width" visibility="800" expression="device_width(2);"/>
+    <children xsi:type="array:Expression" uuid="_ekrKIMCDEeeJNaYT5Zv9Rg"
+        name="fuse_size" visibility="800" expression="fuse_size(NH3);"/>
+  </logic>
+  <template href="_m_nG4IcvEeelq-vtiHawFQ.xml#_m_nG4IcvEeelq-vtiHawFQ"/>
+  <geometry uuid="_cb9Hf8B7EeeJNaYT5Zv9Rg" deletable="false"
+      name="root">
+    <parentPlugs uuid="_cb9HgMB7EeeJNaYT5Zv9Rg" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bIJPp_7nEeiskp2v5nXzHA" value="InLine II NH3"/>
+</comp:Component>

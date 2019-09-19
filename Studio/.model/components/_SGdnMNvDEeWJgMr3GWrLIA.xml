@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_SGdnMNvDEeWJgMr3GWrLIA" name="column_coupler_n185"
+    componentClass="LINK" cluster="true" toaPrefix="column.n185">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_AeXV0IuQEeatA5xS-EKmzQ"
+      name="column_type" visibility="800" initValue="coupler">
+    <domain uuid="_AeXV0YuQEeatA5xS-EKmzQ" name="local"
+        visibility="300">
+      <typeSet uuid="_2twtT6viEeaK7oriseII_A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_6yhS4D5ZEeitMpuZkF_52g"
+      name="earth_wr_qty" visibility="800" initValue="1">
+    <domain uuid="_6yh58z5ZEeitMpuZkF_52g" name="local"
+        visibility="300">
+      <typeSet uuid="_6yh59j5ZEeitMpuZkF_52g" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_9G_tAGUTEeieRfqvIqQWRg"
+      name="switchboard_door_hinges_180_toa" visibility="800">
+    <domain uuid="_9G_tAWUTEeieRfqvIqQWRg" name="local"
+        visibility="300">
+      <typeSet uuid="_9G_tAmUTEeieRfqvIqQWRg" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_lP-TALG-EeiqlYT7QVMb-Q"
+      name="rating_column_in" visibility="800">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_quJy8LG-EeiqlYT7QVMb-Q"
+        defaultVar="rating_column_in"/>
+    <domain uuid="_lP-TAbG-EeiqlYT7QVMb-Q" name="local"
+        visibility="300">
+      <typeSet uuid="_lP-TArG-EeiqlYT7QVMb-Q" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_RAVOoCi8Eeax-fkSzvTTTw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ol-lgLG-EeiqlYT7QVMb-Q"
+      name="rating_column_out" visibility="800">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_tTePYLG-EeiqlYT7QVMb-Q"
+        defaultVar="rating_column_out"/>
+    <domain uuid="_ol-lhbG-EeiqlYT7QVMb-Q" name="local"
+        visibility="300">
+      <typeSet uuid="_ol-liLG-EeiqlYT7QVMb-Q" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_RAVOoCi8Eeax-fkSzvTTTw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_1X-3MHxHEemGapIZSoUaRw"
+      name="is_set_by_completer" visibility="800" initValue="false">
+    <domain uuid="_1X-3M3xHEemGapIZSoUaRw" name="local"
+        visibility="300">
+      <typeSet uuid="_1X-3NXxHEemGapIZSoUaRw" bitSet="393220"/>
+      <values uuid="_1X-3NnxHEemGapIZSoUaRw" name="true"
+          visibility="300">
+        <displayName uuid="_1X-3OHxHEemGapIZSoUaRw"/>
+      </values>
+      <values uuid="_1X-3OXxHEemGapIZSoUaRw" name="false"
+          visibility="300">
+        <displayName uuid="_1X-3O3xHEemGapIZSoUaRw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_8Z7VkD5ZEeitMpuZkF_52g" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_9HUnED5ZEeitMpuZkF_52g"
+        name="earth_wr_qty" visibility="800">
+      <columns uuid="_9HUnET5ZEeitMpuZkF_52g" name="width_column"
+          visibility="100" databaseAlias="width_column">
+        <cells uuid="_5E2cnoaZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5E2cn4aZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_9HUnEj5ZEeitMpuZkF_52g" name="earth_wr_qty"
+          visibility="100" databaseAlias="earth_wr_qty">
+        <cells uuid="_5E2coYaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5E2cooaZEei0J7ssmq29HQ" value="0"/>
+      </columns>
+      <columns uuid="_9HUnEz5ZEeitMpuZkF_52g" name="erth_connection_WR"
+          visibility="100" databaseAlias="erth_connection_WR">
+        <cells uuid="_5E2cpIaZEei0J7ssmq29HQ" value="'Yes'"/>
+        <cells uuid="_5E2cpYaZEei0J7ssmq29HQ" value="'Yes'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_9rSLUG_TEeixQ-ANhhx_WQ"
+        name="combiline_constarint" visibility="800"
+        expression="!next_column(NONE) and !next_column(combiline_n185) -> !inserterbar_menu(column_combiline_n185);&#xD;&#xA;!next_column(NONE) and !next_column(empty_n185) -> !inserterbar_menu(column_empty_n185);"/>
+    <children xsi:type="array:Expression" uuid="_iUSwcFuxEemovIP_2hYwUg"
+        name="column_type" visibility="800" expression="column_type(coupler);"/>
+  </logic>
+  <template href="_o22MoHA2EeeF7rx3OanWmA.xml#_o22MoHA2EeeF7rx3OanWmA"/>
+  <geometry uuid="_SGdnMdvDEeWJgMr3GWrLIA" deletable="false"
+      name="root"/>
+  <displayName uuid="_degDI_7nEeiskp2v5nXzHA" value="Coupler Section"/>
+</comp:Component>

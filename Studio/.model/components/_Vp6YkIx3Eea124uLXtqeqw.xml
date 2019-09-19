@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_Vp6YkIx3Eea124uLXtqeqw" name="device_SlimLine_50"
+    componentClass="LINK" toaPrefix="device.slimline">
+  <logic uuid="_DFDEYIcsEeelq-vtiHawFQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_DzHrUIcsEeelq-vtiHawFQ"
+        name="device_width" visibility="800" expression="device_name('XR0');"/>
+  </logic>
+  <template href="_7SgZUIckEeelq-vtiHawFQ.xml#_7SgZUIckEeelq-vtiHawFQ"/>
+  <geometry uuid="_Vp6YkYx3Eea124uLXtqeqw" deletable="false"
+      name="root">
+    <parentPlugs uuid="_Vp6Ykox3Eea124uLXtqeqw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_db7QIv7nEeiskp2v5nXzHA" value="SlimLine XR00"/>
+</comp:Component>

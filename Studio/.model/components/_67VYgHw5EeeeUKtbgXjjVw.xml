@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_67VYgHw5EeeeUKtbgXjjVw" name="device_busbarsystem"
+    componentClass="LINK" toaPrefix="device">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_EALyQHw8EeeeUKtbgXjjVw"
+      name="svg_name" visibility="800">
+    <domain uuid="_EALyQXw8EeeeUKtbgXjjVw" name="local"
+        visibility="300">
+      <typeSet uuid="_EALyQnw8EeeeUKtbgXjjVw" bitSet="4"/>
+      <values uuid="_EALyQ3w8EeeeUKtbgXjjVw" deletable="false"
+          name="'static_svgs/E18.svg'" visibility="300">
+        <displayName uuid="_bKrmRP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_EALyRHw8EeeeUKtbgXjjVw" deletable="false"
+          name="'static_svgs/E27.svg'" visibility="300">
+        <displayName uuid="_bKrmRv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_EALyRXw8EeeeUKtbgXjjVw" deletable="false"
+          name="'static_svgs/E33.svg'" visibility="300">
+        <displayName uuid="_bKrmSP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_xYM00MLwEeiO2Mt2TXzsRA"
+      name="delete_without_confirm" visibility="800"
+      initValue="1">
+    <domain uuid="_xYM00cLwEeiO2Mt2TXzsRA" name="local"
+        visibility="300">
+      <typeSet uuid="_xYM00sLwEeiO2Mt2TXzsRA" bitSet="393217"/>
+    </domain>
+  </variables>
+  <logic uuid="_-NyAsHw5EeeeUKtbgXjjVw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_-hzI4Hw5EeeeUKtbgXjjVw"
+        name="module_width" visibility="800">
+      <columns uuid="_AEIeUHw6EeeeUKtbgXjjVw" name="device_type"
+          visibility="100" databaseAlias="device_type">
+        <cells uuid="_4oIEWoaZEei0J7ssmq29HQ" value="E18"/>
+        <cells uuid="_4oIEW4aZEei0J7ssmq29HQ" value="E27"/>
+        <cells uuid="_4oIEXIaZEei0J7ssmq29HQ" value="E33"/>
+      </columns>
+      <columns uuid="_AhHVQHw6EeeeUKtbgXjjVw" name="module_width"
+          visibility="100" databaseAlias="module_width">
+        <cells uuid="_4oIEXoaZEei0J7ssmq29HQ" value="26"/>
+        <cells uuid="_4oIEX4aZEei0J7ssmq29HQ" value="42"/>
+        <cells uuid="_4oIEYIaZEei0J7ssmq29HQ" value="56"/>
+      </columns>
+      <columns uuid="_BJpU4Hw6EeeeUKtbgXjjVw" name="svg_name"
+          visibility="100" databaseAlias="svg_name">
+        <cells uuid="_4oIEYoaZEei0J7ssmq29HQ" value="static_svgs/E18.svg"/>
+        <cells uuid="_4oIEY4aZEei0J7ssmq29HQ" value="static_svgs/E27.svg"/>
+        <cells uuid="_4oIEZIaZEei0J7ssmq29HQ" value="static_svgs/E33.svg"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_Rl0aEH0DEeePFpfoXPdNqw"
+        name="properties" visibility="800">
+      <columns uuid="_Rl1oMH0DEeePFpfoXPdNqw" name="device_type"
+          visibility="100" databaseAlias="device_type">
+        <cells uuid="_4oIrYoaZEei0J7ssmq29HQ" value="E18"/>
+        <cells uuid="_4oIrY4aZEei0J7ssmq29HQ" value="E27"/>
+        <cells uuid="_4oIrZIaZEei0J7ssmq29HQ" value="E33"/>
+      </columns>
+      <columns uuid="_Rl1oMX0DEeePFpfoXPdNqw" name="fuse_size"
+          visibility="100" databaseAlias="fuse_size">
+        <cells uuid="_4oIrZoaZEei0J7ssmq29HQ" value="Neozed"/>
+        <cells uuid="_4oIrZ4aZEei0J7ssmq29HQ" value="Diazed"/>
+        <cells uuid="_4oIraIaZEei0J7ssmq29HQ" value="Diazed"/>
+      </columns>
+      <columns uuid="_Rl1oMn0DEeePFpfoXPdNqw" name="ie"
+          visibility="100" databaseAlias="ie">
+        <cells uuid="_4oIraoaZEei0J7ssmq29HQ" value="63"/>
+        <cells uuid="_4oIra4aZEei0J7ssmq29HQ" value="25"/>
+        <cells uuid="_4oIrbIaZEei0J7ssmq29HQ" value="63"/>
+      </columns>
+      <columns uuid="_Rl2PQH0DEeePFpfoXPdNqw" name="poles"
+          visibility="100" databaseAlias="poles">
+        <cells uuid="_4oIrboaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_4oIrb4aZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_4oIrcIaZEei0J7ssmq29HQ" value="3"/>
+      </columns>
+      <columns uuid="_Rl2PQX0DEeePFpfoXPdNqw" name="thread"
+          visibility="100" databaseAlias="thread">
+        <cells uuid="_4oIrcoaZEei0J7ssmq29HQ" value="E18"/>
+        <cells uuid="_4oIrc4aZEei0J7ssmq29HQ" value="E27"/>
+        <cells uuid="_4oIrdIaZEei0J7ssmq29HQ" value="E33"/>
+      </columns>
+      <columns uuid="_Rl2PQn0DEeePFpfoXPdNqw" name="device_width"
+          visibility="100" databaseAlias="device_width">
+        <cells uuid="_4oIrdoaZEei0J7ssmq29HQ" value="26"/>
+        <cells uuid="_4oIrd4aZEei0J7ssmq29HQ" value="42"/>
+        <cells uuid="_4oIreIaZEei0J7ssmq29HQ" value="56"/>
+      </columns>
+      <columns uuid="_Rl2PQ30DEeePFpfoXPdNqw" name="name"
+          visibility="100" databaseAlias="name">
+        <cells uuid="_4oIreoaZEei0J7ssmq29HQ" value="Mounting fuse socket E18"/>
+        <cells uuid="_4oIre4aZEei0J7ssmq29HQ" value="Mounting fuse socket E27"/>
+        <cells uuid="_4oIrfIaZEei0J7ssmq29HQ" value="Mounting fuse socket E33"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_Cfi2EKTlEeehA5VIKLdmPw" name="Calculation_Rules"
+      visibility="800">
+    <text>//PDC LocationX and Y&#xD;
+pdc_locationX_device = kit_pdc_center_X+35+width_devices_left;&#xD;
+pdc_locationY_device = kit_pdc_center_Y + (kit_height - height)/2;</text>
+  </calculation>
+  <template href="_hUt-cOqHEeWqr4VI49EzRg.xml#_hUt-cOqHEeWqr4VI49EzRg"/>
+  <cursorTwoD uuid="_kzzEMHw6EeeeUKtbgXjjVw" name="Cursor"
+      twoDElementsColor="__6H_AHw_EeeeUKtbgXjjVw">
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+  </cursorTwoD>
+  <geometry uuid="_67VYgXw5EeeeUKtbgXjjVw" deletable="false"
+      name="root">
+    <units uuid="_dAOaMHw6EeeeUKtbgXjjVw" name="device">
+      <twoDElement xsi:type="comp:TwoDSVG" uuid="_esUIkHw6EeeeUKtbgXjjVw"
+          name="SVG_file_selector">
+        <facets xsi:type="comp:TwoDDynamicFileFacet"
+            uuid="_KVL7wHxYEeexLbaCHLicvw" fileDynamic="svg_name"/>
+        <translation uuid="_4FLBsVp6Eei01OQ0VFIZlw"/>
+        <file href="../../model.build#_bZjXUHw6EeeeUKtbgXjjVw"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="__6H_AHw_EeeeUKtbgXjjVw"
+          name="outline" height="196.0" cursorsUsingMeForColor="_kzzEMHw6EeeeUKtbgXjjVw"
+          strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_DVX94HxAEeeeUKtbgXjjVw" widthDynamic="module_width"/>
+        <translation uuid="_4FLBtVp6Eei01OQ0VFIZlw"/>
+        <bgColor href="../product_model.xml#N65562"/>
+        <color href="../product_model.xml#N65562"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_67VYgnw5EeeeUKtbgXjjVw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bKsNWf7nEeiskp2v5nXzHA" value="Clip Holder"/>
+</comp:Component>

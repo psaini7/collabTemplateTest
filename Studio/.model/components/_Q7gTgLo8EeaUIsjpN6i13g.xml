@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_Q7gTgLo8EeaUIsjpN6i13g" name="accessory_n185"
+    componentClass="LINK">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Q7iv9bo8EeaUIsjpN6i13g"
+      name="erth_conection_WR" visibility="800">
+    <domain uuid="_Q7iv-ro8EeaUIsjpN6i13g" name="local"
+        visibility="300">
+      <typeSet uuid="_Q7iv_bo8EeaUIsjpN6i13g" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Q7iwCLo8EeaUIsjpN6i13g"
+      name="partition_wall_column" visibility="800">
+    <domain uuid="_Q7iwDbo8EeaUIsjpN6i13g" name="local"
+        visibility="300">
+      <typeSet uuid="_Q7iwELo8EeaUIsjpN6i13g" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Q7iwEbo8EeaUIsjpN6i13g"
+      name="overvoltage_protection_mounting" visibility="800">
+    <domain uuid="_Q7iwFro8EeaUIsjpN6i13g" name="local"
+        visibility="300">
+      <typeSet uuid="_Q7iwGbo8EeaUIsjpN6i13g" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+  </variables>
+  <geometry uuid="_Q7iwG7o8EeaUIsjpN6i13g" deletable="false"
+      name="root">
+    <parentPlugs uuid="_Q7iwHLo8EeaUIsjpN6i13g" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_Q7iwHbo8EeaUIsjpN6i13g" name="next_link"
+      public="false" type="LINKINSUBLINK" components="NONE, accessory_n185, "
+      lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_Q7iwIbo8EeaUIsjpN6i13g"
+        type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_Q7iwIro8EeaUIsjpN6i13g"
+        twinRoleName="prev_link"/>
+    <domain uuid="_Q7iwI7o8EeaUIsjpN6i13g" name="local"
+        visibility="300">
+      <typeSet uuid="_Q7iwJro8EeaUIsjpN6i13g" bitSet="65536"/>
+      <values uuid="_Q7iwJ7o8EeaUIsjpN6i13g" name="NONE"
+          visibility="300">
+        <displayName uuid="_dbekQf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_idmRQLo8EeaUIsjpN6i13g" name="accessory_n185"
+          visibility="300">
+        <displayName uuid="_dbekQ_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_dbekRP7nEeiskp2v5nXzHA" value=""/>
+</comp:Component>

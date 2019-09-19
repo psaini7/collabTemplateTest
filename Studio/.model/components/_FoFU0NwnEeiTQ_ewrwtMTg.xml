@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_FoFU0NwnEeiTQ_ewrwtMTg" name="XT1_combiline"
+    componentClass="LINK" toaPrefix="device.breaker.combiline"
+    deleteMode="NEVER">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_J-rn8NzzEeipgecpM2_ICg"
+      name="delete_mode" visibility="800">
+    <domain uuid="_J-rn9dzzEeipgecpM2_ICg" name="local"
+        visibility="300">
+      <typeSet uuid="_J-rn-NzzEeipgecpM2_ICg" bitSet="393217"/>
+      <values uuid="_J-rn-dzzEeipgecpM2_ICg" name="0"
+          visibility="300">
+        <displayName uuid="_YMyRxf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ZipFENzzEeipgecpM2_ICg"
+      name="display_device" visibility="800">
+    <domain uuid="_ZipFEdzzEeipgecpM2_ICg" name="local"
+        visibility="300">
+      <typeSet uuid="_ZipFEtzzEeipgecpM2_ICg" bitSet="4"/>
+      <values uuid="_ZipFE9zzEeipgecpM2_ICg" deletable="false"
+          name="inline" visibility="300">
+        <displayName uuid="_YMyRyv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_ZipFFNzzEeipgecpM2_ICg" deletable="false"
+          name="none" visibility="300">
+        <displayName uuid="_YMyRzP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_xGUAMNzyEeipgecpM2_ICg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_7XWyMNzyEeipgecpM2_ICg"
+        name="display_device" visibility="800">
+      <columns uuid="_7XWyMdzyEeipgecpM2_ICg" name="world_show_devices_toa"
+          visibility="100" databaseAlias="world_show_devices_toa">
+        <cells uuid="_7XWyMtzyEeipgecpM2_ICg" value="1"/>
+        <cells uuid="_7XWyM9zyEeipgecpM2_ICg" value="0"/>
+      </columns>
+      <columns uuid="_7XWyNNzyEeipgecpM2_ICg" name="display_device"
+          visibility="100" databaseAlias="display_device">
+        <cells uuid="_7XWyNdzyEeipgecpM2_ICg" value="'inline'"/>
+        <cells uuid="_7XWyNtzyEeipgecpM2_ICg" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_Fou1ENwnEeiTQ_ewrwtMTg" name="Calculation_Rules"
+      visibility="800">
+    <text>//***************************svg area - Start*******************************************&#xD;
+height_rearbreaker=130;&#xD;
+width_rearbreaker=76.2;&#xD;
+visibility_rearbrkr=&quot;visible&quot;;&#xD;
+visibility_all=&quot;hidden&quot;;&#xD;
+RL_Base_width=width_rearbreaker-5.2;&#xD;
+&#xD;
+RL_Drive_move_x=-70.59998 + width_rearbreaker-2.6-13-45;&#xD;
+//RL_Drive_move_x=width_rearbreaker;&#xD;
+RL_move_x=width_rearbreaker/2-33-RL_Base_width/2;&#xD;
+PathP3_PathP4_move_x=width_rearbreaker/2-RL_Base_width/2-24-RL_Base_width/2;&#xD;
+&#xD;
+&#xD;
+//Drive_move_x=width_rearbreaker-2.6-27.4-45/2-(79+76/2) ;&#xD;
+&#xD;
+&#xD;
+&#xD;
+/* &#xD;
+if(device_command == &quot;motorized&quot;) {&#xD;
+	move_x_flanges = Drive_move_x + 79 - 6;width_rearbreaker&#xD;
+	move_y_flanges = 36 - 16;RL_Base_width&#xD;
+}&#xD;
+else {&#xD;
+	move_x_flanges = RL_move_x + 32.6 - 8;&#xD;
+	move_y_flanges = 62.5 - 18.5;&#xD;
+}&#xD;
+* &#xD;
+*/</text>
+  </calculation>
+  <geometry uuid="_Fou1EtwnEeiTQ_ewrwtMTg" deletable="false"
+      name="root">
+    <units uuid="_Fou1E9wnEeiTQ_ewrwtMTg" name="device">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_Fou1FNwnEeiTQ_ewrwtMTg" name="XT1"
+          checksum="d26a11db1cd4a65934787f02a303b0899572a81c">
+        <translation uuid="_Fou1F9wnEeiTQ_ewrwtMTg"/>
+        <file href="../../model.build#_ipKtsNeuEei_RYksHAi9NA"/>
+        <handles uuid="_Fou1GNwnEeiTQ_ewrwtMTg" name="breakerRear"
+            visualId="breakerRear">
+          <fields xsi:type="comp:Field" uuid="_Fou1GdwnEeiTQ_ewrwtMTg"
+              name="heightManipulation" fieldId="height"
+              variableReference="height_rearbreaker"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_Fou1GtwnEeiTQ_ewrwtMTg"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_rearbreaker"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_Fou1G9wnEeiTQ_ewrwtMTg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_rearbrkr"
+              target="css"/>
+        </handles>
+        <handles uuid="_Fou1HNwnEeiTQ_ewrwtMTg" name="rotaryDriveAxle"
+            visualId="rotaryDriveAxle">
+          <fields xsi:type="comp:Field" uuid="_Fou1HdwnEeiTQ_ewrwtMTg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_all" target="css"/>
+        </handles>
+        <handles uuid="_Fou1HtwnEeiTQ_ewrwtMTg" name="rotaryDrive"
+            visualId="rotaryDrive">
+          <fields xsi:type="comp:Field" uuid="_Fou1H9wnEeiTQ_ewrwtMTg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_all" target="css"/>
+        </handles>
+        <handles uuid="_Fou1INwnEeiTQ_ewrwtMTg" name="largeRotaryHandle"
+            visualId="largeRotaryHandle">
+          <fields xsi:type="comp:Field" uuid="_Fou1IdwnEeiTQ_ewrwtMTg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_all" target="css"/>
+        </handles>
+        <handles uuid="_Fou1ItwnEeiTQ_ewrwtMTg" name="motorDrive"
+            visualId="motorDrive">
+          <fields xsi:type="comp:Field" uuid="_Fou1I9wnEeiTQ_ewrwtMTg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_all" target="css"/>
+        </handles>
+        <handles uuid="_Fou1JNwnEeiTQ_ewrwtMTg" name="RC_Sel"
+            visualId="RC_Sel">
+          <fields xsi:type="comp:Field" uuid="_Fou1JdwnEeiTQ_ewrwtMTg"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_all" target="css"/>
+        </handles>
+        <handles uuid="_Fou1JtwnEeiTQ_ewrwtMTg" name="RL_Base"
+            visualId="RL_Base">
+          <fields xsi:type="comp:Field" uuid="_Fou1J9wnEeiTQ_ewrwtMTg"
+              name="widthManipulation" fieldId="width"
+              variableReference="RL_Base_width" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_Fou1KNwnEeiTQ_ewrwtMTg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="RL_move_x" target="transform"/>
+        </handles>
+        <handles uuid="_Fou1KdwnEeiTQ_ewrwtMTg" name="RL_Drive"
+            visualId="RL_Drive">
+          <fields xsi:type="comp:Field" uuid="_Fou1KtwnEeiTQ_ewrwtMTg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="RL_Drive_move_x" target="transform"/>
+        </handles>
+        <handles uuid="_Fou1K9wnEeiTQ_ewrwtMTg" name="path4p"
+            visualId="path4p">
+          <fields xsi:type="comp:Field" uuid="_Fou1LNwnEeiTQ_ewrwtMTg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="PathP3_PathP4_move_x"
+              target="transform"/>
+        </handles>
+        <handles uuid="_Fou1LdwnEeiTQ_ewrwtMTg" name="path3p"
+            visualId="path3p">
+          <fields xsi:type="comp:Field" uuid="_Fou1LtwnEeiTQ_ewrwtMTg"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="PathP3_PathP4_move_x"
+              target="transform"/>
+        </handles>
+        <handles uuid="_zLs_YNzyEeipgecpM2_ICg" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_zLs_YdzyEeipgecpM2_ICg"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_device" target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_Fou1NNwnEeiTQ_ewrwtMTg" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_YMzf4_7nEeiskp2v5nXzHA" value="Circuit Breaker Device XT1"/>
+</comp:Component>

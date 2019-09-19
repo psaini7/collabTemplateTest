@@ -1,0 +1,12 @@
+<behaviors>
+  <actionBehavior trigger="general">
+    <alwaysTrueCondition />
+    <completerAction completerid="dynamic_device_quantity" order="107" />
+  </actionBehavior>
+  
+  <actionBehavior trigger="general">
+    <alwaysTrueCondition />
+    <completerAction completerid="single_self_exporter" order="106" />
+  </actionBehavior>
+  
+</behaviors>

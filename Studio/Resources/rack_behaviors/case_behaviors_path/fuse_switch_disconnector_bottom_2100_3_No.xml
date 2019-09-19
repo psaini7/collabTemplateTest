@@ -1,0 +1,36 @@
+<behaviors>
+
+  <restrictionBehavior>
+    <rangeRestrictionCondition x1="1" y1="5" x2="3" y2="6" />
+	
+    <toaRestriction>
+      <toa>kit_touchguard_combilineN</toa>
+	  <toa>kit_fuseswitchdisconnector_n185</toa>
+			
+    </toaRestriction>
+  </restrictionBehavior>
+	
+	
+  <restrictionBehavior>
+    <rangeRestrictionCondition x1="1" y1="4" x2="3" y2="4" />
+	
+    <toaRestriction>
+      <toa>kit_npebusbarsystem_n185</toa>
+      <toa>kit_fuseswitchdisconnector_n185</toa>
+      <toa>kit_touchguard_combilineN</toa>			
+    </toaRestriction>
+  </restrictionBehavior>
+ <restrictionBehavior>
+    <rangeRestrictionCondition x1="1" y1="9" x2="2" y2="14" />
+    <toaRestriction>
+<toa>kit_fuseswitchdisconnector_n185</toa>
+<toa>kit_busbarsystem_40_60mm_combilineN</toa>
+<toa>kit_dinrailmounting_combilineN</toa>
+<toa>kit_fuseswitchdisconnector_combilineN</toa>
+<toa>kit_mountingplate_combilineN</toa>
+<toa>kit_npebusbarsystem_n185</toa>
+<toa>kit_terminal_combilineN</toa>
+<toa>kit_touchguard_combilineN</toa>
+    </toaRestriction>
+  </restrictionBehavior>
+</behaviors>

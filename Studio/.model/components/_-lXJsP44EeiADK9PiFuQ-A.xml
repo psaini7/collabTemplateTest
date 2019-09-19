@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_-lXJsP44EeiADK9PiFuQ-A" name="device_inline_nh12_combiline"
+    componentClass="LINK" toaPrefix="device.inline.combiline">
+  <logic uuid="_FIiFYATUEemn_dte-gmJlg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_FiwjQATUEemn_dte-gmJlg"
+        name="display_device" visibility="800">
+      <columns uuid="_FiwjQQTUEemn_dte-gmJlg" name="world_show_devices_toa"
+          visibility="100" databaseAlias="world_show_devices_toa">
+        <cells uuid="_FiwjQgTUEemn_dte-gmJlg" value="1"/>
+        <cells uuid="_FiwjQwTUEemn_dte-gmJlg" value="0"/>
+      </columns>
+      <columns uuid="_FiwjRATUEemn_dte-gmJlg" name="display_device"
+          visibility="100" databaseAlias="display_device">
+        <cells uuid="_FiwjRQTUEemn_dte-gmJlg" value="'inline'"/>
+        <cells uuid="_FiwjRgTUEemn_dte-gmJlg" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <geometry uuid="_-lg6sP44EeiADK9PiFuQ-A" deletable="false"
+      name="root">
+    <units uuid="_GfThcP45EeiADK9PiFuQ-A" name="device_Nh12">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_IlmfkP45EeiADK9PiFuQ-A" name="Interactive_SVG"
+          checksum="db24162b434f83375983581d3d71adfdbfca2812">
+        <translation uuid="_Ilmfkf45EeiADK9PiFuQ-A"/>
+        <file href="../../model.build#_4FVyQP44EeiADK9PiFuQ-A"/>
+        <handles uuid="_5eguQATTEemn_dte-gmJlg" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_5ep4MATTEemn_dte-gmJlg"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_device" target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_-lg6sf44EeiADK9PiFuQ-A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_YJ0dUf7nEeiskp2v5nXzHA" value="Device Inline NH12 "/>
+</comp:Component>

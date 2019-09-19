@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_IwmdYHmrEeaMX44rrPMmaQ" name="accessory_holder"
+    componentClass="LINKOWNER" cluster="true" insertFree="true">
+  <controls xsi:type="comp:PickComponent" uuid="_USJ1AHmrEeaMX44rrPMmaQ"
+      name="toa_picker" includeTOAs="accessory"/>
+  <geometry uuid="_IwmdYXmrEeaMX44rrPMmaQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_IwmdYnmrEeaMX44rrPMmaQ" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_LaU4sHmrEeaMX44rrPMmaQ" name="accessories"
+      public="false" type="SUBLINK" components="NONE, accessory, accessory_n185, "
+      lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_20QXDaviEeaK7oriseII_A"/>
+    <facets xsi:type="comp:LineControllerFacet" uuid="_20QXDqviEeaK7oriseII_A"
+        nextRole="next_link" prevRole="prev_link"/>
+    <domain uuid="_LaU4sXmrEeaMX44rrPMmaQ" name="local"
+        visibility="300">
+      <typeSet uuid="_20Q94qviEeaK7oriseII_A" bitSet="65536"/>
+      <values uuid="_aZl-kLo8EeaUIsjpN6i13g" name="NONE"
+          visibility="300">
+        <displayName uuid="_dcJ5qf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_bCM2sLo8EeaUIsjpN6i13g" name="accessory"
+          visibility="300">
+        <displayName uuid="_dcJ5q_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_d51LILo8EeaUIsjpN6i13g" name="accessory_n185"
+          visibility="300">
+        <displayName uuid="_dcJ5rf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_dcJ5rv7nEeiskp2v5nXzHA" value=""/>
+</comp:Component>

@@ -1,0 +1,25 @@
+
+	
+<behaviors>
+<include src="dynamic_device_qty.xml" />
+	<restrictionBehavior>
+    <insertionPatternRestrictionCondition start="1" jump="1" axis="X" negate="false" />
+    <toaRestriction>
+      <toa>device_InLine2_NH00</toa>
+	  <toa>device_InLine2_NH1</toa>
+	  <toa>device_InLine2_NH2</toa>
+	  <toa>device_InLine2_NH3</toa>
+	  <toa>device_compensator_50</toa>
+	  <toa>device_compensator_100</toa>
+    </toaRestriction>
+	</restrictionBehavior>
+	
+	<restrictionBehavior>
+    <insertionPatternRestrictionCondition start="2" jump="2" axis="X" negate="false" />
+    <toaRestriction>
+      <toa>device_InLine2_NH00</toa>
+	  <toa>device_compensator_50</toa>
+    </toaRestriction>
+	</restrictionBehavior>
+  
+</behaviors>

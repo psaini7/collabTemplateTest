@@ -1,0 +1,98 @@
+<reportexport>
+  <report id="document" language_code="Hauptstraße 42" refid="tender_doc.rptdesign">
+    <outputs>
+      <output name="tender_doc" orientation="portrait" type="pdf"/>
+    </outputs>
+    <blocks>
+      <block id="01_switchboard_params" order="0.1" refid="switchboard" type="datablock">
+        <parameters>
+          <parameter id="standard" value="IEC 61439 1-2"/>
+          <parameter id="width_panel" value="2416"/>
+          <parameter id="ip_protection" value="30"/>
+          <parameter id="rating" value="1250"/>
+          <parameter id="base_height" value="100"/>
+          <parameter id="depth_tender_doc" value="647"/>
+          <parameter id="height_dim" value="2013"/>
+          <parameter id="busbar_number_of_poles" value="3"/>
+          <parameter id="phase_position" value="center"/>
+        </parameters>
+      </block>
+      <block id="04_switchdisconnectorfuse_column" order="0.2.4" refid="switchdisconnectorfuse_column" type="datablock">
+        <parameters>
+          <parameter id="current_transformer" value="No"/>
+          <parameter id="article_type" value="MJ25407"/>
+          <parameter id="fuse_switch_disconnector" value="No"/>
+          <parameter id="width" value="500"/>
+          <parameter id="device_qty" value="1"/>
+          <parameter id="device_type" value="device_SlimLine"/>
+          <parameter id="device_poles" value="1"/>
+          <parameter id="height" value="750"/>
+        </parameters>
+      </block>
+      <block id="00_kit_npebusbarsystem" order="0.2.5.1" refid="kit_npebusbarsystem" type="datablock">
+        <parameters>
+          <parameter id="article_type" value="MNH24"/>
+          <parameter id="width" value="500"/>
+          <parameter id="height" value="600"/>
+        </parameters>
+      </block>
+      <block id="03_fuseswitchdisconnector_column" order="0.2.8" refid="fuseswitchdisconnector_column" type="datablock">
+        <parameters>
+          <parameter id="current_transformer" value="No"/>
+          <parameter id="article_type" value="MJ24458"/>
+          <parameter id="fuse_switch_disconnector" value="No"/>
+          <parameter id="width" value="500"/>
+          <parameter id="device_qty" value="1"/>
+          <parameter id="device_type" value="NONE"/>
+          <parameter id="device_poles" value="1"/>
+          <parameter id="height" value="750"/>
+        </parameters>
+      </block>
+      <block id="00_kit_npebusbarsystem" order="0.2.10.1" refid="kit_npebusbarsystem" type="datablock">
+        <parameters>
+          <parameter id="article_type" value="MNH24"/>
+          <parameter id="width" value="500"/>
+          <parameter id="height" value="600"/>
+        </parameters>
+      </block>
+      <block id="02_coupler_column" order="0.2.12" refid="coupler_column" type="datablock">
+        <parameters>
+          <parameter id="current_transformer" value="No"/>
+          <parameter id="article_type" value="MA231751"/>
+          <parameter id="fuse_switch_disconnector" value="No"/>
+          <parameter id="width" value="500"/>
+          <parameter id="device_qty" value="1"/>
+          <parameter id="device_type" value="T7"/>
+          <parameter id="device_poles" value="3"/>
+          <parameter id="height" value="750"/>
+        </parameters>
+      </block>
+      <block id="00_kit_npebusbarsystem" order="0.2.15.14" refid="kit_npebusbarsystem" type="datablock">
+        <parameters>
+          <parameter id="article_type" value="MNH24"/>
+          <parameter id="width" value="500"/>
+          <parameter id="height" value="600"/>
+        </parameters>
+      </block>
+      <block id="01_breaker_column" order="0.2.16" refid="breaker_column" type="datablock">
+        <parameters>
+          <parameter id="current_transformer" value="No"/>
+          <parameter id="article_type" value="MA211751"/>
+          <parameter id="fuse_switch_disconnector" value="No"/>
+          <parameter id="width" value="500"/>
+          <parameter id="device_qty" value="1"/>
+          <parameter id="device_type" value="T7"/>
+          <parameter id="device_poles" value="3"/>
+          <parameter id="height" value="750"/>
+        </parameters>
+      </block>
+      <block id="00_kit_npebusbarsystem" order="0.2.20.14" refid="kit_npebusbarsystem" type="datablock">
+        <parameters>
+          <parameter id="article_type" value="MNH24"/>
+          <parameter id="width" value="500"/>
+          <parameter id="height" value="600"/>
+        </parameters>
+      </block>
+    </blocks>
+  </report>
+</reportexport>

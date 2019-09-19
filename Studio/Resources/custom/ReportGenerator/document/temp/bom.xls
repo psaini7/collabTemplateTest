@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+		<Author/>
+		<Title/>
+		<Description/>
+		<Subject/>
+	</DocumentProperties>
+	<Styles>
+		<Style ss:ID="HyperlinkId" ss:Name="Hyperlink">
+			<Font ss:Color="#0000ff"/>
+		</Style>
+		<Style ss:ID="1">
+			<NumberFormat ss:Format="yyyy-M-d HH:mm:ss AM/PM"/>
+		</Style>
+		<Style ss:ID="23">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="24">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="27">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="29">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="20">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="25">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="26">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="28">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="30">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="22">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="21">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="serif" ss:Size="10.0" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+	</Styles>
+	<Names>
+		<NamedRange ss:Name="__bookmark_1" ss:RefersTo="Report!R1C1:R47C8"/>
+	</Names>
+
+<Worksheet ss:Name="Report">
+	<ss:Table>
+		<ss:Column ss:Width="94.464" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="94.464" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="94.464" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="94.592" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="94.464" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="94.464" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="94.464" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="94.592" ss:AutoFitWidth="0"/>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="21" ss:MergeDown="1">
+				<Data ss:Type="String">Product Id</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="21" ss:MergeDown="1">
+				<Data ss:Type="String">Article Number</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="21" ss:MergeDown="1">
+				<Data ss:Type="String">Quantity</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="21" ss:MergeDown="1">
+				<Data ss:Type="String">Unit of Measure</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="21" ss:MergeDown="1">
+				<Data ss:Type="String">Description</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="20">
+				<Data ss:Type="String">Discount Group</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="21" ss:MergeDown="1">
+				<Data ss:Type="String">Gross Price €</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="21" ss:MergeDown="1">
+				<Data ss:Type="String">Gross Price Sum €</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="6" ss:StyleID="23">
+				<Data ss:Type="String"/>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ005066B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBHS0201</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">N.2 supports for shifted busbars</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">0.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">0.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003662B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBLL5010</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">InLine column bar connection, main with distribution busbars 3 poles, column ext depth 600 mm, rating 1000 A section 50x10</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">550.76</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">550.76</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009602A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBHS0200</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 2 main busbar holders, height 200 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">39.85</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">119.55</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ005066B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBHS0201</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">N.2 supports for shifted busbars</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">0.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">0.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009602A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBHS0200</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 2 main busbar holders, height 200 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">39.85</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">119.55</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003734B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PFCB6060</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">X-Line vertical column, Bars connection section 60x10, for 3 poles, column depth 600mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">515.87</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">515.87</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003353B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PUPM2001</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">n.4 upright, 2000 mm functional height, in galvanized steel</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">260.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">260.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003353B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PUPM2001</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">n.4 upright, 2000 mm functional height, in galvanized steel</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">260.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">260.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009605A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PCCS0200</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">No.2 closing cover for holder , height 200 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">7.45</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">22.35</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009605A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PCCS0200</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">No.2 closing cover for holder , height 200 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">7.45</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">22.35</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003758B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PUPM0550</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">n.4 Intermediate uprights H=550 mm galvanized sheet metal, for X-LINE vertical column</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">88.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">88.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ007039A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PCFM0500</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">4St Gehäuseprofil 2FB/T600</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">96.19</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">192.38</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ007039A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PCFM0500</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">4St Gehäuseprofil 2FB/T600</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">96.19</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">192.38</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ007052A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPFM1050</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">2St Sockelleiste H100 2FB/T600</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">17.60</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">17.6</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ007052A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPFM1050</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">2St Sockelleiste H100 2FB/T600</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">17.60</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">35.2</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003149B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBRP0003</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Brackets for PE busbar PBRP0003</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">42.84</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">85.68</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003149B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBRP0003</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Brackets for PE busbar PBRP0003</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">42.84</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">85.68</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009407A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PTBB5057</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">PTBB5057 Blind Top/Bottom IP41 panel W600 D600</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">63.02</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">126.04</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009407A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PTBB5057</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">PTBB5057 Blind Top/Bottom IP41 panel W600 D600</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">63.02</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">126.04</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003630B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBNL5060</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Inline column no. 3 distribution busbars, column ext width 600 mm, rating 1000 A</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">385.78</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">385.78</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003627B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PKNL1262</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Inline column, mounting kit with front panel, column ext width 600 mm (no. Inline module installable 5), panel height 1200 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">613.02</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">613.02</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003730B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPNT0950</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">blind front panel for top/bottom compartment, external width 600mm for X-LINE vertical column</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">127.50</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">255.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009606A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PSCB0002</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 6 mounting screws for main busbars 2 busbars per phase</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">2.83</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">8.49</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003759B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBFC6060</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">X-line vertical, 3 distribution busbars for 1250 A 60x10, column external width 600 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">298.33</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">298.33</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003857B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PKNL9060</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Front panel + n.2 side shelves + lexan segregations + n.2 crosspieces for X-LINE vertical column</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">339.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">339.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003731B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBHH0603</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">crosspiece width 600 with busbar holders 3P for X-LINE vertical column</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">29.20</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">58.4</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ008106A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPEB2056</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">PPEB2056</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">125.95</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">251.90</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ008113A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PSBS0065</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Set für Schrankanreihung S/R</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">108.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">108.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003642B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PCCS01X3</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">bars fixing kit (Cylinders 20 + closing elements + screws 5070) 3 poles</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">45.51</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">45.51</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009606A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PSCB0002</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 6 mounting screws for main busbars 2 busbars per phase</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">2.83</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">8.49</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ001381B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPNT1250</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Inline column, no. 1 flat front blind panel for top or bottom compartment, column ext width 600 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">0.00</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">0.0</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009604A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PSPA2012</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 12 spacers for main busbar holding, height single spacer 20 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">5.97</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">17.91</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003733B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBI00002</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">insulator for X-LINE vertical column</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">72.42</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">217.26</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ009604A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PSPA2012</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 12 spacers for main busbar holding, height single spacer 20 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">5.97</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">17.91</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003355B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PUPM2011</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">1 upright, 2000 mm functional height, in galvanized steel for rear cable container</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">77.89</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">155.78</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">2CPX068735R9999</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">ZX563</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no.2 support for fixing neutral busbars to brackets</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">8.90</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">17.8</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003790B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBNE1060</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Neutral busbar 50% for main busbars 1000 / 1250 A, section 1 x 30 mm x 10 mm, column ext width 600 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">62.62</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">125.24</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">2CPX068735R9999</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">ZX563</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no.2 support for fixing neutral busbars to brackets</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">8.90</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">17.8</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ003790B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PBNE1060</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">Neutral busbar 50% for main busbars 1000 / 1250 A, section 1 x 30 mm x 10 mm, column ext width 600 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">62.62</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">125.24</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ007048A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPAM0100</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">4St Sockel Eckteil H100</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">48.90</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">48.9</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ008106A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPEB2056</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">2.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">PPEB2056</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">125.95</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">251.90</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ007048A0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PPAM0100</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">1.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">4St Sockel Eckteil H100</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">48.90</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">48.9</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ004523B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PCFS1260</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 2 copper shifted   busbars, rating 1250 A section 2 x 30 mm x10 mm, column ext width 600 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">96.34</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">289.02</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="25">
+				<Data ss:Type="String">1STQ004523B0000</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="25">
+				<Data ss:Type="String">PCFS1260</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="25">
+				<Data ss:Type="String">3.0</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="25"/>
+			<Cell ss:Index="5" ss:StyleID="25">
+				<Data ss:Type="String">no. 2 copper shifted   busbars, rating 1250 A section 2 x 30 mm x10 mm, column ext width 600 mm</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="25"/>
+			<Cell ss:Index="7" ss:StyleID="25">
+				<Data ss:Type="String">96.34</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="25">
+				<Data ss:Type="String">289.02</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="26"/>
+			<Cell ss:Index="2" ss:StyleID="26"/>
+			<Cell ss:Index="3" ss:StyleID="26"/>
+			<Cell ss:Index="4" ss:StyleID="26"/>
+			<Cell ss:Index="5" ss:StyleID="26"/>
+			<Cell ss:Index="6" ss:StyleID="26"/>
+			<Cell ss:Index="7" ss:StyleID="28">
+				<Data ss:Type="String">Total Gross Price €:</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="30">
+				<Data ss:Type="Number">6814.029999999997</Data>
+			</Cell>
+		</Row>
+	</ss:Table>
+	<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+		<PageSetup>
+			<PageMargins x:Bottom="0.25" x:Left="0.25" x:Right="0.25" x:Top="0.25"/>
+			<Layout x:Orientation="Landscape"/>
+			<Header/>
+			<Footer/>
+		</PageSetup>
+		<Print>
+			<PaperSizeIndex>1</PaperSizeIndex>
+		</Print>
+	</WorksheetOptions>
+</Worksheet>
+</Workbook>

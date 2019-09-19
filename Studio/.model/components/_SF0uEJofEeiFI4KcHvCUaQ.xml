@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_SF0uEJofEeiFI4KcHvCUaQ"
+    name="template_column_tbbs">
+  <variables xsi:type="comp:VariableGroup" uuid="_mQPUwJomEeiFI4KcHvCUaQ"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_HuMxsJrJEeixRYMMDDJzBA"
+        name="is_corner_tbbs" visibility="800" initValue="0">
+      <domain uuid="_HuNYwJrJEeixRYMMDDJzBA" name="local"
+          visibility="300">
+        <typeSet uuid="_HuNYw5rJEeixRYMMDDJzBA" bitSet="393226"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ejhCYApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ilNuQKweEeiUcdZ18VksCw"
+        name="rear_internal_cable_container_depth" visibility="800"
+        initValue="">
+      <facets xsi:type="comp:VariableGroupVarFacet"
+          uuid="_jYlE4KweEeiUcdZ18VksCw" defaultVar="rear_internal_cable_container_depth_toa"/>
+      <domain uuid="_ilNuRaweEeiUcdZ18VksCw" name="local"
+          visibility="300">
+        <typeSet uuid="_ilNuSKweEeiUcdZ18VksCw" bitSet="393226"/>
+        <values uuid="_ilNuSaweEeiUcdZ18VksCw" name="0"
+            visibility="300">
+          <displayName uuid="_dguQm_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ilNuSqweEeiUcdZ18VksCw" name="200"
+            visibility="300">
+          <displayName uuid="_dguQnf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ilNuS6weEeiUcdZ18VksCw" name="300"
+            visibility="300">
+          <displayName uuid="_dguQn_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ilNuTKweEeiUcdZ18VksCw" name="350"
+            visibility="300">
+          <displayName uuid="_dguQof7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ilNuTaweEeiUcdZ18VksCw" name="400"
+            visibility="300">
+          <displayName uuid="_dguQo_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ilNuTqweEeiUcdZ18VksCw" name="500"
+            visibility="300">
+          <displayName uuid="_dguQpf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ilNuT6weEeiUcdZ18VksCw" name="550"
+            visibility="300">
+          <displayName uuid="_dguQp_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ANJF4LGEEei6SrL_fhzrUg"
+        name="kit_position_x" visibility="800">
+      <domain uuid="_ANJF4bGEEei6SrL_fhzrUg" name="local"
+          visibility="300">
+        <typeSet uuid="_ANJF4rGEEei6SrL_fhzrUg" bitSet="393218"/>
+        <values uuid="_COyNgLGEEei6SrL_fhzrUg" name="1..40"
+            visibility="300">
+          <displayName uuid="_dguQrP7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_C9GsELGEEei6SrL_fhzrUg"
+        name="kit_position_y" visibility="800">
+      <domain uuid="_C9GsFbGEEei6SrL_fhzrUg" name="local"
+          visibility="300">
+        <typeSet uuid="_C9GsGLGEEei6SrL_fhzrUg" bitSet="393218"/>
+        <values uuid="_C9GsGbGEEei6SrL_fhzrUg" name="1..40"
+            visibility="300">
+          <displayName uuid="_dguQsf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_3DPYwLGcEei6SrL_fhzrUg"
+        name="move_x_tbbs" visibility="800">
+      <domain uuid="_3DPYwbGcEei6SrL_fhzrUg" name="local"
+          visibility="300">
+        <typeSet uuid="_3DPYwrGcEei6SrL_fhzrUg" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ZsRcYLZKEeiCPs4S_QsEGw"
+        name="min_ip" visibility="800">
+      <facets xsi:type="comp:VariableResourcePoolFacet"
+          uuid="_KnAIAL-uEeiyFKpHlnOvDg" operation="Min"
+          defaultVar="IP"/>
+      <domain uuid="_ZsRcZbZKEeiCPs4S_QsEGw" name="local"
+          visibility="300">
+        <typeSet uuid="_ZsRcaLZKEeiCPs4S_QsEGw" bitSet="393226"/>
+        <values uuid="_ZsRcabZKEeiCPs4S_QsEGw" name="30"
+            visibility="300">
+          <displayName uuid="_dguQuv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ZsRcarZKEeiCPs4S_QsEGw" name="31"
+            visibility="300">
+          <displayName uuid="_dguQvP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ZsRca7ZKEeiCPs4S_QsEGw" name="40"
+            visibility="300">
+          <displayName uuid="_dguQvv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ZsRcbLZKEeiCPs4S_QsEGw" name="41"
+            visibility="300">
+          <displayName uuid="_dguQwP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ZsRcbbZKEeiCPs4S_QsEGw" name="65"
+            visibility="300">
+          <displayName uuid="_dguQwv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_NpPQsMAAEeiKkZwJRJMD9g" name="0"
+            visibility="300">
+          <displayName uuid="_dguQxP7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_JjYPAMbZEei3IMlP04sCow"
+        name="is_offset_inserted" visibility="800" initValue="0">
+      <domain uuid="_JjYPBcbZEei3IMlP04sCow" name="local"
+          visibility="300">
+        <typeSet uuid="_JjYPCMbZEei3IMlP04sCow" bitSet="393226"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ejhCYApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_GOIrMM1gEeijvKIEOg5Z8A"
+        name="is_vented_selected" visibility="800">
+      <facets xsi:type="comp:VariableResourcePoolFacet"
+          uuid="_Js0_oM1gEeijvKIEOg5Z8A" operation="MAX"
+          defaultVar="is_vented"/>
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_XH4PgM1gEeijvKIEOg5Z8A" declared="true"
+          model="_Wefd0JonEeiFI4KcHvCUaQ" flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_GOIrMc1gEeijvKIEOg5Z8A" name="local"
+          visibility="300">
+        <typeSet uuid="_GOIrMs1gEeijvKIEOg5Z8A" bitSet="393226"/>
+        <values uuid="_IIxy8M1gEeijvKIEOg5Z8A" name="0..50"
+            visibility="300">
+          <displayName uuid="_dgu3pf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_R5Ku8M1gEeijvKIEOg5Z8A"
+        name="with_grates" visibility="800">
+      <facets xsi:type="comp:VariableGroupVarFacet"
+          uuid="_UxC7AM1gEeijvKIEOg5Z8A" defaultVar="column_with_grates_toa"/>
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b1h7UM1pEeijvKIEOg5Z8A" declared="true"
+          model="_Wefd0JonEeiFI4KcHvCUaQ" flow="OUT">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_R5Ku8c1gEeijvKIEOg5Z8A" name="local"
+          visibility="300">
+        <typeSet uuid="_R5Ku8s1gEeijvKIEOg5Z8A" bitSet="393227"/>
+        <values uuid="_TtArIM1gEeijvKIEOg5Z8A" name="0"
+            visibility="300">
+          <displayName uuid="_dgu3rf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_TtArIc1gEeijvKIEOg5Z8A" name="1"
+            visibility="300">
+          <displayName uuid="_dgu3r_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_EfFxYJrJEeixRYMMDDJzBA"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_GQs48JrJEeixRYMMDDJzBA"
+        name="switchboard_rear_cable_container_depth_toa"
+        visibility="800" initValue="">
+      <domain uuid="_GQs49ZrJEeixRYMMDDJzBA" name="local"
+          visibility="300">
+        <typeSet uuid="_GQs4-JrJEeixRYMMDDJzBA" bitSet="393226"/>
+        <values uuid="_GQs4-ZrJEeixRYMMDDJzBA" name="0"
+            visibility="300">
+          <displayName uuid="_dgu3tf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_GQs4-prJEeixRYMMDDJzBA" name="200"
+            visibility="300">
+          <displayName uuid="_dgu3t_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_GQs4-5rJEeixRYMMDDJzBA" name="300"
+            visibility="300">
+          <displayName uuid="_dgu3uf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_GQs4_JrJEeixRYMMDDJzBA" name="350"
+            visibility="300">
+          <displayName uuid="_dgu3u_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_GQs4_ZrJEeixRYMMDDJzBA" name="400"
+            visibility="300">
+          <displayName uuid="_dgu3vf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_GQs4_prJEeixRYMMDDJzBA" name="500"
+            visibility="300">
+          <displayName uuid="_dgu3v_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_GQs4_5rJEeixRYMMDDJzBA" name="550"
+            visibility="300">
+          <displayName uuid="_dgu3wf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ac98oKEZEeiQ1tB-HcIz7Q"
+        name="switchboard_min_ip_toa" visibility="800">
+      <facets xsi:type="comp:VariableGroupVarFacet"
+          uuid="_ac98paEZEeiQ1tB-HcIz7Q" defaultVar="switchboard_min_ip_toa"/>
+      <domain uuid="_ac98pqEZEeiQ1tB-HcIz7Q" name="local"
+          visibility="300">
+        <typeSet uuid="_ac98qaEZEeiQ1tB-HcIz7Q" bitSet="393220"/>
+        <values uuid="_ac98qqEZEeiQ1tB-HcIz7Q" name="31"
+            visibility="300">
+          <displayName uuid="_dgu3x_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ac98q6EZEeiQ1tB-HcIz7Q" name="41"
+            visibility="300">
+          <displayName uuid="_dgu3yf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ac98rKEZEeiQ1tB-HcIz7Q" name="65"
+            visibility="300">
+          <displayName uuid="_dgu3y_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ac98raEZEeiQ1tB-HcIz7Q" name="40"
+            visibility="300">
+          <displayName uuid="_dgu3zf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ac98rqEZEeiQ1tB-HcIz7Q" name="30"
+            visibility="300">
+          <displayName uuid="_dgu3z_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_5vU54KwdEeiUcdZ18VksCw"
+        name="switchboard_rear_cable_container_position_toa"
+        visibility="800">
+      <domain uuid="_5vU54awdEeiUcdZ18VksCw" name="local"
+          visibility="300">
+        <typeSet uuid="_5vU54qwdEeiUcdZ18VksCw" bitSet="393220"/>
+        <values uuid="_8mFroKwdEeiUcdZ18VksCw" name="internal"
+            visibility="300">
+          <displayName uuid="_dgu31P7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_9PwTsKwdEeiUcdZ18VksCw" name="external"
+            visibility="300">
+          <displayName uuid="_dgu31v7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_9rX4sKwdEeiUcdZ18VksCw" name="none"
+            visibility="300">
+          <displayName uuid="_dgu32P7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_7RnocKzgEeit5YXVxGD0hQ"
+        name="switchboard_arc_fault_toa" visibility="800">
+      <facets xsi:type="comp:VariableGroupVarFacet"
+          uuid="_8Lz_0KzgEeit5YXVxGD0hQ" defaultVar="switchboard_arc_fault_toa"/>
+      <domain uuid="_7RnodazgEeit5YXVxGD0hQ" name="local"
+          visibility="300">
+        <typeSet uuid="_7RnoeKzgEeit5YXVxGD0hQ" bitSet="393220"/>
+        <values uuid="_7RnoeazgEeit5YXVxGD0hQ" name="Yes"
+            visibility="300">
+          <displayName uuid="_dgu33v7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_7RnoeqzgEeit5YXVxGD0hQ" name="No"
+            visibility="300">
+          <displayName uuid="_dgu34P7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_alfjYLZKEeiCPs4S_QsEGw"
+        name="switchboard_IP_toa" visibility="800">
+      <facets xsi:type="comp:VariableGroupVarFacet"
+          uuid="_ZGrdoL-uEeiyFKpHlnOvDg" defaultVar="switchboard_IP_toa"/>
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_aDGCsMV5EeiSCKkdrH2pBw" declared="true"
+          model="_Wefd0JonEeiFI4KcHvCUaQ" flow="IN">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_alfjZbZKEeiCPs4S_QsEGw" name="local"
+          visibility="300">
+        <typeSet uuid="_alfjaLZKEeiCPs4S_QsEGw" bitSet="393230"/>
+        <values uuid="_alfjabZKEeiCPs4S_QsEGw" name="30"
+            visibility="300">
+          <displayName uuid="_dgu36P7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_alfjarZKEeiCPs4S_QsEGw" name="31"
+            visibility="300">
+          <displayName uuid="_dgu36v7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_alfja7ZKEeiCPs4S_QsEGw" name="40"
+            visibility="300">
+          <displayName uuid="_dgu37P7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_alfjbLZKEeiCPs4S_QsEGw" name="41"
+            visibility="300">
+          <displayName uuid="_dgu37v7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_alfjbbZKEeiCPs4S_QsEGw" name="65"
+            visibility="300">
+          <displayName uuid="_dgu38P7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_FrIF0LaYEeiDaKL6bHiFUg"
+        name="switchboard_inox_toa" visibility="800"
+        initValue="0">
+      <domain uuid="_FrIF1raYEeiDaKL6bHiFUg" name="local"
+          visibility="300">
+        <typeSet uuid="_FrIF2baYEeiDaKL6bHiFUg" bitSet="393227"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ejhCYApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_5hL9IL1pEeifRMPmbfZHgQ"
+        name="switchboard_rear_cable_container_position_toa"
+        visibility="800">
+      <domain uuid="_5hL9Ib1pEeifRMPmbfZHgQ" name="local"
+          visibility="300">
+        <typeSet uuid="_5hL9Ir1pEeifRMPmbfZHgQ" bitSet="393220"/>
+        <values uuid="_9KatoL1pEeifRMPmbfZHgQ" name="internal"
+            visibility="300">
+          <displayName uuid="_dgu3-f7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_9Katob1pEeifRMPmbfZHgQ" name="external"
+            visibility="300">
+          <displayName uuid="_dgu3-_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_9Kator1pEeifRMPmbfZHgQ" name="none"
+            visibility="300">
+          <displayName uuid="_dgu3_f7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_fha5IMLzEeiO2Mt2TXzsRA"
+        name="delete_without_confirm" visibility="800"
+        initValue="0">
+      <domain uuid="_fha5JcLzEeiO2Mt2TXzsRA" name="local"
+          visibility="300">
+        <typeSet uuid="_fha5KMLzEeiO2Mt2TXzsRA" bitSet="393217"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_CX80AMbiEei3IMlP04sCow"
+        name="switchboard_rating_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_5CqDIMbiEei3IMlP04sCow" declared="true"
+          model="_Wefd0JonEeiFI4KcHvCUaQ" flow="IN">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_CX80BcbiEei3IMlP04sCow" name="local"
+          visibility="300">
+        <typeSet uuid="_CX80CMbiEei3IMlP04sCow" bitSet="393230"/>
+        <values uuid="_CX80CcbiEei3IMlP04sCow" deletable="false"
+            name="0" visibility="300">
+          <displayName uuid="_dgu4B_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80CsbiEei3IMlP04sCow" deletable="false"
+            name="400" visibility="300">
+          <displayName uuid="_dgu4Cf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80C8biEei3IMlP04sCow" deletable="false"
+            name="630" visibility="300">
+          <displayName uuid="_dgu4C_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80DMbiEei3IMlP04sCow" deletable="false"
+            name="800" visibility="300">
+          <displayName uuid="_dgu4Df7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80DcbiEei3IMlP04sCow" deletable="false"
+            name="1000" visibility="300">
+          <displayName uuid="_dgu4D_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80DsbiEei3IMlP04sCow" deletable="false"
+            name="1250" visibility="300">
+          <displayName uuid="_dgu4Ef7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80D8biEei3IMlP04sCow" deletable="false"
+            name="1600" visibility="300">
+          <displayName uuid="_dgu4E_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80EMbiEei3IMlP04sCow" deletable="false"
+            name="2000" visibility="300">
+          <displayName uuid="_dgu4Ff7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80EcbiEei3IMlP04sCow" deletable="false"
+            name="2500" visibility="300">
+          <displayName uuid="_dgu4F_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80EsbiEei3IMlP04sCow" deletable="false"
+            name="3200" visibility="300">
+          <displayName uuid="_dgu4Gf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80E8biEei3IMlP04sCow" deletable="false"
+            name="4000" visibility="300">
+          <displayName uuid="_dgu4G_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80FMbiEei3IMlP04sCow" deletable="false"
+            name="5000" visibility="300">
+          <displayName uuid="_dgu4Hf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80FcbiEei3IMlP04sCow" deletable="false"
+            name="6300" visibility="300">
+          <displayName uuid="_dgu4H_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80FsbiEei3IMlP04sCow" name="3500"
+            visibility="300">
+          <displayName uuid="_dgu4If7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_CX80F8biEei3IMlP04sCow" name="3700"
+            visibility="300">
+          <displayName uuid="_dgu4I_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_Wefd0JonEeiFI4KcHvCUaQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_W0-rMJonEeiFI4KcHvCUaQ"
+        name="tbbs_depth_restriction" visibility="800"
+        expression="!kit_depth_toa(500,700,900)->!inserterbar_menu('column_inline_tbbs','column_savespace_tbbs','column_corner_tbbs');&#xD;&#xA;//!kit_depth_toa(900)->!width_column_external(1350);&#xD;&#xA;!switchboard_rear_cable_container_position_toa(none)->!inserterbar_menu('column_corner_tbbs');&#xD;&#xA;switchboard_rear_cable_container_position_toa(internal)->rear_internal_cable_container_depth=switchboard_rear_cable_container_depth_toa;&#xD;&#xA;!switchboard_rear_cable_container_position_toa(internal)->rear_internal_cable_container_depth=0;&#xD;&#xA;//world_user_group_toa(H)->!inserterbar_menu('column_incoming_tbbs','column_coupler_tbbs','column_outgoing_tbbs','column_offset_tbbs');&#xD;&#xA;world_user_group_toa(I)->!inserterbar_menu('column_empty_tbbs');&#xD;&#xA;!switchboard_rating_toa(3700,4000,5000,6300)->!inserterbar_menu('column_offset_tbbs');&#xD;&#xA;&#xD;&#xA;world_user_group_toa(H)->!inserterbar_menu('column_offset_tbbs');"/>
+    <children xsi:type="array:Expression" uuid="_CuQSkLGWEei6SrL_fhzrUg"
+        name="rack_restrictions" visibility="800" expression="switchboard_height_toa(1800)->availableRows(36);&#xD;&#xA;switchboard_height_toa(2000)->availableRows(40);"/>
+    <children xsi:type="array:Expression" uuid="_zCWGsL-0EeiyFKpHlnOvDg"
+        name="door_restriction" visibility="800" expression="switchboard_IP_toa(30,31)->door_role(NONE);&#xD;&#xA;!switchboard_IP_toa(30,31) and column_type(column_corner_tbbs)->door_role(door);"/>
+    <children xsi:type="array:Expression" uuid="_DVS10M1gEeijvKIEOg5Z8A"
+        name="grates_restriction" visibility="800" expression="is_vented_selected(1)->with_grates(0,1);&#xD;&#xA;is_vented_selected(0)->with_grates(0);"/>
+  </logic>
+  <calculation uuid="_M6LZMLGEEei6SrL_fhzrUg" name="Calculation_Rules"
+      visibility="800">
+    <text>// ***********************Calculation rules for rack translation**************&#xD;
+if(internal_lateral_cable_container_position==&quot;left&quot;) move_x_rack= internal_lateral_cable_container_width;&#xD;
+else move_x_rack=0;&#xD;
+move_x_tbbs=300;&#xD;
+//***************************************************************************&#xD;
+&#xD;
+//**export**//&#xD;
+tbbs_door_bom=&quot;&quot;+switchboard_height_toa+width_column+rear_internal_cable_container_depth+tbbs_door_IP;&#xD;
+//***************</text>
+  </calculation>
+  <template href="_ReBJAG5LEemUHvFbr0AMqw.xml#_ReBJAG5LEemUHvFbr0AMqw"/>
+  <geometry uuid="_SF0uEZofEeiFI4KcHvCUaQ" deletable="false"
+      name="root">
+    <units uuid="_mBIOgMxqEeissfMVZiZptg" name="column_front_view">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_m_mo8MxqEeissfMVZiZptg" variable="switch_front_view"/>
+      <children uuid="_ppCJUMxqEeissfMVZiZptg" name="rack_controller_tbbs"
+          position="(49.5,0,-57.5)" order="5">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_ppCJUcxqEeissfMVZiZptg" variable="move_x_rack">
+          <vector xsi:type="appl:Coordinate3D" uuid="_ppCJVMxqEeissfMVZiZptg"
+              x="1.0"/>
+        </facets>
+        <children uuid="_0dRH8MxqEeissfMVZiZptg" deletable="false"
+            name="element1geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0da48MxqEeissfMVZiZptg" variable="offset.y1">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0da48cxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0da48sxqEeissfMVZiZptg" deletable="false"
+              name="element1geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0dkp8MxqEeissfMVZiZptg" variable="offset.x1">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0dkp8cxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0eda78xqEeissfMVZiZptg" deletable="false"
+            name="element2geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0enLwMxqEeissfMVZiZptg" variable="offset.y2">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0enLwcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0enLwsxqEeissfMVZiZptg" deletable="false"
+              name="element2geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0enLw8xqEeissfMVZiZptg" variable="offset.x2">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0enLxMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0fgjz8xqEeissfMVZiZptg" deletable="false"
+            name="element3geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0fptkMxqEeissfMVZiZptg" variable="offset.y3">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0fptkcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0fptksxqEeissfMVZiZptg" deletable="false"
+              name="element3geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0fptk8xqEeissfMVZiZptg" variable="offset.x3">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0fptlMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0gs2e8xqEeissfMVZiZptg" deletable="false"
+            name="element4geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0gs2fMxqEeissfMVZiZptg" variable="offset.y4">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0gs2fcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0gs2fsxqEeissfMVZiZptg" deletable="false"
+              name="element4geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0g2AYMxqEeissfMVZiZptg" variable="offset.x4">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0g2AYcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0hvYS8xqEeissfMVZiZptg" deletable="false"
+            name="element5geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0ie_IMxqEeissfMVZiZptg" variable="offset.y5">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0ie_IcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0iowIMxqEeissfMVZiZptg" deletable="false"
+              name="element5geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0iowIcxqEeissfMVZiZptg" variable="offset.x5">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0iowIsxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0jrR8MxqEeissfMVZiZptg" deletable="false"
+            name="element6geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0jrR8cxqEeissfMVZiZptg" variable="offset.y6">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0jrR8sxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0jrR88xqEeissfMVZiZptg" deletable="false"
+              name="element6geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0j1C8MxqEeissfMVZiZptg" variable="offset.x6">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0j1C8cxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0lKfsMxqEeissfMVZiZptg" deletable="false"
+            name="element7geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0lKfscxqEeissfMVZiZptg" variable="offset.y7">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0lKfssxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0lKfs8xqEeissfMVZiZptg" deletable="false"
+              name="element7geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0lUQsMxqEeissfMVZiZptg" variable="offset.x7">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0lUQscxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0mhxoMxqEeissfMVZiZptg" deletable="false"
+            name="element8geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0mhxocxqEeissfMVZiZptg" variable="offset.y8">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0mhxosxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0mhxo8xqEeissfMVZiZptg" deletable="false"
+              name="element8geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0mhxpMxqEeissfMVZiZptg" variable="offset.x8">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0mhxpcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0n3OYMxqEeissfMVZiZptg" deletable="false"
+            name="element9geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0n3OYcxqEeissfMVZiZptg" variable="offset.y9">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0n3OYsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0oA_YMxqEeissfMVZiZptg" deletable="false"
+              name="element9geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0oA_YcxqEeissfMVZiZptg" variable="offset.x9">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0oA_YsxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0pgNIMxqEeissfMVZiZptg" deletable="false"
+            name="element10geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0pgNIcxqEeissfMVZiZptg" variable="offset.y10">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0pgNIsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0pgNI8xqEeissfMVZiZptg" deletable="false"
+              name="element10geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0pgNJMxqEeissfMVZiZptg" variable="offset.x10">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0pgNJcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0q2RD8xqEeissfMVZiZptg" deletable="false"
+            name="element11geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0rAB8MxqEeissfMVZiZptg" variable="offset.y11">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0rAB8cxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0rAB8sxqEeissfMVZiZptg" deletable="false"
+              name="element11geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0rAB88xqEeissfMVZiZptg" variable="offset.x11">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0rAB9MxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0sfPsMxqEeissfMVZiZptg" deletable="false"
+            name="element12geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0sfPscxqEeissfMVZiZptg" variable="offset.y12">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0sfPssxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0sfPs8xqEeissfMVZiZptg" deletable="false"
+              name="element12geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0soZoMxqEeissfMVZiZptg" variable="offset.x12">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0soZocxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0t-dcMxqEeissfMVZiZptg" deletable="false"
+            name="element13geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0t-dccxqEeissfMVZiZptg" variable="offset.y13">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0t-dcsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0t-dc8xqEeissfMVZiZptg" deletable="false"
+              name="element13geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0t-ddMxqEeissfMVZiZptg" variable="offset.x13">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0t-ddcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0vKwW8xqEeissfMVZiZptg" deletable="false"
+            name="element14geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0vUhQMxqEeissfMVZiZptg" variable="offset.y14">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0vUhQcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0vUhQsxqEeissfMVZiZptg" deletable="false"
+              name="element14geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0vUhQ8xqEeissfMVZiZptg" variable="offset.x14">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0vUhRMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0wp-AMxqEeissfMVZiZptg" deletable="false"
+            name="element15geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0wp-AcxqEeissfMVZiZptg" variable="offset.y15">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0wp-AsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0wp-A8xqEeissfMVZiZptg" deletable="false"
+              name="element15geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0wp-BMxqEeissfMVZiZptg" variable="offset.x15">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0wp-BcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0yAB0MxqEeissfMVZiZptg" deletable="false"
+            name="element16geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0yJy0MxqEeissfMVZiZptg" variable="offset.y16">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0yJy0cxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0yJy0sxqEeissfMVZiZptg" deletable="false"
+              name="element16geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0yS8wMxqEeissfMVZiZptg" variable="offset.x16">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0yS8wcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0zpAkMxqEeissfMVZiZptg" deletable="false"
+            name="element17geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0zyKgMxqEeissfMVZiZptg" variable="offset.y17">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0zyKgcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0zyKgsxqEeissfMVZiZptg" deletable="false"
+              name="element17geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0z77gMxqEeissfMVZiZptg" variable="offset.x17">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0z77gcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_01R_UMxqEeissfMVZiZptg" deletable="false"
+            name="element18geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_01R_UcxqEeissfMVZiZptg" variable="offset.y18">
+            <vector xsi:type="appl:Coordinate3D" uuid="_01R_UsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_01R_U8xqEeissfMVZiZptg" deletable="false"
+              name="element18geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_01bJQMxqEeissfMVZiZptg" variable="offset.x18">
+              <vector xsi:type="appl:Coordinate3D" uuid="_01bJQcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_02ncP8xqEeissfMVZiZptg" deletable="false"
+            name="element19geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_02xNEMxqEeissfMVZiZptg" variable="offset.y19">
+            <vector xsi:type="appl:Coordinate3D" uuid="_02xNEcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_02xNEsxqEeissfMVZiZptg" deletable="false"
+              name="element19geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_026-EMxqEeissfMVZiZptg" variable="offset.x19">
+              <vector xsi:type="appl:Coordinate3D" uuid="_026-EcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_04HQ4MxqEeissfMVZiZptg" deletable="false"
+            name="element20geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_04Qa0MxqEeissfMVZiZptg" variable="offset.y20">
+            <vector xsi:type="appl:Coordinate3D" uuid="_04Qa0cxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_04Qa0sxqEeissfMVZiZptg" deletable="false"
+              name="element20geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_04Qa08xqEeissfMVZiZptg" variable="offset.x20">
+              <vector xsi:type="appl:Coordinate3D" uuid="_04Qa1MxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_08SmU8xqEeissfMVZiZptg" deletable="false"
+            name="element21geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_08SmVMxqEeissfMVZiZptg" variable="offset.y21">
+            <vector xsi:type="appl:Coordinate3D" uuid="_08SmVcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_08SmVsxqEeissfMVZiZptg" deletable="false"
+              name="element21geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_08cXQMxqEeissfMVZiZptg" variable="offset.x21">
+              <vector xsi:type="appl:Coordinate3D" uuid="_08cXQcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0-Of8MxqEeissfMVZiZptg" deletable="false"
+            name="element22geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0-Of8cxqEeissfMVZiZptg" variable="offset.y22">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0-Of8sxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0-Of88xqEeissfMVZiZptg" deletable="false"
+              name="element22geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0-YQ8MxqEeissfMVZiZptg" variable="offset.x22">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0-YQ8cxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_0_Ro0MxqEeissfMVZiZptg" deletable="false"
+            name="element23geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_0_Ro0cxqEeissfMVZiZptg" variable="offset.y23">
+            <vector xsi:type="appl:Coordinate3D" uuid="_0_Ro0sxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_0_Ro08xqEeissfMVZiZptg" deletable="false"
+              name="element23geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_0_Ro1MxqEeissfMVZiZptg" variable="offset.x23">
+              <vector xsi:type="appl:Coordinate3D" uuid="_0_Ro1cxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1AUKoMxqEeissfMVZiZptg" deletable="false"
+            name="element24geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1AUKocxqEeissfMVZiZptg" variable="offset.y24">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1AUKosxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1AUKo8xqEeissfMVZiZptg" deletable="false"
+              name="element24geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1AUKpMxqEeissfMVZiZptg" variable="offset.x24">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1AUKpcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1BXTr8xqEeissfMVZiZptg" deletable="false"
+            name="element25geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1BgdcMxqEeissfMVZiZptg" variable="offset.y25">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1BgdccxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1BgdcsxqEeissfMVZiZptg" deletable="false"
+              name="element25geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1Bgdc8xqEeissfMVZiZptg" variable="offset.x25">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1BgddMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1Ct-YMxqEeissfMVZiZptg" deletable="false"
+            name="element26geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1Ct-YcxqEeissfMVZiZptg" variable="offset.y26">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1Ct-YsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1Ct-Y8xqEeissfMVZiZptg" deletable="false"
+              name="element26geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1Ct-ZMxqEeissfMVZiZptg" variable="offset.x26">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1Ct-ZcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1D6RMMxqEeissfMVZiZptg" deletable="false"
+            name="element27geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1D6RMcxqEeissfMVZiZptg" variable="offset.y27">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1D6RMsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1D6RM8xqEeissfMVZiZptg" deletable="false"
+              name="element27geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1D6RNMxqEeissfMVZiZptg" variable="offset.x27">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1D6RNcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1E8zAMxqEeissfMVZiZptg" deletable="false"
+            name="element28geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1E8zAcxqEeissfMVZiZptg" variable="offset.y28">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1E8zAsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1E8zA8xqEeissfMVZiZptg" deletable="false"
+              name="element28geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1FGkAMxqEeissfMVZiZptg" variable="offset.x28">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1FGkAcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1GJF0MxqEeissfMVZiZptg" deletable="false"
+            name="element29geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1GJF0cxqEeissfMVZiZptg" variable="offset.y29">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1GJF0sxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1GJF08xqEeissfMVZiZptg" deletable="false"
+              name="element29geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1GJF1MxqEeissfMVZiZptg" variable="offset.x29">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1GJF1cxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1HMOsMxqEeissfMVZiZptg" deletable="false"
+            name="element30geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1HMOscxqEeissfMVZiZptg" variable="offset.y30">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1HMOssxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1HMOs8xqEeissfMVZiZptg" deletable="false"
+              name="element30geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1HVYoMxqEeissfMVZiZptg" variable="offset.x30">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1HVYocxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1IOwmMxqEeissfMVZiZptg" deletable="false"
+            name="element31geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1IYhgMxqEeissfMVZiZptg" variable="offset.y31">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1IYhgcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1IYhgsxqEeissfMVZiZptg" deletable="false"
+              name="element31geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1IYhg8xqEeissfMVZiZptg" variable="offset.x31">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1IYhhMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1JbDU8xqEeissfMVZiZptg" deletable="false"
+            name="element32geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1Jk0UMxqEeissfMVZiZptg" variable="offset.y32">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1Jk0UcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1Jk0UsxqEeissfMVZiZptg" deletable="false"
+              name="element32geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1Jk0U8xqEeissfMVZiZptg" variable="offset.x32">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1Jk0VMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1KxHIMxqEeissfMVZiZptg" deletable="false"
+            name="element33geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1KxHIcxqEeissfMVZiZptg" variable="offset.y33">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1KxHIsxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1KxHI8xqEeissfMVZiZptg" deletable="false"
+              name="element33geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1KxHJMxqEeissfMVZiZptg" variable="offset.x33">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1KxHJcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1L9Z-8xqEeissfMVZiZptg" deletable="false"
+            name="element34geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1L9Z_MxqEeissfMVZiZptg" variable="offset.y34">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1L9Z_cxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1L9Z_sxqEeissfMVZiZptg" deletable="false"
+              name="element34geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1MKOQMxqEeissfMVZiZptg" variable="offset.x34">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1MKOQcxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1NJsycxqEeissfMVZiZptg" deletable="false"
+            name="element35geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1NS2sMxqEeissfMVZiZptg" variable="offset.y35">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1NS2scxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1NS2ssxqEeissfMVZiZptg" deletable="false"
+              name="element35geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1NS2s8xqEeissfMVZiZptg" variable="offset.x35">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1NS2tMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1OV_sMxqEeissfMVZiZptg" deletable="false"
+            name="element36geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1OfJgMxqEeissfMVZiZptg" variable="offset.y36">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1OfJgcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1OfJgsxqEeissfMVZiZptg" deletable="false"
+              name="element36geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1OfJg8xqEeissfMVZiZptg" variable="offset.x36">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1OfJhMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1PrceMxqEeissfMVZiZptg" deletable="false"
+            name="element37geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1P1NUMxqEeissfMVZiZptg" variable="offset.y37">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1P1NUcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1P1NUsxqEeissfMVZiZptg" deletable="false"
+              name="element37geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1P1NU8xqEeissfMVZiZptg" variable="offset.x37">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1P1NVMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1Q3vO8xqEeissfMVZiZptg" deletable="false"
+            name="element38geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1RBgIMxqEeissfMVZiZptg" variable="offset.y38">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1RBgIcxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1RBgIsxqEeissfMVZiZptg" deletable="false"
+              name="element38geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1RBgI8xqEeissfMVZiZptg" variable="offset.x38">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1RBgJMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1SXj8MxqEeissfMVZiZptg" deletable="false"
+            name="element39geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1SXj8cxqEeissfMVZiZptg" variable="offset.y39">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1SXj8sxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1Sgt4MxqEeissfMVZiZptg" deletable="false"
+              name="element39geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1Sgt4cxqEeissfMVZiZptg" variable="offset.x39">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1Sgt4sxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+        <children uuid="_1Tj278xqEeissfMVZiZptg" deletable="false"
+            name="element40geo" enabled="false" editable="false">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_1TtAsMxqEeissfMVZiZptg" variable="offset.y40">
+            <vector xsi:type="appl:Coordinate3D" uuid="_1TtAscxqEeissfMVZiZptg"
+                z="-1.0"/>
+          </facets>
+          <children uuid="_1TtAssxqEeissfMVZiZptg" deletable="false"
+              name="element40geox" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_1TtAs8xqEeissfMVZiZptg" variable="offset.x40">
+              <vector xsi:type="appl:Coordinate3D" uuid="_1TtAtMxqEeissfMVZiZptg"
+                  x="1.0"/>
+            </facets>
+          </children>
+        </children>
+      </children>
+    </units>
+    <parentPlugs uuid="_SF0uEpofEeiFI4KcHvCUaQ" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_yZocr8xqEeissfMVZiZptg" deletable="false"
+      name="element.1" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZocucxqEeissfMVZiZptg"
+        geoUnit="_0da48sxqEeissfMVZiZptg"/>
+    <domain uuid="_yZocrMxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZocrcxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZocrsxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwFxv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_zyr55MxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwFyP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZocvcxqEeissfMVZiZptg" deletable="false"
+      name="element.2" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZocx8xqEeissfMVZiZptg"
+        geoUnit="_0enLwsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZocusxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZocu8xqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZocvMxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwF1P7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_zzRvwMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwF1v7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZocy8xqEeissfMVZiZptg" deletable="false"
+      name="element.3" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZoc1cxqEeissfMVZiZptg"
+        geoUnit="_0fptksxqEeissfMVZiZptg"/>
+    <domain uuid="_yZocyMxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZocycxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZocysxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwF4v7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_zzbhE8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwF5P7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZoc2cxqEeissfMVZiZptg" deletable="false"
+      name="element.4" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZoc48xqEeissfMVZiZptg"
+        geoUnit="_0gs2fsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZoc1sxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZoc18xqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZoc2MxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwF8P7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_zzubsMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwF8v7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZoc58xqEeissfMVZiZptg" deletable="false"
+      name="element.5" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZoc8cxqEeissfMVZiZptg"
+        geoUnit="_0iowIMxqEeissfMVZiZptg"/>
+    <domain uuid="_yZoc5MxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZoc5cxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZoc5sxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwF_v7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_zz4NA8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwGAP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZoc9cxqEeissfMVZiZptg" deletable="false"
+      name="element.6" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDVsxqEeissfMVZiZptg"
+        geoUnit="_0jrR88xqEeissfMVZiZptg"/>
+    <domain uuid="_yZoc8sxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZoc88xqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZoc9MxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwGDP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z0LHoMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwGDv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDWsxqEeissfMVZiZptg" deletable="false"
+      name="element.7" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDZMxqEeissfMVZiZptg"
+        geoUnit="_0lKfs8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDV8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDWMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDWcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwGGv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z0U4oMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwGHP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDaMxqEeissfMVZiZptg" deletable="false"
+      name="element.8" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDcsxqEeissfMVZiZptg"
+        geoUnit="_0mhxo8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDZcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDZsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDZ8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwGKP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z0eC48xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwGKv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDdsxqEeissfMVZiZptg" deletable="false"
+      name="element.9" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDgMxqEeissfMVZiZptg"
+        geoUnit="_0oA_YMxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDc8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDdMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDdcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgws1_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z0w9gMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgws2f7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDhMxqEeissfMVZiZptg" deletable="false"
+      name="element.10" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDjsxqEeissfMVZiZptg"
+        geoUnit="_0pgNI8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDgcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDgsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDg8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgws5f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z06u08xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgws5_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDksxqEeissfMVZiZptg" deletable="false"
+      name="element.11" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDnMxqEeissfMVZiZptg"
+        geoUnit="_0rAB8sxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDj8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDkMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDkcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgws8_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z1NpcMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgws9f7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDoMxqEeissfMVZiZptg" deletable="false"
+      name="element.12" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDqsxqEeissfMVZiZptg"
+        geoUnit="_0sfPs8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDncxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDnsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDn8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtAf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z1XakcxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtA_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDrsxqEeissfMVZiZptg" deletable="false"
+      name="element.13" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDuMxqEeissfMVZiZptg"
+        geoUnit="_0t-dc8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDq8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDrMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDrcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtD_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z1qVYMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtEf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDvMxqEeissfMVZiZptg" deletable="false"
+      name="element.14" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpDxsxqEeissfMVZiZptg"
+        geoUnit="_0vUhQsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDucxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDusxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDu8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtHf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z10GY8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtH_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpDysxqEeissfMVZiZptg" deletable="false"
+      name="element.15" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpD1MxqEeissfMVZiZptg"
+        geoUnit="_0wp-A8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpDx8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpDyMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpDycxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtK_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z19Qo8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtLf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpD2MxqEeissfMVZiZptg" deletable="false"
+      name="element.16" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpD4sxqEeissfMVZiZptg"
+        geoUnit="_0yJy0sxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpD1cxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpD1sxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpD18xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtOf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z2RZYMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtO_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpD5sxqEeissfMVZiZptg" deletable="false"
+      name="element.17" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpD8MxqEeissfMVZiZptg"
+        geoUnit="_0zyKgsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpD48xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpD5MxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpD5cxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtR_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z2XgU8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtSf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpD9MxqEeissfMVZiZptg" deletable="false"
+      name="element.18" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpD_sxqEeissfMVZiZptg"
+        geoUnit="_01R_U8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpD8cxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpD8sxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpD88xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtVf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z2qa8MxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtV_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpEAsxqEeissfMVZiZptg" deletable="false"
+      name="element.19" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpEDMxqEeissfMVZiZptg"
+        geoUnit="_02xNEsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpD_8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEAMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpEAcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgwtY_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z3jzA8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgwtZf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpEEMxqEeissfMVZiZptg" deletable="false"
+      name="element.20" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpEGsxqEeissfMVZiZptg"
+        geoUnit="_04Qa0sxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpEDcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEDsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpED8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxT5f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z32twMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxT5_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpEHsxqEeissfMVZiZptg" deletable="false"
+      name="element.21" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpEKMxqEeissfMVZiZptg"
+        geoUnit="_08SmVsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpEG8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEHMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpEHcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxT8_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z4Ae7cxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxT9f7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpELMxqEeissfMVZiZptg" deletable="false"
+      name="element.22" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpENsxqEeissfMVZiZptg"
+        geoUnit="_0-Of88xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpEKcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEKsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpEK8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxUAf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z4TZsMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxUA_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpEOsxqEeissfMVZiZptg" deletable="false"
+      name="element.23" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpERMxqEeissfMVZiZptg"
+        geoUnit="_0_Ro08xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpEN8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEOMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpEOcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxUD_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z4dK9cxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxUEf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpESMxqEeissfMVZiZptg" deletable="false"
+      name="element.24" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpEUsxqEeissfMVZiZptg"
+        geoUnit="_1AUKo8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpERcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpERsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpER8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxUHf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z4wFoMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxUH_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpEVsxqEeissfMVZiZptg" deletable="false"
+      name="element.25" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpEYMxqEeissfMVZiZptg"
+        geoUnit="_1BgdcsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpEU8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEVMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpEVcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxUK_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z452vsxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxULf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpEZMxqEeissfMVZiZptg" deletable="false"
+      name="element.26" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpEbsxqEeissfMVZiZptg"
+        geoUnit="_1Ct-Y8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpEYcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEYsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpEY8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxUOf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z5MxkMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxUO_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpEcsxqEeissfMVZiZptg" deletable="false"
+      name="element.27" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqZsxqEeissfMVZiZptg"
+        geoUnit="_1D6RM8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpEb8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpEcMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpEccxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxUR_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z5WimcxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxUSf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqasxqEeissfMVZiZptg" deletable="false"
+      name="element.28" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqdMxqEeissfMVZiZptg"
+        geoUnit="_1E8zA8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqZ8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqaMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqacxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgxUVf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z5fs08xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgxUV_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqeMxqEeissfMVZiZptg" deletable="false"
+      name="element.29" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqgsxqEeissfMVZiZptg"
+        geoUnit="_1GJF08xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqdcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqdsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqd8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx6-_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z5zOg8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgx6_f7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqhsxqEeissfMVZiZptg" deletable="false"
+      name="element.30" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqkMxqEeissfMVZiZptg"
+        geoUnit="_1HMOs8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqg8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqhMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqhcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx7Cf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z58Yw8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgx7C_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqlMxqEeissfMVZiZptg" deletable="false"
+      name="element.31" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqnsxqEeissfMVZiZptg"
+        geoUnit="_1IYhgsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqkcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqksxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqk8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx7F_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z6PTYMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgx7Gf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqosxqEeissfMVZiZptg" deletable="false"
+      name="element.32" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqrMxqEeissfMVZiZptg"
+        geoUnit="_1Jk0UsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqn8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqoMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqocxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx7Jf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z6ZEs8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgx7J_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqsMxqEeissfMVZiZptg" deletable="false"
+      name="element.33" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqusxqEeissfMVZiZptg"
+        geoUnit="_1KxHI8xqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqrcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqrsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqr8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx7M_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z6r_VsxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgx7Nf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqvsxqEeissfMVZiZptg" deletable="false"
+      name="element.34" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpqyMxqEeissfMVZiZptg"
+        geoUnit="_1L9Z_sxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqu8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqvMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqvcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx7Qf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z6_hUMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgx7Q_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpqzMxqEeissfMVZiZptg" deletable="false"
+      name="element.35" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpq1sxqEeissfMVZiZptg"
+        geoUnit="_1NS2ssxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpqycxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpqysxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpqy8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx7T_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z7IrQMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgx7Uf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpq2sxqEeissfMVZiZptg" deletable="false"
+      name="element.36" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpq5MxqEeissfMVZiZptg"
+        geoUnit="_1OfJgsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpq18xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpq2MxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpq2cxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgx7Xf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z7bmMMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgyiAf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpq6MxqEeissfMVZiZptg" deletable="false"
+      name="element.37" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZpq8sxqEeissfMVZiZptg"
+        geoUnit="_1P1NUsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpq5cxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpq5sxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpq58xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgyiDf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z7lXg8xqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgyiD_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZpq9sxqEeissfMVZiZptg" deletable="false"
+      name="element.38" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZprAMxqEeissfMVZiZptg"
+        geoUnit="_1RBgIsxqEeissfMVZiZptg"/>
+    <domain uuid="_yZpq88xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZpq9MxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZpq9cxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgyiG_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z74SIMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgyiHf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZprBMxqEeissfMVZiZptg" deletable="false"
+      name="element.39" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZprDsxqEeissfMVZiZptg"
+        geoUnit="_1Sgt4MxqEeissfMVZiZptg"/>
+    <domain uuid="_yZprAcxqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZprAsxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZprA8xqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgyiKf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z8CDNcxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgyiK_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_yZprEsxqEeissfMVZiZptg" deletable="false"
+      name="element.40" enabled="false" editable="false"
+      initValue="NONE" components="NONE" toas="kit_xline_hor, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_yZprHMxqEeissfMVZiZptg"
+        geoUnit="_1TtAssxqEeissfMVZiZptg"/>
+    <domain uuid="_yZprD8xqEeissfMVZiZptg" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_yZprEMxqEeissfMVZiZptg" bitSet="65536"/>
+      <values uuid="_yZprEcxqEeissfMVZiZptg" name="NONE"
+          visibility="300">
+        <displayName uuid="_dgyiN_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_z8U-EMxqEeissfMVZiZptg" name="kit_xline_hor_rbbs"
+          visibility="300">
+        <displayName uuid="_dgyiOf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <controllers xsi:type="comp:RackController" uuid="_rnUa8MxqEeissfMVZiZptg"
+      name="Rack_Controller" columns="1" defaultVisualColumnWidth="200"
+      rows="40" defaultVisualRowHeight="50" positionXMirror="kit_position_x"
+      positionYMirror="kit_position_y" components="NONE"
+      toas="kit_xline_hor, " root="_ppCJUMxqEeissfMVZiZptg"
+      heightVarName="kit_height" widthVarName="kit_width"
+      visualHeightVarName="visual_height" visualWidthVarName="visual_width"
+      legalVarName="legal_check" negativeOffset="true"
+      parentHandle="_ppCJUMxqEeissfMVZiZptg" parentHandleInsert="_ppCJUMxqEeissfMVZiZptg"
+      parentHandlePreview="_ppCJUMxqEeissfMVZiZptg">
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="____SUMxsEeissfMVZiZptg">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_wwtNFbGDEei6SrL_fhzrUg"/>
+      <standardColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_wwtNELGDEei6SrL_fhzrUg"/>
+      <selectedColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+    </facets>
+  </controllers>
+  <componentsUsingMe xsi:type="comp:ComponentTemplate"
+      href="_9psd0JScEeiGtZxI-ASvmg.xml#_9psd0JScEeiGtZxI-ASvmg"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_RACLMOuKEeeqUfIKqfdUbQ.xml#_RACLMOuKEeeqUfIKqfdUbQ"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_2oTjEOxFEeev8fdGrgVCtQ.xml#_2oTjEOxFEeev8fdGrgVCtQ"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_DK8_IIQDEeieQbvbT8RmLg.xml#_DK8_IIQDEeieQbvbT8RmLg"/>
+</comp:ComponentTemplate>

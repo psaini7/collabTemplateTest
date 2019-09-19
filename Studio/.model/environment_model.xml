@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appl:EnvironmentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    uuid="_22MQgaviEeaK7oriseII_A"
+    deletable="false">
+  <system uuid="_22MQgqviEeaK7oriseII_A">
+    <server uuid="_22MQg6viEeaK7oriseII_A" host="abbeconfigure.configit.cloud">
+      <vbisCompositeActions uuid="_LOMZgAIKEemPHu-j6CQTrg"
+          name="AutoCad" serverScenarioId="AutoCad">
+        <customFields uuid="_LOMZgQIKEemPHu-j6CQTrg"
+            all="true"/>
+        <properties uuid="_zQtEYAUkEemNe_YQMEwU1g">
+          <actionProperties uuid="_zQtEYQUkEemNe_YQMEwU1g"
+              name="network" actionPropertyName="network"
+              mandatory="true" value="true"/>
+          <actionProperties uuid="_lVhq8CSJEemrW_8f4cD70Q"
+              name="openfile" actionPropertyName="openfile"
+              value="IEXPLORE"/>
+          <actionProperties uuid="_pvVj0CSJEemrW_8f4cD70Q"
+              name="zip" actionPropertyName="zip" mandatory="true"
+              value="true"/>
+        </properties>
+        <vbisSubactions uuid="_LOMZhQIKEemPHu-j6CQTrg"
+            name="01_AutoCad" serverScenarioId="AutoCad">
+          <exports uuid="_LOMZhgIKEemPHu-j6CQTrg">
+            <runExporters uuid="_LOMZhwIKEemPHu-j6CQTrg"
+                name="CAD_Exporter" fieldid="CAD_Exporter"
+                filename="CAD_Exporter"/>
+          </exports>
+          <properties uuid="_0Q_csAUkEemNe_YQMEwU1g">
+            <actionProperties uuid="_0Q_csQUkEemNe_YQMEwU1g"
+                name="network" actionPropertyName="network"
+                mandatory="true" value="true"/>
+          </properties>
+        </vbisSubactions>
+      </vbisCompositeActions>
+      <vbisCompositeActions uuid="_TPqx8AOREemM2ZbLa77iww"
+          name="save_compound" serverScenarioId="save_compound">
+        <customFields uuid="_TPqx8QOREemM2ZbLa77iww"
+            all="true"/>
+        <exports uuid="_TPqx8gOREemM2ZbLa77iww">
+          <runExporters uuid="_TPqx8wOREemM2ZbLa77iww"
+              name="export_custom_data_vbis" fieldid="export_custom_data_vbis"
+              target="MULTIFIELD"/>
+        </exports>
+        <properties uuid="_W25mAARPEemE7tAs5jr1QQ">
+          <actionProperties uuid="_W25mAQRPEemE7tAs5jr1QQ"
+              name="network" actionPropertyName="network"
+              mandatory="true" value="true"/>
+        </properties>
+        <vbisSubactions uuid="_TPqx9AOREemM2ZbLa77iww"
+            name="01_save" serverScenarioId="save"/>
+        <vbisSubactions uuid="_CRO4YFCUEemKzPG_xqnFfA"
+            name="02_save_to_QS" serverScenarioId="saveToQS"/>
+      </vbisCompositeActions>
+      <vbisCompositeActions uuid="_Ms9mwAQ9EemE7tAs5jr1QQ"
+          name="report" serverScenarioId="report">
+        <customFields uuid="_Ms9mwQQ9EemE7tAs5jr1QQ"
+            all="true"/>
+        <properties uuid="_ROLC8ARPEemE7tAs5jr1QQ">
+          <actionProperties uuid="_Rp25YARPEemE7tAs5jr1QQ"
+              name="network" actionPropertyName="network"
+              mandatory="true" value="true"/>
+          <actionProperties uuid="_7nIrQARdEemE7tAs5jr1QQ"
+              name="zip" actionPropertyName="zip" mandatory="true"
+              value="true"/>
+          <actionProperties uuid="_niWu4CSJEemrW_8f4cD70Q"
+              name="openfile" actionPropertyName="openfile"
+              value="IEXPLORE"/>
+        </properties>
+        <vbisSubactions uuid="_Ms9mxQQ9EemE7tAs5jr1QQ"
+            name="02_report" serverScenarioId="report">
+          <exports uuid="_Ms9mxgQ9EemE7tAs5jr1QQ">
+            <runExporters uuid="_Ms9mxwQ9EemE7tAs5jr1QQ"
+                name="eConfigure_rbbs_report" fieldid="eConfigure_rbbs_report"
+                filename="Document_Exporter"/>
+          </exports>
+          <properties uuid="_nXKL8ARSEemE7tAs5jr1QQ">
+            <actionProperties uuid="_nXKL8QRSEemE7tAs5jr1QQ"
+                name="network" actionPropertyName="network"
+                mandatory="true" value="true"/>
+          </properties>
+        </vbisSubactions>
+      </vbisCompositeActions>
+      <vbisCompositeActions uuid="_2LmZwDWsEem1G8BcYhQwrQ"
+          name="AutoCad_new" serverScenarioId="AutoCad">
+        <customFields uuid="_2LmZwTWsEem1G8BcYhQwrQ"
+            all="true"/>
+        <properties uuid="_2LmZwjWsEem1G8BcYhQwrQ">
+          <actionProperties uuid="_2LmZwzWsEem1G8BcYhQwrQ"
+              name="network" actionPropertyName="network"
+              mandatory="true" value="true"/>
+          <actionProperties uuid="_2LmZxDWsEem1G8BcYhQwrQ"
+              name="openfile" actionPropertyName="openfile"
+              value="IEXPLORE"/>
+          <actionProperties uuid="_2LmZxTWsEem1G8BcYhQwrQ"
+              name="zip" actionPropertyName="zip" mandatory="true"
+              value="true"/>
+        </properties>
+        <vbisSubactions uuid="_2LmZxjWsEem1G8BcYhQwrQ"
+            name="01_AutoCad" serverScenarioId="AutoCad">
+          <exports uuid="_2LmZxzWsEem1G8BcYhQwrQ">
+            <runExporters uuid="_2LmZyDWsEem1G8BcYhQwrQ"
+                name="CAD_Exporter_new" fieldid="CAD_Exporter_new"
+                filename="CAD_Exporter_new"/>
+          </exports>
+          <properties uuid="_2LmZyTWsEem1G8BcYhQwrQ">
+            <actionProperties uuid="_2LmZyjWsEem1G8BcYhQwrQ"
+                name="network" actionPropertyName="network"
+                mandatory="true" value="true"/>
+          </properties>
+        </vbisSubactions>
+      </vbisCompositeActions>
+      <vbisCompositeActions uuid="_flc0QHJdEem0a9lKbFFpfQ"
+          name="save_compound2" serverScenarioId="save_compound_partnerhub">
+        <customFields uuid="_flc0QXJdEem0a9lKbFFpfQ"
+            all="true"/>
+        <exports uuid="_flc0QnJdEem0a9lKbFFpfQ">
+          <runExporters uuid="_flc0Q3JdEem0a9lKbFFpfQ"
+              name="export_custom_data_vbis" fieldid="export_custom_data_vbis"
+              target="MULTIFIELD"/>
+        </exports>
+        <properties uuid="_flc0RHJdEem0a9lKbFFpfQ">
+          <actionProperties uuid="_fldbUHJdEem0a9lKbFFpfQ"
+              name="network" actionPropertyName="network"
+              mandatory="true" value="true"/>
+        </properties>
+        <vbisSubactions uuid="_fldbUXJdEem0a9lKbFFpfQ"
+            name="01_save" serverScenarioId="save"/>
+        <vbisSubactions uuid="_fldbUnJdEem0a9lKbFFpfQ"
+            name="40_save_to_QS" serverScenarioId="saveToQS"/>
+        <vbisSubactions uuid="_nTEAMHJdEem0a9lKbFFpfQ"
+            name="02_generate_pdc" serverScenarioId="generatePDC">
+          <exports uuid="_rt4lsHJdEem0a9lKbFFpfQ">
+            <runExporters uuid="_sR54wHJdEem0a9lKbFFpfQ"
+                name="export_PDC" fieldid="export_PDC"
+                filename="PDC"/>
+          </exports>
+        </vbisSubactions>
+        <vbisSubactions uuid="_yNXxoHJdEem0a9lKbFFpfQ"
+            name="03_transfer_pdc" serverScenarioId="transferPDC"/>
+        <vbisSubactions uuid="_eb0FUIFIEemYvJCUYQtusw"
+            name="10_generate_tender" serverScenarioId="generateTender">
+          <exports uuid="_eb0FUYFIEemYvJCUYQtusw">
+            <runExporters uuid="_eb0FUoFIEemYvJCUYQtusw"
+                name="export_tender_partnerhub" fieldid="export_tender_partnerhub"
+                filename="TenderText"/>
+          </exports>
+        </vbisSubactions>
+        <vbisSubactions uuid="_taJs4IFIEemYvJCUYQtusw"
+            name="11_transfer_tender" serverScenarioId="transferTender"/>
+      </vbisCompositeActions>
+    </server>
+  </system>
+  <dataSources xsi:type="appl:DataSourceCsvSingle" uuid="_cuMG0HmjEeaxS4Bk-Q0K_A"
+      name="accessories" delimiter=";">
+    <internalSource href="../model.build#_yxhN8MgtEear6_R7W6pwiA"/>
+  </dataSources>
+  <dataSources xsi:type="appl:DataSourceCsvSingle" uuid="_28lTsNiVEea-qM3ynUkwLQ"
+      name="rack_var_to_case">
+    <internalSource href="../model.build#_9abWQJVVEeeiYYxXjjM3mA"/>
+  </dataSources>
+  <dataSources xsi:type="appl:DataSourceCsvSingle" uuid="_28nv8NiVEea-qM3ynUkwLQ"
+      name="rack_mandatories">
+    <internalSource href="../model.build#_9aavMJVVEeeiYYxXjjM3mA"/>
+  </dataSources>
+  <dataSources xsi:type="appl:DataSourceCsvMulti" uuid="_iRVycHhJEei8dvqWI0DPWA"
+      name="localization" encoding="windows-1252" source="data/[$localization]_price_list.csv">
+    <parameters uuid="_GUZNIHhOEei8dvqWI0DPWA" name="localization"
+        defaultValue="de_DE"/>
+  </dataSources>
+  <dataSources xsi:type="appl:DataSourceCsvSingle" uuid="_KDGbcBAYEemRlYDRsyxKvg"
+      name="rbbs_document_copper">
+    <internalSource href="../model.build#_CNr-YBAYEemRlYDRsyxKvg"/>
+  </dataSources>
+  <dataSources xsi:type="appl:DataSourceCsvSingle" uuid="_Nnr8gBAYEemRlYDRsyxKvg"
+      name="rbbs_document_standard" delimiter=";">
+    <internalSource href="../model.build#_CN1IUBAYEemRlYDRsyxKvg"/>
+  </dataSources>
+</appl:EnvironmentModel>

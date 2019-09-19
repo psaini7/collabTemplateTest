@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_ZJ-_MGoNEeiDCsSvJjA3lw" name="device_XLP00"
+    componentClass="LINK" toaPrefix="device.xlp">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_L71JgGrWEeioRZYiAB8pxQ"
+      name="display_device_XLp00" visibility="800">
+    <domain uuid="_L71wkGrWEeioRZYiAB8pxQ" name="local"
+        visibility="300">
+      <typeSet uuid="_L71wkWrWEeioRZYiAB8pxQ" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_LsAosIl-EeieP76_AOKoIQ"
+      name="module_width_dev" visibility="800">
+    <domain uuid="_LsAosYl-EeieP76_AOKoIQ" name="local"
+        visibility="300">
+      <typeSet uuid="_LsAosol-EeieP76_AOKoIQ" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_N5RKcIl-EeieP76_AOKoIQ"
+      name="move_x_device" visibility="800">
+    <domain uuid="_N5RKcYl-EeieP76_AOKoIQ" name="local"
+        visibility="300">
+      <typeSet uuid="_N5RKcol-EeieP76_AOKoIQ" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_HXuAIMLxEeiO2Mt2TXzsRA"
+      name="delete_without_confirm" visibility="800"
+      initValue="1">
+    <domain uuid="_HXuAJcLxEeiO2Mt2TXzsRA" name="local"
+        visibility="300">
+      <typeSet uuid="_HXuAKMLxEeiO2Mt2TXzsRA" bitSet="393217"/>
+    </domain>
+  </variables>
+  <logic uuid="_FaEssGrWEeioRZYiAB8pxQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_GFAgEGrWEeioRZYiAB8pxQ"
+        name="disply_svg" visibility="800">
+      <columns uuid="_Jz1iQGrWEeioRZYiAB8pxQ" name="world_show_devices_toa"
+          visibility="100" databaseAlias="world_show_devices_toa">
+        <cells uuid="_55LciIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_55LciYaZEei0J7ssmq29HQ" value="0"/>
+      </columns>
+      <columns uuid="_PxnIQGrWEeioRZYiAB8pxQ" name="display_device_XLp00"
+          visibility="100" databaseAlias="display_device_XLp00">
+        <cells uuid="_55Lci4aZEei0J7ssmq29HQ" value="'inline'"/>
+        <cells uuid="_55LcjIaZEei0J7ssmq29HQ" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_ksfZEGoNEeiDCsSvJjA3lw" name="Calculation_Rules"
+      visibility="800">
+    <text>&#xD;
+&#xD;
+visibility_fuse2_XLP00=&quot;hidden&quot;;&#xD;
+&#xD;
+if(move_x_device!=0){&#xD;
+	if(module_width_dev==750){&#xD;
+		move_x_fuse1=move_x_device;&#xD;
+	}&#xD;
+	else move_x_fuse1=0;&#xD;
+}&#xD;
+else move_x_fuse1=0;&#xD;
+&#xD;
+width_xlp=149;</text>
+  </calculation>
+  <geometry uuid="_ZJ-_MWoNEeiDCsSvJjA3lw" deletable="false"
+      name="root">
+    <units uuid="_gRZGwGoNEeiDCsSvJjA3lw" name="geo_device_XLP00">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_g3fdcGoNEeiDCsSvJjA3lw" name="device_XLP00"
+          checksum="e84b2b24b97c25febe54cacf5a79668c2bbe630c">
+        <translation uuid="_g3fdcWoNEeiDCsSvJjA3lw"/>
+        <file href="../../model.build#_jiRmAF8HEeiA07OCBZmB8w"/>
+        <handles uuid="_jEA_YGoNEeiDCsSvJjA3lw" name="fuse2"
+            visualId="fuse2">
+          <fields xsi:type="comp:Field" uuid="_jEA_YWoNEeiDCsSvJjA3lw"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_fuse2_XLP00"
+              target="css"/>
+        </handles>
+        <handles uuid="_8TkbMGrVEeioRZYiAB8pxQ" name="layer1"
+            visualId="layer1">
+          <fields xsi:type="comp:Field" uuid="_8TkbMWrVEeioRZYiAB8pxQ"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_device_XLp00"
+              target="xml"/>
+        </handles>
+        <handles uuid="_GEJBQIl-EeieP76_AOKoIQ" name="fuse1"
+            visualId="fuse1">
+          <fields xsi:type="comp:Field" uuid="_GEJBQYl-EeieP76_AOKoIQ"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_fuse1" target="transform"/>
+        </handles>
+        <handles uuid="_l-IzgOZWEeib_v9S9oo3aA" name="svg4995"
+            visualId="svg4995">
+          <fields xsi:type="comp:Field" uuid="_l-IzgeZWEeib_v9S9oo3aA"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_xlp" target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_ZJ-_MmoNEeiDCsSvJjA3lw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aVylv_7nEeiskp2v5nXzHA" value="Device XLP00"/>
+</comp:Component>

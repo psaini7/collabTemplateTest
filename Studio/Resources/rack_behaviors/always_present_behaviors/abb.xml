@@ -1,0 +1,288 @@
+
+	
+<behaviors>
+<include src="rack_completers.xml" />
+
+	 <constraintBehavior> 
+		<toaCondition>
+			<toa>kit_mouldedcasecircuitbreaker_n185</toa>		
+			<toa>kit_switchdisconnector_n185</toa>
+			<toa>kit_coupler_n185</toa>
+			<toa>kit_fuseswitchdisconnector_n185</toa>
+		</toaCondition>
+		<positionYMirrorConstraint mirroredvarid="column_position_y_kit_mainbusbar" /> 
+	</constraintBehavior> 
+	
+	<constraintBehavior>
+		<toaCondition>
+			<toa>kit_mouldedcasecircuitbreaker_n185</toa>
+			<toa>kit_switchdisconnector_n185</toa>
+			<toa>kit_coupler_n185</toa>
+			<toa>kit_fuseswitchdisconnector_n185</toa>
+		</toaCondition>
+		<preventdeletionconstraint/>
+	</constraintBehavior>
+	
+	
+ 	<constraintBehavior>
+		<compoundCondition>
+			<toaCondition>
+				<toa>kit_npebusbarsystem_n185</toa>
+			</toaCondition>
+			<variableCondition varid="mandatory_new" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		<preventdeletionconstraint/>
+	</constraintBehavior>
+	
+	 	<constraintBehavior>
+		<compoundCondition>
+			<toaCondition>
+				<toa>kit_npebusbarsystem_n185</toa>
+			</toaCondition>
+			<variableCondition varid="mandatory_new" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		<dragModeConstraint mode="NEVER" />
+	</constraintBehavior>
+	
+	
+<!--  <actionBehavior trigger="element_inserted">
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<setVariableAction varid="height" boundary="MAX" acceptIllegal="false" />
+	</actionBehavior>
+-->
+  <actionBehavior trigger="element_inserted">
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<setVariableAction varid="width" boundary="MAX" acceptIllegal="false" />
+	</actionBehavior>
+	
+	<!--<actionBehavior trigger="element_reinserted">
+		<toaCondition>
+			<toa>kit_touchguard_combilineN</toa>
+		</toaCondition>
+		<setVariableAction varid="height" boundary="MAX" acceptIllegal="false"  />
+	</actionBehavior>-->
+	
+	<actionBehavior trigger="element_reinserted">
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<setVariableAction varid="height" boundary="MAX" acceptIllegal="false"  />
+	</actionBehavior>
+
+<!-- 	 <actionBehavior trigger="element_inserted">
+	<compoundCondition>
+      <toaCondition>
+	<toa>kit_terminal</toa>
+	<toa>kit_mountingplate</toa>
+	<toa>kit_fuseswitchdisconnector</toa>
+	<toa>kit_busbarsystem_40_60_mm</toa>
+	<toa>kit_touchguard</toa>
+	<toa>kit_npebusbarsystem_n185</toa>
+	<toa>kit_dinrailmounting</toa>
+      </toaCondition>
+	  <variableCondition varid="mandatory_new" operator="EQUAL_TO" value="0" />
+	  </compoundCondition>
+		<duplicateAction border="RIGHT" />
+	</actionBehavior> -->
+	
+	  	 <restrictionBehavior>
+    <rangeRestrictionCondition x1="1" y1="1" x2="5" y2="14" />
+    <toaRestriction>
+<toa>kit_mouldedcasecircuitbreaker_n185</toa>
+<toa>kit_switchdisconnector_n185</toa>
+<toa>kit_coupler_n185</toa>
+<toa>kit_fuseswitchdisconnector_n185</toa>
+<toa>kit_npebusbarsystem_n185</toa>
+<toa>kit_UniversalSwitchDisconnector_combilineN</toa>
+<toa>kit_breaker_combilineN</toa>
+<toa>kit_busbarsystem_40_60mm_combilineN</toa>
+<toa>kit_busbarsystem_combilineN</toa>
+<toa>kit_cableconnection_combilineN</toa>
+<toa>kit_cablefastening_combilineN</toa>
+<toa>kit_dinrailmounting_combilineN</toa>
+<toa>kit_fuseswitchdisconnector_combilineN</toa>
+<toa>kit_measuringinstruments_combilineN</toa>
+<toa>kit_metermountingplate_combilineN</toa>
+<toa>kit_mountingplate_combilineN</toa>
+<toa>kit_npebusbarsystem_combilineN</toa>
+<toa>kit_smissLineTP_combiline</toa>
+<toa>kit_switchdisconnectorOT_combilineN</toa>
+<toa>kit_switchfusedisconnector_combilineN</toa>
+<toa>kit_terminal_combilineN</toa>
+<toa>kit_touchguard_combilineN</toa>
+    </toaRestriction>
+  </restrictionBehavior>
+  
+	 <!-- <restrictionBehavior>
+    <rangeRestrictionCondition x1="1" y1="1" x2="5" y2="14" />
+    <toaRestriction>
+<toa>kit_npebusbarsystem_n185</toa>
+<toa>kit_breaker_combilineN</toa>
+<toa>kit_busbarsystem_combilineN</toa>
+<toa>kit_cabinetlighting_combilineN</toa>
+<toa>kit_cableconnection_combilineN</toa>
+<toa>kit_cablefastening_combilineN</toa>
+<toa>kit_dinrailmounting_combilineN</toa>
+<toa>kit_fuseswitchdisconnector_combilineN</toa>
+<toa>kit_measuringinstruments_combilineN</toa>
+<toa>kit_metermountingplate_combilineN</toa>
+<toa>kit_mountingplate_combilineN</toa>
+<toa>kit_npebusbarsystem_combilineN</toa>
+<toa>kit_terminal_combilineN</toa>
+<toa>kit_touchguard_combilineN</toa>
+    </toaRestriction>
+  </restrictionBehavior> -->
+  
+ 	<!-- connection = bottom -->
+		<constraintBehavior>
+	    <compoundCondition>
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<variableCondition varid="mandatory_new" operator="EQUAL_TO" value="1" />
+		<variableCondition varid="anchor_pos" operator="EQUAL_TO" value="1" />
+		    </compoundCondition>
+	<rackAnchorConstraint anchor="TOP" />
+	</constraintBehavior>
+	
+	<!-- connection = top -->
+			<constraintBehavior>
+	<compoundCondition>
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+        <variableCondition varid="mandatory_new" operator="EQUAL_TO" value="1" />
+		<variableCondition varid="anchor_pos" operator="EQUAL_TO" value="2" />
+  </compoundCondition>
+	<rackAnchorConstraint anchor="BOTTOM" />
+	</constraintBehavior>
+
+  
+  
+  
+ <!--  <actionBehavior trigger="element_inserted">
+  
+<compoundCondition>
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+  		<emptyNeighborRangeCondition border="RIGHT" /> -->
+		
+<!-- 		<neighborCondition>
+  <toaCondition>
+    <toa>kit_npebusbarsystem_n185</toa>
+  </toaCondition>
+</neighborCondition> -->
+
+<!-- 		</compoundCondition>
+<setVariableAction varid="A_npebom" value="1"/>
+	</actionBehavior> -->
+	
+	
+
+	
+	
+	 <!-- case and behaviors transition to be fixed -->
+	<!-- <constraintBehavior> 
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<heightMirrorConstraint mirroredvarid="heightVarNPEbusbar" /> 
+	</constraintBehavior> -->
+	
+		 <!-- case and behaviors transition to be fixed -->
+	<!-- 	<constraintBehavior> 
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<positionYMirrorConstraint mirroredvarid="positionYofNPEbusbar" /> 
+	</constraintBehavior> -->
+
+
+ <!-- works only once, first condition, to be updated dynamically -->
+<!--	<constraintBehavior>
+	    <compoundCondition>
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<variableCondition varid="anchor_pos" operator="EQUAL_TO" value="1" />
+		    </compoundCondition>
+	<rackAnchorConstraint anchor="BOTTOM" />
+	</constraintBehavior>
+	
+		<constraintBehavior>
+	    <compoundCondition>
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+		<variableCondition varid="anchor_pos" operator="EQUAL_TO" value="2" />
+		    </compoundCondition>
+	<heightMirrorConstraint mirroredvarid="heightVarNPEbusbar" />
+	<rackAnchorConstraint anchor="TOP" />
+	</constraintBehavior>-->
+
+	<!-- works on one dimensional, nice to have not equal to this toa, for instance not equal to kit_switchdisconnector for empty spaces in swith disconnetor column-->
+<!-- <restrictionBehavior>
+    <rangeRestrictionCondition x1="1" y1="10" x2="1" y2="12" />
+    <toaRestriction>
+      <toa>kit_touchguard</toa>
+    </toaRestriction>
+  </restrictionBehavior> -->
+  
+  	<!-- works on two dimensional, nice to have not equal to this toa, for instance not equal to kit_switchdisconnector for empty spaces in swith disconnetor column-->
+ <!--<restrictionBehavior>
+    <rangeRestrictionCondition x1="1" y1="10" x2="2" y2="15" />
+    <toaRestriction>
+      <toa>kit_mouldedcasecircuitbreaker</toa>
+	  <toa>kit_switchdisconnector</toa>
+    </toaRestriction>
+  </restrictionBehavior>  -->
+ 
+<!-- works, nice to have specifying "not equal to this toa", for instance not equal to kit_switchdisconnector for empty spaces in swith disconnetor column--> 
+<!--   <restrictionBehavior>
+	  <unoccupiedRestrictionCondition />
+    <toaRestriction>
+      <toa>kit_touchguard</toa>
+    </toaRestriction>
+  </restrictionBehavior> -->
+
+ <!-- works in opposite direction since negative offset set on geos, need to be updated by dev--> 
+ <!--   <constraintBehavior>
+		<toaCondition>
+			<toa>kit_npebusbarsystem_n185</toa>
+		</toaCondition>
+	<rackAnchorConstraint anchor="BOTTOM" />
+	</constraintBehavior>-->
+
+ <!-- works in opposite direction since negative offset set on geos, need to be updated by dev--> 
+<!-- <actionBehavior trigger="ELEMENT_INSERTED">
+    <compoundCondition>
+      <toaCondition>
+        <toa>kit_touchguard</toa>
+      </toaCondition>
+	  <anchorCondition  anchor="BOTTOM" />
+    </compoundCondition>
+    <insertAction order="1" border="ABOVE" component="kit_dinrailmounting" />
+  </actionBehavior> -->
+  
+  <!-- works in opposite direction since negative offset set on geos, need to be updated by dev, also some errors as below
+  ERROR - getRole - Could not find role in rack for component kit_touchguard32
+ERROR - getRackElement - Could not get RackElement for component 'kit_touchguard32' because it was not attached to any role of the rack.
+ERROR - executeBehavior - Failed evaluating condition: [ToaCondition{toas=[kit_touchguard]}, AnchorCondition [anchor=BOTTOM]]. Ignoring behavior.
+  --> 
+<!-- <actionBehavior trigger="ELEMENT_INSERTED">
+    <compoundCondition>
+      <toaCondition>
+        <toa>kit_touchguard</toa>
+      </toaCondition>
+	  <anchorCondition  anchor="BOTTOM" />
+    </compoundCondition>
+		<duplicateAction border="RIGHT" />
+	</actionBehavior> -->
+  
+  
+</behaviors>

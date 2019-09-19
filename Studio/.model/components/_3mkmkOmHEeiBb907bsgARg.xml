@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_3mkmkOmHEeiBb907bsgARg" name="cad_busbar"
+    componentClass="PARTOF" partOf="true" deleteMode="NEVER">
+  <geometry uuid="_3mkmkemHEeiBb907bsgARg" deletable="false"
+      name="root">
+    <parentPlugs uuid="_3mkmkumHEeiBb907bsgARg" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_YMbsc_7nEeiskp2v5nXzHA" value="cad_busbar"/>
+</comp:Component>

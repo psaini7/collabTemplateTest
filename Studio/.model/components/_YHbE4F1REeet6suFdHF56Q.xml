@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_YHbE4F1REeet6suFdHF56Q"
+    name="template_kit_rack_13x1_n185">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_4HmWUATVEeihBoYzGdsy0A"
+      name="element_position" visibility="800">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="__UL40ATVEeihBoYzGdsy0A"
+        defaultVar="kit_position_device"/>
+    <domain uuid="_4HmWUQTVEeihBoYzGdsy0A" name="local"
+        visibility="300">
+      <typeSet uuid="_4HmWUgTVEeihBoYzGdsy0A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <logic uuid="_KBpxIF1eEeet6suFdHF56Q" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_KlgsIF1eEeet6suFdHF56Q"
+        name="available_columns" visibility="800" expression="kit_width(500)->availableColumns(8);&#xD;&#xA;kit_width(750)->availableColumns(13);"/>
+  </logic>
+  <template href="_3i110JeDEeag-PSJU4jtOQ.xml#_3i110JeDEeag-PSJU4jtOQ"/>
+  <geometry uuid="_YHbE4V1REeet6suFdHF56Q" deletable="false"
+      name="root">
+    <units uuid="_ppY0sHzrEeegqvLur8VAPw" name="Geo_Unit">
+      <children uuid="_sN2VgHzrEeegqvLur8VAPw" name="Geo_Unit_">
+        <children uuid="_BjR6oHzvEeegqvLur8VAPw" name="Geo_Unit_rack_device">
+          <children uuid="_MPUmkHzvEeegqvLur8VAPw" deletable="false"
+              name="element1geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MPUmkXzvEeegqvLur8VAPw" variable="offset.y1">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKfVp6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MPXC1XzvEeegqvLur8VAPw"
+                deletable="false" name="element1geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MPXp4HzvEeegqvLur8VAPw" variable="offset.x1">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKgFp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MPvdWHzvEeegqvLur8VAPw" deletable="false"
+              name="element2geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MPwEYHzvEeegqvLur8VAPw" variable="offset.y2">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKg1p6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MPx5lXzvEeegqvLur8VAPw"
+                deletable="false" name="element2geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MPygoHzvEeegqvLur8VAPw" variable="offset.x2">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKhlp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MQK7KHzvEeegqvLur8VAPw" deletable="false"
+              name="element3geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MQLiMHzvEeegqvLur8VAPw" variable="offset.y3">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKiVp6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MQNXYnzvEeegqvLur8VAPw"
+                deletable="false" name="element3geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MQNXY3zvEeegqvLur8VAPw" variable="offset.x3">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKjFp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MQlx6HzvEeegqvLur8VAPw" deletable="false"
+              name="element4geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MQmY8HzvEeegqvLur8VAPw" variable="offset.y4">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKj1p6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MQoOJXzvEeegqvLur8VAPw"
+                deletable="false" name="element4geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MQo1MHzvEeegqvLur8VAPw" variable="offset.x4">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKklp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_Mr0VWHzvEeegqvLur8VAPw" deletable="false"
+              name="element5geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_Mr08YHzvEeegqvLur8VAPw" variable="offset.y5">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKlVp6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_Mr2xlXzvEeegqvLur8VAPw"
+                deletable="false" name="element5geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_Mr3YoHzvEeegqvLur8VAPw" variable="offset.x5">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKmFp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MsUrqHzvEeegqvLur8VAPw" deletable="false"
+              name="element6geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MsVSsHzvEeegqvLur8VAPw" variable="offset.y6">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKm1p6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MsXu9XzvEeegqvLur8VAPw"
+                deletable="false" name="element6geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MsYWAHzvEeegqvLur8VAPw" variable="offset.x6">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKnlp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_Ms1B-HzvEeegqvLur8VAPw" deletable="false"
+              name="element7geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_Ms1pAHzvEeegqvLur8VAPw" variable="offset.y7">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKoVp6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_Ms4FRXzvEeegqvLur8VAPw"
+                deletable="false" name="element7geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_Ms4sUHzvEeegqvLur8VAPw" variable="offset.x7">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKpFp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MtVYSHzvEeegqvLur8VAPw" deletable="false"
+              name="element8geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MtV_UHzvEeegqvLur8VAPw" variable="offset.y8">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKp1p6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MtYblXzvEeegqvLur8VAPw"
+                deletable="false" name="element8geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MtZCoHzvEeegqvLur8VAPw" variable="offset.x8">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKqlp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_Mt5Y-HzvEeegqvLur8VAPw" deletable="false"
+              name="element9geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_Mt6AAHzvEeegqvLur8VAPw" variable="offset.y9">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKrVp6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_Mt71NXzvEeegqvLur8VAPw"
+                deletable="false" name="element9geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_Mt8cQHzvEeegqvLur8VAPw" variable="offset.x9">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKsFp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MuUPuHzvEeegqvLur8VAPw" deletable="false"
+              name="element10geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MuU2wHzvEeegqvLur8VAPw" variable="offset.y10">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKs1p6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MuXTAHzvEeegqvLur8VAPw"
+                deletable="false" name="element10geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MuX6EHzvEeegqvLur8VAPw" variable="offset.x10">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKtlp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MuvtiHzvEeegqvLur8VAPw" deletable="false"
+              name="element11geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MuwUkHzvEeegqvLur8VAPw" variable="offset.y11">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKuVp6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MuyJxXzvEeegqvLur8VAPw"
+                deletable="false" name="element11geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_Muyw0HzvEeegqvLur8VAPw" variable="offset.x11">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKvFp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_MvLLWHzvEeegqvLur8VAPw" deletable="false"
+              name="element12geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_MvLyYHzvEeegqvLur8VAPw" variable="offset.y12">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOKv1p6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_MvNnlXzvEeegqvLur8VAPw"
+                deletable="false" name="element12geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_MvOOoHzvEeegqvLur8VAPw" variable="offset.x12">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOKwlp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+          <children uuid="_NLdeuHzvEeegqvLur8VAPw" deletable="false"
+              name="element13geo" enabled="false" editable="false">
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_NLeFwHzvEeegqvLur8VAPw" variable="offset.y13">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4NOxgVp6Eei01OQ0VFIZlw"
+                  z="-1.0"/>
+            </facets>
+            <children uuid="_NLf69XzvEeegqvLur8VAPw"
+                deletable="false" name="element13geox"
+                enabled="false" editable="false">
+              <facets xsi:type="comp:GeoUnitLineJointFacet"
+                  uuid="_NLgiAHzvEeegqvLur8VAPw" variable="offset.x13">
+                <vector xsi:type="appl:Coordinate3D"
+                    uuid="_4NOxhFp6Eei01OQ0VFIZlw" x="1.0"/>
+              </facets>
+            </children>
+          </children>
+        </children>
+      </children>
+    </units>
+    <parentPlugs uuid="_YHbE4l1REeet6suFdHF56Q" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_3BLYk11XEeet6suFdHF56Q" deletable="false"
+      name="element.1" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BL_pl1XEeet6suFdHF56Q"
+        geoUnit="_MPXC1XzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BLYkF1XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_XkvORK8REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_DiZS8L47EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hpqcL_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DiZS8b47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hpqcMf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DiZS8r47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hpqcM_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DiZS8747EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hpqcNf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_vdQFEMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hpqcN_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_TGFsIMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hpqcOf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Wd-6kCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hpqcO_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BL_ql1XEeet6suFdHF56Q" deletable="false"
+      name="element.2" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BL_tF1XEeet6suFdHF56Q"
+        geoUnit="_MPx5lXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BL_p11XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_XoUEV68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_DibvM747EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprC9_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DibvNL47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprC-f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DibvNb47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprC-_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DibvNr47EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprC_f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_74IRYMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprC__7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_SvM2IMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprDAf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeCk8CwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprDA_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BL_uF1XEeet6suFdHF56Q" deletable="false"
+      name="element.3" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMmuF1XEeet6suFdHF56Q"
+        geoUnit="_MQNXYnzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BL_tV1XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_XsCGt68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_DigAo747EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprDD_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DigApL47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprDEf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DigApb47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprDE_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DigApr47EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprDFf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8kNUQMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprDF_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_TheAkMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprDGf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeG2YCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprDG_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMmvF1XEeet6suFdHF56Q" deletable="false"
+      name="element.4" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMmxl1XEeet6suFdHF56Q"
+        geoUnit="_MQoOJXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMmuV1XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_Xvm_J68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_DijrA747EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprDJ_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DijrBL47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprDKf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DijrBb47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprDK_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DijrBr47EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprDLf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_9A2M8MLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprDL_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_T4BfYMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprDMf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeKgwCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprDM_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMmyl1XEeet6suFdHF56Q" deletable="false"
+      name="element.5" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMm1F1XEeet6suFdHF56Q"
+        geoUnit="_Mr2xlXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMmx11XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_XzVol68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_Din8cL47EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprDP_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Din8cb47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprDQf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Din8cr47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprDQ_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Din8c747EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprDRf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_9XytUMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprDR_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_UQlJUMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprDSf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeNkECwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprDS_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMm2F1XEeet6suFdHF56Q" deletable="false"
+      name="element.6" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMm4l1XEeet6suFdHF56Q"
+        geoUnit="_MsXu9XzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMm1V1XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_X26hB68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_DisN4L47EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprqA_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DisN4b47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprqBf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DisN4r47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprqB_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DisN4747EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprqCf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_9w0RUMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprqC_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_UosuYMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprqDf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeROcCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprqD_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMm5l1XEeet6suFdHF56Q" deletable="false"
+      name="element.7" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMm8F1XEeet6suFdHF56Q"
+        geoUnit="_Ms4FRXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMm411XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_X6pKd68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_DivRML47EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprqG_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DivRMb47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprqHf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DivRMr47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprqH_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DivRM747EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprqIf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-IoUYMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprqI_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_VAuz4MLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprqJf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeURwCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprqJ_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMm9F1XEeet6suFdHF56Q" deletable="false"
+      name="element.8" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMm_l1XEeet6suFdHF56Q"
+        geoUnit="_MtYblXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMm8V1XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_X-XM168REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_Dixtc747EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprqM_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DixtdL47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprqNf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Dixtdb47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprqN_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Dixtdr47EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprqOf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-jqqkMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprqO_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_VYYe4MLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprqPf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeXVECwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprqP_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMnAl1XEeet6suFdHF56Q" deletable="false"
+      name="element.9" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMnDF1XEeet6suFdHF56Q"
+        geoUnit="_Mt71NXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMm_11XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_YB8FR68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_Di1X0747EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprqS_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di1X1L47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprqTf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di1X1b47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprqT_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di1X1r47EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprqUf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-6Sa0MLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprqU_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Vt9GQMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprqVf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WeaYYCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprqV_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMnEF1XEeet6suFdHF56Q" deletable="false"
+      name="element.10" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BMnGl1XEeet6suFdHF56Q"
+        geoUnit="_MuXTAHzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMnDV1XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_YGHap68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_Di4bI747EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hprqY_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di4bJL47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hprqZf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di4bJb47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hprqZ_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di4bJr47EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hprqaf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="__Omd8MLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hprqa_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WEyR4MLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hprqbf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WedbsCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hprqb_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BMnHl1XEeet6suFdHF56Q" deletable="false"
+      name="element.11" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BNNyF1XEeet6suFdHF56Q"
+        geoUnit="_MuyJxXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BMnG11XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_YKI_B68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_Di7ec747EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hpsRGv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di7edL47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hpsRHP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di7edb47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hpsRHv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di7edr47EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hpsRIP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="__mBfcMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hpsRIv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WbzDsMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hpsRJP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WegfACwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hpsRJv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BNNzF1XEeet6suFdHF56Q" deletable="false"
+      name="element.12" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BNN1l1XEeet6suFdHF56Q"
+        geoUnit="_MvNnlXzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BNNyV1XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_YN3BZ68REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_Di_I0L47EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hpsRMv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di_I0b47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hpsRNP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di_I0r47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hpsRNv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Di_I0747EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hpsROP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="__6qSsMLZEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hpsROv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_W0VfgMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hpsRPP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_WejiUCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hpsRPv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_3BNN2l1XEeet6suFdHF56Q" deletable="false"
+      name="element.13" enabled="false" editable="false"
+      initValue="NONE" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="">
+    <facets xsi:type="comp:PlugFacet" uuid="_3BNN5F1XEeet6suFdHF56Q"
+        geoUnit="_NLf69XzvEeegqvLur8VAPw"/>
+    <domain uuid="_3BNN111XEeet6suFdHF56Q" name="local"
+        visibility="300" complete="true">
+      <typeSet uuid="_YRvb168REeef8-csS0rq8g" bitSet="65536"/>
+      <values uuid="_DjCzML47EeeCEvB1VJsY3Q" name="NONE"
+          visibility="300">
+        <displayName uuid="_hpsRSv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DjCzMb47EeeCEvB1VJsY3Q" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_hpsRTP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DjCzMr47EeeCEvB1VJsY3Q" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_hpsRTv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_DjCzM747EeeCEvB1VJsY3Q" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_hpsRUP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_APpEMMLaEeeHtOmYDMn_TA" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_hpsRUv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_XKShYMLiEeeHtOmYDMn_TA" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_hpsRVP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Wel-kCwVEei99ZdF3CbNSg" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_hpsRVv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <controllers xsi:type="comp:RackController" uuid="_ISD5QF1SEeet6suFdHF56Q"
+      name="Rack_Controller" columns="13" defaultVisualColumnWidth="50"
+      rows="1" defaultVisualRowHeight="590" positionXMirror="device_pos_x"
+      positionYMirror="device_pos_y" components="NONE, device_SlimLine_50, device_SlimLine_100, device_SlimLine_200_XR2, device_compensator_50, device_compensator_100, device_SlimLine_200_XR3"
+      toas="" root="_BjR6oHzvEeegqvLur8VAPw" columnPosControlName="posx"
+      rowPosControlName="posy" heightVarName="device_height"
+      widthVarName="device_width" visualHeightVarName="visual_height"
+      visualWidthVarName="visual_width" negativeOffset="true"
+      parentHandle="_BjR6oHzvEeegqvLur8VAPw" parentHandleInsert="_BjR6oHzvEeegqvLur8VAPw"
+      parentHandlePreview="_BjR6oHzvEeegqvLur8VAPw">
+    <facets xsi:type="comp:TouchSensorTwoDFacet" uuid="_I1D3cHz1EeegqvLur8VAPw">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_7Hki8qdVEeebKJRrVGomjg"/>
+      <standardColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_7Hki8KdVEeebKJRrVGomjg"/>
+      <selectedColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+    </facets>
+    <extraData xsi:type="appl:ExtraDataConstant" uuid="_tt0QQAOHEemMkeIki3WKWQ"
+        name="completer" value="dynamic_device_quantity"/>
+    <extraData xsi:type="appl:ExtraDataList" uuid="_tt03UAOHEemMkeIki3WKWQ"
+        name="trigger_variables">
+      <elements>device_qty_50mm</elements>
+      <elements>device_qty_slimlineXR0</elements>
+      <elements>device_qty_slimlineXR1</elements>
+      <elements>device_qty_slimlineXR2</elements>
+      <elements>device_qty_slimlineXR3</elements>
+      <elements>kit_width</elements>
+      <typeSet uuid="_tt1eYAOHEemMkeIki3WKWQ" bitSet="458767"/>
+    </extraData>
+    <extraData xsi:type="appl:ExtraDataConstant" uuid="_qVT-QBPsEemjoZEpBFtE1Q"
+        name="behaviors" value="rack_behaviors/always_present_behaviors/dynamic_device_qty.xml"/>
+    <visualColumnWidths href="../product_model.xml#_vU9TwF1XEeet6suFdHF56Q"/>
+    <componentSizesTable uuid="_ISD5QV1SEeet6suFdHF56Q">
+      <rows uuid="_GgelkMLZEeeHtOmYDMn_TA" componentName="device_SlimLine_50"/>
+      <rows uuid="_GgelkcLZEeeHtOmYDMn_TA" componentName="device_SlimLine_100"
+          width="2"/>
+      <rows uuid="_Jib9EiwIEei99ZdF3CbNSg" componentName="device_SlimLine_200_XR2"
+          width="4"/>
+      <rows uuid="_ewd6g8LgEeeHtOmYDMn_TA" componentName="device_compensator_50"/>
+      <rows uuid="_gAuojMLgEeeHtOmYDMn_TA" componentName="device_compensator_100"
+          width="2"/>
+      <rows uuid="_Wd9sdSwVEei99ZdF3CbNSg" componentName="device_SlimLine_200_XR3"
+          width="4"/>
+    </componentSizesTable>
+  </controllers>
+  <componentsUsingMe xsi:type="comp:Component" href="_gWa0IBgvEeaxOeZauvxXIA.xml#_gWa0IBgvEeaxOeZauvxXIA"/>
+</comp:ComponentTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_UTg8YLSbEeel9ukRKI7k6A" name="kit_xline_comp_blind_rbbs"
+    toaPrefix="kit.rbbs.comp">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Y7L_gFH2EeiC6vV8sdwTMg"
+      name="kit_position_str1" visibility="800">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_bwicAFH2EeiC6vV8sdwTMg" mirroredVariable="device_pos_x_str"/>
+    <domain uuid="_Y7L_gVH2EeiC6vV8sdwTMg" name="local"
+        visibility="300">
+      <typeSet uuid="_Y7L_glH2EeiC6vV8sdwTMg" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_oOrA0GyfEem6l4eiey0GYg"
+      name="height" visibility="800">
+    <domain uuid="_oOrA0WyfEem6l4eiey0GYg" name="local"
+        visibility="300">
+      <typeSet uuid="_oOrA0myfEem6l4eiey0GYg" bitSet="10"/>
+      <values uuid="_qsBNAGyfEem6l4eiey0GYg" name="550"
+          visibility="300">
+        <displayName uuid="_qsBNAWyfEem6l4eiey0GYg"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_ddpJoLSbEeel9ukRKI7k6A" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_dw9HMLSbEeel9ukRKI7k6A"
+        name="compartment_type" visibility="800" expression="compartment_type(blind);"/>
+  </logic>
+  <calculation uuid="_d9olsFH2EeiC6vV8sdwTMg" name="Calculation_Rules"
+      visibility="800">
+    <text>kit_position_str=kit_position_str1 + &quot;.&quot;;</text>
+  </calculation>
+  <template href="_HZm8oLSZEeel9ukRKI7k6A.xml#_HZm8oLSZEeel9ukRKI7k6A"/>
+  <geometry uuid="_UTg8YbSbEeel9ukRKI7k6A" deletable="false"
+      name="root">
+    <parentPlugs uuid="_UTg8YrSbEeel9ukRKI7k6A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bIRLe_7nEeiskp2v5nXzHA" value="Blind Kit"/>
+</comp:Component>

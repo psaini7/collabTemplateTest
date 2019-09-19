@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_F3iq0IgtEei6gIoPvE7diQ" name="column_outgoing_tbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.tbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_b_gMMHxsEemmxLc0OUnhCg"
+      name="world_user_group_toa" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_cnGXsHxsEemmxLc0OUnhCg" declared="true">
+      <model href="_80p4UG5KEemUHvFbr0AMqw.xml#_80ycu25KEemUHvFbr0AMqw"/>
+      <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_b_gMMXxsEemmxLc0OUnhCg" name="local"
+        visibility="300">
+      <typeSet uuid="_b_gMMnxsEemmxLc0OUnhCg" bitSet="393220"/>
+      <values uuid="_b_gMM3xsEemmxLc0OUnhCg" deletable="false"
+          name="A" visibility="300">
+        <displayName uuid="_b_gMNHxsEemmxLc0OUnhCg"
+            value="A  (Empty)"/>
+      </values>
+      <values uuid="_b_gMNXxsEemmxLc0OUnhCg" deletable="false"
+          name="B" visibility="300">
+        <displayName uuid="_b_gMNnxsEemmxLc0OUnhCg"
+            value="B  (N185)"/>
+      </values>
+      <values uuid="_b_gMN3xsEemmxLc0OUnhCg" deletable="false"
+          name="C" visibility="300">
+        <displayName uuid="_b_gMOHxsEemmxLc0OUnhCg"
+            value="C  (RBBS upto 630A)"/>
+      </values>
+      <values uuid="_b_gMOXxsEemmxLc0OUnhCg" deletable="false"
+          name="D" visibility="300">
+        <displayName uuid="_b_gMOnxsEemmxLc0OUnhCg"
+            value="D (RBBS upto 1600A)"/>
+      </values>
+      <values uuid="_b_gMO3xsEemmxLc0OUnhCg" deletable="false"
+          name="E" visibility="300">
+        <displayName uuid="_b_gMPHxsEemmxLc0OUnhCg"
+            value="E (RBBS upto 4000A)"/>
+      </values>
+      <values uuid="_b_gMPXxsEemmxLc0OUnhCg" deletable="false"
+          name="F" visibility="300">
+        <displayName uuid="_b_gMPnxsEemmxLc0OUnhCg"
+            value="F  (RBBS upto 6300A)"/>
+      </values>
+      <values uuid="_b_gMP3xsEemmxLc0OUnhCg" deletable="false"
+          name="G" visibility="300">
+        <displayName uuid="_b_gMQHxsEemmxLc0OUnhCg"
+            value="G  (RBBS CH)"/>
+      </values>
+      <values uuid="_b_gMQXxsEemmxLc0OUnhCg" deletable="false"
+          name="H" visibility="300">
+        <displayName uuid="_b_gMQnxsEemmxLc0OUnhCg"
+            value="H (TBBS)"/>
+      </values>
+      <values uuid="_b_gMQ3xsEemmxLc0OUnhCg" deletable="false"
+          name="I" visibility="300">
+        <displayName uuid="_b_gMRHxsEemmxLc0OUnhCg"
+            value="I (TBBS EE)"/>
+      </values>
+      <values uuid="_b_gMRXxsEemmxLc0OUnhCg" deletable="false"
+          name="L" visibility="300">
+        <displayName uuid="_b_gMRnxsEemmxLc0OUnhCg"
+            value="L (RIUS 2)"/>
+      </values>
+      <values uuid="_b_gMR3xsEemmxLc0OUnhCg" deletable="false"
+          name="M" visibility="300">
+        <displayName uuid="_b_gMSHxsEemmxLc0OUnhCg"
+            value="M (Twinline N)"/>
+      </values>
+      <values uuid="_b_gMSXxsEemmxLc0OUnhCg" deletable="false"
+          name="Other" visibility="300">
+        <displayName uuid="_b_gMSnxsEemmxLc0OUnhCg"
+            value="(Others)"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_4E0qAIpqEeiCc-Q8g1D0VQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_4boAcIpqEeiCc-Q8g1D0VQ"
+        name="column_type" visibility="800" expression="column_type(outgoing_tbbs);&#xD;&#xA;//SOFT.width_column_external=switchboard_width_toa + 100;"/>
+  </logic>
+  <template href="_GwNxUIgDEeiE_eX_e67HSQ.xml#_GwNxUIgDEeiE_eX_e67HSQ"/>
+  <geometry uuid="_F3iq0YgtEei6gIoPvE7diQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_F3iq0ogtEei6gIoPvE7diQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aTuwJv7nEeiskp2v5nXzHA" value="Outgoing Section"/>
+</comp:Component>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_mMWgEMfVEeiLs7c1AMUi5A" name="switchboard_ruis2"
+    componentClass="LINKOWNER" cluster="true" toaPrefix="switchboard"
+    deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_SBLDIMrpEeiQrdKNpGK5VA"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_aA3dkMrpEeiQrdKNpGK5VA"
+        name="base_height" visibility="800">
+      <domain uuid="_aA3dlcrpEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_aA3dmMrpEeiQrdKNpGK5VA" bitSet="10"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_lzQtkMrpEeiQrdKNpGK5VA"
+        name="connection" visibility="800">
+      <domain uuid="_lzQtlcrpEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_lzQtmMrpEeiQrdKNpGK5VA" bitSet="393220"/>
+        <values uuid="_lzQtmcrpEeiQrdKNpGK5VA" deletable="false"
+            name="bottom" visibility="300">
+          <displayName uuid="_YNYHov7nEeiskp2v5nXzHA"
+              value="Bottom"/>
+        </values>
+        <values uuid="_lzQtmsrpEeiQrdKNpGK5VA" deletable="false"
+            name="top" visibility="300">
+          <displayName uuid="_YNYHpP7nEeiskp2v5nXzHA"
+              value="Top"/>
+        </values>
+        <values uuid="_n0QU8MrpEeiQrdKNpGK5VA" name="none"
+            visibility="300">
+          <displayName uuid="_YNYHpv7nEeiskp2v5nXzHA"
+              value="None"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_tOdT0MrpEeiQrdKNpGK5VA"
+        name="door" visibility="800">
+      <domain uuid="_tOdT1crpEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_tOdT2MrpEeiQrdKNpGK5VA" bitSet="262148"/>
+        <values uuid="_tOdT2crpEeiQrdKNpGK5VA" deletable="false"
+            name="Blind" visibility="300">
+          <displayName uuid="_YNYutP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_xvWFEMrpEeiQrdKNpGK5VA" name="Blind With Overlapping"
+            visibility="300">
+          <displayName uuid="_YNYutv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_54L0cMrpEeiQrdKNpGK5VA"
+        name="height" visibility="800">
+      <domain uuid="_54L0dcrpEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_54L0eMrpEeiQrdKNpGK5VA" bitSet="262158"/>
+        <values uuid="_54L0ecrpEeiQrdKNpGK5VA" deletable="false"
+            name="1800" visibility="300">
+          <displayName uuid="_YNYuu_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_54L0esrpEeiQrdKNpGK5VA" deletable="false"
+            name="2000" visibility="300">
+          <displayName uuid="_YNYuvf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_54L0e8rpEeiQrdKNpGK5VA" deletable="false"
+            name="2100" visibility="300">
+          <displayName uuid="_YNYuv_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_54L0fMrpEeiQrdKNpGK5VA" name="1900"
+            visibility="300">
+          <displayName uuid="_YNYuwf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_-hx1wMrpEeiQrdKNpGK5VA"
+        name="rated_service_voltage_Ue" visibility="800">
+      <domain uuid="_-hx1xcrpEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_-hx1yMrpEeiQrdKNpGK5VA" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_KbkZYN_pEeebmrukuHpqdA"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_UPpF0MrpEeiQrdKNpGK5VA"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_RuKyIMrqEeiQrdKNpGK5VA"
+        name="functional_depth_for_kits" visibility="800">
+      <domain uuid="_RuKyIcrqEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_RuKyIsrqEeiQrdKNpGK5VA" bitSet="393218"/>
+        <values uuid="_TGnLwMrqEeiQrdKNpGK5VA" name="500"
+            visibility="300">
+          <displayName uuid="_YNYuy_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_XieTEMrqEeiQrdKNpGK5VA"
+        name="IP" visibility="800">
+      <domain uuid="_XieTEcrqEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_XieTEsrqEeiQrdKNpGK5VA" bitSet="393218"/>
+        <values uuid="_YXt5AMrqEeiQrdKNpGK5VA" name="30"
+            visibility="300">
+          <displayName uuid="_YNYu0P7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_YuNtcMrqEeiQrdKNpGK5VA" name="40"
+            visibility="300">
+          <displayName uuid="_YNYu0v7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_ZGpbkMrqEeiQrdKNpGK5VA" name="65"
+            visibility="300">
+          <displayName uuid="_YNYu1P7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_cDV2MMrqEeiQrdKNpGK5VA"
+        name="rear_open_blind" visibility="800">
+      <domain uuid="_cDV2McrqEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_cDV2MsrqEeiQrdKNpGK5VA" bitSet="393231"/>
+        <values uuid="_imeMAMrqEeiQrdKNpGK5VA" name="blind_with_gasket"
+            visibility="300">
+          <displayName uuid="_YNZ80f7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_eZjfoMrqEeiQrdKNpGK5VA"
+        name="side_open_blind_left" visibility="800">
+      <domain uuid="_eZjfocrqEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_eZjfosrqEeiQrdKNpGK5VA" bitSet="393231"/>
+        <values uuid="_jIUU0MrqEeiQrdKNpGK5VA" name="blind_with_gasket"
+            visibility="300">
+          <displayName uuid="_YNZ81v7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_gX734MrqEeiQrdKNpGK5VA"
+        name="side_open_blind_right" visibility="800">
+      <domain uuid="_gX734crqEeiQrdKNpGK5VA" name="local"
+          visibility="300">
+        <typeSet uuid="_gX734srqEeiQrdKNpGK5VA" bitSet="393231"/>
+        <values uuid="_j5ghMMrqEeiQrdKNpGK5VA" name="blind_with_gasket"
+            visibility="300">
+          <displayName uuid="_YNZ82_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_r7KqgMrqEeiQrdKNpGK5VA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_tpZG4MrqEeiQrdKNpGK5VA"
+        name="depth_height" visibility="800" expression="external_depth=functional_depth_for_kits + 100;&#xD;&#xA;external_height=height + 100;&#xD;&#xA;base_height(100);"/>
+    <children xsi:type="array:Expression" uuid="_wZpA8MrqEeiQrdKNpGK5VA"
+        name="door_restriction" visibility="800" expression="door('Blind','Blind With Overlapping');"/>
+    <children xsi:type="array:Expression" uuid="_zGOjAMrqEeiQrdKNpGK5VA"
+        name="plinth_height" visibility="800" expression="base_height(100);"/>
+    <children xsi:type="array:Expression" uuid="_3SiLYMrqEeiQrdKNpGK5VA"
+        name="product_line" visibility="800" expression="product_line(ruis2);"/>
+    <children xsi:type="array:Expression" uuid="_5NT2AMrqEeiQrdKNpGK5VA"
+        name="voltage_restriction" visibility="800"
+        expression="rated_service_voltage_Ue(480,690,1000);"/>
+  </logic>
+  <template href="_ufDBoC1EEemAILdFzJOqqg.xml#_ufDBoC1EEemAILdFzJOqqg"/>
+  <geometry uuid="_mMWgEcfVEeiLs7c1AMUi5A" deletable="false"
+      name="root">
+    <parentPlugs uuid="_mMWgEsfVEeiLs7c1AMUi5A" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_tyZ2AMfWEeiLs7c1AMUi5A" name="column"
+      initValue="NONE" public="false" type="SUBLINK"
+      toas="" lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_tyZ2BMfWEeiLs7c1AMUi5A"
+        position="(200,0,-200)"/>
+    <facets xsi:type="comp:LineControllerFacet" uuid="_0EiicMfWEeiLs7c1AMUi5A"/>
+    <domain uuid="_tyZ2DsfWEeiLs7c1AMUi5A" name="local"
+        visibility="300">
+      <typeSet uuid="_tyZ2EcfWEeiLs7c1AMUi5A" bitSet="65536"/>
+      <values uuid="_tyZ2EsfWEeiLs7c1AMUi5A" name="NONE"
+          visibility="300">
+        <displayName uuid="_YN5sFP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_YN5sFf7nEeiskp2v5nXzHA" value="Switchboard Ruis2"/>
+</comp:Component>

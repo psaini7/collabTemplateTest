@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_FRwwcGlxEeijaqBp1mPV7Q" name="main_busbar_system">
+  <variables xsi:type="comp:VariableGroup" uuid="_Ka7psGlxEeijaqBp1mPV7Q"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_NUWG0GlxEeijaqBp1mPV7Q"
+        name="switchboard_busbar_number_of_poles" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_PAN8MGsFEeiRN76_l0WyYA" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_NUWG1WlxEeijaqBp1mPV7Q" name="local"
+          visibility="300">
+        <typeSet uuid="_NUWG2GlxEeijaqBp1mPV7Q" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ZjZRYL-uEeefyu3vouK73A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_RXPUgGlxEeijaqBp1mPV7Q"
+        name="switchboard_rating_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_RE-CMGsFEeiRN76_l0WyYA" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_RXPUgWlxEeijaqBp1mPV7Q" name="local"
+          visibility="300">
+        <typeSet uuid="_RXPUgmlxEeijaqBp1mPV7Q" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_RAVOoCi8Eeax-fkSzvTTTw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_7ND6wGsEEeiRN76_l0WyYA"
+        name="column_type_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_NVQ2QGsFEeiRN76_l0WyYA" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_7ND6xWsEEeiRN76_l0WyYA" name="local"
+          visibility="300">
+        <typeSet uuid="_7ND6yGsEEeiRN76_l0WyYA" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_-9L9cGsEEeiRN76_l0WyYA"
+        name="switchboard_net_form" visibility="800"
+        initValue="TNS">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_PgszEGsFEeiRN76_l0WyYA" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_llygIAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_-9L9dWsEEeiRN76_l0WyYA" name="local"
+          visibility="300">
+        <typeSet uuid="_-9L9eGsEEeiRN76_l0WyYA" bitSet="393220"/>
+        <values uuid="_pYvSIHYIEeiYnJd3PfqtLw" name="TNC"
+            visibility="300">
+          <displayName uuid="_aV7Ilv7nEeiskp2v5nXzHA"
+              value="TN-C"/>
+        </values>
+        <values uuid="_pYvSIXYIEeiYnJd3PfqtLw" name="TNS"
+            visibility="300">
+          <displayName uuid="_aV7ImP7nEeiskp2v5nXzHA"
+              value="TN-S"/>
+        </values>
+        <values uuid="_pYvSInYIEeiYnJd3PfqtLw" name="TT"
+            visibility="300">
+          <displayName uuid="_aV7Imv7nEeiskp2v5nXzHA"
+              value="TT"/>
+        </values>
+        <values uuid="_pYvSI3YIEeiYnJd3PfqtLw" name="IT"
+            visibility="300">
+          <displayName uuid="_aV7InP7nEeiskp2v5nXzHA"
+              value="IT"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_CL1qwGsFEeiRN76_l0WyYA"
+        name="switchboard_net_form_UI" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_P_dLoGsFEeiRN76_l0WyYA" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_CL1qxWsFEeiRN76_l0WyYA" name="local"
+          visibility="300">
+        <typeSet uuid="_CL1qyGsFEeiRN76_l0WyYA" bitSet="393231"/>
+        <values uuid="_EVdpsGsFEeiRN76_l0WyYA" name="TNC"
+            visibility="300">
+          <displayName uuid="_aV7Io_7nEeiskp2v5nXzHA"
+              value="TN-C"/>
+        </values>
+        <values uuid="_EVdpsWsFEeiRN76_l0WyYA" name="TNS"
+            visibility="300">
+          <displayName uuid="_aV7Ipf7nEeiskp2v5nXzHA"
+              value="TN-S"/>
+        </values>
+        <values uuid="_EVdpsmsFEeiRN76_l0WyYA" name="TT"
+            visibility="300">
+          <displayName uuid="_aV7Ip_7nEeiskp2v5nXzHA"
+              value="TT"/>
+        </values>
+        <values uuid="_EVdps2sFEeiRN76_l0WyYA" name="IT"
+            visibility="300">
+          <displayName uuid="_aV7Iqf7nEeiskp2v5nXzHA"
+              value="IT"/>
+        </values>
+        <values uuid="_EVdptGsFEeiRN76_l0WyYA" name="TNCS"
+            visibility="300">
+          <displayName uuid="_aV7Iq_7nEeiskp2v5nXzHA"
+              value="TN-C-S"/>
+        </values>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_YEMH0G_LEeihEf-tFgwisw"
+        name="rating_column_out_toa" visibility="800"
+        initValue="">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_cvgncG_LEeihEf-tFgwisw" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_YEMH1W_LEeihEf-tFgwisw" name="local"
+          visibility="300">
+        <typeSet uuid="_YEMH2G_LEeihEf-tFgwisw" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_RAVOoCi8Eeax-fkSzvTTTw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_zsgHUHiBEeima4c0dYi3ew"
+        name="icw_column_out_toa" visibility="800">
+      <domain uuid="_zsgHVniBEeima4c0dYi3ew" name="local"
+          visibility="300">
+        <typeSet uuid="_zsgHWXiBEeima4c0dYi3ew" bitSet="393230"/>
+        <values uuid="_zsgHWniBEeima4c0dYi3ew" name="0"
+            visibility="300">
+          <displayName uuid="_aV7It_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHW3iBEeima4c0dYi3ew" name="15"
+            visibility="300">
+          <displayName uuid="_aV7Iuf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHXHiBEeima4c0dYi3ew" name="25"
+            visibility="300">
+          <displayName uuid="_aV7vkP7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHXXiBEeima4c0dYi3ew" name="36"
+            visibility="300">
+          <displayName uuid="_aV7vkv7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHXniBEeima4c0dYi3ew" name="50"
+            visibility="300">
+          <displayName uuid="_aV7vlP7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHX3iBEeima4c0dYi3ew" name="65"
+            visibility="300">
+          <displayName uuid="_aV7vlv7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHYHiBEeima4c0dYi3ew" name="75"
+            visibility="300">
+          <displayName uuid="_aV7vmP7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHYXiBEeima4c0dYi3ew" name="85"
+            visibility="300">
+          <displayName uuid="_aV7vmv7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHYniBEeima4c0dYi3ew" name="100"
+            visibility="300">
+          <displayName uuid="_aV7vnP7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHY3iBEeima4c0dYi3ew" name="120"
+            visibility="300">
+          <displayName uuid="_aV7vnv7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_zsgHZHiBEeima4c0dYi3ew" name="150"
+            visibility="300">
+          <displayName uuid="_aV7voP7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_8ss_sHiFEei-bPFPY3DqIg"
+        name="switchboard_product_line_toa" visibility="800"
+        initValue="">
+      <domain uuid="_8ss_t3iFEei-bPFPY3DqIg" name="local"
+          visibility="300">
+        <typeSet uuid="_8ss_uniFEei-bPFPY3DqIg" bitSet="262148"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_K3zXcKDcEea4y48WrJhC7A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wH488MelEeijy-Bc32f4bQ"
+        name="world_user_group_toa" visibility="800">
+      <domain uuid="_wH489selEeijy-Bc32f4bQ" name="local"
+          visibility="300">
+        <typeSet uuid="_wH48-celEeijy-Bc32f4bQ" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_cKhnUCE4Eei4tsyYl9kWtQ"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_LwdSMGlxEeijaqBp1mPV7Q"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_T3JFcGlxEeijaqBp1mPV7Q"
+        name="poles" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_CgWqsH9oEeiHQYyxMd9b6g" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"/>
+      <domain uuid="_T3JFcWlxEeijaqBp1mPV7Q" name="local"
+          visibility="300">
+        <typeSet uuid="_T3JFcmlxEeijaqBp1mPV7Q" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ZjZRYL-uEeefyu3vouK73A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_V80_kGlxEeijaqBp1mPV7Q"
+        name="rating" visibility="800" initValue="1250">
+      <domain uuid="_V80_kWlxEeijaqBp1mPV7Q" name="local"
+          visibility="300">
+        <typeSet uuid="_V80_kmlxEeijaqBp1mPV7Q" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_RAVOoCi8Eeax-fkSzvTTTw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_NaBLMHh-Eeima4c0dYi3ew"
+        name="icw" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_jSkcwHiHEei-bPFPY3DqIg" declared="true"
+          model="_c285EGlxEeijaqBp1mPV7Q" select="CLOSEST"
+          flow="OUT">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_NaBLMXh-Eeima4c0dYi3ew" name="local"
+          visibility="300">
+        <typeSet uuid="_NaBLMnh-Eeima4c0dYi3ew" bitSet="393230"/>
+        <values uuid="_PS_fAHh-Eeima4c0dYi3ew" name="0"
+            visibility="300">
+          <displayName uuid="_aV7vuf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fAXh-Eeima4c0dYi3ew" name="15"
+            visibility="300">
+          <displayName uuid="_aV7vu_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fAnh-Eeima4c0dYi3ew" name="25"
+            visibility="300">
+          <displayName uuid="_aV7vvf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fA3h-Eeima4c0dYi3ew" name="36"
+            visibility="300">
+          <displayName uuid="_aV7vv_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fBHh-Eeima4c0dYi3ew" name="50"
+            visibility="300">
+          <displayName uuid="_aV7vwf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fBXh-Eeima4c0dYi3ew" name="65"
+            visibility="300">
+          <displayName uuid="_aV7vw_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fBnh-Eeima4c0dYi3ew" name="75"
+            visibility="300">
+          <displayName uuid="_aV7vxf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fB3h-Eeima4c0dYi3ew" name="85"
+            visibility="300">
+          <displayName uuid="_aV7vx_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fCHh-Eeima4c0dYi3ew" name="100"
+            visibility="300">
+          <displayName uuid="_aV7vyf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fCXh-Eeima4c0dYi3ew" name="120"
+            visibility="300">
+          <displayName uuid="_aV7vy_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_PS_fCnh-Eeima4c0dYi3ew" name="150"
+            visibility="300">
+          <displayName uuid="_aV7vzf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_auyGAH6WEeio_5GyLZd-eA"
+        name="earth_percentage" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_auyGBX6WEeio_5GyLZd-eA" declared="true"
+          select="CLOSEST">
+        <model href="_GEpq8HA0EeeF7rx3OanWmA.xml#_nDDxkHE4EeeCapEXMmsm4A"/>
+        <priorities href="../product_model.xml#_BYJdsXSxEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_auyGBn6WEeio_5GyLZd-eA" name="local"
+          visibility="300">
+        <typeSet uuid="_auyGCX6WEeio_5GyLZd-eA" bitSet="393228"/>
+        <values uuid="_IpscA5SnEeicsN6ujjPivA" name="0"
+            visibility="300">
+          <displayName uuid="_aV7v1f7nEeiskp2v5nXzHA"
+              value="-"/>
+        </values>
+        <values uuid="_IpscBJSnEeicsN6ujjPivA" name="0.25"
+            visibility="300">
+          <displayName uuid="_aV7v1_7nEeiskp2v5nXzHA"
+              value="PE25%"/>
+        </values>
+        <values uuid="_SglwMEvkEem7msFtOuQIlw" name="0.5"
+            visibility="300">
+          <displayName uuid="_SglwMUvkEem7msFtOuQIlw"
+              value="PE50%"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_au3lkH6WEeio_5GyLZd-eA"
+        name="neutral_percentage" visibility="800" initValue="">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_au3llX6WEeio_5GyLZd-eA" declared="true"
+          select="CLOSEST">
+        <model href="_v52csHAzEeeF7rx3OanWmA.xml#_AKzmOHFGEeeCapEXMmsm4A"/>
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_au3lln6WEeio_5GyLZd-eA" name="local"
+          visibility="300">
+        <typeSet uuid="_au3lmX6WEeio_5GyLZd-eA" bitSet="393231"/>
+        <values uuid="_au3lmn6WEeio_5GyLZd-eA" name="1"
+            visibility="300">
+          <displayName uuid="_aV7v3_7nEeiskp2v5nXzHA"
+              value="N100%"/>
+        </values>
+        <values uuid="_au3lm36WEeio_5GyLZd-eA" name="0.5"
+            visibility="300">
+          <displayName uuid="_aV7v4f7nEeiskp2v5nXzHA"
+              value="N50%"/>
+        </values>
+        <values uuid="_au3lnH6WEeio_5GyLZd-eA" name="0"
+            visibility="300">
+          <displayName uuid="_aV7v4_7nEeiskp2v5nXzHA"
+              value="-"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_au4Mrn6WEeio_5GyLZd-eA"
+        name="PEN_percentage" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_au4Ms36WEeio_5GyLZd-eA" declared="true"
+          select="CLOSEST" flow="OUT">
+        <model href="_GEpq8HA0EeeF7rx3OanWmA.xml#_nDDxkHE4EeeCapEXMmsm4A"/>
+        <priorities href="../product_model.xml#_BYJdsXSxEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_au4MtX6WEeio_5GyLZd-eA" name="local"
+          visibility="300">
+        <typeSet uuid="_au4MuH6WEeio_5GyLZd-eA" bitSet="393228"/>
+        <values uuid="_au4MuX6WEeio_5GyLZd-eA" deletable="false"
+            name="0" visibility="300">
+          <displayName uuid="_aV7v6_7nEeiskp2v5nXzHA"
+              value="-"/>
+        </values>
+        <values uuid="_au4Mun6WEeio_5GyLZd-eA" deletable="false"
+            name="0.5" visibility="300">
+          <displayName uuid="_aV8WoP7nEeiskp2v5nXzHA"
+              value="PEN 50%"/>
+        </values>
+        <values uuid="_au4Mu36WEeio_5GyLZd-eA" deletable="false"
+            name="0.25" visibility="300">
+          <displayName uuid="_aV8Wov7nEeiskp2v5nXzHA"
+              value="PEN 25%"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b0fw4H6WEeio_5GyLZd-eA"
+        name="UI_poles" visibility="800" initValue="3">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b0fw5X6WEeio_5GyLZd-eA" declared="true"
+          select="CLOSEST">
+        <model href="_GEpq8HA0EeeF7rx3OanWmA.xml#_nDDxkHE4EeeCapEXMmsm4A"/>
+        <priorities href="../product_model.xml#_cqseUXSwEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_b0fw5n6WEeio_5GyLZd-eA" name="local"
+          visibility="300">
+        <typeSet uuid="_b0fw6X6WEeio_5GyLZd-eA" bitSet="393218"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_8fE3MApXEeiG4KMrIZ27cw"/>
+    </children>
+  </variables>
+  <logic uuid="_c285EGlxEeijaqBp1mPV7Q" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_eMHVMGlxEeijaqBp1mPV7Q"
+        name="MBBS_Soft" visibility="800" expression="SOFT.rating=rating_column_out_toa;&#xD;&#xA;SOFT.icw=icw_column_out_toa;&#xD;&#xA;SOFT.poles=switchboard_busbar_number_of_poles;&#xD;&#xA;&#xD;&#xA;column_type_toa('cable_compartment') and (switchboard_net_form_UI('TNCS') and switchboard_net_form('TNS'))->UI_poles(3) ;&#xD;&#xA;&#xD;&#xA;"/>
+    <children xsi:type="array:TableRelation" uuid="_wdvIcHiFEei-bPFPY3DqIg"
+        name="Icw_max" visibility="800">
+      <columns uuid="_wdvIcXiFEei-bPFPY3DqIg" name="icw"
+          visibility="100" databaseAlias="icw">
+        <cells uuid="_55HyQoaZEei0J7ssmq29HQ" value="36"/>
+        <cells uuid="_55HyQ4aZEei0J7ssmq29HQ" value="50"/>
+        <cells uuid="_55HyRIaZEei0J7ssmq29HQ" value="75"/>
+        <cells uuid="_55HyRYaZEei0J7ssmq29HQ" value="100"/>
+        <cells uuid="_55HyRoaZEei0J7ssmq29HQ" value="150"/>
+      </columns>
+      <columns uuid="_wdvIcniFEei-bPFPY3DqIg" name="rating"
+          visibility="100" databaseAlias="rating">
+        <cells uuid="_55HySIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_55HySYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_55HySoaZEei0J7ssmq29HQ" value="? without (1000,1250)"/>
+        <cells uuid="_55HyS4aZEei0J7ssmq29HQ" value="3200,4000,5000,6300"/>
+        <cells uuid="_55HyTIaZEei0J7ssmq29HQ" value="5000,6300"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_y0-soHiFEei-bPFPY3DqIg"
+        name="icw" visibility="800">
+      <columns uuid="_y0-soXiFEei-bPFPY3DqIg" name="switchboard_product_line_toa"
+          visibility="100" databaseAlias="switchboard_product_line_toa">
+        <cells uuid="_55HyT4aZEei0J7ssmq29HQ" value="empty"/>
+        <cells uuid="_55HyUIaZEei0J7ssmq29HQ" value="'n185'"/>
+        <cells uuid="_55HyUYaZEei0J7ssmq29HQ" value="'tbbs'"/>
+        <cells uuid="_55HyUoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_55HyU4aZEei0J7ssmq29HQ" value="'rearbusbar'"/>
+      </columns>
+      <columns uuid="_y0-soniFEei-bPFPY3DqIg" name="icw"
+          visibility="100" databaseAlias="icw">
+        <cells uuid="_55HyVYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_55HyVoaZEei0J7ssmq29HQ" value="50,75"/>
+        <cells uuid="_55HyV4aZEei0J7ssmq29HQ" value="15,25,36,50,65,75,85,100,120"/>
+        <cells uuid="_55HyWIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_55HyWYaZEei0J7ssmq29HQ" value="36,50,75,100,120,150"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_ihz9cH6WEeio_5GyLZd-eA"
+        name="net_form_relation_updated" visibility="800">
+      <columns uuid="_kMCqoH6WEeio_5GyLZd-eA" name="switchboard_net_form"
+          visibility="100" databaseAlias="switchboard_net_form">
+        <cells uuid="_r7UScV6NEemeBuRcmWeIOQ" value="'TNC','TT'"/>
+        <cells uuid="_r7UScl6NEemeBuRcmWeIOQ" value="'TNS'"/>
+        <cells uuid="_r7USc16NEemeBuRcmWeIOQ" value="'TNC','TT'"/>
+        <cells uuid="_r7USdF6NEemeBuRcmWeIOQ" value="'TNC','TT'"/>
+        <cells uuid="_r7USdV6NEemeBuRcmWeIOQ" value="'IT'"/>
+        <cells uuid="_r7USdl6NEemeBuRcmWeIOQ" value="'TNC','TT'"/>
+        <cells uuid="_r7USd16NEemeBuRcmWeIOQ" value="'TNC','TT'"/>
+        <cells uuid="_r7USeF6NEemeBuRcmWeIOQ" value="'TNC','TT'"/>
+        <cells uuid="_r7USeV6NEemeBuRcmWeIOQ" value=""/>
+        <cells uuid="_svXlkF6NEemeBuRcmWeIOQ" value=""/>
+      </columns>
+      <columns uuid="_k5dxUH6WEeio_5GyLZd-eA" name="UI_poles"
+          visibility="100" databaseAlias="UI_poles">
+        <cells uuid="_r7USe16NEemeBuRcmWeIOQ" value="3"/>
+        <cells uuid="_r7USfF6NEemeBuRcmWeIOQ" value="3"/>
+        <cells uuid="_r7USfV6NEemeBuRcmWeIOQ" value="4"/>
+        <cells uuid="_r7USfl6NEemeBuRcmWeIOQ" value="4"/>
+        <cells uuid="_r7USf16NEemeBuRcmWeIOQ" value="3"/>
+        <cells uuid="_r7USgF6NEemeBuRcmWeIOQ" value="3"/>
+        <cells uuid="_r7USgV6NEemeBuRcmWeIOQ" value="4"/>
+        <cells uuid="_r7USgl6NEemeBuRcmWeIOQ" value="4"/>
+        <cells uuid="_r7USg16NEemeBuRcmWeIOQ" value=""/>
+        <cells uuid="_svXlkV6NEemeBuRcmWeIOQ" value=""/>
+      </columns>
+      <columns uuid="_leWnEH6WEeio_5GyLZd-eA" name="poles"
+          visibility="100" databaseAlias="poles">
+        <cells uuid="_r7UShV6NEemeBuRcmWeIOQ" value="'3'"/>
+        <cells uuid="_r7UShl6NEemeBuRcmWeIOQ" value="'3'"/>
+        <cells uuid="_r7USh16NEemeBuRcmWeIOQ" value="'4FS'"/>
+        <cells uuid="_r7USiF6NEemeBuRcmWeIOQ" value="'4HS'"/>
+        <cells uuid="_r7USiV6NEemeBuRcmWeIOQ" value="'3'"/>
+        <cells uuid="_r7USil6NEemeBuRcmWeIOQ" value="'3'"/>
+        <cells uuid="_r7USi16NEemeBuRcmWeIOQ" value="'4FS'"/>
+        <cells uuid="_r7USjF6NEemeBuRcmWeIOQ" value="'4HS'"/>
+        <cells uuid="_r7USjV6NEemeBuRcmWeIOQ" value=""/>
+        <cells uuid="_svXlkl6NEemeBuRcmWeIOQ" value=""/>
+      </columns>
+      <columns uuid="_mwdvMH6WEeio_5GyLZd-eA" name="neutral_percentage"
+          visibility="100" databaseAlias="neutral_percentage">
+        <cells uuid="_r7USj16NEemeBuRcmWeIOQ" value="0.5"/>
+        <cells uuid="_r7USkF6NEemeBuRcmWeIOQ" value="0.5"/>
+        <cells uuid="_r7USkV6NEemeBuRcmWeIOQ" value="1"/>
+        <cells uuid="_r7USkl6NEemeBuRcmWeIOQ" value="0.5"/>
+        <cells uuid="_r7USk16NEemeBuRcmWeIOQ" value="0"/>
+        <cells uuid="_r7USlF6NEemeBuRcmWeIOQ" value="1"/>
+        <cells uuid="_r7USlV6NEemeBuRcmWeIOQ" value="1"/>
+        <cells uuid="_r7USll6NEemeBuRcmWeIOQ" value="0.5"/>
+        <cells uuid="_r7USl16NEemeBuRcmWeIOQ" value=""/>
+        <cells uuid="_svXlk16NEemeBuRcmWeIOQ" value=""/>
+      </columns>
+      <columns uuid="_novbAH6WEeio_5GyLZd-eA" name="earth_percentage"
+          visibility="100" databaseAlias="earth_percentage">
+        <cells uuid="_r7USmV6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USml6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USm16NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USnF6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USnV6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USnl6NEemeBuRcmWeIOQ" value="0.5"/>
+        <cells uuid="_r7USn16NEemeBuRcmWeIOQ" value="0.5"/>
+        <cells uuid="_r7USoF6NEemeBuRcmWeIOQ" value="0.5"/>
+        <cells uuid="_r7USoV6NEemeBuRcmWeIOQ" value=""/>
+        <cells uuid="_svXllF6NEemeBuRcmWeIOQ" value=""/>
+      </columns>
+      <columns uuid="_oNIhgH6WEeio_5GyLZd-eA" name="PEN_percentage"
+          visibility="100" databaseAlias="PEN_percentage">
+        <cells uuid="_r7USo16NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USpF6NEemeBuRcmWeIOQ" value="0.5,0.25"/>
+        <cells uuid="_r7USpV6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USpl6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USp16NEemeBuRcmWeIOQ" value="0"/>
+        <cells uuid="_r7USqF6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USqV6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USql6NEemeBuRcmWeIOQ" value="0.25"/>
+        <cells uuid="_r7USq16NEemeBuRcmWeIOQ" value=""/>
+        <cells uuid="_svXllV6NEemeBuRcmWeIOQ" value=""/>
+      </columns>
+      <columns uuid="_pu8hgF6NEemeBuRcmWeIOQ" name="rating_column_out_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_r7USrV6NEemeBuRcmWeIOQ" value="?"/>
+        <cells uuid="_r7USrl6NEemeBuRcmWeIOQ" value="?"/>
+        <cells uuid="_r7USr16NEemeBuRcmWeIOQ" value="?"/>
+        <cells uuid="_r7USsF6NEemeBuRcmWeIOQ" value="?"/>
+        <cells uuid="_r7USsV6NEemeBuRcmWeIOQ" value="?"/>
+        <cells uuid="_r7USsl6NEemeBuRcmWeIOQ" value="? without 5000,6300"/>
+        <cells uuid="_r7USs16NEemeBuRcmWeIOQ" value="? without 5000,6300"/>
+        <cells uuid="_r7UStF6NEemeBuRcmWeIOQ" value="? without 5000,6300"/>
+        <cells uuid="_r7UStV6NEemeBuRcmWeIOQ" value=""/>
+        <cells uuid="_svXlll6NEemeBuRcmWeIOQ" value=""/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_xmdoMIXEEeiPR74RL8kvfA"
+        name="rating" visibility="800">
+      <columns uuid="_xmdoMYXEEeiPR74RL8kvfA" name="rating"
+          visibility="100" databaseAlias="rating">
+        <cells uuid="_55Hye4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_55HyfIaZEei0J7ssmq29HQ" value="1000,1250,1600"/>
+        <cells uuid="_55HyfYaZEei0J7ssmq29HQ" value="1000,1250,1600,2000,2500,3200,4000,5000,6300"/>
+        <cells uuid="_55HyfoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_55Hyf4aZEei0J7ssmq29HQ" value="250,400,630,800,1000,1250,1600,2000,2500,3200,4000,5000,6300"/>
+      </columns>
+      <columns uuid="_xmdoMoXEEeiPR74RL8kvfA" name="switchboard_product_line_toa"
+          visibility="100" databaseAlias="switchboard_product_line_toa">
+        <cells uuid="_55HygYaZEei0J7ssmq29HQ" value="empty"/>
+        <cells uuid="_55HygoaZEei0J7ssmq29HQ" value="n185"/>
+        <cells uuid="_55Hyg4aZEei0J7ssmq29HQ" value="rearbusbar"/>
+        <cells uuid="_55HyhIaZEei0J7ssmq29HQ" value="!"/>
+        <cells uuid="_55HyhYaZEei0J7ssmq29HQ" value="'tbbs'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_HGHMMMemEeijy-Bc32f4bQ"
+        name="user_group_rating" visibility="800">
+      <columns uuid="_HGHMMcemEeijy-Bc32f4bQ" name="rating"
+          visibility="100" databaseAlias="rating">
+        <cells uuid="_HGHMMsemEeijy-Bc32f4bQ" value="1000"/>
+        <cells uuid="_HGHMM8emEeijy-Bc32f4bQ" value="1250"/>
+        <cells uuid="_HGHMNMemEeijy-Bc32f4bQ" value="1600"/>
+        <cells uuid="_HGHMNcemEeijy-Bc32f4bQ" value="2000"/>
+        <cells uuid="_HGHMNsemEeijy-Bc32f4bQ" value="2500"/>
+        <cells uuid="_HGHMN8emEeijy-Bc32f4bQ" value="3200"/>
+        <cells uuid="_HGHMOMemEeijy-Bc32f4bQ" value="4000"/>
+        <cells uuid="_HGHMOcemEeijy-Bc32f4bQ" value="5000"/>
+        <cells uuid="_HGHMOsemEeijy-Bc32f4bQ" value="6300"/>
+        <cells uuid="_2ttk8semEeijy-Bc32f4bQ" value="?"/>
+      </columns>
+      <columns uuid="_HGHMO8emEeijy-Bc32f4bQ" name="world_user_group_toa"
+          visibility="100" databaseAlias="world_user_group_toa">
+        <cells uuid="_HGHMPMemEeijy-Bc32f4bQ" value="'C','D','E','F'"/>
+        <cells uuid="_HGHMPcemEeijy-Bc32f4bQ" value="'D','E','F'"/>
+        <cells uuid="_HGHMPsemEeijy-Bc32f4bQ" value="'D','E','F'"/>
+        <cells uuid="_HGHMP8emEeijy-Bc32f4bQ" value="'E','F'"/>
+        <cells uuid="_HGHMQMemEeijy-Bc32f4bQ" value="'E','F'"/>
+        <cells uuid="_HGHMQcemEeijy-Bc32f4bQ" value="'E','F'"/>
+        <cells uuid="_HGHMQsemEeijy-Bc32f4bQ" value="'E','F'"/>
+        <cells uuid="_HGHMQ8emEeijy-Bc32f4bQ" value="'F'"/>
+        <cells uuid="_HGHMRMemEeijy-Bc32f4bQ" value="'F'"/>
+        <cells uuid="_2ttk8cemEeijy-Bc32f4bQ" value="!"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_bdi2IGlxEeijaqBp1mPV7Q" name="Calculation_Rules"
+      visibility="800"/>
+  <geometry uuid="_FRwwcWlxEeijaqBp1mPV7Q" deletable="false"
+      name="root">
+    <parentPlugs uuid="_FRwwcmlxEeijaqBp1mPV7Q" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aV8XEv7nEeiskp2v5nXzHA" value="MBBS"/>
+</comp:Component>

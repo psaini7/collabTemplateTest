@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_zRee0LSaEeel9ukRKI7k6A" name="kit_xline_comp_spare_rbbs"
+    toaPrefix="kit.rbbs.comp">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_VhdAwL1PEee_oNaBCxgHbA"
+      name="device_width" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_WFe64L1PEee_oNaBCxgHbA" declared="true"
+        select="CLOSEST" priority="150"/>
+    <domain uuid="_VhmxwL1PEee_oNaBCxgHbA" name="local"
+        visibility="300">
+      <typeSet uuid="_VhnY0L1PEee_oNaBCxgHbA" bitSet="393230"/>
+      <values uuid="_VhnY0b1PEee_oNaBCxgHbA" deletable="false"
+          name="3" visibility="300">
+        <displayName uuid="_bIcKlv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_VhnY0r1PEee_oNaBCxgHbA" deletable="false"
+          name="4" visibility="300">
+        <displayName uuid="_bIcKmP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_VhnY071PEee_oNaBCxgHbA" deletable="false"
+          name="5" visibility="300">
+        <displayName uuid="_bIcKmv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_VhnY1L1PEee_oNaBCxgHbA" deletable="false"
+          name="6" visibility="300">
+        <displayName uuid="_bIcKnP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_VhnY1b1PEee_oNaBCxgHbA" deletable="false"
+          name="7" visibility="300">
+        <displayName uuid="_bIcKnv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_TQCv8Ft2EemkuppArvg8QA"
+      name="height" visibility="800">
+    <domain uuid="_TQCv8Vt2EemkuppArvg8QA" name="local"
+        visibility="300">
+      <typeSet uuid="_TQCv8lt2EemkuppArvg8QA" bitSet="10"/>
+      <values uuid="_ULiH0Ft2EemkuppArvg8QA" name="550"
+          visibility="300">
+        <displayName uuid="_ULiH0Vt2EemkuppArvg8QA"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_kuKJ4LSbEeel9ukRKI7k6A" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_lLOgYLSbEeel9ukRKI7k6A"
+        name="compartment_type" visibility="800" expression="compartment_type(spare);"/>
+  </logic>
+  <template href="_HZm8oLSZEeel9ukRKI7k6A.xml#_HZm8oLSZEeel9ukRKI7k6A"/>
+  <geometry uuid="_zRee0bSaEeel9ukRKI7k6A" deletable="false"
+      name="root">
+    <parentPlugs uuid="_zRee0rSaEeel9ukRKI7k6A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bIcKpP7nEeiskp2v5nXzHA" value="Spare Kit"/>
+</comp:Component>

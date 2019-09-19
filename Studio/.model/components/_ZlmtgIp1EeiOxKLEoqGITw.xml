@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_ZlmtgIp1EeiOxKLEoqGITw" name="column_offset"
+    componentClass="LINK" cluster="true" toaPrefix="column.rbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_BmHeEFw1EemNDJFyXXJbqw"
+      name="delete_mode" visibility="800" initValue="0">
+    <domain uuid="_BmIFIFw1EemNDJFyXXJbqw" name="local"
+        visibility="300">
+      <typeSet uuid="_BmIFIVw1EemNDJFyXXJbqw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_63E7QHhkEemRr5OGh-tCbA"
+      name="connection" visibility="800">
+    <domain uuid="_63E7QXhkEemRr5OGh-tCbA" name="local"
+        visibility="300">
+      <typeSet uuid="_63E7QnhkEemRr5OGh-tCbA" bitSet="393220"/>
+      <values uuid="_63E7Q3hkEemRr5OGh-tCbA" deletable="false"
+          name="bottom" visibility="300">
+        <displayName uuid="_63E7RHhkEemRr5OGh-tCbA"
+            value="Bottom"/>
+      </values>
+      <values uuid="_63E7RXhkEemRr5OGh-tCbA" deletable="false"
+          name="none" visibility="300">
+        <displayName uuid="_63E7RnhkEemRr5OGh-tCbA"
+            value="None"/>
+      </values>
+      <values uuid="_63E7R3hkEemRr5OGh-tCbA" deletable="false"
+          name="top" visibility="300">
+        <displayName uuid="_63E7SHhkEemRr5OGh-tCbA"
+            value="Top"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_-RM4wHhkEemRr5OGh-tCbA"
+      name="offset" visibility="800" initValue="No">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_QVltMIBmEemRvrJ5YeuX5Q" declared="true"
+        select="CLOSEST" priority="2000">
+      <priorities href="../product_model.xml#_qKNGgAr4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_-RM4wXhkEemRr5OGh-tCbA" name="local"
+        visibility="300">
+      <typeSet uuid="_-RM4wnhkEemRr5OGh-tCbA" bitSet="393220"/>
+      <values uuid="_-RM4xXhkEemRr5OGh-tCbA" deletable="false"
+          name="Yes" visibility="300">
+        <displayName uuid="_-RM4xnhkEemRr5OGh-tCbA"
+            value="Yes"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_ZluCQIp1EeiOxKLEoqGITw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_ZluCQYp1EeiOxKLEoqGITw"
+        name="Expression" visibility="800" expression="SOFT.width_column_external(400);&#xD;&#xA;offset(Yes);&#xD;&#xA;&#xD;&#xA;connection(none);&#xD;&#xA;&#xD;&#xA;//width_column(300);"/>
+  </logic>
+  <template href="_icHToIpTEeiOxKLEoqGITw.xml#_icHToIpTEeiOxKLEoqGITw"/>
+  <cursorTwoD uuid="_y_a4IGdxEemLypd792gs8Q" name="Cursor">
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+  </cursorTwoD>
+  <geometry uuid="_ZluCQop1EeiOxKLEoqGITw" deletable="false"
+      name="root">
+    <parentPlugs uuid="_ZluCQ4p1EeiOxKLEoqGITw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aTh71v7nEeiskp2v5nXzHA" value="NPE Offset"/>
+</comp:Component>

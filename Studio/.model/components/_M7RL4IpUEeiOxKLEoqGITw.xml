@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_M7RL4IpUEeiOxKLEoqGITw" name="column_central_earthing_point"
+    componentClass="LINK" cluster="true" toaPrefix="column.rbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_H09uAHhlEemRr5OGh-tCbA"
+      name="connection" visibility="800">
+    <domain uuid="_H09uA3hlEemRr5OGh-tCbA" name="local"
+        visibility="300">
+      <typeSet uuid="_H09uBXhlEemRr5OGh-tCbA" bitSet="393220"/>
+      <values uuid="_H09uBnhlEemRr5OGh-tCbA" deletable="false"
+          name="bottom" visibility="300">
+        <displayName uuid="_H09uCHhlEemRr5OGh-tCbA"
+            value="Bottom"/>
+      </values>
+      <values uuid="_H09uCXhlEemRr5OGh-tCbA" deletable="false"
+          name="none" visibility="300">
+        <displayName uuid="_H09uC3hlEemRr5OGh-tCbA"
+            value="None"/>
+      </values>
+      <values uuid="_H09uDHhlEemRr5OGh-tCbA" deletable="false"
+          name="top" visibility="300">
+        <displayName uuid="_H09uDnhlEemRr5OGh-tCbA"
+            value="Top"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_H0-8IHhlEemRr5OGh-tCbA"
+      name="offset" visibility="800" initValue="No">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_LwoSUHhlEemRr5OGh-tCbA" declared="true"
+        select="CLOSEST" priority="2000">
+      <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_H0-8JHhlEemRr5OGh-tCbA" name="local"
+        visibility="300">
+      <typeSet uuid="_H0-8JnhlEemRr5OGh-tCbA" bitSet="393220"/>
+      <values uuid="_H0-8J3hlEemRr5OGh-tCbA" deletable="false"
+          name="No" visibility="300">
+        <displayName uuid="_H0-8KXhlEemRr5OGh-tCbA"
+            value="No"/>
+      </values>
+      <values uuid="_H0-8KnhlEemRr5OGh-tCbA" deletable="false"
+          name="Yes" visibility="300">
+        <displayName uuid="_H0-8LHhlEemRr5OGh-tCbA"
+            value="Yes"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_X9yfgHxGEemGapIZSoUaRw"
+      name="is_set_by_completer" visibility="800" initValue="false">
+    <domain uuid="_X9yfgXxGEemGapIZSoUaRw" name="local"
+        visibility="300">
+      <typeSet uuid="_X9yfgnxGEemGapIZSoUaRw" bitSet="393220"/>
+      <values uuid="_mkuTsHxGEemGapIZSoUaRw" name="true"
+          visibility="300">
+        <displayName uuid="_mkuTsXxGEemGapIZSoUaRw"/>
+      </values>
+      <values uuid="_nJWDsHxGEemGapIZSoUaRw" name="false"
+          visibility="300">
+        <displayName uuid="_nJWDsXxGEemGapIZSoUaRw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_RY4msIpUEeiOxKLEoqGITw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_RwiRsIpUEeiOxKLEoqGITw"
+        name="Expression" visibility="800" expression="SOFT.width_column_external(400);&#xD;&#xA;SOFT.cep(Yes);&#xD;&#xA;//width_column(300);"/>
+    <children xsi:type="array:TableRelation" uuid="_JTs84HhlEemRr5OGh-tCbA"
+        name="offset_connection" visibility="800">
+      <columns uuid="_JTs84XhlEemRr5OGh-tCbA" name="offset"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_JTtj8HhlEemRr5OGh-tCbA" value="'No'"/>
+        <cells uuid="_JTtj8XhlEemRr5OGh-tCbA" value="'Yes'"/>
+      </columns>
+      <columns uuid="_JTtj8nhlEemRr5OGh-tCbA" name="connection"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_JTtj83hlEemRr5OGh-tCbA" value="'bottom','top'"/>
+        <cells uuid="_JTtj9HhlEemRr5OGh-tCbA" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <template href="_icHToIpTEeiOxKLEoqGITw.xml#_icHToIpTEeiOxKLEoqGITw"/>
+  <geometry uuid="_M7tSMopUEeiOxKLEoqGITw" deletable="false"
+      name="root">
+    <parentPlugs uuid="_M7tSM4pUEeiOxKLEoqGITw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aTk_Jv7nEeiskp2v5nXzHA" value="Central Earthing Point"/>
+</comp:Component>

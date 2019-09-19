@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_-d7SAAQ4Eem2gKZzcog_MA" name="device_inline_NH00_EFM"
+    componentClass="LINK" toaPrefix="device.inline.combiline">
+  <logic uuid="_BJ8I4ATUEemn_dte-gmJlg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_B58CcATUEemn_dte-gmJlg"
+        name="display_device" visibility="800">
+      <columns uuid="_B58CcQTUEemn_dte-gmJlg" name="world_show_devices_toa"
+          visibility="100" databaseAlias="world_show_devices_toa">
+        <cells uuid="_B58CcgTUEemn_dte-gmJlg" value="1"/>
+        <cells uuid="_B58CcwTUEemn_dte-gmJlg" value="0"/>
+      </columns>
+      <columns uuid="_B58CdATUEemn_dte-gmJlg" name="display_device"
+          visibility="100" databaseAlias="display_device">
+        <cells uuid="_B58CdQTUEemn_dte-gmJlg" value="'inline'"/>
+        <cells uuid="_B58CdgTUEemn_dte-gmJlg" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <geometry uuid="_-eFDBwQ4Eem2gKZzcog_MA" deletable="false"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_Btvc8AQ5Eem2gKZzcog_MA"
+        name="Interactive_SVG" checksum="d69493dca77f49a2c37fcea961fbdce5f469ff50">
+      <translation uuid="_Btvc8QQ5Eem2gKZzcog_MA"/>
+      <file href="../../model.build#_t7dIcgMrEempCqMFpEvVcQ"/>
+      <handles uuid="___27YATTEemn_dte-gmJlg" name="svg2"
+          visualId="svg2">
+        <fields xsi:type="comp:Field" uuid="___27YQTTEemn_dte-gmJlg"
+            name="displayManipulation" fieldId="display"
+            variableReference="display_device" target="xml"/>
+      </handles>
+    </twoDElement>
+    <parentPlugs uuid="_-eFDCAQ4Eem2gKZzcog_MA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_-eFDBgQ4Eem2gKZzcog_MA" value="Device Inline NH00 "/>
+</comp:Component>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_qEw_4Ip7EeieHvgzVtHC6w" name="device_OT315_400"
+    componentClass="LINK" toaPrefix="device.OT">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_qExAK4p7EeieHvgzVtHC6w"
+      name="display_device_315_400" visibility="800">
+    <domain uuid="_qExAMIp7EeieHvgzVtHC6w" name="local"
+        visibility="300">
+      <typeSet uuid="_qExAM4p7EeieHvgzVtHC6w" bitSet="4"/>
+      <values uuid="_qExANIp7EeieHvgzVtHC6w" deletable="false"
+          name="inline" visibility="300">
+        <displayName uuid="_aTbOJf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_qExANYp7EeieHvgzVtHC6w" deletable="false"
+          name="none" visibility="300">
+        <displayName uuid="_aTbOJ_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_qExANop7EeieHvgzVtHC6w"
+      name="number_of_poles" visibility="800">
+    <domain uuid="_qExAO4p7EeieHvgzVtHC6w" name="local"
+        visibility="300">
+      <typeSet uuid="_qExAPop7EeieHvgzVtHC6w" bitSet="393226"/>
+      <values uuid="_qExAP4p7EeieHvgzVtHC6w" name="3"
+          visibility="300">
+        <displayName uuid="_aTbOLf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_qExAQIp7EeieHvgzVtHC6w" name="4"
+          visibility="300">
+        <displayName uuid="_aTbOL_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_CLDG8MLxEeiO2Mt2TXzsRA"
+      name="delete_without_confirm" visibility="800"
+      initValue="1">
+    <domain uuid="_CLDG9cLxEeiO2Mt2TXzsRA" name="local"
+        visibility="300">
+      <typeSet uuid="_CLDG-MLxEeiO2Mt2TXzsRA" bitSet="393217"/>
+    </domain>
+  </variables>
+  <logic uuid="_qExAQYp7EeieHvgzVtHC6w" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_qExAQop7EeieHvgzVtHC6w"
+        name="display_device" visibility="800">
+      <columns uuid="_qExAQ4p7EeieHvgzVtHC6w" name="world_show_devices_toa"
+          visibility="100" databaseAlias="world_show_devices_toa">
+        <cells uuid="_qExARIp7EeieHvgzVtHC6w" value="1"/>
+        <cells uuid="_qExARYp7EeieHvgzVtHC6w" value="0"/>
+      </columns>
+      <columns uuid="_qExARop7EeieHvgzVtHC6w" name="display_device_315_400"
+          visibility="100" databaseAlias="display_device_315_400">
+        <cells uuid="_qExAR4p7EeieHvgzVtHC6w" value="'inline'"/>
+        <cells uuid="_qExASIp7EeieHvgzVtHC6w" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_qExASYp7EeieHvgzVtHC6w" name="Calculation_Rules"
+      visibility="800">
+    <text>if(number_of_poles==4)&#xD;
+{&#xD;
+ 	width_rotaryGroup=161.8;&#xD;
+	visibility_block4=&quot;visible&quot;;&#xD;
+	width_breakerRear=240;&#xD;
+}	&#xD;
+else&#xD;
+{	&#xD;
+	width_rotaryGroup=134.8;&#xD;
+	visibility_block4=&quot;hidden&quot;;&#xD;
+	width_breakerRear=196;&#xD;
+}&#xD;
+	move_x_rotaryGroup=-93;&#xD;
+	move_x_block2=47;&#xD;
+	move_x_block1=47;&#xD;
+	move_x_block3=-5;&#xD;
+	//move_x_breakerRear=7;&#xD;
+&#xD;
+&#xD;
+	/*  move_x_rotaryGroup=-60;&#xD;
+&#xD;
+	 move_x_block2=80;&#xD;
+&#xD;
+	 move_x_block1=80;&#xD;
+&#xD;
+	 move_x_block3=27;*/ &#xD;
+	 </text>
+  </calculation>
+  <geometry uuid="_qExASop7EeieHvgzVtHC6w" deletable="false"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_qExAS4p7EeieHvgzVtHC6w"
+        name="device_OT315_400" checksum="31cd2cd270a5245691a9b9a89207b767920c1ec3">
+      <translation uuid="_qExATop7EeieHvgzVtHC6w"/>
+      <file href="../../model.build#_m3H_MIp7EeieHvgzVtHC6w"/>
+      <handles uuid="_qExAT4p7EeieHvgzVtHC6w" name="layer1"
+          visualId="layer1">
+        <fields xsi:type="comp:Field" uuid="_qExAUIp7EeieHvgzVtHC6w"
+            name="displayManipulation" fieldId="display"
+            variableReference="display_device_315_400"
+            target="xml"/>
+      </handles>
+      <handles uuid="_qExAU4p7EeieHvgzVtHC6w" name="breakerRear"
+          visualId="breakerRear">
+        <fields xsi:type="comp:Field" uuid="_qExAVIp7EeieHvgzVtHC6w"
+            name="widthManipulation" fieldId="width"
+            variableReference="width_breakerRear" target="xml"/>
+      </handles>
+      <handles uuid="_oHq7oKYHEeiNJt2iFylGuw" name="block4"
+          visualId="block4">
+        <fields xsi:type="comp:Field" uuid="_oHq7oaYHEeiNJt2iFylGuw"
+            name="visibilityManipulation" fieldId="visibility"
+            variableReference="visibility_block4" target="css"/>
+      </handles>
+      <handles uuid="_pnd6cKYHEeiNJt2iFylGuw" name="block1"
+          visualId="block1">
+        <fields xsi:type="comp:Field" uuid="_pnd6caYHEeiNJt2iFylGuw"
+            name="move_xManipulation" fieldId="move_x"
+            variableReference="move_x_block1" target="transform"/>
+      </handles>
+      <handles uuid="_rzxZ8KYHEeiNJt2iFylGuw" name="block2"
+          visualId="block2">
+        <fields xsi:type="comp:Field" uuid="_rzxZ8aYHEeiNJt2iFylGuw"
+            name="move_xManipulation" fieldId="move_x"
+            variableReference="move_x_block2" target="transform"/>
+      </handles>
+      <handles uuid="_tUNR8KYHEeiNJt2iFylGuw" name="block3"
+          visualId="block3">
+        <fields xsi:type="comp:Field" uuid="_tUNR8aYHEeiNJt2iFylGuw"
+            name="move_xManipulation" fieldId="move_x"
+            variableReference="move_x_block3" target="transform"/>
+      </handles>
+      <handles uuid="_urEXMKYHEeiNJt2iFylGuw" name="rotaryGroup"
+          visualId="rotaryGroup">
+        <fields xsi:type="comp:Field" uuid="_urEXMaYHEeiNJt2iFylGuw"
+            name="move_xManipulation" fieldId="move_x"
+            variableReference="move_x_rotaryGroup" target="transform"/>
+      </handles>
+    </twoDElement>
+    <parentPlugs uuid="_qExAVYp7EeieHvgzVtHC6w" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aTb1Qv7nEeiskp2v5nXzHA" value="Device OT 315_400"/>
+</comp:Component>

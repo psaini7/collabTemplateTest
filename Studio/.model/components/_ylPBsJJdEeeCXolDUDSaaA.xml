@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_ylPBsJJdEeeCXolDUDSaaA" name="column_ext_cable_compartment_rbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.rbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_HDOIAHhlEemRr5OGh-tCbA"
+      name="connection" visibility="800">
+    <domain uuid="_HDOIA3hlEemRr5OGh-tCbA" name="local"
+        visibility="300">
+      <typeSet uuid="_HDOIBXhlEemRr5OGh-tCbA" bitSet="393220"/>
+      <values uuid="_HDOIBnhlEemRr5OGh-tCbA" deletable="false"
+          name="bottom" visibility="300">
+        <displayName uuid="_HDOICHhlEemRr5OGh-tCbA"
+            value="Bottom"/>
+      </values>
+      <values uuid="_HDOvEHhlEemRr5OGh-tCbA" deletable="false"
+          name="none" visibility="300">
+        <displayName uuid="_HDOvEnhlEemRr5OGh-tCbA"
+            value="None"/>
+      </values>
+      <values uuid="_HDOvE3hlEemRr5OGh-tCbA" deletable="false"
+          name="top" visibility="300">
+        <displayName uuid="_HDOvFXhlEemRr5OGh-tCbA"
+            value="Top"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_HDPWM3hlEemRr5OGh-tCbA"
+      name="offset" visibility="800" initValue="No">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_Nt0XwHhlEemRr5OGh-tCbA" declared="true"
+        select="CLOSEST" priority="2000">
+      <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_HDPWN3hlEemRr5OGh-tCbA" name="local"
+        visibility="300">
+      <typeSet uuid="_HDPWOXhlEemRr5OGh-tCbA" bitSet="393220"/>
+      <values uuid="_HDPWOnhlEemRr5OGh-tCbA" deletable="false"
+          name="No" visibility="300">
+        <displayName uuid="_HDPWPHhlEemRr5OGh-tCbA"
+            value="No"/>
+      </values>
+      <values uuid="_HDPWPXhlEemRr5OGh-tCbA" deletable="false"
+          name="Yes" visibility="300">
+        <displayName uuid="_HDPWP3hlEemRr5OGh-tCbA"
+            value="Yes"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_u61DAHxGEemGapIZSoUaRw"
+      name="is_set_by_completer" visibility="800" initValue="false">
+    <domain uuid="_u61DA3xGEemGapIZSoUaRw" name="local"
+        visibility="300">
+      <typeSet uuid="_u61DBXxGEemGapIZSoUaRw" bitSet="393220"/>
+      <values uuid="_u61DBnxGEemGapIZSoUaRw" name="true"
+          visibility="300">
+        <displayName uuid="_u61DCHxGEemGapIZSoUaRw"/>
+      </values>
+      <values uuid="_u61DCXxGEemGapIZSoUaRw" name="false"
+          visibility="300">
+        <displayName uuid="_u61DC3xGEemGapIZSoUaRw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_2GxgwJu0EeiOpMAD7BN-wg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_2agVEJu0EeiOpMAD7BN-wg"
+        name="Expression" visibility="800" expression="SOFT.width_column_external(600);"/>
+    <children xsi:type="array:TableRelation" uuid="_JA4ukHhlEemRr5OGh-tCbA"
+        name="offset_connection" visibility="800">
+      <columns uuid="_JA4ukXhlEemRr5OGh-tCbA" name="offset"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_JA4uknhlEemRr5OGh-tCbA" value="'No'"/>
+        <cells uuid="_JA4uk3hlEemRr5OGh-tCbA" value="'Yes'"/>
+      </columns>
+      <columns uuid="_JA4ulHhlEemRr5OGh-tCbA" name="connection"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_JA4ulXhlEemRr5OGh-tCbA" value="'bottom','top'"/>
+        <cells uuid="_JA4ulnhlEemRr5OGh-tCbA" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <template href="_icHToIpTEeiOxKLEoqGITw.xml#_icHToIpTEeiOxKLEoqGITw"/>
+  <geometry uuid="_ylPBsZJdEeeCXolDUDSaaA" deletable="false"
+      name="root">
+    <parentPlugs uuid="_ylPBspJdEeeCXolDUDSaaA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bJWJhv7nEeiskp2v5nXzHA" value="External Cable Compartment"/>
+</comp:Component>

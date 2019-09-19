@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_SpKBEBX7Eei0s75_iExCcQ" name="column_panel_top_twinline"
+    toaPrefix="column_top_bottom_panel" deleteMode="NEVER">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_FQJz4BrCEeiXirxt9pbetg"
+      name="flange_type_twinline" visibility="800">
+    <domain uuid="_FQJz5RrCEeiXirxt9pbetg" name="local"
+        visibility="300">
+      <typeSet uuid="_FQJz6BrCEeiXirxt9pbetg" bitSet="393220"/>
+      <values uuid="_FQJz6RrCEeiXirxt9pbetg" name="Membrane flange"
+          visibility="300">
+        <displayName uuid="_a2yZ5f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz6hrCEeiXirxt9pbetg" name="Flange for M-screw fittings M20-M63"
+          visibility="300">
+        <displayName uuid="_a2yZ5_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz6xrCEeiXirxt9pbetg" name="Flange for M-screw fittings M20-M25"
+          visibility="300">
+        <displayName uuid="_a2yZ6f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz7BrCEeiXirxt9pbetg" name="Flange with cable sleeves, large 2x 14-68mm"
+          visibility="300">
+        <displayName uuid="_a2yZ6_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz7RrCEeiXirxt9pbetg" name="Flange with cable sleeves, small 3x 14-54mm"
+          visibility="300">
+        <displayName uuid="_a2yZ7f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz7hrCEeiXirxt9pbetg" name="Closure flange metal"
+          visibility="300">
+        <displayName uuid="_a2yZ7_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz7xrCEeiXirxt9pbetg" name="Closure flange"
+          visibility="300">
+        <displayName uuid="_a2yZ8f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz8BrCEeiXirxt9pbetg" name="Flange with cable sleeves, 8x 13-34mm"
+          visibility="300">
+        <displayName uuid="_a2yZ8_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz8RrCEeiXirxt9pbetg" name="Flange with cable sleeves, 11x 5-54mm"
+          visibility="300">
+        <displayName uuid="_a2yZ9f7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz8hrCEeiXirxt9pbetg" name="Flange with cable sleeves, 1x 14-68mm"
+          visibility="300">
+        <displayName uuid="_a2yZ9_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_FQJz8xrCEeiXirxt9pbetg" name="without"
+          visibility="300">
+        <displayName uuid="_a2yZ-f7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_6UYS4Lf-EeiVxeDD_jTICA"
+      name="delete_mode" visibility="800">
+    <domain uuid="_6UY58rf-EeiVxeDD_jTICA" name="local"
+        visibility="300">
+      <typeSet uuid="_6UY59bf-EeiVxeDD_jTICA" bitSet="393217"/>
+      <values uuid="_6UY59rf-EeiVxeDD_jTICA" name="0"
+          visibility="300">
+        <displayName uuid="_a2yZ_v7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <template href="_s4FLEBYGEeiYcNFl-gx-Kg.xml#_s4FLEBYGEeiYcNFl-gx-Kg"/>
+  <geometry uuid="_SpVAQBX7Eei0s75_iExCcQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_SpVAQRX7Eei0s75_iExCcQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_a2yaAv7nEeiskp2v5nXzHA" value="Top Panel"/>
+</comp:Component>

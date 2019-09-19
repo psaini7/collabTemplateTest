@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_yPRSUCgGEeiRd-J1nVyOhw" name="plinth_twinline">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_9Os0UCgGEeiRd-J1nVyOhw"
+      name="twn_plinth_height" visibility="800">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_jObLYCwOEeibG6iwc4j5VA" mirroredVariable="plinth_height"/>
+    <domain uuid="_9Os0USgGEeiRd-J1nVyOhw" name="local"
+        visibility="300">
+      <typeSet uuid="_9Os0UigGEeiRd-J1nVyOhw" bitSet="393220"/>
+      <values uuid="_1NfAsCwIEeibG6iwc4j5VA" name="50"
+          visibility="300">
+        <displayName uuid="_a2A91v7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_1Zte0CwIEeibG6iwc4j5VA" name="100"
+          visibility="300">
+        <displayName uuid="_a2A92P7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_HOclgCgIEeiRd-J1nVyOhw"
+      name="twn_plinth_width" visibility="800">
+    <domain uuid="_HOclgSgIEeiRd-J1nVyOhw" name="local"
+        visibility="300">
+      <typeSet uuid="_HOclgigIEeiRd-J1nVyOhw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Jg5JQCgIEeiRd-J1nVyOhw"
+      name="twn_plinth_depth" visibility="800">
+    <domain uuid="_Jg5JQSgIEeiRd-J1nVyOhw" name="local"
+        visibility="300">
+      <typeSet uuid="_Jg5JQigIEeiRd-J1nVyOhw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_nhAt8CgIEeiRd-J1nVyOhw"
+      name="cabinet_section_width_toa" visibility="800">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_chziYCwOEeibG6iwc4j5VA" mirroredVariable="section_width"/>
+    <domain uuid="_nhAt8SgIEeiRd-J1nVyOhw" name="local"
+        visibility="300">
+      <typeSet uuid="_nhAt8igIEeiRd-J1nVyOhw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_faIbgCgKEeiRd-J1nVyOhw"
+      name="cabinet_section_depth_toa" visibility="800">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_ZqkPgCwOEeibG6iwc4j5VA" mirroredVariable="section_depth"/>
+    <domain uuid="_faIbgSgKEeiRd-J1nVyOhw" name="local"
+        visibility="300">
+      <typeSet uuid="_faIbgigKEeiRd-J1nVyOhw" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_jMnjwCgMEeiRd-J1nVyOhw"
+      name="twn_plinth_mounting_brackets" visibility="800"
+      initValue="0">
+    <domain uuid="_jMnjwSgMEeiRd-J1nVyOhw" name="local"
+        visibility="300">
+      <typeSet uuid="_jMnjwigMEeiRd-J1nVyOhw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <calculation uuid="_tAQ44CwOEeibG6iwc4j5VA" name="Calculation_Rules"
+      visibility="800">
+    <text>twn_plinth_depth=cabinet_section_depth_toa;&#xD;
+twn_plinth_width=cabinet_section_width_toa;&#xD;
+</text>
+  </calculation>
+  <template href="_jaxGcOxhEeeIp9O-FTdqsw.xml#_jaxGcOxhEeeIp9O-FTdqsw"/>
+  <geometry uuid="_yPRSUSgGEeiRd-J1nVyOhw" deletable="false"
+      name="root">
+    <parentPlugs uuid="_yPRSUigGEeiRd-J1nVyOhw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_a2A97v7nEeiskp2v5nXzHA" value="Plinth Twinline"/>
+</comp:Component>

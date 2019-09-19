@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="BuildToPDC/Code"/>
+	<classpathentry kind="src" path="BuildToPDC/GAEB_Exporter/src"/>
+	<classpathentry kind="src" path="CustomExtensions/SourceCode/GeneralFunctionality"/>
+	<classpathentry kind="lib" path="BuildToPDC/GAEB_Exporter/resources/configuratorStandalone-6.11.4-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="BuildToPDC/GAEB_Exporter/resources/jgaeb-10.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="BuildToPDC/GAEB_Exporter/bin"/>
+</classpath>

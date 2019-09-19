@@ -1,0 +1,267 @@
+<reportexport>
+  <report id="document" refid="bom.rptdesign">
+    <blocks>
+      <block id="block" order="0" refid="bom_output" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="artNo" order="4"/>
+              <column name="descr" order="5"/>
+              <column name="discountGroup" order="2"/>
+              <column name="price" order="1"/>
+              <column name="priceSum" order="7"/>
+              <column name="productId" order="6"/>
+              <column name="qty" order="3"/>
+              <column name="unit_of_measure" order="0"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="artNo" value="PUPM1800"/>
+                <datum id="descr" value="No.4 uprights galvanized sheet metal H=1800mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="377"/>
+                <datum id="priceSum" value="754.0"/>
+                <datum id="productId" value="1STQ007033A0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="1">
+                <datum id="artNo" value="PPEB1856"/>
+                <datum id="descr" value="External blind panel IP65 1800x500mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="578"/>
+                <datum id="priceSum" value="2312.0"/>
+                <datum id="productId" value="1STQ007579A0000"/>
+                <datum id="qty" value="4.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="10">
+                <datum id="artNo" value="PBRE0002"/>
+                <datum id="descr" value="Kits for installation of main busbars"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="991"/>
+                <datum id="priceSum" value="1982.0"/>
+                <datum id="productId" value="1STQ002213B0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="11">
+                <datum id="artNo" value="ZX522"/>
+                <datum id="descr" value="Busbar centre spacing 100 mm/185 mm For Cu busbars 30 x 10 mm up to 100 x 10 mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="454"/>
+                <datum id="priceSum" value="2724.0"/>
+                <datum id="productId" value="2CPX067909R9999"/>
+                <datum id="qty" value="6.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="12">
+                <datum id="artNo" value="PCTG1850"/>
+                <datum id="descr" value="CombiLine touch guard profile IP20 H=1800mm W=500mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="334"/>
+                <datum id="priceSum" value="668.0"/>
+                <datum id="productId" value="1STQ009406A0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="13">
+                <datum id="artNo" value="PDNB1856"/>
+                <datum id="descr" value="Blind door IP65 without lever H=1800mm W=500mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="649"/>
+                <datum id="priceSum" value="1298.0"/>
+                <datum id="productId" value="1STQ002264B0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="14">
+                <datum id="artNo" value="PBNE3150"/>
+                <datum id="descr" value="N/PE busbar (30x500x10mm) (HxWxD) for incoming outgoing  column"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="736"/>
+                <datum id="priceSum" value="1472.0"/>
+                <datum id="productId" value="1STQ002168B0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="15">
+                <datum id="artNo" value="PCFM0500"/>
+                <datum id="descr" value="No.4 width/depth crosspieces galvanized sheet metal W/D=500mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="670"/>
+                <datum id="priceSum" value="2680.0"/>
+                <datum id="productId" value="1STQ007039A0000"/>
+                <datum id="qty" value="4.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="16">
+                <datum id="artNo" value="PBPE0002"/>
+                <datum id="descr" value="Kits for installation of N/PE busbars"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="481"/>
+                <datum id="priceSum" value="962.0"/>
+                <datum id="productId" value="1STQ002196B0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="17">
+                <datum id="artNo" value="PBNC3100"/>
+                <datum id="descr" value="No.1 copper connection for joint structures section 30x10mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="653"/>
+                <datum id="priceSum" value="653.0"/>
+                <datum id="productId" value="1STQ002155B0000"/>
+                <datum id="qty" value="1.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="18">
+                <datum id="artNo" value="WR281"/>
+                <datum id="descr" value="WR mounting frame for all floor-standing and switchgear cabinets from depths of 225mm H=1800mm W=500mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="545"/>
+                <datum id="priceSum" value="1090.0"/>
+                <datum id="productId" value="2CPX042859R9999"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="19">
+                <datum id="artNo" value="PBPC6100"/>
+                <datum id="descr" value="No.1 copper connection for joint structures section 60x10mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="380"/>
+                <datum id="priceSum" value="1520.0"/>
+                <datum id="productId" value="1STQ002193B0000"/>
+                <datum id="qty" value="4.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="2">
+                <datum id="artNo" value="PPAM0100"/>
+                <datum id="descr" value="No.4 plinth angle pieces in galvanized sheet metal H=100mm"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="377"/>
+                <datum id="priceSum" value="754.0"/>
+                <datum id="productId" value="1STQ007048A0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="20">
+                <datum id="artNo" value="MBE2504"/>
+                <datum id="descr" value="CombiLine panel for InLine II 750x500 (HxW)"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="559"/>
+                <datum id="priceSum" value="1118.0"/>
+                <datum id="productId" value="2CPX050004R9999"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="21">
+                <datum id="artNo" value="PTBB5056"/>
+                <datum id="descr" value="Blind Top/Bottom panel W=500mm D=500mm Pickled sheet steel with IP65 gasket"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="381"/>
+                <datum id="priceSum" value="1524.0"/>
+                <datum id="productId" value="1STQ007084A0000"/>
+                <datum id="qty" value="4.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="22">
+                <datum id="artNo" value="PBCM0004"/>
+                <datum id="descr" value="CombiLine fixing set"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="950"/>
+                <datum id="priceSum" value="1900.0"/>
+                <datum id="productId" value="1STQ009354A0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="23">
+                <datum id="artNo" value="PSES0008"/>
+                <datum id="descr" value="External kit for joining structures"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="916"/>
+                <datum id="priceSum" value="916.0"/>
+                <datum id="productId" value="1STQ001589B0000"/>
+                <datum id="qty" value="1.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="3">
+                <datum id="artNo" value="PBNE6150"/>
+                <datum id="descr" value="N/PE busbar (60x500x10mm) (HxWxD) for incoming outgoing  column"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="533"/>
+                <datum id="priceSum" value="1066.0"/>
+                <datum id="productId" value="1STQ002183B0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="4">
+                <datum id="artNo" value="MBB219"/>
+                <datum id="descr" value="CombiLine blind panel 600x500 (HxW)"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="680"/>
+                <datum id="priceSum" value="1360.0"/>
+                <datum id="productId" value="2CPX041732R9999"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="5">
+                <datum id="artNo" value="1SEP620021R1000"/>
+                <datum id="descr" value="ZHBM1-1P-M12"/>
+                <datum id="discountGroup" value="Fusegear"/>
+                <datum id="price" value="227"/>
+                <datum id="priceSum" value="454.0"/>
+                <datum id="productId" value="1SEP620021R1000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="6">
+                <datum id="artNo" value="MBB218"/>
+                <datum id="descr" value="CombiLine blind panel 450x500 (HxW)"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="690"/>
+                <datum id="priceSum" value="1380.0"/>
+                <datum id="productId" value="2CPX041729R9999"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="7">
+                <datum id="artNo" value="PPFM1050"/>
+                <datum id="descr" value="No.2 plinth flanges H=100mm W/D=500mm RAL 7012"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="360"/>
+                <datum id="priceSum" value="1080.0"/>
+                <datum id="productId" value="1STQ007052A0000"/>
+                <datum id="qty" value="3.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="8">
+                <datum id="artNo" value="PHLS0013"/>
+                <datum id="descr" value="Lever handle whitout push-button"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="914"/>
+                <datum id="priceSum" value="1828.0"/>
+                <datum id="productId" value="1STQ002334B0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+              <row order="9">
+                <datum id="artNo" value="PBPO6150"/>
+                <datum id="descr" value="No.3 phase busbars (60x500x10mm) (HxWxD) In 1250A for outgoing column"/>
+                <datum id="discountGroup" value="EnclosuresDiscount"/>
+                <datum id="price" value="886"/>
+                <datum id="priceSum" value="1772.0"/>
+                <datum id="productId" value="1STQ002208B0000"/>
+                <datum id="qty" value="2.0"/>
+                <datum id="unit_of_measure" value="pcs"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+    </blocks>
+    <outputs>
+      <output name="bom" orientation="landscape" type="xls"/>
+    </outputs>
+  </report>
+</reportexport>

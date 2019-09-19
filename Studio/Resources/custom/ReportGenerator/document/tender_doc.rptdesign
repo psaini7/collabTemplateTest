@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.22" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 3.7.1.v20110905 Build &lt;3.7.1.v20110913-1734></property>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.datatools.enablement.oda.xml" name="updated" id="4">
+            <property name="FILELIST">C:\Users\JESPER~1\AppData\Local\Temp\Res1994816891099655449.tmp</property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="parameter" id="1606">
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">blockOrder</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">base_height</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">busbar_number_of_poles</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">ip_protection</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">phase_position</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">rating</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">standard</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">updated</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">blockOrder</property>
+                    <property name="nativeName">blockOrder</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">base_height</property>
+                    <property name="nativeName">base_height</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">busbar_number_of_poles</property>
+                    <property name="nativeName">busbar_number_of_poles</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">ip_protection</property>
+                    <property name="nativeName">ip_protection</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">phase_position</property>
+                    <property name="nativeName">phase_position</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">rating</property>
+                    <property name="nativeName">rating</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">standard</property>
+                    <property name="nativeName">standard</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/reportexport/report/blocks/block/parameters]#:#{blockOrder;STRING;../@order},{base_height;STRING;/parameter[@id="base_height"]/@value},{busbar_number_of_poles;STRING;/parameter[@id="busbar_number_of_poles"]/@value},{ip_protection;STRING;/parameter[@id="ip_protection"]/@value},{phase_position;STRING;/parameter[@id="phase_position"]/@value},{rating;STRING;/parameter[@id="rating"]/@value},{standard;STRING;/parameter[@id="standard"]/@value}]]></xml-property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="datum" id="1607">
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">blockOrder</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">rowOrder</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">article_type</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">device_poles</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">device_qty</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">device_type</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">fuse_switch_disconnector</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">height</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">width</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">updated</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">blockOrder</property>
+                    <property name="nativeName">blockOrder</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">rowOrder</property>
+                    <property name="nativeName">rowOrder</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">article_type</property>
+                    <property name="nativeName">article_type</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">device_poles</property>
+                    <property name="nativeName">device_poles</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">device_qty</property>
+                    <property name="nativeName">device_qty</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">device_type</property>
+                    <property name="nativeName">device_type</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">fuse_switch_disconnector</property>
+                    <property name="nativeName">fuse_switch_disconnector</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">height</property>
+                    <property name="nativeName">height</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">width</property>
+                    <property name="nativeName">width</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/reportexport/report/blocks/block/datatables/datatable/rows/row]#:#{blockOrder;STRING;../../../../@order},{rowOrder;STRING;/@order},{article_type;STRING;/datum[@id="article_type"]/@value},{device_poles;STRING;/datum[@id="device_poles"]/@value},{device_qty;STRING;/datum[@id="device_qty"]/@value},{device_type;STRING;/datum[@id="device_type"]/@value},{fuse_switch_disconnector;STRING;/datum[@id="fuse_switch_disconnector"]/@value},{height;STRING;/datum[@id="height"]/@value},{width;STRING;/datum[@id="width"]/@value}]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <styles>
+        <style name="crosstab-cell" id="2">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="3">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="NewSimpleMasterPage" id="7">
+            <property name="leftMargin">0.75in</property>
+            <property name="bottomMargin">0.25in</property>
+            <property name="rightMargin">0.75in</property>
+            <property name="headerHeight">0.8in</property>
+            <property name="footerHeight">0.8in</property>
+            <page-header>
+                <grid id="1574">
+                    <property name="textAlign">right</property>
+                    <column id="1575"/>
+                    <row id="1576">
+                        <cell id="1577">
+                            <image id="1578">
+                                <property name="height">0.6in</property>
+                                <property name="width">1.5in</property>
+                                <property name="source">embed</property>
+                                <property name="imageName">ABB_logo_800.png</property>
+                            </image>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+            <page-footer>
+                <grid id="1580">
+                    <column id="1581"/>
+                    <column id="1582"/>
+                    <column id="1583"/>
+                    <row id="1584">
+                        <property name="textAlign">center</property>
+                        <cell id="1585">
+                            <image id="1646">
+                                <property name="height">0.375in</property>
+                                <property name="width">0.9375in</property>
+                                <property name="source">embed</property>
+                                <property name="imageName">ABB_logo_800.png</property>
+                            </image>
+                        </cell>
+                        <cell id="1587">
+                            <text id="1586">
+                                <property name="fontFamily">"Arial"</property>
+                                <property name="fontSize">8pt</property>
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<B>ABB STOTZ-KONTAKT GmbH</B><BR>
+Eppelheimer Str. 82<BR>
+D-69123 Heidelberg<BR>
+Phone +49 (0) 6221 701-0<BR>
+Fax +49 (0) 6221 701-1325<BR>
+]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1589">
+                            <image id="1647">
+                                <property name="height">0.3645833333333333in</property>
+                                <property name="width">1.8854166666666667in</property>
+                                <property name="source">embed</property>
+                                <property name="imageName">striebel_and_john.gif</property>
+                            </image>
+                        </cell>
+                    </row>
+                </grid>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table name="switchboard" id="509">
+            <property name="fontFamily">"Arial"</property>
+            <property name="marginBottom">0.2in</property>
+            <property name="masterPage">NewSimpleMasterPage</property>
+            <property name="pageBreakAfter">always</property>
+            <property name="pageBreakBefore">always</property>
+            <property name="width">100%</property>
+            <property name="dataSet">parameter</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">standard</property>
+                    <text-property name="displayName">standard</text-property>
+                    <expression name="expression">dataSetRow["standard"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">base_height</property>
+                    <text-property name="displayName">base_height</text-property>
+                    <expression name="expression">dataSetRow["base_height"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">phase_position</property>
+                    <text-property name="displayName">phase_position</text-property>
+                    <expression name="expression">dataSetRow["phase_position"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ip_protection</property>
+                    <text-property name="displayName">ip_protection</text-property>
+                    <expression name="expression">dataSetRow["ip_protection"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">busbar_number_of_poles</property>
+                    <text-property name="displayName">busbar_number_of_poles</text-property>
+                    <expression name="expression">dataSetRow["busbar_number_of_poles"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rating</property>
+                    <text-property name="displayName">rating</text-property>
+                    <expression name="expression">dataSetRow["rating"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <property name="repeatHeader">true</property>
+            <column id="520">
+                <property name="repeat">1</property>
+            </column>
+            <detail>
+                <row id="514">
+                    <property name="pageBreakBefore">auto</property>
+                    <property name="pageBreakInside">auto</property>
+                    <cell id="515">
+                        <property name="paddingLeft">0.35cm</property>
+                        <text id="576">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Low voltage switchgear assemblies</B>
+
+<BR><BR>
+<B>General technical remarks </B>
+<BR>
+<B>Workmanship standards </B><BR>
+The following switchgear assemblies and distribution boards have to be executed as low voltage switchgear assemblies
+<VALUE-OF>row["standard"]</VALUE-OF>, NSK with design verification by testing, derivation or calculation.
+
+<BR><BR>
+<B>Additional performance instructions:</B><BR>
+For each project, the installation of meters and panels has to be approved by the system operator prior to the realization.
+The works have to be carried out according to the rules of the trade. To do so, the current versions of standards have to be applied as a minimum.<BR>
+The structural dimensions, which are relevant for the assembly of the distribution board have to be checked at the place of installation.<BR>
+The ambient temperature at the place of installation must not exceed 40°C.
+Each switchgear assembly has to comply with the form, degree of protection, type of construction and panel separation and/or size set out in the specifications.<BR>
+Switchgear assemblies may only be built once they have been approved by the client / planner.
+The front view showing the equipment configuration and a general circuit diagram have to be submitted for approval.
+
+<BR><BR>
+<B>Calculation conditions</B><BR>
+The listed descriptions form part of the calculation and of the contract.<BR>
+They are included in the descriptions of the individual installations and equipment and have to be complied with even if they are not referenced to in detail.<BR>
+The assemblies have to be offered with the entire requisite system accessories and small parts, completely disassembled and fully operational.<BR>
+Utilities have to be calculated including necessary connecting terminals. 
+Fitting screws and rings, screw caps, safety inserts have to be included in the calculation of the unit prices, supplies of safety inserts are to be specified as accessory kits.<BR>
+The registration to the low voltage grid as well as the provision and assembly of system operator converters have to be accounted for in the calculation.<BR>
+Ancillary services pursuant to VOB / part C are included in the price.
+The calibration/adjustment of trigger devices, etc., controls, commissioning and the preparation of associated protocols have to be included in the calculation.<BR>
+The revision documents, test verifications, test certificates for the connection of outgoing circuits, etc. will not be remunerated for separately but have to be included in the calculation of the unit prices. 
+
+<BR><BR>
+<B>Electrotechnical equipment</B><BR>
+For switchgear assemblies with several different supply systems separate cabinets or appropriate separations have to be provided for the individual grids.<BR>
+A space reserve of not less than 25 % has to be provided for later equipment installations.<BR>
+Parts of the switchgear assembly which may be energized after switch off have to be covered separately and to be labelled accordingly (DIN VDE 0660-514).
+
+<BR><BR>
+There must be a uniform type of control voltage for all devices 
+(voltage to be agreed to with client).
+
+<BR><BR>
+Devices installed to doors are to be covered by protective caps 
+IP 3x.
+
+<BR><BR>
+<B>Busbar system </B><BR>
+The busbar system has to be made of electrolytic copper. All busbar connectors have to be maintenance-free over their entire service life.<BR>
+The main busbar system has to be arranged in the back of the panel in a separate functional space.<BR>
+In each panel busbars have to be identified as per DIN EN 60446 (VDE 0198):<BR>
+Phase conductor &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; L1, L2, L3<BR>
+N conductor &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; N<BR>
+PE/PEN conductor &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  green/yellow
+
+<BR><BR>
+<B>Power factor correction systems </B><BR>
+Power factor correction systems  have to be executed pursuant to:<BR>
+EN 60439-1 for capacitors; <BR>
+power factor correction systems have to be executed as modular systems (extendable)<BR>
+Capacitors have to be executed as low loss (0.2W /kVAr) systems and without PCB.
+
+<BR><BR>
+<B>Installation</B><BR>
+Switchgear assemblies have to be supplied in transportable units and have to be installed to a fully operational state with all their small parts and fastening materials at the intended location.<BR>
+Specified dimensions including depths and widths of the panels have to be complied due to existing design plans for channels / support frames.<BR>
+Assemblies have to be installed and escape routes to be dimensioned as per DIN VDE 0100-729.<BR>
+The installation of the switchgear assembly is made to a 
+Double bottom stand.<BR>
+All assembly rails and sheets, cut-outs and small items required for subsequent performance descriptions have to be included.
+
+<BR><BR>
+<B>Cables and rail connections</B><BR>
+of sections above 16 mm² have to be installed to terminal blocks.<BR>
+Neutral disconnect terminal blocks have to be used.<BR>
+Terminal blocks and devices have to be arranged under separate removable covers.<BR>
+Cable and/or rail entries have to be possible from the top and from the bottom. To fasten the cables, cable fastening rails have to be installed to the panels.<BR>
+Special attention has to be paid to the following elements when dimensioning cable shunting and wiring spaces:<BR>
+-Use of specific cable types as provided for     
+ by operator, <BR>
+-later extensions / modifications when in use<BR>
+The strain relief per cable to be connected has to be sufficient.<BR>
+Connection lines to doors will be realized using flexible H07V-K cables in a protective conduit with two-sided strain relief.
+
+<BR><BR>
+<B>Documentation</B><BR>
+Documentation and revision reports have to be submitted in 3 copies including all verifications pursuant to the above-named standard.<BR>
+The incoming section of the assemblies (depending on the grid system) has to be equipped with a massive document holder presenting the current state of the flow diagrams.<BR>
+A name plate with the manufacturer’ data according to the above standard has to be arranged to the door of the incoming supply.
+
+<BR><BR>
+<B>Conformity and test certificates</B><BR>
+Prescribed checks are documented in a routine verification.
+The manufacturer of the low voltage switchgear assembly has to maintain and evidence a certified quality management system pursuant to EN/ISO 9001.<BR>
+Further qualifications as specified below have to be verified by conformity declarations:<BR>
+-Maintenance-free rail connections,<BR>
+-Touch guards as per DIN EN 50274 <BR>
+(VDE 0660-514 Protection against electric shock).
+
+<BR><BR>
+<B>Technical uncertainties / changes of the project execution</B><BR>
+As provided for in VOB, part B, the contractor has to check every type of planning document submitted by the client and which is related to the performance of the works.<BR>
+If conflicts are discovered during the execution of the specifications, they have to be accounted for in the submission of the offer, e.g. by way of a supplement.<BR>
+At any rate, technical uncertainties e.g. in case of changes to the project execution have to be coordinated with the design team prior to their realization.
+
+<BR><BR>
+<B>Maintenance / service </B><BR>
+Maintenance and service personnel is to be trained.<BR>
+Operating and maintenance instructions are submitted during the acceptance of an assembly.<BR>
+As provided for in DIN EN 50110-1 and BGV A2, electric installations are to be checked in recurrent fashion.
+In the interest of accident prevention, to meet the obligations of the owner and in order to ensure a long service life of the system, the conclusion of a maintenance contract between manufacturer and owner is recommended. Such contract, however, will have to be concluded outside the scope of specifications.
+
+<BR><BR>
+<B>Warranty</B><BR>
+The warranty period for the systems to be assembled amounts to 
+2 Year after VOB.
+
+<BR><BR>
+The manufacturer has to record and keep available all documents and data related to individual low voltage switchgear and controlgear assemblies for a period of 10 years.<BR>
+The identification is made by an ID number to be specified on the name plate / assembly. (e.g. order number).]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1542">
+                    <property name="pageBreakBefore">always</property>
+                    <cell id="1543">
+                        <property name="paddingLeft">0.35cm</property>
+                        <text id="1545">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>System pro <I>E</I> power / technical main description</B><BR>
+Low voltage switchgear and controlgear assembly as multi cabinet design for indoor wall installation,<BR>
+at a distance of 100 mm,<BR>
+executed pursuant to <VALUE-OF>row["standard"]</VALUE-OF>
+Cabinet frame made of non-warp steel profiles for unlimited device installation into the X/Y/Z directions,<BR>
+basic grid dimension 25 mm (12.5 mm) according to DIN 43660
+rear wall (hinged) and side walls made of <BR>
+bevelled sheet steel 1,5 mm,<BR>
+door material: sheet steel 2 mm,<BR>
+Door type: see panel description,<BR>
+door opening angle into escape direction, not less than 130°,<BR>
+door operation: Espagnolette closure,<BR>
+cladding paint: Powder-coating in RAL 7035,<BR>
+paint plinth: Powder-coating in RAL 7012,<BR>
+Degree of protection IP<VALUE-OF>row["ip_protection"]</VALUE-OF>,<BR>
+Protection class I – earthed,<BR>
+Rated operational voltage Ue AC = 415, 50-60Hz,<BR>
+Rated insulation voltage Ui = 1000V,<BR>
+Rated impulse withstand voltage Uimp = 8kV,<BR>
+Rated frequency = 50-60 Hz,<BR>
+Main busbar (MBB) Poles: <VALUE-OF>row["busbar_number_of_poles"]</VALUE-OF><BR>
+L1, L2, L3, N, PE = Cu<BR>
+MBB position: <VALUE-OF>row["phase_position"]</VALUE-OF><BR>
+Rated current of the MBB/incoming supply: <VALUE-OF>row["rating"]</VALUE-OF><BR>
+dimensioning of the neutral conductor with the same carrying capacities,<BR>
+more technical characteristics: see panel description<BR>
+Overvoltage category IV, <BR>
+Pollution degree 3,<BR>
+space reserve: not less than 25% for each functional area,<BR>
+position of the incoming and outgoing sections: see panel description,<BR>
+cable fastening rail to be positioned in the grid,<BR>
+distribution board labelling with engraved Formatur strips.<BR>
+As provided for in the applicable DIN VDE regulations, the distribution board has to be supplied fully assembled and wired, in a ready to connect condition.
+
+<BR><BR>
+The verification of type tests <BR>
+(DIN VDE 0660-600, 10) as well as the manufacturer’s approval have to be submitted prior to the realization together with the approval documentation.<BR>
+Prescribed checks are documented in a routine verification.
+
+<BR><BR>
+Dimensions H/W/D: &amp;nbsp;[] / &amp;nbsp;[] / &amp;nbsp;[] &amp;nbsp; mm,
+
+<BR><BR>
+(Including plinth <VALUE-OF>row["base_height"]</VALUE-OF>mm)
+
+<BR><BR>
+Note:<BR>
+Switching devices are separately tendered.]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <table name="breaker_column" id="1593">
+            <property name="marginLeft">0pt</property>
+            <property name="dataSet">datum</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rowOrder</property>
+                    <text-property name="displayName">rowOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rowOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">article_type</property>
+                    <text-property name="displayName">article_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["article_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_poles</property>
+                    <text-property name="displayName">device_poles</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_poles"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_qty</property>
+                    <text-property name="displayName">device_qty</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_qty"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_type</property>
+                    <text-property name="displayName">device_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">fuse_switch_disconnector</property>
+                    <text-property name="displayName">fuse_switch_disconnector</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["fuse_switch_disconnector"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">height</property>
+                    <text-property name="displayName">height</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["height"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">width</property>
+                    <text-property name="displayName">width</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["width"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1604"/>
+            <detail>
+                <row id="1610">
+                    <list-property name="visibility">
+                        <structure>
+                            <property name="format">all</property>
+                            <expression name="valueExpr" type="javascript">row["fuse_switch_disconnector"] == "Yes"</expression>
+                        </structure>
+                    </list-property>
+                    <cell id="1611">
+                        <property name="paddingLeft">0.35cm</property>
+                        <property name="paddingBottom">1cm</property>
+                        <text id="1612">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Incomer-/Outgoing module <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+to be fitted with circuit breakers of the type <BR>
+ABB <VALUE-OF>row["device_type"]</VALUE-OF>, <VALUE-OF>row["device_poles"]</VALUE-OF> -pole, <BR>
+fixed with front connection, <BR>
+with all necessary traverse <BR>
+and busbar holders to fit the  main busbar system 185 mm, <BR>
+touch guard with cut-out for breaker,
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN<BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1596">
+                    <list-property name="visibility">
+                        <structure>
+                            <property name="format">all</property>
+                            <expression name="valueExpr" type="javascript">row["fuse_switch_disconnector"] == "No"</expression>
+                        </structure>
+                    </list-property>
+                    <cell id="1597">
+                        <property name="paddingLeft">0.35cm</property>
+                        <property name="paddingBottom">1cm</property>
+                        <text id="1613">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Incomer-/Outgoing module with fuse switch disconnector <BR>
+NH00 – NH3 as pre-fuse for overvoltage protection <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+to be fitted with circuit breakers of the type <BR>
+ABB <VALUE-OF>row["device_type"]</VALUE-OF>, <VALUE-OF>row["device_poles"]</VALUE-OF> -pole, <BR>
+fixed with front connection, <BR>
+and fuse switch disconnector NH00 - NH3 <BR>
+with all necessary traverse <BR>
+and busbar holders to fit the main busbar system 185 mm, <BR>
+touch guard with cut-out for breaker <BR>
+and fuse switch disconnector <BR>
+50 mm width (extendable to 100 mm width)
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN<BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1598">
+                    <list-property name="visibility">
+                        <structure>
+                            <property name="format">all</property>
+                            <expression name="valueExpr" type="javascript">row["device_qty"]&lt;1</expression>
+                        </structure>
+                    </list-property>
+                    <cell id="1599">
+                        <property name="paddingLeft">0.35cm</property>
+                        <property name="paddingBottom">1cm</property>
+                        <text id="1615">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Incomer-/Outgoing module with fuse switch disconnector <BR>
+NH00 – NH3 as pre-fuse for overvoltage protection <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+to be fitted with circuit breakers of the type <BR>
+ABB <VALUE-OF>row["device_type"]</VALUE-OF>, <VALUE-OF>row["device_poles"]</VALUE-OF> -pole, <BR>
+fixed with front connection, <BR>
+and fuse switch disconnector NH00 - NH3 <BR>
+with all necessary traverse <BR>
+and busbar holders to fit the main busbar system 185 mm, <BR>
+touch guard with cut-out for breaker <BR>
+and fuse switch disconnector <BR>
+50 mm width (extendable to 100 mm width)
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN<BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1600">
+                    <property name="pageBreakAfter">always</property>
+                    <cell id="1601">
+                        <property name="paddingLeft">0.35cm</property>
+                        <text id="1605">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[N+PE busbar module horizontal <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+with all necessary mounting brackets <BR>
+and busbar holders to fit the N/PE busbars, <BR>
+touch guard without cut-out,
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN <BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <table name="coupler_column" id="1616">
+            <property name="marginLeft">0pt</property>
+            <property name="dataSet">datum</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rowOrder</property>
+                    <text-property name="displayName">rowOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rowOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">article_type</property>
+                    <text-property name="displayName">article_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["article_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_poles</property>
+                    <text-property name="displayName">device_poles</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_poles"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_qty</property>
+                    <text-property name="displayName">device_qty</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_qty"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_type</property>
+                    <text-property name="displayName">device_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">fuse_switch_disconnector</property>
+                    <text-property name="displayName">fuse_switch_disconnector</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["fuse_switch_disconnector"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">height</property>
+                    <text-property name="displayName">height</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["height"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">width</property>
+                    <text-property name="displayName">width</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["width"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1629"/>
+            <detail>
+                <row id="1617">
+                    <cell id="1618">
+                        <property name="paddingLeft">0.35cm</property>
+                        <property name="paddingBottom">1cm</property>
+                        <text id="1619">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Coupling module <BR>
+(as described in the preliminary remarks) <BR>
+<BR><BR>
+
+to be fitted with circuit breakers of the type <BR>
+ABB <VALUE-OF>row["device_type"]</VALUE-OF>, <VALUE-OF>row["device_poles"]</VALUE-OF> -pole, <BR>
+Fixed, front connection, <BR>
+with all necessary traverse  <BR>
+and busbar holders to fit two  <BR>
+main busbar system 185 mm behind each other, <BR>
+touch guard with cut-out for breaker
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN <BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1626">
+                    <property name="pageBreakAfter">always</property>
+                    <cell id="1627">
+                        <property name="paddingLeft">0.35cm</property>
+                        <text id="1628">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[N+PE busbar module horizontal <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+with all necessary mounting brackets <BR>
+and busbar holders to fit the N/PE busbars, <BR>
+touch guard without cut-out,
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN <BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <table name="fuseswitchdisconnector_column" id="1630">
+            <property name="marginLeft">0pt</property>
+            <property name="dataSet">datum</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rowOrder</property>
+                    <text-property name="displayName">rowOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rowOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">article_type</property>
+                    <text-property name="displayName">article_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["article_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_poles</property>
+                    <text-property name="displayName">device_poles</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_poles"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_qty</property>
+                    <text-property name="displayName">device_qty</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_qty"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_type</property>
+                    <text-property name="displayName">device_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">fuse_switch_disconnector</property>
+                    <text-property name="displayName">fuse_switch_disconnector</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["fuse_switch_disconnector"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">height</property>
+                    <text-property name="displayName">height</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["height"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">width</property>
+                    <text-property name="displayName">width</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["width"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1637"/>
+            <detail>
+                <row id="1631">
+                    <cell id="1632">
+                        <property name="paddingLeft">0.35cm</property>
+                        <property name="paddingBottom">1cm</property>
+                        <text id="1633">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Outgoing module for fuse switch disconnector <BR>
+185 mm busbar centre space  <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+To be fitted with fuse switch disconnector of the <BR> 
+type ABB InLine II, EFEN E², Jean Müller SL, <BR>
+Wöhner Quadron, <BR>
+with all necessary traverse  <BR>
+and busbar holders to fit the main busbar system 185 mm, <BR>
+touch guard with cut-out for fuse switch disconnector
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN <BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1634">
+                    <property name="pageBreakAfter">always</property>
+                    <cell id="1635">
+                        <property name="paddingLeft">0.35cm</property>
+                        <text id="1636">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[N+PE busbar module horizontal <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+with all necessary mounting brackets <BR>
+and busbar holders to fit the N/PE busbars, <BR>
+touch guard without cut-out,
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN <BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <table name="switchdisconnectorfuse_column" id="1638">
+            <property name="marginLeft">0pt</property>
+            <property name="dataSet">datum</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rowOrder</property>
+                    <text-property name="displayName">rowOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rowOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">article_type</property>
+                    <text-property name="displayName">article_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["article_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_poles</property>
+                    <text-property name="displayName">device_poles</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_poles"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_qty</property>
+                    <text-property name="displayName">device_qty</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_qty"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">device_type</property>
+                    <text-property name="displayName">device_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["device_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">fuse_switch_disconnector</property>
+                    <text-property name="displayName">fuse_switch_disconnector</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["fuse_switch_disconnector"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">height</property>
+                    <text-property name="displayName">height</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["height"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">width</property>
+                    <text-property name="displayName">width</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["width"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1645"/>
+            <detail>
+                <row id="1639">
+                    <cell id="1640">
+                        <property name="paddingLeft">0.35cm</property>
+                        <property name="paddingBottom">1cm</property>
+                        <text id="1641">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Outgoing module for switch disconnector fuse <BR>
+185 mm busbar centre space  <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+To be fitted with switch disconnector fuse of the  <BR>
+type ABB SlimeLine XR, Jean Müller SASIL Plus S, <BR>
+with all necessary traverse  <BR>
+and busbar holders to fit the main busbar system 185 mm, <BR>
+touch guard with cut-out for switch disconnector fuse
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN <BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1642">
+                    <property name="pageBreakAfter">always</property>
+                    <cell id="1643">
+                        <property name="paddingLeft">0.35cm</property>
+                        <text id="1644">
+                            <property name="fontFamily">"Arial"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[N+PE busbar module horizontal <BR>
+(as described in the preliminary remarks)
+<BR><BR>
+
+with all necessary mounting brackets <BR>
+and busbar holders to fit the N/PE busbars, <BR>
+touch guard without cut-out,
+<BR><BR>
+
+Make: ABB STRIEBEL &amp; JOHN <BR>
+Type: <VALUE-OF>row["article_type"]</VALUE-OF> <BR>
+Dimensions H/W: <VALUE-OF>row["height"]</VALUE-OF> / <VALUE-OF>row["width"]</VALUE-OF> mm]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+    </body>
+    <list-property name="images">
+        <structure>
+            <property name="name">ABB_logo_800.png</property>
+            <property name="type">image/png</property>
+            <property name="data">
+                iVBORw0KGgoAAAANSUhEUgAAAyAAAAE6CAYAAADuoja8AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN
+                1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACAASURBVHic7d17
+                lF5Vff/xT0ggwyUTepREq1sm2L2KEFBrlQygGAZQMkGYIEMCVVupFVu1tVhbrD8FUdQq3rVqddUqRRAR
+                FKkoVa5VrBdQK4IHBDyWW2GDEkDI7ffHeQJhMpl5Lvuc77m8X2tlSSYzz/ksJ2fyfL57n3PmbNq0SaiX
+                4PyfSPq8dY4efCPJ0hdP9wfB+Tr9Bdwg6alJlt5hHQT2gvNHSTrfOkdLnJNk6eqpHwzO7yrp3pKzrJe0
+                dotf92/x3/dKuknSjZv/N8nSe0rOhz4F5z8h6dXWOVriz5Is/ezUDwbn/1TSv5ac5WFtfS5v/v1dys/n
+                zb9uSrL0oZLzNdI86wDoy3HWAVpqrqRJSR+2DgLAzDxJu3Z+zSo4f5/yNy7XSbpS0pVJlt5QXDwAPZrf
+                +fWELj53U3D+NuXn9DV67Jz+vwLzNRIFpGaC80+UdKh1jhZbIwoIgO7tKumPO79eLknB+buUv3G5ovPr
+                x0mW1mk1GGirOZKe0vl1kKS/kaTg/PXa4pxOsvRXZglrYjvrAOjZMaI4WloWnN/DOgSAWlsk6WhJH1I+
+                Rb05OH96cH4v21gA+rSnpFcp3x5/a3D+u8H51wbndzPOVVkUkPph+5W9NdYBADTK7pJOlvSz4PyPgvMn
+                Bed/3zoUgL4tk/QRSbcF5y8Kzq8Jzu9kHapKKCA1Epx/mqQDrHOAAgKgMM+W9D5JWXD+a8F5fuYD9TVP
+                0gpJZ0m6Mzj/kc57udajgNTLauX7D2Fr7+D8vtYhADTadpLGJV0VnL8iOH+4dSAAA9lF0msl3Ric/2xw
+                fk/rQJYoIPXC9qvqYBUEQFmeL+k/OtuzJoPz/NsN1Nf2kl4h6brg/HnB+T+2DmSBH2I1EZx/hqRnWufA
+                o9YE51mNAlCmZ0s6R9JPgvMHWYcBMJA5klZJ+n6niDjrQGWigNQHqx/Vsruk/a1DAGilvSVdFpw/Mzj/
+                JOswAAa2StLPg/NvCs5vbx2mDBSQ+mDLT/XwPQFg6XhJNwTnXx+cn2sdBsBAdpb0HknXBudfaJylcBSQ
+                GgjOP0/S061zYCuTwXmeyQLA0rDy54n8sK17yYGG2UvSpcH5zwfnE+swRaGA1APbr6ppN0lj1iEAQPk1
+                gv8VnH+ddRAAUfyJpGuC8/tZBykCBaTiOnc7OdY6B7aJcgigKnaQ9OHg/BeD88PWYQAM7GmSrgzOv8E6
+                SGwUkOpbLomLDKtrIjg/ZB0CALZwjKQfBOe5cyJQf9tLen9w/vzg/K7WYWKhgFQfE/ZqWyBppXUIAJjC
+                S7o6OH+CdRAAURwl6UfB+edYB4mBAlJhwfn5ym/NhmqjJAKooiFJnw7On24dBEAUSyRdEZw/3DrIoCgg
+                1Xa4pMYstzXYiuD8QusQALANJwfn/4Vb9QKNsJOkrwTnj7cOMggKSLUxWa8HVqoAVN2fS/piZ2UdQL1t
+                L+nzwfm/tg7SLwpIRQXnubagXngoIYCqWyXp651/XwDU2xxJHwzOv8M6SD8oINV1lKQdrUOgawcH5xdb
+                hwCAWSyXdFlw/gnWQQBE8Y/B+U8E5+dYB+kFBaS62H5VL3MlTVqHAIAu/JHylZBdrIMAiOLVks6wDtEL
+                CkgFBed3k3SIdQ70jNIIoC6eK+n84PwO1kEARPGG4PzJ1iG6RQGppmMkzbMOgZ4tC84vsQ4BAF06RPmF
+                rLwXAJrh9OD8n1uH6AY/dKqJC5rri+8dgDqZlPRR6xAAovlEcL7yd+akgFRMcP5pkg6wzoG+sQ0LQN28
+                Jjh/qnUIAFHMlXRWcH65dZCZUECqZ43yW6uhnvYOzu9jHQIAevTW4Dw30gCaYb6k84Lzu1sH2RYKSPWw
+                haf+WAUBUEf/Epx/unUIAFH8nqRzgvPbWweZDgWkQoLze0l6pnUODGx13e7HDQCShsXT0oEm2U/Su61D
+                TIcCUi1MzpthRNKodQgA6MMfqWbPEwAwo78Nzh9hHWIqCki1sP2qOSiTAOrqr4LzL7UOASCaz3ZuclQZ
+                FJCKCM7vJ2kP6xyI5pjg/FzrEADQp89U+QJWAD1JJJ1dpWf+VCYImJg3zCLxNHsA9TUs6SPWIQBEMyrp
+                ROsQm1FAKqAzKef2h83DljoAdXZEcP4l1iEARPPO4Pwi6xASBaQqlkt6knUIRDcRnB+yDgEAA/hwcH4n
+                6xAAothV0vusQ0gUkKpgUt5Mw5JWWocAgAHsLukt1iEARPOy4PxB1iEoIMY691s/2joHCkO5BFB3JwXn
+                97QOASCaj1s/oJACYm+FpIXWIVCY8eA8318AdbaDpA9ahwAQzV6S/soyAAXEHhPyZpsvacI6BAAM6EXB
+                +edahwAQzZs6u3BMUEAMBecXiGsE2oBbLANogjdbBwAQzZMl/anVwSkgtiYk7WgdAoU7ODi/2DoEAAzo
+                yOD83tYhAETzJquHJlNAbLH9qh14zguAJpgj6R+sQwCIZg9Jqy0OTAExEpzfTTwpu03YhgWgCdYE55dY
+                hwAQzcnB+TllH5QCYucYSfOsQ6A0y/hHG0ADzJV0knUIANHsLWm87INSQOwwEW8fttwBaILV1s8QABDV
+                y8s+IAXEQHB+d0n7W+dA6SggAJrgCZJeZB0CQDQrO3dmLQ0FxMZq5RfzoV2WBuf3sQ4BABEcbx0AQDQ7
+                SlpV5gEpIDbYftVefO8BNMFLgvO7WIcAEE2p708oICXr3EN9X+scMGNyuzsAiGwnSUdahwAQzViZzyyj
+                gJSP6wDabSQ4z/U/AJqAFV2gOUp9ZhkFpHwUEPB3AEATHBycn28dAkA0K8o6EAWkRMH5ZcqfOol2mwzO
+                z7UOAQADGpL0POsQAKI5oKz3JxSQcjH5hiQtkjRmHQIAIjjIOgCAaBZIenYZB6KAlKTTKI+1zoHKYO80
+                gCZ4gXUAAFGVck5TQMqzXFJpdxdA5U0E54esQwDAgPYPzs+zDgEgmlJWNSkg5WHijS0NSxq3DgEAA9pZ
+                0nOsQwCI5sDgfOEPy6aAlKBzl5BSnzCJWqCUAmiCA60DAIgmkbRX0QehgJRjhaSF1iFQOSuC88PWIQBg
+                QH9oHQBAVIWf0xSQcjDpxnSGxMoYgPr7A+sAAKIq/JymgBQsOL9A0krrHKgsbs0MoO4oIECzUEAaYEL5
+                pBuYzlhwnrujAaizp/BEdKBRnl70ASggxWP7FWYyV9KkdQgAGMB2kvawDgEgGlZA6iw4v5t44jVmxzYs
+                AHXHNiygOZ5a9KomBaRYk5J4QBNmMxqcX2IdAgAGMGIdAEA020l6WtEHQHHYfoVurbYOAAAD4JbiQLMU
+                ek5TQAoSnN9d0qh1DtQGZRVAne1sHQBAVIWe0xSQ4qyRVPij7NEYS4Pz+1iHAIA+UUCAZqGA1BQTbfSK
+                i9EB1BUFBGgWCkjdBOf3lsQ0G72igACoq12sAwCIqtBzmgJSDFY/0I+R4DzXDQGoI1ZAgGZhBaSGmGSj
+                X5RXAHW0o3UAAFEVek5TQCILzi+TxDMd0K/J4Pxc6xAA0KMHrQMAiKrQc5oCEh8TbAxikaQx6xAA0KP7
+                rAMAiKrQc5oCElFncj1pnQO1R4kFUDcUEKBZKCA1crCkxdYhUHsTwfkh6xAA0IPfWAcAEFWh5zQFJC4m
+                14hhWNK4dQgA6AErIECzsAJSB8H5+ZImrHOgMbiTGoA6oYAAzUIBqYlxSQutQ6AxxoPzw9YhAKBLFBCg
+                WSggNcH2K8Q0JFbUANQHBQRojvVJlj5Q5AEoIBF0JtXs2UdslFoAdUEBAZqj8POZAhLHhPKJNRDTWHB+
+                kXUIAOjC7dYBAERT+PlMAYmDC4ZRBJ4rA6AO7kqy9DbrEACiuaboA1BABtSZUB9inQONxTYsAFX3Q+sA
+                AKIq/JymgAxuUvmkGijCaHB+xDoEAMzgR9YBAERV+DlNARkc269QNP6OAagyCgjQHBslXVv0QSggA+hM
+                pve3zoHGYxsWgCpjCxbQHL9IsnRt0QehgAyGyTTKsDQ4v9Q6BABM454kS2+1DgEgmlJWNCkgg6GAoCys
+                ggCoosLvlgOgVBSQKutMpPexzoHWWG0dAACmwfYroFlKOacpIP1j9QNlWhKcH7UOAQBTfM86AIBo1okV
+                kMqjgKBs/J0DUCVrJV1sHQJANN9MsvS3ZRyIAtKHziR6iXUOtM5kcJ5nzgCoiq8kWfqQdQgA0Zxd1oEo
+                IP1hEg0LiyWNWYcAgI7S3qwAKNxDkr5S1sEoID3qTKAnrXOgtSi/AKogSPqGdQgA0VyUZOn9ZR2MAtK7
+                MeWTaMDCquD8kHUIAK335SRL11mHABBNqSuaFJDeMYGGpWFJK6xDAGg9tl8BzXG/pIvKPCAFpAedyfMq
+                6xxoPR5KCMDSHZIutQ4BIJoLkiz9XZkHpID0Zlz5BBqwNB6c5+8hACvnJlm60ToEgGhKX9GkgPSG7Veo
+                giFJE9YhALTSJkmfsQ4BIJpfSbqk7INSQLrUmTiPW+cAOtiGBcDC+UmW/tg6BIBo3mFxQwkKSPcmlE+e
+                gSoYC84vsg4BoFU2STrFOgSAaG6W9FmLA1NAusfEGVXC82gAlO3cJEt/ah0CQDSnWd1OmwLShc6kmSdQ
+                o2q4JglAWTZKOtU6BIBobpT0eauDU0C6M6l84gxUyf7B+RHrEABa4ewkS6+zDgEgmrcnWbre6uAUkO6w
+                /QpVxSoIgKJtkPR26xAAorlB0lmWASggs+hMmEetcwDbQAEBULSzkiy9wToEgGjenmTpBssAFJDZ8QYP
+                VbZPcH6pdQgAjfWIWP0AmuSnMnjw4FQUkNmx/QpVR0kGUJS3JVl6o3UIAFGsl/TKJEs3WgehgMygM1lm
+                uoyqo4AAKMLVkt5rHQJANO9KsvQH1iEkCshsWP1AHSwJzi+zDgGgUR6S9ArrfeIAorlW0mnWITajgMyM
+                yTLqgrIMIKY3J1n6C+sQAKJ4RPlAweShg9OhgGxDcH5U0oh1DqBLk8F5nlUDIIbLJX3IOgSAaE5NsvQn
+                1iG2RAHZNibKqJPFkg62DgGg9tZK+rMkSzdZBwEQxX9Leo91iKkoINPoTJInrXMAPaI0AxjUG5Msvdk6
+                BIAofqeKXstFAZnemKRF1iGAHk0E5+dbhwBQW+cnWfpJ6xAAovmbJEuvtw4xHQrI9Jgko44WShq3DgGg
+                lr4r6XjrEACieXeVBwoUkCmC80OSJqxzAH3izm0AenWDpCOSLH3IOgiAKD4v6c3WIWZCAdnauKRh6xBA
+                n1YG5/n7C6Bbd0h6cZKl91gHARDFJZJOqPqNJCggW2P7FeqMFTwA3bpf0ookS2+xDgIgimskHV2l531s
+                CwVkC53J8QrrHMCA2IYFYDbrlL9RucY6CIAoblE+ULjfOkg3KCCPt0r5BBmos0OC89zFDcC2bJL0yiRL
+                L7EOAiCKe5RvpbzDOki3KCCPx/YrNMFcScdYhwBQSeslnZhk6ZnWQQBEcYekw5IsvcE6SC8oIB3BeZ4k
+                jSahTAOY6reSViZZ+inrIACi+Kmk/ZIs/ZF1kF5RQB4zqXxyDDTBaHB+xDoEgMr4laQDkiz9hnUQAFF8
+                Q9KBSZb+yjpIPyggj2FijCaZI2m1dQgAlfB95VPS/7EOAiCKT0gaT7L0t9ZB+kUBkRScXyJpmXUOIDJK
+                NYDzJb2wThenAtimjZJOSrL0NUmWbrAOMwgKSI7blqKJ9gnO720dAoCZ90l6aZKlD1oHATCwB5XfOvv9
+                1kFioIDkKCBoKlZBgPa5W9KaJEv/LsnSjdZhAAzsR5JGkyy9wDpILK0vIMH5fSQttc4BFIRyDbTL2ZL2
+                SrL0bOsgAAb2O0knK7+G6yfWYWKaZx2gApgQo8mWBOeXJVl6tXUQAIW6TdJrkiz9qnUQAFH8l6QT6vZ8
+                j261egUkOM+dgtAGlGyg2T6jfNWD8gHU3wOSXi/pBU0tHxIrIKOSRqxDAAWbDM6/oe53zACwlZslvSrJ
+                0m9ZBwEQxSWS/iLJ0lusgxSt1SsgYjKMdlgs6WDrEACi+5zyZ3wAqL/7JH1K+UNDG6+1BSQ4P1fSMdY5
+                gJJwMTrQPG+T9Kvg/HuC80+2DgNgILtKOlfS9cH5vwjOz7cOVKTWFhBJh0haZB0CKMmqpv8wA1pqoaQ3
+                SbolOP/p4Pye1oEADMRL+qSkW4PzJwfnd7UOVIQ2FxC2X6FNFkpaYR0CQGF2kHSCpOuC8xcE50etAwEY
+                yGJJpytf5XxfcP4p1oFiamUBCc4PSTrKOgdQMko30HxzJB0p6TvB+SuD8wdYBwIwkAWSTpL0y84qZyO2
+                W7aygEhaKWnYOgRQspXB+QXWIQCU5kBJVwXnPxecf5J1GAAD2bzKeUNw/o3B+e2tAw2irQWEC3LRRkOS
+                JqxDACjdyyT9Ijj/t3V/0wJACyS9V9JPgvOHWofpV+sKSHB+oaRx6xyAEbZhAe20QNIZkn4cnB+zDgNg
+                YHtK+mZw/svB+RHrML1qXQGRtEoSdwNCW40F53ezDgHAzDMk/Wdw/tzgvLMOA2BgE8pvPvG2zjXOtdDG
+                AsL2K7TZPEmT1iEAmHup8ucN/G1wfo51GAAD2VHSKZJ+HpxfbpylK60qIMF5nggNsA0LQG4n5duyLgzO
+                P8E6DICBjShf4TwlOF/p9/iVDleAYyXNtQ4BGBsNzu9uHQJAZYxLujY4f6B1EAAD207S25QXkcresrdt
+                BYTtV0D+nADOBQBbeqqky4Lzb2ZLFtAIy5UPFg6zDjKd1hSQ4PwekpZZ5wAqggICYKq5kt4p6RvB+UXW
+                YQAMbJGki4Pzpwfn51mH2VJrCoik1dYBgArZNzi/t3UIAJV0qPLJaS0uZgUwozmSTpZ0aXD+qdZhNmtT
+                AeHCW+DxWAUBsC1PVr6H/K+tgwCI4kDlg4VK7AZqRQEJzu8riWkv8HgUEAAz2U7SB4Pzp1kHARDFE5QP
+                FsyvC2lFARFvtIDp7FGVSQiASntLcP7jVb+tJ4Cu7Czpa8H5Yy1DNP6HSeduHhQQYHqcGwC68RpJZwXn
+                d7AOAmBg2ys/n19jFaDxBUTS/pJ45gEwvWOD8zwbB0A3jlX+0MKdrYMAGNh2kj4enH+L1cGbjgkvsG2L
+                ld8rHAC6cZjyPeSJdRAAUZwWnP9g2c//qdQ9gWPr/J/5PEm3WmdpuTtn+DO+N/aWS/pP6xA19KD4+1uW
+                /9vGxzeK74GFJ0v6XHB+TZKl91uHiege8fepLGtn+Djfg/IdJel+Sf+vrAPO2bRpU1nHAgAAANBybdiC
+                BQAAAKAiKCAAAAAASkMBAQAAAFAaCggAAACA0lBAAAAAAJSmkbfhDc4vl/TP1jnwqCuTLH3VdH8QnL++
+                7DDYpockLUuy9GHrIHUQnB+T9DHrHC1xUZKlJ039YHB+gaTvG+TBzF6bZGntbu0dnD9F0mrrHC1xcpKl
+                50/9YHB+QtK7DPJg2+6VNJ5kaYj5oo0sIJJeIekPrUPgUbfM8Gd8n6rlcEkXWIeoiQXi729Zrt3Gx+eK
+                70EV/Xtw/llJlt5uHaRHTxJ/n8qycIaP8z2onn8Lzr8kydJoz+5o3Bas4PyQpAnrHEBNHWcdAEDtLZL0
+                heD8XOsgAKJYKenvYr5g4wqIpHFJw9YhgJpa2dnWAgCDOEjSqdYhAETzzuD8gbFerIkFhAku0L8dJR1l
+                HQJAI7w5OH+YdQgAUcyTdHZwfrcYL9aoAhKcH5a0wjoHUHOUeAAxzJF0ZnD+962DAIjiKcrP6YH7Q6MK
+                iKRVkoasQwA1d0isCQeA1ttN+fUgTXu/AbTVYZJOHvRFmvYDYY11AKAB5kk6xjoEgMZ4gaQTrUMAiOat
+                wfk9B3mBxhSQ4PxiSWPWOYCGYBsWgJjexVYsoDF2kPSp4Pycfl+gMQVE0qTye8IDGNz+wfmnWYcA0BjD
+                kj5sHQJANM+XdEK/X9ykAsL2KyCeOeKcAhDX0cH5I6xDAIjmnzo7kHrWiAISnF8iadQ6B9AwFBAAsX0s
+                OL+LdQgAUfyepA/084WNKCCSVlsHABromcH5vaxDAGgUJ+k06xAAolkTnH9xr1/UlALCBbNAMTi3AMT2
+                uuD8PtYhAETzseD89r18Qe0LSOeH2FLrHEBDsQ0LQGxzxSoI0CR7qMcL0mtfQMQbJKBIewTn97MOAaBx
+                jgzOP9c6BIBo3hKc7/ph4BQQALNhGxaAIrAKAjTHU9TDA0drXUCC86OSRqxzAA03GZznGTsAYntRcP5A
+                6xAAojk5OL9zN59Y6wIiJrNAGZ4kabl1CACN9A7rAACiWSTpdd18Ym0LSGciO2mdA2gJyj6AIhwUnD/E
+                OgSAaP4uOD882yfVtoBIGlPetAAUb1Vwfr51CACNdIp1AADRJOpiFaTOBYSJLFCehZJWWIcA0EgHBOef
+                ZR0CQDQnznbtaC0LSOc2XxPWOYCWofQDKMprrAMAiOapklbO9Am1LCCSxiXNur8MQFQrg/MLrEMAaKTj
+                u9k3DqA2Zrwlb10LCJNYoHysPAIoys6SXm4dAkA0LwrOL9nWH9augHQmJOxFB2xQ/gEUhW1YQHPMkfTq
+                bf1h7QqIpFXKJ7EAyjcWnN/NOgSARtorOH+QdQgA0bwyOL/DdH9QxwKyxjoA0GLzxPN3ABSHVRCgOXZT
+                vnCwlVoVkOD8YuXP/wBghyEAgKK8JDi/k3UIANFMu3W7VgVE+eR1xvsKAyjc/sH53a1DAGikHSW9yDoE
+                gGgODc7vPPWDdSsgTF4Be3PEuQigOEdZBwAQzZCkw6d+sDYFpHMrr1HrHAAkUUAAFGflbE9RBlArWw0V
+                alNAJK22DgDgUfsG5/e2DgGgkRJJz7cOASCalcH57bf8QJ0KCM8fAKqFcxJAUdiGBTTHQknLt/xALQpI
+                cH4fSUutcwB4HLZhASjKkdYBAEQ1seVvalFAxBsdoIqWBOeXWYcA0EgjneEjgGY4YsvfUEAADIJtWACK
+                sr91AADRPGXLW/hXvoAE50cljVjnADCtSe5WA6AgrLACzfLoOV35AiImrECVLZZ0sHUIAI1EAQGapR4F
+                pDNZnbTOAWBGDAkAFOEPg/O7WocAEE09CoikMUmLrEMAmNFEcH6+dQgAjTNH0n7WIQBE8+zg/A5S9QsI
+                k1Wg+hZKGrcOAaCR2IYFNMd8Sc+WKlxAgvNDmnLPYACVxbAAQBEoIECzLJMqXECUT1SHrUMA6Mp4cJ7z
+                FUBsz7EOACCq50jVLiBMVIH6YMUSQBF2C87vYh0CQDR7SBUtIJ1J6grrHAB6wtAAQBGWWAcAEM0SqaIF
+                RNIq5RNVAPUxFpznrnUAYhuxDgAgmicH5+dXtYCssQ4AoGc8twdAEVgBAZpjjqTdK1dAgvOLlT//A0D9
+                MDwAEBsFBGiWJZUrIMonqHOtQwDoy/7B+RHrEAAaZcQ6AICoRqpYQJigAvXGOQwgJlZAgGap1gpIcH6J
+                pFHrHAAGQgEBEJOzDgAgKlepAiJptXUAAAPbJzi/1DoEgMZYYB0AQFQLqlZAeI4A0AycywBi2T44v711
+                CADR7FyZAhKc30cSU1OgGVjNBBDTTtYBAESzU2UKiNg3DjTJkuA813MBiGVn6wAAoqnOCogoIEDTsA0L
+                QCwUEKA5qlFAOpPSEescAKKaDM7zTB8AMbAFC2iOymzBYlIKNM8iSWPWIQA0AisgQHPYr4B0JqST1jkA
+                FILhAoAYWAEBmqMSKyBjyielAJpnIjg/ZB0CQO2tsw4AIJp1VSggTEiB5hqWNG4dAkDtPWAdAEA0D5gW
+                kM5kdMIyA4DCMWQAMKi11gEARLPWegVkXPmEFEBzrQjOc54DGAQFBGgO8wLCZBRoviFJq6xDAKg1tmAB
+                zWG3BaszEV1hdXwApWLYAGAQrIAAzWG6ArJK+WQUQPMdHJxfbB0CQC09kmQpd8ECmsO0gKwxPDaAcvG8
+                HwD9YvUDaBabAtKZhPKEZKBdGDoA6AfXfwDNYnYNyKTyiSiA9hgNzi+xDgGgdu61DgAgqnutCgiTUKCd
+                OPcB9OqX1gEARPXL0gtIZwI6WvZxAVQCBQRAr26yDgAgqpssVkBWGxwTQDUsDc7vYx0CQK3caB0AQFQ3
+                WhQQngcAtBs/AwD0ghUQoDnWScpKLSCdyefSMo8JoHJWB+fnWIcAUBusgADNcXOSpRvKXgFh/zeAEXEd
+                GIDurJP0K+sQAKK5SZIoIAAssA0LQDduSbJ0g3UIANHcKJVYQILzo8onnwBwTHCeZwEBmA3br4BmKbeA
+                iIkngMcsknSIdQgAlZdaBwAQVSqVVEA6k87JMo4FoDYYSgCYzXesAwCIZpOkq6XyVkDGlE88AWCzieD8
+                kHUIAJV2hXUAANH8NMnSe6XyCgiTTgBTLZC00joEgMpKkyy93ToEgGgu3/wfhReQzoRzoujjAKglhhMA
+                toXVD6BZHj2ny1gBGZc0XMJxANTPiuD8QusQACrp8tk/BUCNlFpAePYHgG2ZL2mVdQgAlcQKCNAc1ydZ
+                etfm3xRaQILzw8pXQABgW9iGBWCqW5MsvdU6BIBoHreiWfQKyCpJ3OUGwEyWB+cXW4cAUCmsfgDN8rhz
+                uugCwvYrALOZK+lY6xAAKuVb1gEARLNR0qVbfqCwAhKcX6T8+R8AMBuGFQA2e1jSBdYhAERzxdRbahe5
+                AjKpfLIJALNZFpzfwzoEgEq4KMnS31iHABDNmVM/UGQB4cJSAL1gFQSAJJ1lHQBANA9LOm/qB+cVcaTg
+                /BJJo0W8dgucKOnH1iEiu2+GP2vi35PXizfT/Vgj6Z3WIQCY+o2ki6xDAIjmoiRLt3ofWEgBkbS6oNdt
+                urskfTrJ0g3WQcqSZOnV1hliC85vLwpIP/YOzu+bZOlPrIMAMPPlJEt/Zx0CQDRbbb+SituCxfar/nyx
+                TeWjwa6SlFmHqCl+dgDtxvYroDnuk/Qf0/1B9AISnF8qaWns122JL1gHwOCSLN0k6WzrHDW1Ojg/xzoE
+                ABO3S/q2dQgA0XwpydKHp/uDIlZAmGD25xZJg2FaqgAAC1NJREFU37UOgWiY4vVnd0n7W4cAYOKcJEs3
+                WocAEM2026+kYgoIe9/7c3Znco4GSLL0Wkk/t85RUwwxgPbZKOnj1iEARPNTTXn6+ZaiFpDg/KikkZiv
+                2SJsv2oevqf9OSY4X9QNMgBU07lJlqbWIQBE866ZBuuxV0CYXPbnZ9z5p5EoIP3ZTdIh1iEAlOp06wAA
+                orlJ0hdn+oRoBSQ4P1f508/RO96oNlCSpTdK+r51jppimAG0x9cYwgGN8k+z3dU15grImKRFEV+vTSgg
+                zcXF6P05Kji/o3UIAKXgAaRAc9wm6d9m+6SYBYSJZX++l2TpL61DoDDnKL+4Er1ZIGmldQgAhbu0iQ+k
+                BVrs/du69e6WohSQ4PyQpIkYr9VCTMgbLMnS2yVdZp2jphhqAM3H6gfQHEHSJ7v5xFgrIOOShiO9Vpts
+                0CwX6aARKJn9OTw4v9A6BIDCfC/J0m9ZhwAQzUeSLF3bzSfGKiA8+6M/lyZZeod1CBTuPEmPWIeoofmS
+                jrYOAaAwJ1sHABDNnZI+0O0nD1xAgvPDyldA0DsuPm+BJEvvk/R16xw1xTYsoJnOSrL0UusQAKJ5Y5Kl
+                v+n2k2OsgKySNBThddrmYUlftg6B0lA2+7M8OP8k6xAAovqtpJOsQwCI5rIkS8/s5QtiFBC2X/Xn653J
+                ONrhq5K62heJx9lO0rHWIQBE9Va2HwONsU7SX/b6RQMVkOD8IuXP/0DvmIi3SJKlD0m6wDpHTTHkAJrj
+                x5I+ah0CQDRnJFn6816/aNAVkElJcwd8jTZaK+lC6xAoHaWzP/sF559uHQLAwDZJ+svZnpAMoDZulXRa
+                P184aAHhAtH+XNCZiKNdvinpbusQNcUqCFB//5pk6XesQwCI5vVJlj7Yzxf2XUCC80skjfb79S3HcyFa
+                KMnS9ZK+ZJ2jpiggQL0FSX9vHQJANBcmWfrVfr94kBWQ1QN8bZvdLekS6xAwQ/nsz17B+WdahwDQtxOS
+                LGUFGGiGOyS9apAXGKSAsP2qP+d2JuFop6skZdYhaoqfOUA9fTDJUm7CATTDRknHJVl65yAv0lcBCc4v
+                lbR0kAO3GBcit1iSpZsknW2do6ZWB+fnWIcA0JPvSXqTdQgA0Zwa4yGi/a6AMInsT6Z8Ao52YxtWf54m
+                6QDrEAC6dq+kY5MsXWcdBEAU/ynpHTFeqN8CwgWh/Tm7MwFHiyVZeq2k661z1BTDD6A+/jTJ0lutQwCI
+                4nZJxydZujHGi/VcQILzo5JGYhy8hdh+hc1YBenPMcH5edYhAMzqjEHukAOgUjYov+7jrlgv2M8KCBPI
+                /lyfZOk11iFQGZTR/jxR0qHWIQDM6GpJJ1uHABDNKUmWXhbzBXsqIMH5ucqffo7e8YYTj0qy9EZJ37fO
+                UVMMQYDq+l9Jk1z3ATTGVySdHvtFe10BGZO0KHaIlqCAYCq2YfXnqOD8jtYhAGzlXkkvTrKUW40DzXCV
+                pNWxrvvYUq8FhMljf36QZGlqHQKVc47y+2mjN7tIOsI6BIDHeUjSEUmW/o91EABR/I/yc/p3Rbx41wUk
+                OD8kaaKIEC3ApBtbSbL0dkmXWeeoKYYhQHWsV77t6r+sgwCI4lZJL0qy9L6iDtDLCsi4pOGigjTYRuWT
+                bmA6bM3rz+HB+V2tQwDQJkl/nmTp16yDAIjibuXl47YiD9JLAeHZH/25vOhvImrtPEmPWIeooR0kHW0d
+                AoD+PsnSf7MOASCKBySNJ1l6Q9EH6qqABOeHla+AoHdMuLFNSZbeK+li6xw1xVAEsPW+JEvfax0CQBTr
+                JB2dZOl/l3GwbldAVkkaKjJIQ62T9CXrEKg8rhHqz/Lg/JOtQwAt9UlJb7IOASCKdZJelmTpN8o6YLcF
+                hEljfy7uTLiBmVwoaa11iBraTtKx1iGAFjo9ydITkyzdZB0EwMAekPSSJEtLvV551gISnF+k/Pkf6B3b
+                rzCrJEsfVP6gH/SO4QhQnk2S3pBk6T9aBwEQxT2SxpIsLX0reDcrIJOS5hYdpIEeEG8q0T22YfXnecH5
+                P7AOAbTAekkvT7L0g9ZBAESRSXp+kqXfszh4NwWE++3356udyTbQjUuUTyLQO1ZBgGI9KOnIJEvPtA4C
+                IIrrJO2fZOnPrQLMWECC8yOSRsuJ0jhMtNG1JEvXSTrXOkdNUUCA4twr6ZAkS//DOgiAKK5WvvLxa8sQ
+                s62A8A97f4Kk0u4kgMagtPbnGcH5Z1mHABrof5W/UfmudRAAUXxd+TUfwTrIbAWE7Vf9+VJnog304irl
+                ezLRO35WAXF9S9Jzkiz9mXUQAAPbKOk0SUdU5fKAbRaQ4PxSSUtLzNIk3P0KPevc0vJs6xw1tTo4P8c6
+                BNAAGyWdIumwJEvvNM4CYHB3SXpxkqVvTbJ0g3WYzWZaAWGi2J//lXSFdQjUFuW1P07SgdYhgJq7U9Kh
+                SZaemmTpRuswAAZ2uaRnJVl6iXWQqWYqIFz/0Z9z+MGNfiVZeo2k661z1BRDE6B/31b+RuXb1kEADGyT
+                pHcqv97jdusw05m2gATnRyWNlBulMbiQGINiFaQ/Lw3Oz7MOAdTMRklvV77ycYd1GAAD+z9JhydZ+pYq
+                bbmaalsrIEwS+5MmWfpD6xCoPUpsf54o6TDrEECN3Kz8Wo+3sXIPNMLFylcyK38n1q0KSHB+rvKnn6N3
+                TK4xsCRLb5T0fescNcXwBJjdI8q3Z+ydZOm3rMMAGNivJb00ydLDkyy9zTpMN6ZbARmTtKjsIA3B5Bqx
+                UGb7c2RwfifrEECFfUvSvp3tGQ9ZhwEwkPWSzpD0jCRLz7MO04vpCggTxP5ck2TpDdYh0BjnKN+bjd7s
+                IukI6xBABd0u6bgkSw/h3yqgEa6S9EdJlr4xydK11mF69bgCEpwfkjRhlKXuWP1ANJ0l1Mutc9QUQxTg
+                MRskfVjSnkmWsrIK1N/dkl4p6QVJlv7UOky/pt4xZlzSsEWQmuMBcijCWZKWW4eooRcH538vydJ7rYMA
+                hjZKOk/SO5Is/Yl1GAADu0/SxySd0YR/36YWEJ790Z8rkyz9tXUINM55yn/Y7GAdpGZ2kHS0pE9bBwEM
+                rJP0eUnvSbL0F9ZhAAzsTkkfkPTPSZb+1jpMLI9uwQrODytfAUHvWNZGdJ0Jx8XWOWqKYQra5kFJH5K0
+                R5KlJ1A+gNq7RdJfSRpJsvQ9TSof0uNXQFZJGrIKUmPrJZ1rHQKNdZakl1iHqKEXBud/vy63IwQGcJ+k
+                j0r6UJKld1uHATCw6yS9W9IXkixdbx2mKFsWECaG/flmkqX3WIdAY10oaa3yuzuhe9tJOlb5sjXQNBsk
+                fVvSv0s6r453wAHwOL9Vvu36TEmXJlm6yThP4eZJUnB+kfLnf6B33P0KhUmy9MHg/FckHW+dpYbWiAKC
+                Zvmh8tLxhSRL77AOA2Ag6yR9XXnpuDDJ0t8Z5ynV5hWQSUlzLYPU1EOSvmIdAo33BVFA+vHc4PwfdJ4s
+                D9TVL5UPus7k+R1A7W2S9B3lpeOLSZYG4zxmNhcQ7pvfnwtZ+kYJvinpHklPsA5SQ8dJert1CKAHd0u6
+                UvlzgC5PsvRa4zwABpNKuqLz69IkSzPjPJUwLzg/ImnUOkhNsf0KhUuydF1w/lxJJ1pnqaE1ooCg2m5X
+                /sbk8s7/XteG/d9AQ22S9DM9dk5fmWTp7baRqmmeuPi8X/cp37sHlOELooD0Y8/g/LOTLL3GOgha7zZJ
+                N0m6cYv//SFbBIFaWq/8Nrk36rFz+heSvseNibozT2y/6td5SZY+Yh0CrXGlpF9Leqp1kBo6ThIFBLGs
+                l/SA8rvTrZ3y35t/f7+kTI+9MbkpydIHTdICmM3D2vpcnnpe/0bSzXqscNyaZOkGk7QN8f8BFVebug2T
+                r+oAAAAASUVORK5CYII=
+            </property>
+        </structure>
+        <structure>
+            <property name="name">striebel_and_john.gif</property>
+            <property name="type">image/gif</property>
+            <property name="data">
+                R0lGODlh5AAqAHAAACH5BAEAACQALAAAAADkACoAhf///wAAAL/izJ/Us3/Fmc/p2d/x5u/48nC/jUCp
+                Z4/MplCwdGC3gBCTQQCMNCCaTTCiWq/bv3ymf+9/kfOfrfe/yN8AJOdAWz6ZWfnP1v3v8fvf5PWvuvGP
+                n+EQMuUwTeMgP+tgdu1whOlQaQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAb/QIBwSCwaj8ikcslsOp/Q
+                qHRKjZKMggGBICgUDduweGwQasfbgeBwBIcFxDM6PBi65wPvcT6u28VwTwYICYV+ToSFCUgGCguKDANs
+                RnIElGJ/b1iYV0IHDA0OoqMPhwKjqKmigQmqqQt6Q6ejlkOtrqOLQrO4DqVGvblEvA61TQOqEJNMt6JG
+                n7gNCkbNDtSosqgNy0IE2J0GD8EMu8GorOYODYHltETVrroAxL3TROny86jGSwahqvyUVCtSQFywBUUG
+                JsTWbhRCIt5GAegEz1Uder3QpduWzZ0tc/IwuuI4BN+wfU4UjEIgAIKofAIZejJojtxHiQtx6kt1CEBE
+                /2dXCrwigICmAwgA7hCoxkBMGQDVxCzg2VEUv6hoTKFqugXBv1X3SOE56ZHJz26iGjhRKIRBKgZrIsCL
+                cNNZTrs7tT31+Q0AsrIHjBr56YDdO5lmtlYtdlgnEmKGEZwL+5IJsYBJIoyS5NIBzCRsDVAlMnUUUiFs
+                61priEoe4Yl+UT3chakIYcOqixALiTK3EsikJ5cUtuTyk84NOjug24StSofPvjp4mhq1TJEO7L0OmqoB
+                A+ZKbh+p/lzUbOND5EiYwJ49Bd2oICgy+qAIqgdZ4ZdlUkC6A5vNyVSaKOARIdlm1tEyhmCs6cWXRBSN
+                BFcS4l2jYCFGZbcYZkJUYP/Bhx9eoF8wD8QiBEgjMuZEQYo9wVZ1Q2jmUUW9LKacZw8CJUR/vTyAG1qj
+                /AhVOurshZ4RHoJogYhkBSONfcHAdOQSPLZmhiEx6QQja7XQiMuGAxaz3RAHEOAfKgUCCZaF5vQ0JRFJ
+                gsjkYsHwg2KTKi5xwJmMRcShb0M6hmeXROJ12Z6y9VVEBKCoQtIQFd6FSwIm5pUnAIkkAEEFnHKaQYoK
+                CCAqo9pQ5kt+gzZx4FFVFuZnlnhVsxdEvVUj6q0tXYeSjK7AJsYhcqWSZqSNrSIAr75wY+lViB0BXHBB
+                DldZcb0tYRBHvDRgUE9sroZptUTcqBFegKIXZl9W0rr/X46FjScTYQFNuSWeuLkV7YnE/QZuEitBqsqs
+                3cboYBylJkiuwd6ih6gqsBllIry2CScpmdLNKm+zWEhcwAAVS4sjtesiYdBpCH828RBGQRBLeVYBWm61
+                yEIIgL1pIbAFzWv6e+/Jan7MZbEZNdgLyQAQyQ526Q5BMyzzVJNmwHQelUCGj8LI1pTnWnOFaOnUF/HO
+                QBOxMIEbAo1LIEinYpjRUasCk1DmKAOrt4mZ04CJVuu6X2CpwBabk5WyK2R1hHm9rNmuoL1RmmwL7TYl
+                fH412zMMxsGnKCXy/PK69PgNQAFeLgBwz4M3O7aGh6t29o6KtA4Jt/iac7RJRhjQ/2haDJSpCG6gT31f
+                G0WlAgHsgR5cfML7fiszEQZEIEYEo1ch/fTUVz+9SH8KYcCt1lfRSffghy/++PoKryz51H+P/vrstw8F
+                MRDY437689dv//2inn//FOrv7///AAzgEPonwAIa8IDgIyACF8jABi5BgQ6MoAQXCMEJWvCC+6sgBjfI
+                QfKpTwMf2gASJvChTwmBAx+aQIeU9KEVWqADRPCABT4wBCWBQIUuVFIFhGDDCWhghDK0gAdgOIQPsBCH
+                RWShBVToIRrW0IkAUCISi0DCEBTBiB/yQAh+yEMQgUAEXDTCBII4xCHEaYZT1EAIQPQBEwLAQ1OcYQ29
+                6EPPAf+AAikc4YeICIA1LnGFF2gPDpMEgiGg0AIjqOENOyBDInrohu0RYRRvGAIQWMCKRljjEEUgQyRe
+                4IUi6IAI3HjCUFrgix3YoYcSWUNWRtECoQzlDo8QxDAC4JOiHAEi5zgBRsLyCCIQIntk+J43nnICIZCh
+                CISgAUsGUpMmhCMRdslDSlrSiuozIgg8oMdTDsEDnVzhFHMoST9CUY4AyAA6m3gEdL7SCOrkphA2IEMu
+                frIJS4KTO6N4TgswYQOntEAxhXDPLs6RmfucpxC5CEInshMAIJRnB6h5x3X+8YkYNej3ADqCYJJyCME0
+                4g/VqctlGnOcxtQlET2gyznlEwD/wXQkRafJJBD6k4ovJMIai2lEfM7JmD996TuXoEt1FjKJK+ynEIKJ
+                SSJM1KQdkqSHmATQm1qSlC08KU1r6FJ/fo+EFABoU50q0JwGE48yVZJDXwiCQqIQhf30IhfP6M5jcvKX
+                RdDlLIVAQpN+UodI2CddPxRXECEBnADQpSQTy8LFshAEiwWpQIWQgU6t8IbBxGtWh6BXrWY0ipv8pIi+
+                B84fItYIwayAB2i4WnWadKrs6UAxPSSCNTIWhK48pSjXuFZUioADcwQRVHVqgb3CNKe3XGIsbblVM54y
+                lhPtaixRWtFl4hGJRhRlMD0gyQ+FkrfMnSgRsXhTukJ1s0Iw/6IqL8rD3CqJSZ2oqpIGOgQSZiCYKOwA
+                CnHoWiS9EIUU8ICI6gpF9QK1nSIKpiuJwFQi6BK4yfWpPoPaVaKyUJ4RXqpmb8pY41YUkxnIQE8PXNIk
+                utGmK2xqQ7lqhE7oMgTanamGOSVEC2hAmgDIr3+XCc7JClWoMhThVBEMURlCmAgRNWE8uTjiJQj1wJ9F
+                rxEiKsoOXDW9HF4jETdrYCJU1Y0jHrIGZDhLPEJRwQrF8ERz+1MhdOK0QrBkZAEw0R3KsJD9TacQL/AB
+                Pn/KQzD0owh/LOALWPKoHiq0n3nIJBR6gLl0/lAI/DjQgjoZinrG9I+XdAE+0zfSUEUhJsVFy+cQdrHP
+                lsT0EPCISBFY8qbqdCIejwoAI3pgAlhc7Cc9IAJdFvezA0znBYbbgQ8cWQgU+IAIRXCB94gYwiIeQac7
+                LUIRO/sDmPwAVD8wAm5/YKAinja10wvVEFzg2Ib86wiMy+wmDJsIIh7uu9Mr7mYXQQQfCKMGuL1UcYOx
+                iNLu9HCLwAFfg2CLlNU2Z88NUktq0ZYasPKH1k2EeRNBgx3MuMalR4KOe/zjIA+5yEdO8pKb/OQoT7nK
+                V87ylrv85S4PAgA7
+            </property>
+        </structure>
+    </list-property>
+</report>

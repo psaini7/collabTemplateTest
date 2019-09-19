@@ -1,0 +1,294 @@
+<itemblock>
+	<dtelist>
+		<dte id="xml_pdc_application"/>
+	</dtelist>
+	<blocks>
+		<itemblock>
+			<dtelist>
+				<dte id="xml_pdc_world"/>
+			</dtelist>
+			<blocks>
+				<group id="xml_pdc_grouper_switchboard">
+					<blocks>
+						<itemblock source="parent">
+							<dtelist>
+								<dte id="xml_pdc_switchboard"/>
+							</dtelist>
+							<blocks>
+								<itemblock source="parent">
+									<dtelist>
+										<dte id="xml_pdc_properties_wrapper"/>
+									</dtelist>
+									<blocks>
+										<paramblock>
+											<info name="property" propertyid="name" propertyvalue="value"/>
+											<dtelist>
+												<dte id="xml_pdc_switchboard_properties"/>
+											</dtelist>
+										</paramblock>
+									</blocks>
+								</itemblock>
+								<itemblock source="parent">
+									<dtelist>
+										<dte id="xml_pdc_parts_wrapper"/>
+									</dtelist>
+									<blocks>
+										<tableblock>
+											<info name="part"/>
+											<dtelist>
+												<dte id="dts_bom_switchboard"/>
+											</dtelist>
+											<organizer id="OrganizerItem"/>
+											<tableizer id="tableizer_part_PDC">
+												<column id="identreference" name="identreference"/>
+												<column id="typereference" name="typereference"/>
+												<column id="qty" name="quantity"/>
+												<column id="price" name="listprice"/>
+												<column id="descr" name="shortdescription"/>
+												<column id="deliverymethod" name="deliverymethod"/>
+												<column id="realquantity" name="realquantity"/>
+												<column id="group" name="group"/>
+											</tableizer>
+										</tableblock>
+									</blocks>
+								</itemblock>
+								<itemblock source="parent">
+									<dtelist>
+										<dte id="xml_pdc_designinfo_wrapper"/>
+									</dtelist>
+									<blocks>
+										<tableblock>
+											<info name="element"/>
+											<dtelist>
+												<dte id="dts_designInfo_switchboard"/>
+											</dtelist>
+											<organizer id="OrganizerItem"/>
+											<tableizer id="tableizer_designinfo_PDC">
+												<column id="identreference" name="identreference"/>
+												<column id="typereference" name="typereference"/>
+												<column id="locationX" name="locationX"/>
+												<column id="locationY" name="locationY"/>
+												<column id="unitId" name="unitId"/>
+												<column id="alignment" name="alignment"/>
+											</tableizer>
+										</tableblock>
+									</blocks>
+								</itemblock>
+								<group id="xml_pdc_grouper_column" source="parent">
+									<blocks>
+										<itemblock source="parent">
+											<dtelist>
+												<dte id="xml_pdc_column"/>
+											</dtelist>
+											<blocks>
+												<itemblock source="parent">
+													<dtelist>
+														<dte id="xml_pdc_properties_wrapper"/>
+													</dtelist>
+													<blocks>
+														<paramblock>
+															<info name="property" propertyid="name" propertyvalue="value"/>
+															<dtelist>
+																<dte id="xml_pdc_column_properties"/>
+															</dtelist>
+														</paramblock>
+													</blocks>
+												</itemblock>
+												<itemblock source="parent">
+													<dtelist>
+														<dte id="xml_pdc_parts_wrapper"/>
+													</dtelist>
+													<blocks>
+														<tableblock>
+															<info name="part"/>
+															<dtelist>
+																<dte id="dts_bom_column"/>
+															</dtelist>
+															<organizer id="OrganizerItem"/>
+															<tableizer id="tableizer_part_PDC">
+																<column id="identreference" name="identreference"/>
+																<column id="typereference" name="typereference"/>
+																<column id="qty" name="quantity"/>
+																<column id="price" name="listprice"/>
+																<column id="descr" name="shortdescription"/>
+																<column id="deliverymethod" name="deliverymethod"/>
+																<column id="realquantity" name="realquantity"/>
+																<column id="group" name="group"/>
+															</tableizer>
+														</tableblock>
+													</blocks>
+												</itemblock>
+												<itemblock source="parent">
+													<dtelist>
+														<dte id="xml_pdc_designinfo_wrapper"/>
+													</dtelist>
+													<blocks>
+														<tableblock>
+															<info name="element"/>
+															<dtelist>
+																<dte id="dts_designInfo_column"/>
+															</dtelist>
+															<organizer id="OrganizerItem"/>
+															<tableizer id="tableizer_designinfo_PDC">
+																<column id="identreference" name="identreference"/>
+																<column id="typereference" name="typereference"/>
+																<column id="locationX" name="locationX"/>
+																<column id="locationY" name="locationY"/>
+																<column id="unitId" name="unitId"/>
+																<column id="alignment" name="alignment"/>
+															</tableizer>
+														</tableblock>
+													</blocks>
+												</itemblock>
+												<group id="xml_pdc_grouper_kit" source="parent">
+													<blocks>
+														<itemblock source="parent">
+															<dtelist>
+																<dte id="xml_pdc_kit"/>
+															</dtelist>
+															<blocks>
+																<itemblock source="parent">
+																	<dtelist>
+																		<dte id="xml_pdc_properties_wrapper"/>
+																	</dtelist>
+																	<blocks>
+																		<paramblock>
+																			<info name="property" propertyid="name" propertyvalue="value"/>
+																			<dtelist>
+																				<dte id="xml_pdc_kit_properties"/>
+																			</dtelist>
+																		</paramblock>
+																	</blocks>
+																</itemblock>
+																<itemblock source="parent">
+																	<dtelist>
+																		<dte id="xml_pdc_parts_wrapper"/>
+																	</dtelist>
+																	<blocks>
+																		<tableblock>
+																			<info name="part"/>
+																			<dtelist>
+																				<dte id="dts_bom_kit"/>
+																			</dtelist>
+																			<organizer id="OrganizerItem"/>
+																			<tableizer id="tableizer_part_PDC">
+																				<column id="identreference" name="identreference"/>
+																				<column id="typereference" name="typereference"/>
+																				<column id="qty" name="quantity"/>
+																				<column id="price" name="listprice"/>
+																				<column id="descr" name="shortdescription"/>
+																				<column id="deliverymethod" name="deliverymethod"/>
+																				<column id="realquantity" name="realquantity"/>
+																				<column id="group" name="group"/>
+																			</tableizer>
+																		</tableblock>
+																	</blocks>
+																</itemblock>
+																<itemblock source="parent">
+																	<dtelist>
+																		<dte id="xml_pdc_designinfo_wrapper"/>
+																	</dtelist>
+																	<blocks>
+																		<tableblock>
+																			<info name="element"/>
+																			<dtelist>
+																				<dte id="dts_designInfo_kit"/>
+																			</dtelist>
+																			<organizer id="OrganizerItem"/>
+																			<tableizer id="tableizer_designinfo_PDC">
+																				<column id="identreference" name="identreference"/>
+																				<column id="typereference" name="typereference"/>
+																				<column id="locationX" name="locationX"/>
+																				<column id="locationY" name="locationY"/>
+																				<column id="unitId" name="unitId"/>
+																				<column id="alignment" name="alignment"/>
+																			</tableizer>
+																		</tableblock>
+																	</blocks>
+																</itemblock>
+																<group id="xml_pdc_grouper_device" source="parent">
+																	<blocks>
+																		<itemblock source="parent">
+																			<dtelist>
+																				<dte id="xml_pdc_device"/>
+																			</dtelist>
+																			<blocks>
+																				<itemblock source="parent">
+																					<dtelist>
+																						<dte id="xml_pdc_properties_wrapper"/>
+																					</dtelist>
+																					<blocks>
+																						<paramblock>
+																							<info name="property" propertyid="name" propertyvalue="value"/>
+																							<dtelist>
+																								<dte id="xml_pdc_device_properties"/>
+																							</dtelist>
+																						</paramblock>
+																					</blocks>
+																				</itemblock>
+																				<itemblock source="parent">
+																					<dtelist>
+																						<dte id="xml_pdc_parts_wrapper"/>
+																					</dtelist>
+																					<blocks>
+																						<tableblock>
+																							<info name="part"/>
+																							<dtelist>
+																								<dte id="dts_bom_devices"/>
+																							</dtelist>
+																							<organizer id="OrganizerItem"/>
+																							<tableizer id="tableizer_part_PDC">
+																								<column id="identreference" name="identreference"/>
+																								<column id="typereference" name="typereference"/>
+																								<column id="qty" name="quantity"/>
+																								<column id="price" name="listprice"/>
+																								<column id="descr" name="shortdescription"/>
+																								<column id="deliverymethod" name="deliverymethod"/>
+																								<column id="realquantity" name="realquantity"/>
+																								<column id="group" name="group"/>
+																							</tableizer>
+																						</tableblock>
+																					</blocks>
+																				</itemblock>
+																				<itemblock source="parent">
+																					<dtelist>
+																						<dte id="xml_pdc_designinfo_wrapper"/>
+																					</dtelist>
+																					<blocks>
+																						<tableblock>
+																							<info name="element"/>
+																							<dtelist>
+																								<dte id="dts_designInfo_devices"/>
+																							</dtelist>
+																							<organizer id="OrganizerItem"/>
+																							<tableizer id="tableizer_designinfo_PDC">
+																								<column id="identreference" name="identreference"/>
+																								<column id="typereference" name="typereference"/>
+																								<column id="locationX" name="locationX"/>
+																								<column id="locationY" name="locationY"/>
+																								<column id="unitId" name="unitId"/>
+																								<column id="alignment" name="alignment"/>
+																							</tableizer>
+																						</tableblock>
+																					</blocks>
+																				</itemblock>
+																			</blocks>
+																		</itemblock>
+																	</blocks>
+																</group>
+															</blocks>
+														</itemblock>
+													</blocks>
+												</group>
+											</blocks>
+										</itemblock>
+									</blocks>
+								</group>
+							</blocks>
+						</itemblock>
+					</blocks>
+				</group>
+			</blocks>
+		</itemblock>
+	</blocks>
+</itemblock>

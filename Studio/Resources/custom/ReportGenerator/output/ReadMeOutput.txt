@@ -1,0 +1,1 @@
+This folder contains the output file(pdf/word) that is generated in the process of offline report generation.

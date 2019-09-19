@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_5NDBMP44EeiADK9PiFuQ-A" name="device_inline_nh00_combiline"
+    componentClass="LINK" toaPrefix="device.inline.combiline">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_SR9WgP5BEeiADK9PiFuQ-A"
+      name="module_height_dev" visibility="800">
+    <domain uuid="_SR9Wgf5BEeiADK9PiFuQ-A" name="local"
+        visibility="300">
+      <typeSet uuid="_SR9Wgv5BEeiADK9PiFuQ-A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <logic uuid="_EGNFsATUEemn_dte-gmJlg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_EfZBwATUEemn_dte-gmJlg"
+        name="display_device" visibility="800">
+      <columns uuid="_EfZBwQTUEemn_dte-gmJlg" name="world_show_devices_toa"
+          visibility="100" databaseAlias="world_show_devices_toa">
+        <cells uuid="_EfZBwgTUEemn_dte-gmJlg" value="1"/>
+        <cells uuid="_EfZBwwTUEemn_dte-gmJlg" value="0"/>
+      </columns>
+      <columns uuid="_EfZBxATUEemn_dte-gmJlg" name="display_device"
+          visibility="100" databaseAlias="display_device">
+        <cells uuid="_EfZBxQTUEemn_dte-gmJlg" value="'inline'"/>
+        <cells uuid="_EfZBxgTUEemn_dte-gmJlg" value="'none'"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_U5WPgP5BEeiADK9PiFuQ-A" name="Calculation_Rules"
+      visibility="800">
+    <text>if(module_height_dev==&quot;450&quot;){&#xD;
+	height_nh00=300;&#xD;
+}else if(module_height_dev==&quot;750&quot;){&#xD;
+	height_nh00=650;}&#xD;
+	&#xD;
+	width_nh00=50;</text>
+  </calculation>
+  <geometry uuid="_5NDBMf44EeiADK9PiFuQ-A" deletable="false"
+      name="root">
+    <units uuid="_CjgaQP45EeiADK9PiFuQ-A" name="device_NH00">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_EBtdoP45EeiADK9PiFuQ-A" name="device_inline_nh00"
+          checksum="1430fe707946028c237ad8e8cead5b2427982dc5">
+        <translation uuid="_EBtdof45EeiADK9PiFuQ-A"/>
+        <file href="../../model.build#_4Ev8YP44EeiADK9PiFuQ-A"/>
+        <handles uuid="_ctLYMP5BEeiADK9PiFuQ-A" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_ctLYMf5BEeiADK9PiFuQ-A"
+              name="heightManipulation" fieldId="height"
+              variableReference="height_nh00" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_BHIr0AELEemVDpkYdiGDYw"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_nh00" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_76b-IATTEemn_dte-gmJlg"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_device" target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_5NDBMv44EeiADK9PiFuQ-A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_YKd9kf7nEeiskp2v5nXzHA" value="Device Inline NH00 "/>
+</comp:Component>

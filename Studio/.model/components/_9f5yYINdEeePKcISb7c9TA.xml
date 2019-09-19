@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_9f5yYINdEeePKcISb7c9TA" name="column_panel_rear_n185"
+    toaPrefix="column_panel_rear" deleteMode="NEVER">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_uRlPYLf-EeiVxeDD_jTICA"
+      name="delete_mode" visibility="800">
+    <domain uuid="_uRlPZbf-EeiVxeDD_jTICA" name="local"
+        visibility="300">
+      <typeSet uuid="_uRlPaLf-EeiVxeDD_jTICA" bitSet="393217"/>
+      <values uuid="_uRlPabf-EeiVxeDD_jTICA" name="0"
+          visibility="300">
+        <displayName uuid="_bJq5ov7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_iLKtQK_8EeeC6bgvCFL45A" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_i0DSMK_8EeeC6bgvCFL45A"
+        name="ip65" visibility="800" expression="ip(65);"/>
+  </logic>
+  <template href="_iIBbQINdEeePKcISb7c9TA.xml#_iIBbQINdEeePKcISb7c9TA"/>
+  <geometry uuid="_9f6ZooNdEeePKcISb7c9TA" deletable="false"
+      name="root">
+    <parentPlugs uuid="_9f6Zo4NdEeePKcISb7c9TA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bJq5qP7nEeiskp2v5nXzHA" value="Rear Panel"/>
+</comp:Component>

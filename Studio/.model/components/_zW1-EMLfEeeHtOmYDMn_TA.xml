@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_zW1-EMLfEeeHtOmYDMn_TA" name="device_compensator_100"
+    componentClass="LINK" toaPrefix="device.com">
+  <logic uuid="_zW1_xsLfEeeHtOmYDMn_TA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_zW1_x8LfEeeHtOmYDMn_TA"
+        name="device_width" visibility="800" expression="device_width(2);"/>
+  </logic>
+  <template href="_eVdpcML0EeeHtOmYDMn_TA.xml#_eVdpcML0EeeHtOmYDMn_TA"/>
+  <geometry uuid="_zW1_0MLfEeeHtOmYDMn_TA" deletable="false"
+      name="root">
+    <parentPlugs uuid="_zW1_2cLfEeeHtOmYDMn_TA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bH8bVv7nEeiskp2v5nXzHA" value="100 mm compensator"/>
+</comp:Component>

@@ -1,0 +1,6 @@
+<behaviors>
+  <actionBehavior trigger="general">
+    <alwaysTrueCondition />
+    <completerAction completerid="frame_completer" order="99" />
+  </actionBehavior>
+</behaviors>

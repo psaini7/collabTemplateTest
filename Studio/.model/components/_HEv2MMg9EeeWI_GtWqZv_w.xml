@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_HEv2MMg9EeeWI_GtWqZv_w" name="column_empty_tbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.tbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2g7A0MbPEei3IMlP04sCow"
+      name="kit_width" visibility="800">
+    <domain uuid="_2hEx0cbPEei3IMlP04sCow" name="local"
+        visibility="300">
+      <typeSet uuid="_2hEx1MbPEei3IMlP04sCow" bitSet="393230"/>
+      <values uuid="_2hEx1cbPEei3IMlP04sCow" deletable="false"
+          name="300" visibility="300">
+        <displayName uuid="_bHLmVf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2hEx1sbPEei3IMlP04sCow" deletable="false"
+          name="400" visibility="300">
+        <displayName uuid="_bHLmV_7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx18bPEei3IMlP04sCow" deletable="false"
+          name="600" visibility="300">
+        <displayName uuid="_bHLmWf7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx2MbPEei3IMlP04sCow" deletable="false"
+          name="800" visibility="300">
+        <displayName uuid="_bHLmW_7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx2cbPEei3IMlP04sCow" deletable="false"
+          name="1000" visibility="300">
+        <displayName uuid="_bHLmXf7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx2sbPEei3IMlP04sCow" deletable="false"
+          name="1250" visibility="300">
+        <displayName uuid="_bHLmX_7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_vP_bENsVEeeMOsgsRY5GHw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_I8KNkOxJEeev8fdGrgVCtQ"
+        name="column_type" visibility="800" expression="column_type(empty_tbbs);&#xD;&#xA;!kit_width(300);&#xD;&#xA;column_type(empty_tbbs)->column_ext_rear_cable_compartment(column_ext_rear_cable_compartment_tbbs);&#xD;&#xA;column_type(empty_tbbs)->column_ext_lateral_cable_compartment(column_ext_lateral_cable_compartment_tbbs);&#xD;&#xA;"/>
+    <children xsi:type="array:Expression" uuid="_E_8B4JS5EeiGtZxI-ASvmg"
+        name="frame_type" visibility="800" expression="!frame_type(space_saving);"/>
+  </logic>
+  <calculation uuid="_tNO5INsVEeeMOsgsRY5GHw" name="Calculation_Rules"
+      visibility="800"/>
+  <template href="_9psd0JScEeiGtZxI-ASvmg.xml#_9psd0JScEeiGtZxI-ASvmg"/>
+  <geometry uuid="_HE53Zcg9EeeWI_GtWqZv_w" deletable="false"
+      name="root"/>
+  <displayName uuid="_bHLmZv7nEeiskp2v5nXzHA" value="Empty Section"/>
+</comp:Component>

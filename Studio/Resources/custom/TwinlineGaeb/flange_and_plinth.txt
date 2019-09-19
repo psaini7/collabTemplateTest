@@ -1,0 +1,51 @@
+cable inlet from the top via flanges:
+flange opening 1: {top_flange1} 
+flange opening 2: {top_flange2} 
+flange opening 3: {top_flange3} 
+flange opening 4: {top_flange4} 
+flange opening 5: {top_flange5} 
+flange opening 6: {top_flange6} 
+cable inlet from the top via flanges (knockouts are provided):
+flange opening 1: {bottom_flange1} 
+flange opening 2: {bottom_flange2} 
+flange opening 3: {bottom_flange3} 
+flange opening 4: {bottom_flange4} 
+flange opening 5: {bottom_flange5} 
+flange opening 6: {bottom_flange6} 
+cable inlet from the sides via flanges (knockouts are provided)
+
+dimensions H/W/D: {section_height},/{section_width},/{section_depth} mm,
+dimensions with plinth H: {section_height_sum} mm
+
+make: ABB STRIEBEL & JOHN,
+type: {article_type},
+
+
+plinth -> visible if “plinth_height == 50 or 100”
+dimensions H/W/D: {plinth_height},/{twn_plinth_width},/{twn_plinth_depth} mm,
+finishing: powder-coated in RAL 9005,
+type:{plinth_article_type_1} , qty:1
+
+plinth -> visible if “plinth_height == 150 ”
+dimensions H/W/D: {plinth_height},/{twn_plinth_width},/{twn_plinth_depth} mm,
+finishing: powder-coated in RAL 9005,
+type:{plinth_article_type_1}, qty:1
+type:{plinth_article_type_2}, qty:1
+
+plinth -> visible if “plinth_height == 200 ”
+dimensions H/W/D: {plinth_height},/{twn_plinth_width},/{twn_plinth_depth} mm,
+finishing: powder-coated in RAL 9005,
+type:{plinth_article_type_1} , qty:2
+
+plinth -> visible if “plinth_height == 250 ”
+dimensions H/W/D: {plinth_height},/{twn_plinth_width},/{twn_plinth_depth} mm,
+finishing: powder-coated in RAL 9005,
+type:{plinth_article_type_1}, qty:1
+type:{plinth_article_type_2}, qty:2
+
+
+plinth -> visible if “plinth_height == 300 ”
+dimensions H/W/D: {plinth_height},/{twn_plinth_width},/{twn_plinth_depth} mm,
+finishing: powder-coated in RAL 9005,
+type:[plinth_article_type_1] , qty:3
+

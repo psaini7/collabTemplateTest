@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_lRmpUHR2EeiH3fWw6Mrr_w" name="column_outgoing_n185"
+    componentClass="LINK" cluster="true" toaPrefix="column.n185">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_iDKlIHR7EeiH3fWw6Mrr_w"
+      name="outgoing_n185" visibility="800" initValue="1">
+    <facets xsi:type="comp:VariableGroupVarFacet" uuid="_ktL7YHR7EeiH3fWw6Mrr_w"
+        defaultVar="column_outgoing_n185_toa"/>
+    <domain uuid="_iDKlIXR7EeiH3fWw6Mrr_w" name="local"
+        visibility="300">
+      <typeSet uuid="_iDKlInR7EeiH3fWw6Mrr_w" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Y6KUsJP1Eeiy-NpLcIY7kQ"
+      name="offset_n185_counter" visibility="800" initValue="0">
+    <domain uuid="_Y6KUtZP1Eeiy-NpLcIY7kQ" name="local"
+        visibility="300">
+      <typeSet uuid="_Y6KUuJP1Eeiy-NpLcIY7kQ" bitSet="393226"/>
+      <values uuid="_Y6KUuZP1Eeiy-NpLcIY7kQ" name="0"
+          visibility="300">
+        <displayName uuid="_aUWbOf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_Y6KUupP1Eeiy-NpLcIY7kQ" name="1"
+          visibility="300">
+        <displayName uuid="_aUWbO_7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_wHem4HxHEemGapIZSoUaRw"
+      name="is_set_by_completer" visibility="800" initValue="false">
+    <domain uuid="_wHem43xHEemGapIZSoUaRw" name="local"
+        visibility="300">
+      <typeSet uuid="_wHem5XxHEemGapIZSoUaRw" bitSet="393220"/>
+      <values uuid="_wHem5nxHEemGapIZSoUaRw" name="true"
+          visibility="300">
+        <displayName uuid="_wHem6HxHEemGapIZSoUaRw"/>
+      </values>
+      <values uuid="_wHem6XxHEemGapIZSoUaRw" name="false"
+          visibility="300">
+        <displayName uuid="_wHem63xHEemGapIZSoUaRw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_mQ-pYHR7EeiH3fWw6Mrr_w" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_mqA0cHR7EeiH3fWw6Mrr_w"
+        name="outgoing_n185" visibility="800" expression="outgoing_n185(1);"/>
+    <children xsi:type="array:Expression" uuid="_Z7l8gJP1Eeiy-NpLcIY7kQ"
+        name="offset_n185_counter" visibility="800"
+        expression="//offset_n185('No') -> offset_n185_counter(0);&#xD;&#xA;//!offset_n185('No') -> offset_n185_counter(1);"/>
+    <children xsi:type="array:Expression" uuid="_iZ4wMFuzEemovIP_2hYwUg"
+        name="column_type" visibility="800" expression="column_type(breaker);"/>
+  </logic>
+  <template href="_VYJ50HR1EeiH3fWw6Mrr_w.xml#_VYJ50HR1EeiH3fWw6Mrr_w"/>
+  <geometry uuid="_lRmpUXR2EeiH3fWw6Mrr_w" deletable="false"
+      name="root">
+    <parentPlugs uuid="_lRmpUnR2EeiH3fWw6Mrr_w" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aUWbQv7nEeiskp2v5nXzHA" value="Outgoing Section"/>
+</comp:Component>

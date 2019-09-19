@@ -1,0 +1,5 @@
+<export extension="portal.xml" id="custom_export_to_PDC" custom="com.virtubuild.services.abbeconf.export.ABBeConfPDCExporter">
+      <table id="parameters">
+        <entry in="itemexporter" out="PortalItemExport"/>
+      </table>
+    </export>

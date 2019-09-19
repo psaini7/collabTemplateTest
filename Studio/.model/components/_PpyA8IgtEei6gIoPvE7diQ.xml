@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_PpyA8IgtEei6gIoPvE7diQ" name="column_coupler_tbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.tbbs">
+  <logic uuid="_kUBZAIpqEeiCc-Q8g1D0VQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_lES_YIpqEeiCc-Q8g1D0VQ"
+        name="column_type" visibility="800" expression="column_type(coupler_tbbs);&#xD;&#xA;//SOFT.width_column_external=switchboard_width_toa + 100;"/>
+  </logic>
+  <template href="_GwNxUIgDEeiE_eX_e67HSQ.xml#_GwNxUIgDEeiE_eX_e67HSQ"/>
+  <geometry uuid="_PpyA8YgtEei6gIoPvE7diQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_PpyA8ogtEei6gIoPvE7diQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aTopg_7nEeiskp2v5nXzHA" value="Coupler Section"/>
+</comp:Component>

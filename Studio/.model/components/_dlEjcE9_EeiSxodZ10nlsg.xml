@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_dlEjcE9_EeiSxodZ10nlsg" name="column_coupler_rbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.rbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2LEyQJVvEeiq3O0eVUoayQ"
+      name="rating_from_mbbs" visibility="800" initValue="1250">
+    <domain uuid="_2LEyQZVvEeiq3O0eVUoayQ" name="local"
+        visibility="300">
+      <typeSet uuid="_2LEyQpVvEeiq3O0eVUoayQ" bitSet="393230"/>
+      <values uuid="_2LEyQ5VvEeiq3O0eVUoayQ" deletable="false"
+          name="0" visibility="300">
+        <displayName uuid="_aWOqhf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyRJVvEeiq3O0eVUoayQ" deletable="false"
+          name="400" visibility="300">
+        <displayName uuid="_aWOqh_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyRZVvEeiq3O0eVUoayQ" deletable="false"
+          name="630" visibility="300">
+        <displayName uuid="_aWOqif7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyRpVvEeiq3O0eVUoayQ" deletable="false"
+          name="800" visibility="300">
+        <displayName uuid="_aWOqi_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyR5VvEeiq3O0eVUoayQ" deletable="false"
+          name="1000" visibility="300">
+        <displayName uuid="_aWOqjf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEySJVvEeiq3O0eVUoayQ" deletable="false"
+          name="1250" visibility="300">
+        <displayName uuid="_aWOqj_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEySZVvEeiq3O0eVUoayQ" deletable="false"
+          name="1600" visibility="300">
+        <displayName uuid="_aWOqkf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEySpVvEeiq3O0eVUoayQ" deletable="false"
+          name="2000" visibility="300">
+        <displayName uuid="_aWOqk_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyS5VvEeiq3O0eVUoayQ" deletable="false"
+          name="2500" visibility="300">
+        <displayName uuid="_aWOqlf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyTJVvEeiq3O0eVUoayQ" deletable="false"
+          name="3200" visibility="300">
+        <displayName uuid="_aWOql_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyTZVvEeiq3O0eVUoayQ" deletable="false"
+          name="4000" visibility="300">
+        <displayName uuid="_aWOqmf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyTpVvEeiq3O0eVUoayQ" deletable="false"
+          name="5000" visibility="300">
+        <displayName uuid="_aWOqm_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2LEyT5VvEeiq3O0eVUoayQ" deletable="false"
+          name="6300" visibility="300">
+        <displayName uuid="_aWOqnf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_vXpTkE-HEeiSxodZ10nlsg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_vpU5cE-HEeiSxodZ10nlsg"
+        name="coupler" visibility="800" expression="coupler(yes);&#xA;&#xA;"/>
+  </logic>
+  <calculation uuid="_9mcGIIjCEeiPS6ebgUuonQ" name="Calculation_Rules"
+      visibility="800">
+    <text>//Export&#xD;
+frame_status=0;&#xD;
+if(rating_column_in>rating_column_out)&#xD;
+frame_status=1;&#xD;
+else&#xD;
+frame_status=0;&#xD;
+&#xD;
+//******export*****//&#xD;
+fake_code_ref=0;&#xD;
+if(rating_column_in!=rating_column_out) fake_code_ref=1;&#xD;
+else fake_code_ref=0;&#xD;
+//******export*****//</text>
+  </calculation>
+  <template href="_sIo0ME93Eeiwz9-6csXA8A.xml#_sIo0ME93Eeiwz9-6csXA8A"/>
+  <geometry uuid="_dlEjcU9_EeiSxodZ10nlsg" deletable="false"
+      name="root">
+    <parentPlugs uuid="_dlEjck9_EeiSxodZ10nlsg" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_aWOqpP7nEeiskp2v5nXzHA" value="Coupler Section"/>
+</comp:Component>

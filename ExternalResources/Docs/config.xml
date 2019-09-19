@@ -1,0 +1,118 @@
+<reportexport>
+  <report id="document" refid="tender_doc.rptdesign">
+    <blocks>
+      <block id="block" order="0" refid="project" type="datablock">
+        <parameters>
+          <parameter id="customer" value="Info from quotation system"/>
+          <parameter id="description" value="Info from quotation system"/>
+          <parameter id="designer" value="Info from quotation system"/>
+          <parameter id="name" value="Info from quotation system"/>
+        </parameters>
+      </block>
+      <block id="block" order="1" refid="switchboard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="dimension_switchboard" order="0"/>
+              <column name="name_switchboard" order="2"/>
+              <column name="quantity_switchboard" order="4"/>
+              <column name="switchboard_ip_protection_toa" order="3"/>
+              <column name="switchboard_product_line_toa" order="1"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="dimension_switchboard" value="1800x200x[width]"/>
+                <datum id="name_switchboard" value="SB2"/>
+                <datum id="quantity_switchboard" value="1"/>
+                <datum id="switchboard_ip_protection_toa" value="IP65"/>
+                <datum id="switchboard_product_line_toa" value="empty"/>
+              </row>
+              <row order="1">
+                <datum id="dimension_switchboard" value="1800x200x[width]"/>
+                <datum id="name_switchboard" value="SB1"/>
+                <datum id="quantity_switchboard" value="1"/>
+                <datum id="switchboard_ip_protection_toa" value="IP65"/>
+                <datum id="switchboard_product_line_toa" value="empty"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="block" order="2" refid="column" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="column_number" order="1"/>
+              <column name="dimension_column" order="5"/>
+              <column name="ip" order="2"/>
+              <column name="product_line" order="3"/>
+              <column name="switchboard" order="0"/>
+              <column name="switchboard_number" order="4"/>
+            </columns>
+            <rows>
+              <row order="3">
+                <datum id="column_number" value="3"/>
+                <datum id="dimension_column" value="1800x500x500"/>
+                <datum id="ip" value="IP65"/>
+                <datum id="product_line" value="SB1"/>
+                <datum id="switchboard" value="none"/>
+                <datum id="switchboard_number" value="1"/>
+              </row>
+              <row order="5">
+                <datum id="column_number" value="2"/>
+                <datum id="dimension_column" value="1800x500x500"/>
+                <datum id="ip" value="IP65"/>
+                <datum id="product_line" value="SB2"/>
+                <datum id="switchboard" value="none"/>
+                <datum id="switchboard_number" value="2"/>
+              </row>
+              <row order="10">
+                <datum id="column_number" value="1"/>
+                <datum id="dimension_column" value="1800x500x500"/>
+                <datum id="ip" value="IP65"/>
+                <datum id="product_line" value="SB2"/>
+                <datum id="switchboard" value="SB2"/>
+                <datum id="switchboard_number" value="2"/>
+              </row>
+              <row order="44">
+                <datum id="column_number" value="1"/>
+                <datum id="dimension_column" value="1800x500x500"/>
+                <datum id="ip" value="IP65"/>
+                <datum id="product_line" value="empty"/>
+                <datum id="switchboard" value="SB1"/>
+                <datum id="switchboard_number" value="1"/>
+              </row>
+              <row order="2">
+                <datum id="column_number" value="4"/>
+                <datum id="dimension_column" value="1800x500x500"/>
+                <datum id="ip" value="IP65"/>
+                <datum id="product_line" value="SB1"/>
+                <datum id="switchboard" value="none"/>
+                <datum id="switchboard_number" value="1"/>
+              </row>
+              <row order="12">
+                <datum id="column_number" value="5"/>
+                <datum id="dimension_column" value="1800x500x500"/>
+                <datum id="ip" value="IP65"/>
+                <datum id="product_line" value="SB2"/>
+                <datum id="switchboard" value="none"/>
+                <datum id="switchboard_number" value="2"/>
+              </row>
+              <row order="2">
+                <datum id="column_number" value="4"/>
+                <datum id="dimension_column" value="1800x500x500"/>
+                <datum id="ip" value="IP65"/>
+                <datum id="product_line" value="SB2"/>
+                <datum id="switchboard" value="none"/>
+                <datum id="switchboard_number" value="2"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+    </blocks>
+    <outputs>
+      <output name="tender_doc" type="pdf" orientation="portrait"/>
+    </outputs>
+  </report>
+</reportexport>

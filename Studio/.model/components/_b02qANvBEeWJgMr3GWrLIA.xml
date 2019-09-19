@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_b02qANvBEeWJgMr3GWrLIA" name="column_empty"
+    componentClass="LINK" cluster="true" toaPrefix="column.empty">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_CTpmgA3bEearGp4q8yakZw"
+      name="column_type" visibility="800" initValue="empty">
+    <domain uuid="_CTpmgg3bEearGp4q8yakZw" name="local"
+        visibility="300">
+      <typeSet uuid="_2tvfI6viEeaK7oriseII_A" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_06Y_0Ob2EeaOs4MJeyGGwA"
+      name="orientation" visibility="800">
+    <domain uuid="_06Y_1eb2EeaOs4MJeyGGwA" name="local"
+        visibility="300">
+      <typeSet uuid="_06Y_2Ob2EeaOs4MJeyGGwA" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_8THXMJ80Eea5nZoP83oc6Q"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_7bSZIGUTEeieRfqvIqQWRg"
+      name="switchboard_door_hinges_180_toa" visibility="800">
+    <domain uuid="_7bSZIWUTEeieRfqvIqQWRg" name="local"
+        visibility="300">
+      <typeSet uuid="_7bSZImUTEeieRfqvIqQWRg" bitSet="393217"/>
+    </domain>
+  </variables>
+  <template href="_XbzlcCSyEemWXd7Dp-ljXg.xml#_XbzlcCSyEemWXd7Dp-ljXg"/>
+  <geometry uuid="_b02qAdvBEeWJgMr3GWrLIA" deletable="false"
+      name="root"/>
+  <displayName uuid="_deqbHv7nEeiskp2v5nXzHA" value="Empty Section"/>
+</comp:Component>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_RT13QNueEeWpn-fOTGPjsg" name="system"
+    componentClass="LINKOWNER" cluster="true" toaPrefix=""
+    deleteMode="NEVER" insertFree="true">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_HhYCcAm8EeepMoLYmCjVUA"
+      name="inserterbar_menu" visibility="800">
+    <domain uuid="_HhYCcQm8EeepMoLYmCjVUA" name="local"
+        visibility="300">
+      <typeSet uuid="_HhYCcgm8EeepMoLYmCjVUA" bitSet="393220"/>
+      <values uuid="_B1IN4ApXEeeUvqZbMegK1Q" name="switchboard_holder"
+          visibility="300">
+        <displayName uuid="_de2BRf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <geometry uuid="_RT13QdueEeWpn-fOTGPjsg" deletable="false"
+      name="root">
+    <parentPlugs uuid="_RT13QtueEeWpn-fOTGPjsg" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_4y56MNxwEeWJgMr3GWrLIA" name="switchboard_holder"
+      public="false" type="SUBLINK" components="switchboard_holder, "
+      lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_2tu4HaviEeaK7oriseII_A"
+        geoUnit="_RT13QdueEeWpn-fOTGPjsg" position="(0,0,100)"
+        type="plugForLinkOwnerConnection"/>
+    <facets xsi:type="comp:LineControllerFacet" uuid="_2tu4HqviEeaK7oriseII_A"
+        nextRole="next_link" prevRole="prev_link"/>
+    <domain uuid="_4y56MdxwEeWJgMr3GWrLIA" name="local"
+        visibility="300">
+      <typeSet uuid="_2tu4IaviEeaK7oriseII_A" bitSet="65536"/>
+      <values uuid="_F74FoOd0EeWPUq1lUdBTKg" name="switchboard_holder"
+          visibility="300">
+        <displayName uuid="_de2BTv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_de2BT_7nEeiskp2v5nXzHA" value="System"/>
+</comp:Component>

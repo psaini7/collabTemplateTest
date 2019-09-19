@@ -1,0 +1,1 @@
+This folder contains the input XML file that is generated in the process of offline report generation.

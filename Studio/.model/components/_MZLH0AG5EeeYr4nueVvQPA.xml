@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_MZLH0AG5EeeYr4nueVvQPA" name="kit_compartment_rbbs"
+    toaPrefix="kit.rbbs" deleteMode="NEVER">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_f_2aMAG-EeeYr4nueVvQPA"
+      name="kit_height" visibility="800">
+    <domain uuid="_f_2aMQG-EeeYr4nueVvQPA" name="local"
+        visibility="300">
+      <typeSet uuid="_f_2aMgG-EeeYr4nueVvQPA" bitSet="393230"/>
+      <values uuid="_gbGy0AG-EeeYr4nueVvQPA" name="700"
+          visibility="300">
+        <displayName uuid="_bbMuhf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_nzc5YAG-EeeYr4nueVvQPA"
+      name="compartment_type" visibility="800">
+    <domain uuid="_nzc5YQG-EeeYr4nueVvQPA" name="local"
+        visibility="300">
+      <typeSet uuid="_nzc5YgG-EeeYr4nueVvQPA" bitSet="393231"/>
+      <values uuid="_oqNiQAG-EeeYr4nueVvQPA" name="fixed"
+          visibility="300">
+        <displayName uuid="_bbMuiv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_pFCdEAG-EeeYr4nueVvQPA" name="hinged"
+          visibility="300">
+        <displayName uuid="_bbMujP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_hHXbYLf_EeiVxeDD_jTICA"
+      name="delete_mode" visibility="800">
+    <domain uuid="_hHXbZbf_EeiVxeDD_jTICA" name="local"
+        visibility="300">
+      <typeSet uuid="_hHXbaLf_EeiVxeDD_jTICA" bitSet="393217"/>
+      <values uuid="_hHXbabf_EeiVxeDD_jTICA" name="0"
+          visibility="300">
+        <displayName uuid="_bbMukf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <calculation uuid="_h1hiYAG-EeeYr4nueVvQPA" name="Calculation_Rules"
+      visibility="800">
+    <text>kit_width=column_width_toa;</text>
+  </calculation>
+  <template href="_q6Y9cAADEeezzZWt7kSJvw.xml#_q6Y9cAADEeezzZWt7kSJvw"/>
+  <geometry uuid="_MZLH0QG5EeeYr4nueVvQPA" deletable="false"
+      name="root">
+    <parentPlugs uuid="_MZLH0gG5EeeYr4nueVvQPA" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bbMulv7nEeiskp2v5nXzHA" value="Compartment"/>
+</comp:Component>

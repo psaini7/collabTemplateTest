@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_73zYoOdzEeWPUq1lUdBTKg" name="switchboard_holder"
+    componentClass="LINK" deleteMode="NEVER">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_-st4cAnHEeepMoLYmCjVUA"
+      name="inserterbar_menu" visibility="800">
+    <domain uuid="_-st4cQnHEeepMoLYmCjVUA" name="local"
+        visibility="300">
+      <typeSet uuid="_-st4cgnHEeepMoLYmCjVUA" bitSet="393220"/>
+      <values uuid="_EnUBoApXEeeUvqZbMegK1Q" name="switchboard_empty"
+          visibility="300">
+        <displayName uuid="_deYuRf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_kRGoQHHxEeejGLAAGPyMKQ" name="switchboard_n185"
+          visibility="300">
+        <displayName uuid="_deYuR_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_kRH2YHHxEeejGLAAGPyMKQ" name="switchboard_rbbs"
+          visibility="300">
+        <displayName uuid="_deYuSf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_BodT0HKiEee-4PEmnFOUXQ"
+      name="world_system" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_W1xyAAsEEeiIhNml5PFaCg" declared="true"
+        model="_3-wZMHKiEee-4PEmnFOUXQ" select="CLOSEST">
+      <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_BodT0XKiEee-4PEmnFOUXQ" name="local"
+        visibility="300">
+      <typeSet uuid="_BodT0nKiEee-4PEmnFOUXQ" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_PBNdoHKiEee-4PEmnFOUXQ"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_tMYscLf_EeiVxeDD_jTICA"
+      name="delete_mode" visibility="800">
+    <domain uuid="_tMYsdbf_EeiVxeDD_jTICA" name="local"
+        visibility="300">
+      <typeSet uuid="_tMYseLf_EeiVxeDD_jTICA" bitSet="393217"/>
+      <values uuid="_tMYsebf_EeiVxeDD_jTICA" name="0"
+          visibility="300">
+        <displayName uuid="_deYuVP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_3-wZMHKiEee-4PEmnFOUXQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_4fBNoHKiEee-4PEmnFOUXQ"
+        name="world_system" visibility="800">
+      <columns uuid="_9TzyUHKiEee-4PEmnFOUXQ" name="world_system"
+          visibility="100" databaseAlias="world_system">
+        <cells uuid="_5u6GOIaZEei0J7ssmq29HQ" value="'empty'"/>
+        <cells uuid="_5u6GOYaZEei0J7ssmq29HQ" value="'n185'"/>
+        <cells uuid="_5u6GOoaZEei0J7ssmq29HQ" value="'rbbs'"/>
+        <cells uuid="_5u6GO4aZEei0J7ssmq29HQ" value="'tbbs'"/>
+        <cells uuid="_5u6GPIaZEei0J7ssmq29HQ" value="'twinline'"/>
+        <cells uuid="_NN3z0cfWEeiLs7c1AMUi5A" value="'ruis2'"/>
+      </columns>
+      <columns uuid="_l0aTMHKjEee-4PEmnFOUXQ" name="switchboard"
+          visibility="100" databaseAlias="switchboard">
+        <cells uuid="_5u6GPoaZEei0J7ssmq29HQ" value="'switchboard_empty'"/>
+        <cells uuid="_5u6GP4aZEei0J7ssmq29HQ" value="'switchboard_n185'"/>
+        <cells uuid="_5u6GQIaZEei0J7ssmq29HQ" value="'switchboard_rbbs'"/>
+        <cells uuid="_5u6GQYaZEei0J7ssmq29HQ" value="'switchboard_tbbs'"/>
+        <cells uuid="_5u6GQoaZEei0J7ssmq29HQ" value="'switchboard_twinline'"/>
+        <cells uuid="_NN3z0MfWEeiLs7c1AMUi5A" value="'switchboard_ruis2'"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="__LtXgBHzEeaO5LEMqTTscg" name="Calculation_Rules"
+      visibility="800">
+    <text>//Running number needed for table ordering in paragraph 3 in export document&#xD;
+switchboard_number = prev_number +1;</text>
+  </calculation>
+  <geometry uuid="_73zYoedzEeWPUq1lUdBTKg" deletable="false"
+      name="root">
+    <units uuid="_g3Pv0On5EeWV-8Rb3Be-yA" name="Geo_Unit"/>
+    <parentPlugs uuid="_73zYoudzEeWPUq1lUdBTKg" name="ParentPlug"
+        type="plugForLinkOwnerConnection"/>
+  </geometry>
+  <roles uuid="_OiEfYOd0EeWPUq1lUdBTKg" name="next_link"
+      initValue="NONE" public="false" type="LINKINSUBLINK"
+      components="NONE, switchboard_holder, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_2txUcKviEeaK7oriseII_A"
+        position="(0,0,3300)" type="plugForLinkConnection">
+      <geoUnit xsi:type="comp:Geometry" href="_Wva2kNrXEeWpn-fOTGPjsg.xml#_Wva2kdrXEeWpn-fOTGPjsg"/>
+    </facets>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_2txUcaviEeaK7oriseII_A"
+        twinRoleName="prev_link"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_2txUcqviEeaK7oriseII_A">
+      <chains uuid="_ZLqSYBH0EeaO5LEMqTTscg" name="switchboard_number"
+          value=" " chained="prev_number" refVar="switchboard_number"/>
+    </facets>
+    <domain uuid="_OiEfY-d0EeWPUq1lUdBTKg" name="local"
+        visibility="300">
+      <typeSet uuid="_2txUdqviEeaK7oriseII_A" bitSet="65536"/>
+      <values uuid="_3Vs9wHH1EeejGLAAGPyMKQ" name="NONE"
+          visibility="300">
+        <displayName uuid="_deZVWP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_3VuL_XH1EeejGLAAGPyMKQ" name="switchboard_holder"
+          visibility="300">
+        <displayName uuid="_deZVWv7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_WbSeYOd0EeWPUq1lUdBTKg" name="switchboard"
+      initValue="switchboard_n185" toas="switchboard, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_2txUfaviEeaK7oriseII_A"
+        position="(0,0,3200)"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_2txUfqviEeaK7oriseII_A">
+      <chains uuid="_GgSYYBH0EeaO5LEMqTTscg" name="switchboard_number"
+          chained="switchboard_number" refVar="switchboard_number"/>
+    </facets>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_pCD68HKjEee-4PEmnFOUXQ" declared="true"
+        model="_3-wZMHKiEee-4PEmnFOUXQ" select="CLOSEST"
+        flow="OUT">
+      <priorities href="../product_model.xml#_tKdygAr4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_WbSeYed0EeWPUq1lUdBTKg" name="local"
+        visibility="300">
+      <typeSet uuid="_2txUgqviEeaK7oriseII_A" bitSet="65536"/>
+      <values uuid="_kRIdcHHxEeejGLAAGPyMKQ" name="switchboard_rbbs"
+          visibility="300">
+        <displayName uuid="_deZVZP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_kRJEgHHxEeejGLAAGPyMKQ" name="switchboard_empty"
+          visibility="300">
+        <displayName uuid="_deZVZv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_kRJEgXHxEeejGLAAGPyMKQ" name="NONE"
+          visibility="300">
+        <displayName uuid="_deZVaP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_5SpLkHH1EeejGLAAGPyMKQ" name="switchboard_n185"
+          visibility="300">
+        <displayName uuid="_deZVav7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_L8M7UcXYEeeBQohcw6bF4w" name="switchboard_tbbs"
+          visibility="300">
+        <displayName uuid="_deZVbP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_kX7oYNZfEee0QchwuIyG_Q" name="switchboard_twinline"
+          visibility="300">
+        <displayName uuid="_deZVbv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_uERekMfVEeiLs7c1AMUi5A" name="switchboard_ruis2"
+          visibility="300">
+        <displayName uuid="_deZVcP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_deZVcf7nEeiskp2v5nXzHA" value="Switchboard"/>
+</comp:Component>

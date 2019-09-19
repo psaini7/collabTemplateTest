@@ -1,0 +1,2819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_KGJDMDvDEeitUe2NsAba8w"
+    name="template_cabinet_twinlineN">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ah8fYMbNEeiINas7aScoOQ"
+      name="twn_mounting" visibility="800">
+    <domain uuid="_ah8fYcbNEeiINas7aScoOQ" name="local"
+        visibility="300">
+      <typeSet uuid="_ah8fYsbNEeiINas7aScoOQ" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_CEH0wCBVEemyBN3LywSVPg"
+      name="kit_yes" visibility="800">
+    <domain uuid="_CEH0wSBVEemyBN3LywSVPg" name="local"
+        visibility="300">
+      <typeSet uuid="_CEH0wiBVEemyBN3LywSVPg" bitSet="393220"/>
+      <values uuid="_EAtdQCBVEemyBN3LywSVPg" name="yes"
+          visibility="300">
+        <displayName uuid="_EAtdQSBVEemyBN3LywSVPg"/>
+      </values>
+      <values uuid="_EXrLwCBVEemyBN3LywSVPg" name="no"
+          visibility="300">
+        <displayName uuid="_EXrLwSBVEemyBN3LywSVPg"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_FqrEsCBVEemyBN3LywSVPg"
+      name="section_width_int" visibility="800">
+    <domain uuid="_FqrEsSBVEemyBN3LywSVPg" name="local"
+        visibility="300">
+      <typeSet uuid="_FqrEsiBVEemyBN3LywSVPg" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Kh2PACBVEemyBN3LywSVPg"
+      name="section_height_int" visibility="800">
+    <domain uuid="_Kh2PASBVEemyBN3LywSVPg" name="local"
+        visibility="300">
+      <typeSet uuid="_Kh2PAiBVEemyBN3LywSVPg" bitSet="393218"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_4Yj48CBVEemyBN3LywSVPg"
+      name="switchboard_product_line_toa" visibility="800"
+      initValue="twinline">
+    <domain uuid="_4Yj49CBVEemyBN3LywSVPg" name="local"
+        visibility="300">
+      <typeSet uuid="_4Yj49iBVEemyBN3LywSVPg" bitSet="262148"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_K3zXcKDcEea4y48WrJhC7A"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Bo7u8DQcEemkWqxD_XtUOw"
+      name="display_doorLeft" visibility="800">
+    <domain uuid="_Bo7u8TQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_Bo7u8jQcEemkWqxD_XtUOw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_DAnTkDQcEemkWqxD_XtUOw"
+      name="display_doorLock" visibility="800">
+    <domain uuid="_DAnTkTQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_DAnTkjQcEemkWqxD_XtUOw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_EFAIwDQcEemkWqxD_XtUOw"
+      name="display_doorRight" visibility="800">
+    <domain uuid="_EFAIwTQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_EFAIwjQcEemkWqxD_XtUOw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_F9D2kDQcEemkWqxD_XtUOw"
+      name="pointer-events" visibility="800" initValue="none">
+    <domain uuid="_F9D2kTQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_F9D2kjQcEemkWqxD_XtUOw" bitSet="4"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_HJWDgDQcEemkWqxD_XtUOw"
+      name="width_integer" visibility="800">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_IJpC4DQcEemkWqxD_XtUOw" mirroredVariable="section_width_int"/>
+    <domain uuid="_HJWDgTQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_HJWDgjQcEemkWqxD_XtUOw" bitSet="10"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_MWePsDQcEemkWqxD_XtUOw"
+      name="door_type" visibility="800">
+    <domain uuid="_MWePsTQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_MWePsjQcEemkWqxD_XtUOw" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_SyhtIDQcEemkWqxD_XtUOw"
+      name="cabinet_door_hinge" visibility="800">
+    <domain uuid="_SyhtITQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_SyhtIjQcEemkWqxD_XtUOw" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_bvEKUDQcEemkWqxD_XtUOw"
+      name="switch_doors" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_cADMoDQcEemkWqxD_XtUOw" declared="true"
+        flow="OUT">
+      <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+    </facets>
+    <domain uuid="_bvEKUTQcEemkWqxD_XtUOw" name="local"
+        visibility="300">
+      <typeSet uuid="_bvEKUjQcEemkWqxD_XtUOw" bitSet="10"/>
+      <values uuid="_bvEKUzQcEemkWqxD_XtUOw" deletable="false"
+          name="-1" visibility="300">
+        <displayName uuid="_bvEKVDQcEemkWqxD_XtUOw"/>
+      </values>
+      <values uuid="_bvEKVTQcEemkWqxD_XtUOw" deletable="false"
+          name="0" visibility="300">
+        <displayName uuid="_bvEKVjQcEemkWqxD_XtUOw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_Q2li8JS9Eei3lN7fa6MP2w" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_RTW-gJS9Eei3lN7fa6MP2w"
+        name="Expression" visibility="800" expression="twn_mounting('yes')->kit_frames_twinlineN('NONE');&#xD;&#xA;twn_mounting('no')->kit_frames_twinlineN('kit_frames_twinlineN');"/>
+    <children xsi:type="array:TableRelation" uuid="_Z9NyMDQcEemkWqxD_XtUOw"
+        name="show_doors" visibility="800">
+      <columns uuid="_Z9NyMTQcEemkWqxD_XtUOw" name="world_show_doors_toa"
+          visibility="100" databaseAlias="world_show_doors_toa">
+        <cells uuid="_Z9NyMjQcEemkWqxD_XtUOw" value="1"/>
+        <cells uuid="_Z9NyMzQcEemkWqxD_XtUOw" value="0"/>
+      </columns>
+      <columns uuid="_Z9NyNDQcEemkWqxD_XtUOw" name="switch_doors"
+          visibility="100" databaseAlias="switch_doors">
+        <cells uuid="_Z9NyNTQcEemkWqxD_XtUOw" value="0"/>
+        <cells uuid="_Z9NyNjQcEemkWqxD_XtUOw" value="-1"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_9-Q0ADQbEemkWqxD_XtUOw" name="Calculation_Rules"
+      visibility="800">
+    <text>//width_integer=550;&#xD;
+height_cabinetFrame=section_height_int;&#xD;
+//door_type=&quot;Sheet steel door&quot;;&#xD;
+//cabinet_door_hinge=&quot;right&quot;;&#xD;
+&#xD;
+if(door_type==&quot;Sheet steel door&quot;){&#xD;
+	display_doorLock=&quot;inline&quot;;&#xD;
+	if(cabinet_door_hinge == &quot;right&quot;  || width_integer>=1050){&#xD;
+		&#xD;
+		display_doorRight=&quot;inline&quot;;&#xD;
+		&#xD;
+	}&#xD;
+	else{&#xD;
+		&#xD;
+		display_doorRight=&quot;none&quot;;&#xD;
+	}&#xD;
+	&#xD;
+		if(cabinet_door_hinge == &quot;left&quot;  || width_integer>=1050){&#xD;
+		&#xD;
+		display_doorLeft=&quot;inline&quot;;&#xD;
+		&#xD;
+	}&#xD;
+	else{&#xD;
+		&#xD;
+		display_doorLeft=&quot;none&quot;;&#xD;
+	}&#xD;
+	if(cabinet_door_hinge == &quot;right&quot; ) move_x_doorLock =-23;&#xD;
+	else move_x_doorLock =width_integer-60-74;&#xD;
+	//if (width_integer>=1050)move_x_doorLock =width_plateLeft-60;&#xD;
+	&#xD;
+    move_y_doorLock=-880 + (section_height_int/2);&#xD;
+	&#xD;
+	if(section_height_int>=1100) {&#xD;
+		&#xD;
+		visibility_hingeRM=&quot;visible&quot;;&#xD;
+		visibility_hingeLM =&quot;visible&quot;;&#xD;
+	}&#xD;
+	else {&#xD;
+		visibility_hingeRM=&quot;hidden&quot;;&#xD;
+		visibility_hingeLM =&quot;hidden&quot;;&#xD;
+	}&#xD;
+	&#xD;
+/*if(width_integer&lt;1050){&#xD;
+		width_plateRight=width_integer-11;&#xD;
+		width_plateLeft=width_integer-11;&#xD;
+	}else if(width_integer==1550){&#xD;
+		width_plateRight=width_integer-811;&#xD;
+		width_plateLeft=width_integer-811;}&#xD;
+		else if (width_integer==1300){&#xD;
+				width_plateRight=width_integer-686;&#xD;
+		width_plateLeft=width_integer-686;&#xD;
+		}&#xD;
+	else{&#xD;
+			width_plateRight=width_integer-561;&#xD;
+			width_plateLeft=width_integer-561;&#xD;
+	} 	*/&#xD;
+	&#xD;
+	if(width_integer&lt;1050){&#xD;
+		width_plateRight=width_integer-11;&#xD;
+		width_plateLeft=width_integer-11;}&#xD;
+		else{&#xD;
+				width_plateRight =(width_integer-14)/2;&#xD;
+				width_plateLeft =(width_integer-14)/2;&#xD;
+		}&#xD;
+	&#xD;
+	&#xD;
+	height_plateRight=section_height_int-7;&#xD;
+	height_plateLeft=section_height_int-7;&#xD;
+&#xD;
+	&#xD;
+&#xD;
+	&#xD;
+	if(width_integer>=1050){&#xD;
+		&#xD;
+		move_x_doorLock=(width_integer/2)+15;&#xD;
+	}&#xD;
+	&#xD;
+&#xD;
+	&#xD;
+	&#xD;
+	if(width_integer==1050 || width_integer==1300 || width_integer==1550){&#xD;
+			x_hingeRight=width_integer-38;&#xD;
+	}else{&#xD;
+			x_hingeRight=width_integer-38;&#xD;
+	}&#xD;
+	&#xD;
+if(section_height_int==650 ){&#xD;
+   y_hingeRB=section_height_int-555;&#xD;
+   y_hingeRM=section_height_int/2;&#xD;
+   y_hingeRT=section_height_int-95;&#xD;
+   }&#xD;
+   &#xD;
+   if(section_height_int==800 ){&#xD;
+   y_hingeRB=section_height_int-705;&#xD;
+   y_hingeRM=section_height_int/2;&#xD;
+   y_hingeRT=section_height_int-95;&#xD;
+   }&#xD;
+   &#xD;
+   if(section_height_int==950 ){&#xD;
+   y_hingeRB=section_height_int-855;&#xD;
+   y_hingeRM=section_height_int/2;&#xD;
+   y_hingeRT=section_height_int-95;&#xD;
+   }&#xD;
+   if(section_height_int==1100 ){&#xD;
+   y_hingeRB=section_height_int-1005;&#xD;
+   y_hingeRM=section_height_int/2;&#xD;
+   y_hingeRT=section_height_int-95;&#xD;
+   }&#xD;
+   &#xD;
+    if(section_height_int==1250 ){&#xD;
+   y_hingeRB=section_height_int-1155;&#xD;
+   y_hingeRM=section_height_int/2;&#xD;
+   y_hingeRT=section_height_int-95;&#xD;
+   }&#xD;
+   &#xD;
+   if(section_height_int==1400 ){&#xD;
+   y_hingeRB=section_height_int-1305;&#xD;
+   y_hingeRM=section_height_int/2;&#xD;
+   y_hingeRT=section_height_int-95;&#xD;
+   }&#xD;
+   &#xD;
+    if(section_height_int==1850 ){&#xD;
+   y_hingeRB=section_height_int-1755;&#xD;
+   y_hingeRM=section_height_int/2;&#xD;
+   y_hingeRT=section_height_int-95;&#xD;
+   }&#xD;
+&#xD;
+	x_plateRight=width_integer-width_plateRight-7-23;&#xD;
+	x_plateLeft =-16;&#xD;
+	x_hingeLeft =-23;&#xD;
+}&#xD;
+else{&#xD;
+	display_doorRight=&quot;none&quot;;&#xD;
+	display_doorLeft=&quot;none&quot;;&#xD;
+	display_doorLock=&quot;none&quot;;&#xD;
+}&#xD;
+&#xD;
+&#xD;
+//-------------------------RIGHT HINGED DOOR------------------------------&#xD;
+height_gripStrip=section_height_int;&#xD;
+height_bridgeStrip=section_height_int;&#xD;
+height_gripStrip2=section_height_int;&#xD;
+height_bridgeStrip2=section_height_int;&#xD;
+&#xD;
+if(width_integer==1050)showDoorSecond=500;&#xD;
+if(width_integer==1300 || width_integer==1550)showDoorSecond=750;&#xD;
+if(cabinet_door_hinge == &quot;right&quot;&amp;&amp; door_type==&quot;Glazed door&quot; &amp;&amp;(width_integer==550 || width_integer==800 || width_integer==1050 || width_integer==1300 || width_integer==1550 ) ){&#xD;
+&#xD;
+            &#xD;
+&#xD;
+                    if (width_integer==550) {&#xD;
+                    	if(width_integer==1050)showDoorFirst=0;&#xD;
+	     height_hingeStripR=section_height_int;&#xD;
+	&#xD;
+	        visibility_pane81100L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81250L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81400L=&quot;hidden&quot;;&#xD;
+	        visibility_pane8650L=&quot;hidden&quot;;&#xD;
+	        visibility_pane8800L=&quot;hidden&quot;;&#xD;
+	        visibility_pane8950L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81850L=&quot;hidden&quot;;   &#xD;
+	        &#xD;
+	        //------------------------------&#xD;
+	        visibility_hingeStripLeft=&quot;hidden&quot;;&#xD;
+                    visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+                    visibility_pane550L=&quot;hidden&quot;;&#xD;
+                    visibility_pane800L=&quot;hidden&quot;;&#xD;
+                    visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+                    &#xD;
+	                    visibility_pane550R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                      visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                       visibility_doorLock2=&quot;hidden&quot;;&#xD;
+                        visibility_gripStrip2=&quot;hidden&quot;;&#xD;
+                         visibility_bridgeStrip2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeStripRight2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRTR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRBR2=&quot;hidden&quot;;&#xD;
+	                      visibility_imageRight2=&quot;hidden&quot;;&#xD;
+	                      &#xD;
+	                        visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+	                      &#xD;
+	                    //-------------------------------------------------  &#xD;
+	           visibility_doorLock=&quot;visible&quot;;&#xD;
+                          visibility_pane550R=&quot;visible&quot;;&#xD;
+	           visibility_hingeStripRight=&quot;visible&quot;;&#xD;
+                          visibility_gripStrip=&quot;visible&quot;;&#xD;
+                          visibility_imageRight=&quot;visible&quot;;&#xD;
+    &#xD;
+                          move_x_imageRight=width_integer-245-550;&#xD;
+                          move_x_gripStrip=3;	&#xD;
+                          move_x_hingeStripRight = -250;&#xD;
+                          move_y_doorLock=section_height_int/2-877;&#xD;
+                          move_y_imageRight=0;&#xD;
+                          move_y_hingeRBR=section_height_int-1850+56;&#xD;
+                          move_y_hingeRMR=section_height_int/2-925+28;&#xD;
+                          move_y_imageRight=section_height_int/2-900;&#xD;
+                          move_x_bridgeStrip=-35;&#xD;
+                          move_x_hingeRBR=5;&#xD;
+                          move_x_hingeRMR=5;&#xD;
+                          move_x_hingeRTR=5;&#xD;
+                          &#xD;
+        &#xD;
+                                      if(section_height_int==1100)visibility_pane51100R=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51100R=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1250)visibility_pane51250R=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51250R=&quot;hidden&quot;;&#xD;
+                                     if(section_height_int==1400)visibility_pane51400R=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51400R=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==650)visibility_pane5650R=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5650R=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==800)visibility_pane5800R=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5800R=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==950)visibility_pane5950R=&quot;visible&quot;;&#xD;
+                                     else visibility_pane5950R=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1850)visibility_pane51850R=&quot;visible&quot;;&#xD;
+                                     else visibility_pane51850R=&quot;hidden&quot;;&#xD;
+        &#xD;
+        &#xD;
+                                     if(section_height_int>=1100)visibility_hingeRMRight=&quot;visible&quot;;&#xD;
+                                     else visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+	                   }&#xD;
+	              else visibility_pane550R=&quot;hidden&quot;;	&#xD;
+	                       visibility_pane81100R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane81250R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane81400R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane8650R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane8800R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane8950R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane81850R=&quot;hidden&quot;;&#xD;
+	                       &#xD;
+	                       &#xD;
+	                   &#xD;
+	     &#xD;
+		&#xD;
+if (width_integer==800) {&#xD;
+	if(width_integer==800)showDoorFirst=4;&#xD;
+		 height_hingeStripR=section_height_int;&#xD;
+	&#xD;
+	       visibility_pane51100R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51250R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51400R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5650R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5800R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5950R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51850R=&quot;hidden&quot;;&#xD;
+	        &#xD;
+	         visibility_pane51100L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51250L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51400L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5650L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5800L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5950L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51850L=&quot;hidden&quot;;&#xD;
+	        &#xD;
+	        &#xD;
+	        //---------------------------------------------------------------&#xD;
+	   visibility_hingeStripLeft=&quot;hidden&quot;;&#xD;
+                    visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+                    visibility_pane550L=&quot;hidden&quot;;&#xD;
+                    visibility_pane800L=&quot;hidden&quot;;&#xD;
+                    visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+	                    visibility_pane550R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                      visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+                      visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                       visibility_doorLock2=&quot;hidden&quot;;&#xD;
+                        visibility_gripStrip2=&quot;hidden&quot;;&#xD;
+                         visibility_bridgeStrip2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeStripRight2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRTR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRBR2=&quot;hidden&quot;;&#xD;
+                              visibility_imageRight2=&quot;hidden&quot;;&#xD;
+                              &#xD;
+                                visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+	 //---------------------------------------------------------&#xD;
+	    visibility_doorLock=&quot;visible&quot;;&#xD;
+                  visibility_pane800R=&quot;visible&quot;;&#xD;
+                  visibility_hingeStripRight=&quot;visible&quot;;&#xD;
+                  visibility_gripStrip=&quot;visible&quot;;&#xD;
+                  visibility_imageRight=&quot;visible&quot;;&#xD;
+                  visibility_pane550R=&quot;hidden&quot;;&#xD;
+    &#xD;
+        move_x_imageRight=width_integer-245-550;&#xD;
+        move_x_gripStrip=-1;	&#xD;
+        move_x_hingeStripRight =0;&#xD;
+        move_y_doorLock=section_height_int/2-877;&#xD;
+        move_y_imageRight=0;&#xD;
+        move_y_hingeRBR=section_height_int-1850+56;&#xD;
+        move_y_hingeRMR=section_height_int/2-925+28;&#xD;
+        move_y_imageRight=section_height_int/2-900;&#xD;
+         move_x_bridgeStrip=215;&#xD;
+         move_x_hingeRBR=5;&#xD;
+         move_x_hingeRMR=5;&#xD;
+          move_x_hingeRTR=5;&#xD;
+         &#xD;
+        &#xD;
+        if(section_height_int==1100)visibility_pane81100R=&quot;visible&quot;;&#xD;
+        else visibility_pane81100R=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane81250R=&quot;visible&quot;;&#xD;
+        else visibility_pane81250R=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane81400R=&quot;visible&quot;;&#xD;
+        else visibility_pane81400R=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane8650R=&quot;visible&quot;;&#xD;
+        else visibility_pane8650R=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane8800R=&quot;visible&quot;;&#xD;
+        else visibility_pane8800R=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane8950R=&quot;visible&quot;;&#xD;
+        else visibility_pane8950R=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane81850R=&quot;visible&quot;;&#xD;
+        else visibility_pane81850R=&quot;hidden&quot;;&#xD;
+        &#xD;
+        &#xD;
+        if(section_height_int>=1100)visibility_hingeRMRight=&quot;visible&quot;;&#xD;
+        else visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+        &#xD;
+        &#xD;
+	}&#xD;
+	else visibility_pane800R=&quot;hidden&quot;;&#xD;
+   //-------------------------------------------------------------------------------------------------------------------------------&#xD;
+  if(width_integer==1050){&#xD;
+  	if(width_integer==550)showDoorFirst=-1;&#xD;
+  	height_hingeStripL=section_height_int;&#xD;
+	&#xD;
+	visibility_pane800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R=&quot;hidden&quot;;&#xD;
+    visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+&#xD;
+   visibility_pane550R=&quot;hidden&quot;;&#xD;
+   visibility_pane5950R=&quot;hidden&quot;;&#xD;
+   visibility_pane5800R=&quot;hidden&quot;;&#xD;
+   visibility_pane5650R=&quot;hidden&quot;;&#xD;
+   visibility_pane51850R=&quot;hidden&quot;;&#xD;
+    visibility_pane51400R=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R=&quot;hidden&quot;;&#xD;
+    visibility_pane550L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L2=&quot;hidden&quot;;&#xD;
+    visibility_pane51400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L2=&quot;hidden&quot;;&#xD;
+&#xD;
+&#xD;
+   visibility_pane800L=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L=&quot;hidden&quot;;&#xD;
+    visibility_pane800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L2=&quot;hidden&quot;;&#xD;
+   &#xD;
+   &#xD;
+   visibility_bridgeStrip=&quot;hidden&quot;;&#xD;
+   visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+   visibility_hingeStripRight2=&quot;visible&quot;;&#xD;
+   visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+	visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+	visibility_gripStrip2=&quot;visible&quot;;&#xD;
+	visibility_doorLock2=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip2=&quot;visible&quot;;&#xD;
+    visibility_hingeRTR2=&quot;visible&quot;;&#xD;
+	visibility_hingeRBR2=&quot;visible&quot;;&#xD;
+	visibility_imageLeft=&quot;visible&quot;;&#xD;
+    visibility_imageRight2=&quot;visible&quot;;&#xD;
+    visibility_imageRight=&quot;hidden&quot;;&#xD;
+    visibility_imageLeft2=&quot;hidden&quot;;&#xD;
+     visibility_gripStrip=&quot;visible&quot;;&#xD;
+     visibility_doorLock=&quot;hidden&quot;;&#xD;
+     visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeLBLeft=&quot;visible&quot;;&#xD;
+     visibility_hingeLTLeft=&quot;visible&quot;;&#xD;
+     &#xD;
+	&#xD;
+	move_x_imageRight2=-245;&#xD;
+	move_x_bridgeStrip=-390;&#xD;
+	move_x_bridgeStrip2=-35;&#xD;
+	move_y_doorLock2=section_height_int/2-877;&#xD;
+	move_y_imageRight2=section_height_int/2-900;&#xD;
+	move_y_imageLeft=section_height_int/2-900;&#xD;
+	 move_x_gripStrip=447;	&#xD;
+	  move_y_doorLock=section_height_int/2-877;&#xD;
+	  move_x_gripStrip2=25;&#xD;
+	  move_x_doorLock=-32;&#xD;
+	  move_x_hingeRight2=-245;&#xD;
+	  move_x_hingeStripLeft=2;&#xD;
+	  move_y_hingeLBL=section_height_int-1796;&#xD;
+      move_y_hingeLML=section_height_int/2-898;&#xD;
+      move_y_hingeRBR2=section_height_int-1796;&#xD;
+      move_y_hingeRMR2=section_height_int/2-898;&#xD;
+      move_x_hingeStripLeft=1;&#xD;
+      move_x_hingeLBL=1;&#xD;
+     move_x_hingeLML=1;&#xD;
+     move_x_hingeLTL=1;&#xD;
+      &#xD;
+	  move_x_doorLock2=-10;&#xD;
+    &#xD;
+                                      if(section_height_int==1100)visibility_pane51100R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1250)visibility_pane51250R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                                     if(section_height_int==1400)visibility_pane51400R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==650)visibility_pane5650R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==800)visibility_pane5800R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==950)visibility_pane5950R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1850)visibility_pane51850R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+	&#xD;
+	&#xD;
+	             if(section_height_int==1100)visibility_pane51100L=&quot;visible&quot;;&#xD;
+        else visibility_pane51100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane51250L=&quot;visible&quot;;&#xD;
+        else visibility_pane51250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane51400L=&quot;visible&quot;;&#xD;
+        else visibility_pane51400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane5650L=&quot;visible&quot;;&#xD;
+        else visibility_pane5650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane5800L=&quot;visible&quot;;&#xD;
+        else visibility_pane5800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane5950L=&quot;visible&quot;;&#xD;
+        else visibility_pane5950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane51850L=&quot;visible&quot;;&#xD;
+        else visibility_pane51850L=&quot;hidden&quot;;&#xD;
+        &#xD;
+                                      if(section_height_int>=1100)visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+                                     else visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+                                       &#xD;
+                                      if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+                                       else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+&#xD;
+       	&#xD;
+}&#xD;
+//-------------------------------------------------------------------------------------&#xD;
+  if(width_integer==1300){&#xD;
+  	height_hingeStripL=section_height_int;&#xD;
+  	visibility_pane800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R=&quot;hidden&quot;;&#xD;
+    visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+&#xD;
+   visibility_pane550R=&quot;hidden&quot;;&#xD;
+   visibility_pane5950R=&quot;hidden&quot;;&#xD;
+   visibility_pane5800R=&quot;hidden&quot;;&#xD;
+   visibility_pane5650R=&quot;hidden&quot;;&#xD;
+   visibility_pane51850R=&quot;hidden&quot;;&#xD;
+    visibility_pane51400R=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R=&quot;hidden&quot;;&#xD;
+    visibility_pane550L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L2=&quot;hidden&quot;;&#xD;
+    visibility_pane51400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L2=&quot;hidden&quot;;&#xD;
+&#xD;
+&#xD;
+   visibility_pane500L=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L=&quot;hidden&quot;;&#xD;
+   visibility_pane51400L=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L=&quot;hidden&quot;;&#xD;
+    visibility_pane800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  &#xD;
+   visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+   visibility_hingeStripRight2=&quot;visible&quot;;&#xD;
+   visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+	visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+	visibility_gripStrip2=&quot;visible&quot;;&#xD;
+	visibility_doorLock2=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip2=&quot;visible&quot;;&#xD;
+    visibility_hingeRTR2=&quot;visible&quot;;&#xD;
+	visibility_hingeRBR2=&quot;visible&quot;;&#xD;
+	visibility_imageLeft=&quot;visible&quot;;&#xD;
+    visibility_imageRight2=&quot;visible&quot;;&#xD;
+    visibility_imageRight=&quot;hidden&quot;;&#xD;
+    visibility_imageLeft2=&quot;hidden&quot;;&#xD;
+     visibility_gripStrip=&quot;visible&quot;;&#xD;
+     visibility_doorLock=&quot;hidden&quot;;&#xD;
+     visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeLBLeft=&quot;visible&quot;;&#xD;
+     visibility_hingeLTLeft=&quot;visible&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	  move_x_imageRight2=-245;&#xD;
+      move_x_bridgeStrip2=-35;&#xD;
+      move_y_doorLock2=section_height_int/2-877;&#xD;
+      move_y_imageRight2=section_height_int/2-900;&#xD;
+	  move_y_imageLeft=section_height_int/2-900;&#xD;
+      move_y_doorLock=section_height_int/2-877;&#xD;
+     &#xD;
+     move_x_doorLock=-32;&#xD;
+     move_x_hingeRight2=-245;&#xD;
+      move_x_hingeStripLeft=2;&#xD;
+      move_y_hingeLBL=section_height_int-1796;&#xD;
+      move_y_hingeLML=section_height_int/2-898;&#xD;
+      move_y_hingeRBR2=section_height_int-1796;&#xD;
+      move_y_hingeRMR2=section_height_int/2-898;&#xD;
+      move_x_bridgeStrip=-390;&#xD;
+       move_x_gripStrip2=25;&#xD;
+       move_x_gripStrip=698;	&#xD;
+       move_x_hingeStripLeft=1;&#xD;
+      move_x_hingeLBL=1;&#xD;
+     move_x_hingeLML=1;&#xD;
+     move_x_hingeLTL=1;&#xD;
+     move_x_doorLock2=-10;&#xD;
+     &#xD;
+  	                                    if(section_height_int==1100)visibility_pane51100R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1250)visibility_pane51250R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                                     if(section_height_int==1400)visibility_pane51400R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==650)visibility_pane5650R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==800)visibility_pane5800R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==950)visibility_pane5950R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1850)visibility_pane51850R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+                                     else visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	       if(section_height_int==1100)visibility_pane81100L=&quot;visible&quot;;&#xD;
+        else visibility_pane81100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane81250L=&quot;visible&quot;;&#xD;
+        else visibility_pane81250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane81400L=&quot;visible&quot;;&#xD;
+        else visibility_pane81400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane8650L=&quot;visible&quot;;&#xD;
+        else visibility_pane8650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane8800L=&quot;visible&quot;;&#xD;
+        else visibility_pane8800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane8950L=&quot;visible&quot;;&#xD;
+        else visibility_pane8950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane81850L=&quot;visible&quot;;&#xD;
+        else visibility_pane81850L=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+                                       else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	&#xD;
+  	&#xD;
+  }&#xD;
+  &#xD;
+       //-----------------------------------------------     &#xD;
+ if(width_integer==1550){&#xD;
+ 	&#xD;
+ 	height_hingeStripL=section_height_int;&#xD;
+ 		visibility_pane800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R=&quot;hidden&quot;;&#xD;
+    visibility_pane500R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+&#xD;
+   visibility_pane550R=&quot;hidden&quot;;&#xD;
+   visibility_pane5950R=&quot;hidden&quot;;&#xD;
+   visibility_pane5800R=&quot;hidden&quot;;&#xD;
+   visibility_pane5650R=&quot;hidden&quot;;&#xD;
+   visibility_pane51850R=&quot;hidden&quot;;&#xD;
+    visibility_pane51400R=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R=&quot;hidden&quot;;&#xD;
+    visibility_pane550L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L2=&quot;hidden&quot;;&#xD;
+    visibility_pane51400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L2=&quot;hidden&quot;;&#xD;
+&#xD;
+&#xD;
+   visibility_pane500L=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L=&quot;hidden&quot;;&#xD;
+   visibility_pane51400L=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L=&quot;hidden&quot;;&#xD;
+    visibility_pane800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L2=&quot;hidden&quot;;&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	  visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+   visibility_hingeStripRight2=&quot;visible&quot;;&#xD;
+   visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+	visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+	visibility_gripStrip2=&quot;visible&quot;;&#xD;
+	visibility_doorLock2=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip2=&quot;visible&quot;;&#xD;
+    visibility_hingeRTR2=&quot;visible&quot;;&#xD;
+	visibility_hingeRBR2=&quot;visible&quot;;&#xD;
+	visibility_imageLeft=&quot;visible&quot;;&#xD;
+    visibility_imageRight2=&quot;visible&quot;;&#xD;
+    visibility_imageRight=&quot;hidden&quot;;&#xD;
+    visibility_imageLeft2=&quot;hidden&quot;;&#xD;
+     visibility_gripStrip=&quot;visible&quot;;&#xD;
+     visibility_doorLock=&quot;hidden&quot;;&#xD;
+     visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeLBLeft=&quot;visible&quot;;&#xD;
+     visibility_hingeLTLeft=&quot;visible&quot;;&#xD;
+     &#xD;
+     &#xD;
+ 	  move_x_imageRight2=0;&#xD;
+      move_x_bridgeStrip2=212;&#xD;
+      move_y_doorLock2=section_height_int/2-877;&#xD;
+      move_y_imageRight2=section_height_int/2-900;&#xD;
+	  move_y_imageLeft=section_height_int/2-900;&#xD;
+      move_y_doorLock=section_height_int/2-877;&#xD;
+     &#xD;
+     move_x_doorLock=-32;&#xD;
+     move_x_hingeRight2=0;&#xD;
+      move_x_hingeStripLeft=2;&#xD;
+      move_y_hingeLBL=section_height_int-1796;&#xD;
+      move_y_hingeLML=section_height_int/2-905;&#xD;
+      move_y_hingeRBR2=section_height_int-1796;&#xD;
+      move_y_hingeRMR2=section_height_int/2-905;&#xD;
+      move_x_bridgeStrip=-390;&#xD;
+       move_x_gripStrip2=25;&#xD;
+       move_x_gripStrip=698;	&#xD;
+        move_x_hingeStripLeft=1;&#xD;
+      move_x_hingeLBL=1;&#xD;
+     move_x_hingeLML=1;&#xD;
+     move_x_hingeLTL=1;&#xD;
+       &#xD;
+          move_x_doorLock2=-10;                                                      &#xD;
+  	       if(section_height_int==1100)visibility_pane81100L=&quot;visible&quot;;&#xD;
+        else visibility_pane81100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane81250L=&quot;visible&quot;;&#xD;
+        else visibility_pane81250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane81400L=&quot;visible&quot;;&#xD;
+        else visibility_pane81400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane8650L=&quot;visible&quot;;&#xD;
+        else visibility_pane8650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane8800L=&quot;visible&quot;;&#xD;
+        else visibility_pane8800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane8950L=&quot;visible&quot;;&#xD;
+        else visibility_pane8950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane81850L=&quot;visible&quot;;&#xD;
+        else visibility_pane81850L=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+                                       else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	                                        if(section_height_int==1100)visibility_pane81100R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1250)visibility_pane81250R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+                                     if(section_height_int==1400)visibility_pane81400R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==650)visibility_pane8650R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==800)visibility_pane8800R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==950)visibility_pane8950R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1850)visibility_pane81850R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+                                     else visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+       &#xD;
+       &#xD;
+ 	&#xD;
+ 	&#xD;
+ &#xD;
+ 	&#xD;
+ }&#xD;
+}&#xD;
+&#xD;
+&#xD;
+&#xD;
+///------------LEFT HINGED DOOR-----------------------------&#xD;
+else if(cabinet_door_hinge == &quot;left&quot;&amp;&amp; door_type==&quot;Glazed door&quot; &amp;&amp;(width_integer==550 || width_integer==800 || width_integer==1050 || width_integer==1300 || width_integer==1550 )){&#xD;
+	&#xD;
+	          &#xD;
+&#xD;
+         if (width_integer==550) {&#xD;
+         	if(width_integer==550)showDoorFirst=1;&#xD;
+	    height_hingeStripL=section_height_int;&#xD;
+	  visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+                visibility_pane550R=&quot;hidden&quot;;&#xD;
+                  visibility_pane800R=&quot;hidden&quot;;&#xD;
+                visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+                visibility_doorLock=&quot;visible&quot;;&#xD;
+                //------------------------------&#xD;
+               visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+	   visibility_imageRight=&quot;hidden&quot;;&#xD;
+	    visibility_doorLock=&quot;visible&quot;;&#xD;
+		visibility_pane550L=&quot;visible&quot;;&#xD;
+	 visibility_pane550R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                      visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                       visibility_doorLock2=&quot;hidden&quot;;&#xD;
+                        visibility_gripStrip2=&quot;hidden&quot;;&#xD;
+                         visibility_bridgeStrip2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeStripRight2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRTR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRBR2=&quot;hidden&quot;;&#xD;
+                              visibility_imageRight2=&quot;hidden&quot;;&#xD;
+                              &#xD;
+                                visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+                        //--------------------------------------------&#xD;
+		visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+&#xD;
+		visibility_gripStrip=&quot;visible&quot;;&#xD;
+         visibility_imageLeft=&quot;visible&quot;;&#xD;
+    &#xD;
+        move_x_imageLeft=0;&#xD;
+        move_x_gripStrip=475;	&#xD;
+        move_x_hingeStripLeft =0;&#xD;
+        move_y_doorLock=section_height_int/2-877;&#xD;
+        move_y_imageLeft=0;&#xD;
+        move_y_hingeLBL=section_height_int-1850+56;&#xD;
+        move_y_hingeLML=section_height_int/2-925+28;&#xD;
+        move_y_imageLeft=section_height_int/2-900;&#xD;
+         move_x_bridgeStrip=-390;&#xD;
+         move_x_hingeLBL=2;&#xD;
+         move_x_hingeLML=2;&#xD;
+        move_x_hingeLTL=2;&#xD;
+         &#xD;
+         move_x_doorLock=-10;&#xD;
+        &#xD;
+        if(section_height_int==1100)visibility_pane51100L=&quot;visible&quot;;&#xD;
+        else visibility_pane51100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane51250L=&quot;visible&quot;;&#xD;
+        else visibility_pane51250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane51400L=&quot;visible&quot;;&#xD;
+        else visibility_pane51400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane5650L=&quot;visible&quot;;&#xD;
+        else visibility_pane5650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane5800L=&quot;visible&quot;;&#xD;
+        else visibility_pane5800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane5950L=&quot;visible&quot;;&#xD;
+        else visibility_pane5950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane51850L=&quot;visible&quot;;&#xD;
+        else visibility_pane51850L=&quot;hidden&quot;;&#xD;
+        &#xD;
+        &#xD;
+        if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+        else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+	}&#xD;
+	else //visibility_pane550L=&quot;hidden&quot;;	&#xD;
+	        visibility_pane81100L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81250L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81400L=&quot;hidden&quot;;&#xD;
+	       visibility_pane8650L=&quot;hidden&quot;;&#xD;
+	        visibility_pane8800L=&quot;hidden&quot;;&#xD;
+	        visibility_pane8950L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81850L=&quot;hidden&quot;;&#xD;
+	        &#xD;
+	        &#xD;
+	         visibility_pane81100R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane81250R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane81400R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane8650R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane8800R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane8950R=&quot;hidden&quot;;&#xD;
+	                       visibility_pane81850R=&quot;hidden&quot;;&#xD;
+	                       &#xD;
+	&#xD;
+		&#xD;
+if (width_integer==800) {&#xD;
+	  if(width_integer==800)showDoorFirst=-1;&#xD;
+		 height_hingeStripL=section_height_int;&#xD;
+	     &#xD;
+	        visibility_pane51100L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51250L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51400L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5650L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5800L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5950L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51850L=&quot;hidden&quot;;&#xD;
+	        &#xD;
+	          visibility_pane51100R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51250R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51400R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5650R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5800R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5950R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51850R=&quot;hidden&quot;;&#xD;
+	     //----------------------------------&#xD;
+	      visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+                visibility_pane550R=&quot;hidden&quot;;&#xD;
+                  visibility_pane800R=&quot;hidden&quot;;&#xD;
+                visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+               visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+               &#xD;
+               &#xD;
+                visibility_pane550R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                      visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+                        visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                       visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                       visibility_doorLock2=&quot;hidden&quot;;&#xD;
+                        visibility_gripStrip2=&quot;hidden&quot;;&#xD;
+                         visibility_bridgeStrip2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeStripRight2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRTR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+                        visibility_hingeRBR2=&quot;hidden&quot;;&#xD;
+                              visibility_imageRight2=&quot;hidden&quot;;&#xD;
+                              &#xD;
+                                visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+                        &#xD;
+                        &#xD;
+	    visibility_imageRight=&quot;hidden&quot;;&#xD;
+	    visibility_doorLock=&quot;visible&quot;;&#xD;
+		visibility_pane800L=&quot;visible&quot;;&#xD;
+		visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+		visibility_gripStrip=&quot;visible&quot;;&#xD;
+         visibility_imageLeft=&quot;visible&quot;;&#xD;
+         visibility_pane550L=&quot;hidden&quot;;&#xD;
+    &#xD;
+        move_x_imageLeft=0;&#xD;
+        move_x_gripStrip=724;	&#xD;
+        move_x_hingeStripLeft =0;&#xD;
+        move_y_doorLock=section_height_int/2-877;&#xD;
+        move_y_imageLeft=0;&#xD;
+        move_y_hingeLBL=section_height_int-1850+56;&#xD;
+        move_y_hingeLML=section_height_int/2-925+28;&#xD;
+        move_y_imageLeft=section_height_int/2-900;&#xD;
+        move_x_bridgeStrip=-390;&#xD;
+       move_x_hingeLBL=2;&#xD;
+         move_x_hingeLML=2;&#xD;
+        move_x_hingeLTL=2;&#xD;
+       &#xD;
+        move_x_doorLock=-10;&#xD;
+        if(section_height_int==1100)visibility_pane81100L=&quot;visible&quot;;&#xD;
+        else visibility_pane81100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane81250L=&quot;visible&quot;;&#xD;
+        else visibility_pane81250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane81400L=&quot;visible&quot;;&#xD;
+        else visibility_pane81400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane8650L=&quot;visible&quot;;&#xD;
+        else visibility_pane8650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane8800L=&quot;visible&quot;;&#xD;
+        else visibility_pane8800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane8950L=&quot;visible&quot;;&#xD;
+        else visibility_pane8950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane81850L=&quot;visible&quot;;&#xD;
+        else visibility_pane81850L=&quot;hidden&quot;;&#xD;
+        &#xD;
+        &#xD;
+        if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+        else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+        &#xD;
+	&#xD;
+        &#xD;
+	}&#xD;
+	else visibility_pane800L=&quot;hidden&quot;;&#xD;
+&#xD;
+  if(width_integer==1050){&#xD;
+  	height_hingeStripL=section_height_int;&#xD;
+	&#xD;
+	visibility_pane800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R=&quot;hidden&quot;;&#xD;
+    visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+&#xD;
+   visibility_pane550R=&quot;hidden&quot;;&#xD;
+   visibility_pane5950R=&quot;hidden&quot;;&#xD;
+   visibility_pane5800R=&quot;hidden&quot;;&#xD;
+   visibility_pane5650R=&quot;hidden&quot;;&#xD;
+   visibility_pane51850R=&quot;hidden&quot;;&#xD;
+    visibility_pane51400R=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R=&quot;hidden&quot;;&#xD;
+    visibility_pane550L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L2=&quot;hidden&quot;;&#xD;
+    visibility_pane51400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L2=&quot;hidden&quot;;&#xD;
+&#xD;
+&#xD;
+   visibility_pane800L=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L=&quot;hidden&quot;;&#xD;
+    visibility_pane800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L2=&quot;hidden&quot;;&#xD;
+   &#xD;
+   &#xD;
+   visibility_bridgeStrip=&quot;hidden&quot;;&#xD;
+   visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+   visibility_hingeStripRight2=&quot;visible&quot;;&#xD;
+   visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+	visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+	visibility_gripStrip2=&quot;visible&quot;;&#xD;
+	visibility_doorLock2=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip2=&quot;visible&quot;;&#xD;
+    visibility_hingeRTR2=&quot;visible&quot;;&#xD;
+	visibility_hingeRBR2=&quot;visible&quot;;&#xD;
+	visibility_imageLeft=&quot;visible&quot;;&#xD;
+    visibility_imageRight2=&quot;visible&quot;;&#xD;
+    visibility_imageRight=&quot;hidden&quot;;&#xD;
+    visibility_imageLeft2=&quot;hidden&quot;;&#xD;
+     visibility_gripStrip=&quot;visible&quot;;&#xD;
+     visibility_doorLock=&quot;hidden&quot;;&#xD;
+     visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeLBLeft=&quot;visible&quot;;&#xD;
+     visibility_hingeLTLeft=&quot;visible&quot;;&#xD;
+     &#xD;
+	&#xD;
+	move_x_imageRight2=-245;&#xD;
+	move_x_bridgeStrip=-390;&#xD;
+	move_x_bridgeStrip2=-35;&#xD;
+	move_y_doorLock2=section_height_int/2-877;&#xD;
+	move_y_imageRight2=section_height_int/2-900;&#xD;
+	move_y_imageLeft=section_height_int/2-900;&#xD;
+	 move_x_gripStrip=447;	&#xD;
+	  move_y_doorLock=section_height_int/2-877;&#xD;
+	  move_x_gripStrip2=25;&#xD;
+	  move_x_doorLock=-32;&#xD;
+	  move_x_hingeRight2=-245;&#xD;
+	  move_x_hingeStripLeft=2;&#xD;
+	  move_y_hingeLBL=section_height_int-1796;&#xD;
+      move_y_hingeLML=section_height_int/2-898;&#xD;
+      move_y_hingeRBR2=section_height_int-1796;&#xD;
+      move_y_hingeRMR2=section_height_int/2-898;&#xD;
+      move_x_hingeStripLeft=1;&#xD;
+      move_x_hingeLBL=1;&#xD;
+     move_x_hingeLML=1;&#xD;
+     move_x_hingeLTL=1;&#xD;
+	  &#xD;
+    move_x_doorLock2=-10;&#xD;
+                                      if(section_height_int==1100)visibility_pane51100R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1250)visibility_pane51250R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                                     if(section_height_int==1400)visibility_pane51400R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==650)visibility_pane5650R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==800)visibility_pane5800R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==950)visibility_pane5950R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1850)visibility_pane51850R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+	&#xD;
+	&#xD;
+	             if(section_height_int==1100)visibility_pane51100L=&quot;visible&quot;;&#xD;
+        else visibility_pane51100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane51250L=&quot;visible&quot;;&#xD;
+        else visibility_pane51250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane51400L=&quot;visible&quot;;&#xD;
+        else visibility_pane51400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane5650L=&quot;visible&quot;;&#xD;
+        else visibility_pane5650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane5800L=&quot;visible&quot;;&#xD;
+        else visibility_pane5800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane5950L=&quot;visible&quot;;&#xD;
+        else visibility_pane5950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_51850L=&quot;visible&quot;;&#xD;
+        else visibility_51850L=&quot;hidden&quot;;&#xD;
+        &#xD;
+                                      if(section_height_int>=1100)visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+                                     else visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+                                       &#xD;
+                                      if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+                                       else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+&#xD;
+       	&#xD;
+}&#xD;
+//-------------------------------------------------------------------------------------&#xD;
+  if(width_integer==1300){&#xD;
+  	height_hingeStripL=section_height_int;&#xD;
+  	visibility_pane800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R=&quot;hidden&quot;;&#xD;
+    visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+&#xD;
+   visibility_pane550R=&quot;hidden&quot;;&#xD;
+   visibility_pane5950R=&quot;hidden&quot;;&#xD;
+   visibility_pane5800R=&quot;hidden&quot;;&#xD;
+   visibility_pane5650R=&quot;hidden&quot;;&#xD;
+   visibility_pane51850R=&quot;hidden&quot;;&#xD;
+    visibility_pane51400R=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R=&quot;hidden&quot;;&#xD;
+    visibility_pane550L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L2=&quot;hidden&quot;;&#xD;
+    visibility_pane51400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L2=&quot;hidden&quot;;&#xD;
+&#xD;
+&#xD;
+   visibility_pane500L=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L=&quot;hidden&quot;;&#xD;
+   visibility_pane51400L=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L=&quot;hidden&quot;;&#xD;
+    visibility_pane800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  &#xD;
+   visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+   visibility_hingeStripRight2=&quot;visible&quot;;&#xD;
+   visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+	visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+	visibility_gripStrip2=&quot;visible&quot;;&#xD;
+	visibility_doorLock2=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip2=&quot;visible&quot;;&#xD;
+    visibility_hingeRTR2=&quot;visible&quot;;&#xD;
+	visibility_hingeRBR2=&quot;visible&quot;;&#xD;
+	visibility_imageLeft=&quot;visible&quot;;&#xD;
+    visibility_imageRight2=&quot;visible&quot;;&#xD;
+    visibility_imageRight=&quot;hidden&quot;;&#xD;
+    visibility_imageLeft2=&quot;hidden&quot;;&#xD;
+     visibility_gripStrip=&quot;visible&quot;;&#xD;
+     visibility_doorLock=&quot;hidden&quot;;&#xD;
+     visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeLBLeft=&quot;visible&quot;;&#xD;
+     visibility_hingeLTLeft=&quot;visible&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	  move_x_imageRight2=-245;&#xD;
+      move_x_bridgeStrip2=-35;&#xD;
+      move_y_doorLock2=section_height_int/2-877;&#xD;
+      move_y_imageRight2=section_height_int/2-900;&#xD;
+	  move_y_imageLeft=section_height_int/2-900;&#xD;
+      move_y_doorLock=section_height_int/2-877;&#xD;
+     &#xD;
+     move_x_doorLock=-32;&#xD;
+     move_x_hingeRight2=-245;&#xD;
+      move_x_hingeStripLeft=2;&#xD;
+      move_y_hingeLBL=section_height_int-1796;&#xD;
+      move_y_hingeLML=section_height_int/2-898;&#xD;
+      move_y_hingeRBR2=section_height_int-1796;&#xD;
+      move_y_hingeRMR2=section_height_int/2-898;&#xD;
+      move_x_bridgeStrip=-390;&#xD;
+       move_x_gripStrip2=25;&#xD;
+       move_x_gripStrip=698;	&#xD;
+        move_x_hingeStripLeft=1;&#xD;
+      move_x_hingeLBL=1;&#xD;
+     move_x_hingeLML=1;&#xD;
+     move_x_hingeLTL=1;&#xD;
+move_x_doorLock2=-10;&#xD;
+  	                                    if(section_height_int==1100)visibility_pane51100R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1250)visibility_pane51250R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+                                     if(section_height_int==1400)visibility_pane51400R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==650)visibility_pane5650R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==800)visibility_pane5800R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==950)visibility_pane5950R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1850)visibility_pane51850R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+                                     else visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	       if(section_height_int==1100)visibility_pane81100L=&quot;visible&quot;;&#xD;
+        else visibility_pane81100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane81250L=&quot;visible&quot;;&#xD;
+        else visibility_pane81250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane81400L=&quot;visible&quot;;&#xD;
+        else visibility_pane81400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane8650L=&quot;visible&quot;;&#xD;
+        else visibility_pane8650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane8800L=&quot;visible&quot;;&#xD;
+        else visibility_pane8800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane8950L=&quot;visible&quot;;&#xD;
+        else visibility_pane8950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane81850L=&quot;visible&quot;;&#xD;
+        else visibility_pane81850L=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+                                       else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	&#xD;
+  	&#xD;
+  }&#xD;
+  &#xD;
+       //-----------------------------------------------     &#xD;
+ if(width_integer==1550){&#xD;
+ 	&#xD;
+ 	height_hingeStripL=section_height_int;&#xD;
+ 		visibility_pane800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R=&quot;hidden&quot;;&#xD;
+    visibility_pane500R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+&#xD;
+   visibility_pane550R=&quot;hidden&quot;;&#xD;
+   visibility_pane5950R=&quot;hidden&quot;;&#xD;
+   visibility_pane5800R=&quot;hidden&quot;;&#xD;
+   visibility_pane5650R=&quot;hidden&quot;;&#xD;
+   visibility_pane51850R=&quot;hidden&quot;;&#xD;
+    visibility_pane51400R=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R=&quot;hidden&quot;;&#xD;
+    visibility_pane550L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L2=&quot;hidden&quot;;&#xD;
+    visibility_pane51400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L2=&quot;hidden&quot;;&#xD;
+&#xD;
+&#xD;
+   visibility_pane500L=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L=&quot;hidden&quot;;&#xD;
+   visibility_pane51400L=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L=&quot;hidden&quot;;&#xD;
+    visibility_pane800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L2=&quot;hidden&quot;;&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	  visibility_hingeStripLeft=&quot;visible&quot;;&#xD;
+   visibility_hingeStripRight2=&quot;visible&quot;;&#xD;
+   visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+	visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+	visibility_gripStrip2=&quot;visible&quot;;&#xD;
+	visibility_doorLock2=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip=&quot;visible&quot;;&#xD;
+	visibility_bridgeStrip2=&quot;visible&quot;;&#xD;
+    visibility_hingeRTR2=&quot;visible&quot;;&#xD;
+	visibility_hingeRBR2=&quot;visible&quot;;&#xD;
+	visibility_imageLeft=&quot;visible&quot;;&#xD;
+    visibility_imageRight2=&quot;visible&quot;;&#xD;
+    visibility_imageRight=&quot;hidden&quot;;&#xD;
+    visibility_imageLeft2=&quot;hidden&quot;;&#xD;
+     visibility_gripStrip=&quot;visible&quot;;&#xD;
+     visibility_doorLock=&quot;hidden&quot;;&#xD;
+     visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+     visibility_hingeLBLeft=&quot;visible&quot;;&#xD;
+     visibility_hingeLTLeft=&quot;visible&quot;;&#xD;
+     &#xD;
+     &#xD;
+ 	  move_x_imageRight2=0;&#xD;
+      move_x_bridgeStrip2=212;&#xD;
+      move_y_doorLock2=section_height_int/2-877;&#xD;
+      move_y_imageRight2=section_height_int/2-900;&#xD;
+	  move_y_imageLeft=section_height_int/2-900;&#xD;
+      move_y_doorLock=section_height_int/2-877;&#xD;
+     &#xD;
+     move_x_doorLock=-32;&#xD;
+     move_x_hingeRight2=0;&#xD;
+      move_x_hingeStripLeft=2;&#xD;
+      move_y_hingeLBL=section_height_int-1796;&#xD;
+      move_y_hingeLML=section_height_int/2-895;&#xD;
+      move_y_hingeRBR2=section_height_int-1796;&#xD;
+      move_y_hingeRMR2=section_height_int/2-895;&#xD;
+      move_x_bridgeStrip=-390;&#xD;
+       move_x_gripStrip2=25;&#xD;
+       move_x_gripStrip=698;	&#xD;
+      move_x_hingeStripLeft=1;&#xD;
+      move_x_hingeLBL=1;&#xD;
+     move_x_hingeLML=1;&#xD;
+     move_x_hingeLTL=1;&#xD;
+       move_x_doorLock2=-10;&#xD;
+                                                                &#xD;
+  	       if(section_height_int==1100)visibility_pane81100L=&quot;visible&quot;;&#xD;
+        else visibility_pane81100L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1250)visibility_pane81250L=&quot;visible&quot;;&#xD;
+        else visibility_pane81250L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1400)visibility_pane81400L=&quot;visible&quot;;&#xD;
+        else visibility_pane81400L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==650)visibility_pane8650L=&quot;visible&quot;;&#xD;
+        else visibility_pane8650L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==800)visibility_pane8800L=&quot;visible&quot;;&#xD;
+        else visibility_pane8800L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==950)visibility_pane8950L=&quot;visible&quot;;&#xD;
+        else visibility_pane8950L=&quot;hidden&quot;;&#xD;
+          if(section_height_int==1850)visibility_pane81850L=&quot;visible&quot;;&#xD;
+        else visibility_pane81850L=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeLMLeft=&quot;visible&quot;;&#xD;
+                                       else visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	&#xD;
+  	                                        if(section_height_int==1100)visibility_pane81100R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1250)visibility_pane81250R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+                                     if(section_height_int==1400)visibility_pane81400R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==650)visibility_pane8650R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==800)visibility_pane8800R2=&quot;visible&quot;;&#xD;
+                                      else visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==950)visibility_pane8950R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+                                      if(section_height_int==1850)visibility_pane81850R2=&quot;visible&quot;;&#xD;
+                                     else visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+  	                                    if(section_height_int>=1100)visibility_hingeRMR2=&quot;visible&quot;;&#xD;
+                                     else visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+  	&#xD;
+       &#xD;
+       &#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ 	&#xD;
+ }&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+	       &#xD;
+	&#xD;
+	&#xD;
+	&#xD;
+}&#xD;
+else&#xD;
+           &#xD;
+{&#xD;
+             visibility_pane800L=&quot;hidden&quot;;&#xD;
+              visibility_pane51100L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51250L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51400L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5650L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5800L=&quot;hidden&quot;;&#xD;
+	        visibility_pane5950L=&quot;hidden&quot;;&#xD;
+	       visibility_pane51850L=&quot;hidden&quot;;&#xD;
+	           visibility_pane81100L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81250L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81400L=&quot;hidden&quot;;&#xD;
+	       visibility_pane8650L=&quot;hidden&quot;;&#xD;
+	        visibility_pane8800L=&quot;hidden&quot;;&#xD;
+	        visibility_pane8950L=&quot;hidden&quot;;&#xD;
+	        visibility_pane81850L=&quot;hidden&quot;;&#xD;
+	        visibility_pane51100R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51250R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51400R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5650R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5800R=&quot;hidden&quot;;&#xD;
+	        visibility_pane5950R=&quot;hidden&quot;;&#xD;
+	        visibility_pane51850R=&quot;hidden&quot;;&#xD;
+	         visibility_pane550R=&quot;hidden&quot;;	&#xD;
+	         visibility_pane81100R=&quot;hidden&quot;;&#xD;
+	        visibility_pane81250R=&quot;hidden&quot;;&#xD;
+	        visibility_pane81400R=&quot;hidden&quot;;&#xD;
+	        visibility_pane8650R=&quot;hidden&quot;;&#xD;
+	        visibility_pane8800R=&quot;hidden&quot;;&#xD;
+	        visibility_pane8950R=&quot;hidden&quot;;&#xD;
+	        visibility_pane81850R=&quot;hidden&quot;;&#xD;
+	         visibility_imageRight=&quot;hidden&quot;;&#xD;
+	    visibility_doorLock=&quot;hidden&quot;;&#xD;
+	    visibility_hingeRMRight=&quot;hidden&quot;;&#xD;
+		visibility_hingeStripLeft=&quot;hidden&quot;;&#xD;
+          visibility_hingeLMLeft=&quot;hidden&quot;;&#xD;
+		visibility_gripStrip=&quot;hidden&quot;;&#xD;
+         visibility_imageLeft=&quot;hidden&quot;;&#xD;
+        visibility_bridgeStrip=&quot;hidden&quot;;&#xD;
+        visibility_hingeStripRight=&quot;hidden&quot;;&#xD;
+        visibility_pane800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R=&quot;hidden&quot;;&#xD;
+    visibility_pane800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane8650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane81850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100R2=&quot;hidden&quot;;&#xD;
+&#xD;
+   visibility_pane550R=&quot;hidden&quot;;&#xD;
+   visibility_pane5950R=&quot;hidden&quot;;&#xD;
+   visibility_pane5800R=&quot;hidden&quot;;&#xD;
+   visibility_pane5650R=&quot;hidden&quot;;&#xD;
+   visibility_pane51850R=&quot;hidden&quot;;&#xD;
+    visibility_pane51400R=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R=&quot;hidden&quot;;&#xD;
+    visibility_pane550L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L2=&quot;hidden&quot;;&#xD;
+    visibility_pane51400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L2=&quot;hidden&quot;;&#xD;
+&#xD;
+&#xD;
+   visibility_pane800L=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L=&quot;hidden&quot;;&#xD;
+    visibility_pane800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8950L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8800L2=&quot;hidden&quot;;&#xD;
+   visibility_pane8650L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81850L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81400L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81250L2=&quot;hidden&quot;;&#xD;
+   visibility_pane81100L2=&quot;hidden&quot;;&#xD;
+visibility_pane500L=&quot;hidden&quot;;&#xD;
+   visibility_pane5950L=&quot;hidden&quot;;&#xD;
+   visibility_pane5800L=&quot;hidden&quot;;&#xD;
+   visibility_pane5650L=&quot;hidden&quot;;&#xD;
+   visibility_pane51850L=&quot;hidden&quot;;&#xD;
+   visibility_pane51400L=&quot;hidden&quot;;&#xD;
+   visibility_pane51250L=&quot;hidden&quot;;&#xD;
+   visibility_pane51100L=&quot;hidden&quot;;&#xD;
+visibility_pane500R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5950R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5800R2=&quot;hidden&quot;;&#xD;
+    visibility_pane5650R2=&quot;hidden&quot;;&#xD;
+    visibility_pane51850R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51400R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51250R2=&quot;hidden&quot;;&#xD;
+   visibility_pane51100R2=&quot;hidden&quot;;&#xD;
+   &#xD;
+      visibility_imageRight2=&quot;hidden&quot;;&#xD;
+visibility_hingeStripRight2=&quot;hidden&quot;;&#xD;
+visibility_hingeRTR2=&quot;hidden&quot;;&#xD;
+visibility_hingeRMR2=&quot;hidden&quot;;&#xD;
+visibility_hingeRBR2=&quot;hidden&quot;;&#xD;
+visibility_gripStrip2=&quot;hidden&quot;;&#xD;
+visibility_doorLock2=&quot;hidden&quot;;&#xD;
+visibility_bridgeStrip2=&quot;hidden&quot;;&#xD;
+   &#xD;
+        &#xD;
+		&#xD;
+}&#xD;
+</text>
+  </calculation>
+  <geometry uuid="_KGJDMTvDEeitUe2NsAba8w" deletable="false"
+      name="root">
+    <units uuid="_z9QEADvDEeitUe2NsAba8w" name="kit_frames_geo"
+        position="(25,0,-25)" order="5"/>
+    <units uuid="_6zmO0DQbEemkWqxD_XtUOw" name="Door1"
+        order="15">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_6zmO0TQbEemkWqxD_XtUOw" variable="height_cabinetFrame">
+        <vector xsi:type="appl:Coordinate3D" uuid="_6zmO0zQbEemkWqxD_XtUOw"
+            z="-1.0"/>
+      </facets>
+      <children uuid="_6zmO1DQbEemkWqxD_XtUOw" name="doors1">
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_6zmO1TQbEemkWqxD_XtUOw" variable="switch_doors"/>
+        <twoDElement xsi:type="comp:TwoDSVGImportFile"
+            uuid="_6zmO1jQbEemkWqxD_XtUOw" name="blind_door_svg"
+            checksum="7db766dbba4d5cf8708df085710225403b050ded">
+          <translation uuid="_6zmO2DQbEemkWqxD_XtUOw"/>
+          <file href="../../model.build#_H9jlsIwKEei5ErCfbBZTSQ"/>
+          <handles uuid="_6zmO2TQbEemkWqxD_XtUOw" name="doorLeft"
+              visualId="doorLeft">
+            <fields xsi:type="comp:Field" uuid="_6zmO2jQbEemkWqxD_XtUOw"
+                name="displayManipulation" fieldId="display"
+                variableReference="display_doorLeft"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO2zQbEemkWqxD_XtUOw" name="doorRight"
+              visualId="doorRight">
+            <fields xsi:type="comp:Field" uuid="_6zmO3DQbEemkWqxD_XtUOw"
+                name="displayManipulation" fieldId="display"
+                variableReference="display_doorRight"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO3TQbEemkWqxD_XtUOw" name="plateLeft"
+              visualId="plateLeft">
+            <fields xsi:type="comp:Field" uuid="_6zmO3jQbEemkWqxD_XtUOw"
+                name="heightManipulation" fieldId="height"
+                variableReference="height_plateLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO3zQbEemkWqxD_XtUOw"
+                name="widthManipulation" fieldId="width"
+                variableReference="width_plateLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO4DQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_plateLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO4TQbEemkWqxD_XtUOw"
+                name="pointer-eventsManipulation" fieldId="pointer-events"
+                variableReference="pointer-events" target="xml"/>
+          </handles>
+          <handles uuid="_6zmO4jQbEemkWqxD_XtUOw" name="plateRight"
+              visualId="plateRight">
+            <fields xsi:type="comp:Field" uuid="_6zmO4zQbEemkWqxD_XtUOw"
+                name="heightManipulation" fieldId="height"
+                variableReference="height_plateRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO5DQbEemkWqxD_XtUOw"
+                name="widthManipulation" fieldId="width"
+                variableReference="width_plateRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO5TQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_plateRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO5jQbEemkWqxD_XtUOw"
+                name="pointer-eventsManipulation" fieldId="pointer-events"
+                variableReference="pointer-events" target="xml"/>
+          </handles>
+          <handles uuid="_6zmO5zQbEemkWqxD_XtUOw" name="doorLock"
+              visualId="doorLock">
+            <fields xsi:type="comp:Field" uuid="_6zmO6DQbEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_doorLock"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO6TQbEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_doorLock"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO6jQbEemkWqxD_XtUOw"
+                name="displayManipulation" fieldId="display"
+                variableReference="display_doorLock"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO6zQbEemkWqxD_XtUOw" name="hingeLM"
+              visualId="hingeLM">
+            <fields xsi:type="comp:Field" uuid="_6zmO7DQbEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_hingeLM"
+                target="css"/>
+          </handles>
+          <handles uuid="_6zmO7TQbEemkWqxD_XtUOw" name="hingeRM"
+              visualId="hingeRM">
+            <fields xsi:type="comp:Field" uuid="_6zmO7jQbEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_hingeRM"
+                target="css"/>
+          </handles>
+          <handles uuid="_6zmO7zQbEemkWqxD_XtUOw" name="rect1-5"
+              visualId="rect1-5">
+            <fields xsi:type="comp:Field" uuid="_6zmO8DQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO8TQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRT"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO8jQbEemkWqxD_XtUOw" name="rect1-9-6"
+              visualId="rect1-9-6">
+            <fields xsi:type="comp:Field" uuid="_6zmO8zQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO9DQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRT"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO9TQbEemkWqxD_XtUOw" name="rect1-9-9-1"
+              visualId="rect1-9-9-1">
+            <fields xsi:type="comp:Field" uuid="_6zmO9jQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO9zQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRT"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO-DQbEemkWqxD_XtUOw" name="rect1-5-6"
+              visualId="rect1-5-6">
+            <fields xsi:type="comp:Field" uuid="_6zmO-TQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO-jQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRM"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO-zQbEemkWqxD_XtUOw" name="rect1-9-6-3"
+              visualId="rect1-9-6-3">
+            <fields xsi:type="comp:Field" uuid="_6zmO_DQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmO_TQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRM"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmO_jQbEemkWqxD_XtUOw" name="rect1-9-9-1-8"
+              visualId="rect1-9-9-1-8">
+            <fields xsi:type="comp:Field" uuid="_6zmO_zQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPADQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRM"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPATQbEemkWqxD_XtUOw" name="rect1-5-6-2"
+              visualId="rect1-5-6-2">
+            <fields xsi:type="comp:Field" uuid="_6zmPAjQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPAzQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRB"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPBDQbEemkWqxD_XtUOw" name="rect1-9-6-3-1"
+              visualId="rect1-9-6-3-1">
+            <fields xsi:type="comp:Field" uuid="_6zmPBTQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPBjQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRB"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPBzQbEemkWqxD_XtUOw" name="rect1-9-9-1-8-2"
+              visualId="rect1-9-9-1-8-2">
+            <fields xsi:type="comp:Field" uuid="_6zmPCDQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeLeft"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPCTQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRB"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPCjQbEemkWqxD_XtUOw" name="rect1"
+              visualId="rect1">
+            <fields xsi:type="comp:Field" uuid="_6zmPCzQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPDDQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRT"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPDTQbEemkWqxD_XtUOw" name="rect1-9"
+              visualId="rect1-9">
+            <fields xsi:type="comp:Field" uuid="_6zmPDjQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPDzQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRT"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPEDQbEemkWqxD_XtUOw" name="rect1-9-9"
+              visualId="rect1-9-9">
+            <fields xsi:type="comp:Field" uuid="_6zmPETQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPEjQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRT"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPEzQbEemkWqxD_XtUOw" name="rect1-1"
+              visualId="rect1-1">
+            <fields xsi:type="comp:Field" uuid="_6zmPFDQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPFTQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRM"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPFjQbEemkWqxD_XtUOw" name="rect1-9-4"
+              visualId="rect1-9-4">
+            <fields xsi:type="comp:Field" uuid="_6zmPFzQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPGDQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRM"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPGTQbEemkWqxD_XtUOw" name="rect1-9-9-9"
+              visualId="rect1-9-9-9">
+            <fields xsi:type="comp:Field" uuid="_6zmPGjQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPGzQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRM"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPHDQbEemkWqxD_XtUOw" name="rect1-1-5"
+              visualId="rect1-1-5">
+            <fields xsi:type="comp:Field" uuid="_6zmPHTQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPHjQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRB"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPHzQbEemkWqxD_XtUOw" name="rect1-9-4-8"
+              visualId="rect1-9-4-8">
+            <fields xsi:type="comp:Field" uuid="_6zmPIDQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPITQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRB"
+                target="xml"/>
+          </handles>
+          <handles uuid="_6zmPIjQbEemkWqxD_XtUOw" name="rect1-9-9-9-9"
+              visualId="rect1-9-9-9-9">
+            <fields xsi:type="comp:Field" uuid="_6zmPIzQbEemkWqxD_XtUOw"
+                name="xManipulation" fieldId="x" variableReference="x_hingeRight"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_6zmPJDQbEemkWqxD_XtUOw"
+                name="yManipulation" fieldId="y" variableReference="y_hingeRB"
+                target="xml"/>
+          </handles>
+        </twoDElement>
+      </children>
+      <children uuid="_29R9MDQeEemkWqxD_XtUOw" name="doubleGlassDoor1">
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_29R9MTQeEemkWqxD_XtUOw" variable="switch_doors"/>
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_29R9MjQeEemkWqxD_XtUOw" variable="showDoorFirst">
+          <vector xsi:type="appl:Coordinate3D" uuid="_29R9NDQeEemkWqxD_XtUOw"
+              x="1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDSVGImportFile"
+            uuid="_29R9NTQeEemkWqxD_XtUOw" name="doubleGlassDoor01"
+            checksum="314f49c567abe6085c4801768bea8875af168550">
+          <translation uuid="_29R9NzQeEemkWqxD_XtUOw"/>
+          <file href="../../model.build#_FsSAwJlqEeiBdIdaWvviww"/>
+          <handles uuid="_29R9ODQeEemkWqxD_XtUOw" name="bridgeStrip"
+              visualId="bridgeStrip">
+            <fields xsi:type="comp:Field" uuid="_29R9OTQeEemkWqxD_XtUOw"
+                name="heightManipulation" fieldId="height"
+                variableReference="height_bridgeStrip"
+                target="xml"/>
+            <fields xsi:type="comp:Field" uuid="_29R9OjQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_bridgeStrip"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9OzQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_bridgeStrip"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9PDQeEemkWqxD_XtUOw" name="strip"
+              visualId="strip">
+            <fields xsi:type="comp:Field" uuid="_29R9PTQeEemkWqxD_XtUOw"
+                name="heightManipulation" fieldId="height"
+                variableReference="height_gripStrip"
+                target="xml"/>
+          </handles>
+          <handles uuid="_29R9PjQeEemkWqxD_XtUOw" name="hingeStripL"
+              visualId="hingeStripL">
+            <fields xsi:type="comp:Field" uuid="_29R9PzQeEemkWqxD_XtUOw"
+                name="heightManipulation" fieldId="height"
+                variableReference="height_hingeStripL"
+                target="xml"/>
+          </handles>
+          <handles uuid="_29R9QDQeEemkWqxD_XtUOw" name="hingeStripR"
+              visualId="hingeStripR">
+            <fields xsi:type="comp:Field" uuid="_29R9QTQeEemkWqxD_XtUOw"
+                name="heightManipulation" fieldId="height"
+                variableReference="height_hingeStripR"
+                target="xml"/>
+          </handles>
+          <handles uuid="_29R9QjQeEemkWqxD_XtUOw" name="gripStrip"
+              visualId="gripStrip">
+            <fields xsi:type="comp:Field" uuid="_29R9QzQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_gripStrip"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9RDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_gripStrip"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9RTQeEemkWqxD_XtUOw" name="hingeStripLeft"
+              visualId="hingeStripLeft">
+            <fields xsi:type="comp:Field" uuid="_29R9RjQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeStripLeft"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9RzQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_hingeStripLeft"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9SDQeEemkWqxD_XtUOw" name="hingeStripRight"
+              visualId="hingeStripRight">
+            <fields xsi:type="comp:Field" uuid="_29R9STQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeStripRight"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9SjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_hingeStripRight"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9SzQeEemkWqxD_XtUOw" name="imageLeft"
+              visualId="imageLeft">
+            <fields xsi:type="comp:Field" uuid="_29R9TDQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_imageLeft"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9TTQeEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_imageLeft"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9TjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_imageLeft"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9TzQeEemkWqxD_XtUOw" name="imageRight"
+              visualId="imageRight">
+            <fields xsi:type="comp:Field" uuid="_29R9UDQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_imageRight"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9UTQeEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_imageRight"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9UjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_imageRight"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9UzQeEemkWqxD_XtUOw" name="doorLock"
+              visualId="doorLock">
+            <fields xsi:type="comp:Field" uuid="_29R9VDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_doorLock"
+                target="css"/>
+            <fields xsi:type="comp:Field" uuid="_29R9VTQeEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_doorLock"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9VjQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_doorLock"
+                target="transform"/>
+          </handles>
+          <handles uuid="_29R9VzQeEemkWqxD_XtUOw" name="hingeLB"
+              visualId="hingeLB">
+            <fields xsi:type="comp:Field" uuid="_29R9WDQeEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_hingeLBL"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9WTQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeLBL"
+                target="transform"/>
+          </handles>
+          <handles uuid="_29R9WjQeEemkWqxD_XtUOw" name="hingeLM"
+              visualId="hingeLM">
+            <fields xsi:type="comp:Field" uuid="_29R9WzQeEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_hingeLML"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9XDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_hingeLMLeft"
+                target="css"/>
+            <fields xsi:type="comp:Field" uuid="_29R9XTQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeLML"
+                target="transform"/>
+          </handles>
+          <handles uuid="_29R9XjQeEemkWqxD_XtUOw" name="hingeRB"
+              visualId="hingeRB">
+            <fields xsi:type="comp:Field" uuid="_29R9XzQeEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_hingeRBR"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9YDQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeRBR"
+                target="transform"/>
+          </handles>
+          <handles uuid="_29R9YTQeEemkWqxD_XtUOw" name="hingeRM"
+              visualId="hingeRM">
+            <fields xsi:type="comp:Field" uuid="_29R9YjQeEemkWqxD_XtUOw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_hingeRMR"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_29R9YzQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_hingeRMRight"
+                target="css"/>
+            <fields xsi:type="comp:Field" uuid="_29R9ZDQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeRMR"
+                target="transform"/>
+          </handles>
+          <handles uuid="_29R9ZTQeEemkWqxD_XtUOw" name="pane550x1100R"
+              visualId="pane550x1100R">
+            <fields xsi:type="comp:Field" uuid="_29R9ZjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51100R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9ZzQeEemkWqxD_XtUOw" name="pane550x1250R"
+              visualId="pane550x1250R">
+            <fields xsi:type="comp:Field" uuid="_29R9aDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51250R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9aTQeEemkWqxD_XtUOw" name="pane550x1400R"
+              visualId="pane550x1400R">
+            <fields xsi:type="comp:Field" uuid="_29R9ajQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51400R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9azQeEemkWqxD_XtUOw" name="pane500x1850R"
+              visualId="pane500x1850R">
+            <fields xsi:type="comp:Field" uuid="_29R9bDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51850R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9bTQeEemkWqxD_XtUOw" name="pane550x800R"
+              visualId="pane550x800R">
+            <fields xsi:type="comp:Field" uuid="_29R9bjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane5800R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9bzQeEemkWqxD_XtUOw" name="pane550x950R"
+              visualId="pane550x950R">
+            <fields xsi:type="comp:Field" uuid="_29R9cDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane5950R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9cTQeEemkWqxD_XtUOw" name="pane800x1100R"
+              visualId="pane800x1100R">
+            <fields xsi:type="comp:Field" uuid="_29R9cjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81100R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9czQeEemkWqxD_XtUOw" name="pane800x1400L"
+              visualId="pane800x1400L">
+            <fields xsi:type="comp:Field" uuid="_29R9dDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81400L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9dTQeEemkWqxD_XtUOw" name="pane800x1400R"
+              visualId="pane800x1400R">
+            <fields xsi:type="comp:Field" uuid="_29R9djQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81400R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9dzQeEemkWqxD_XtUOw" name="pane800x1850L"
+              visualId="pane800x1850L">
+            <fields xsi:type="comp:Field" uuid="_29R9eDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81850L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9eTQeEemkWqxD_XtUOw" name="pane800x650R"
+              visualId="pane800x650R">
+            <fields xsi:type="comp:Field" uuid="_29R9ejQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane8650R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9ezQeEemkWqxD_XtUOw" name="pane800x800L"
+              visualId="pane800x800L">
+            <fields xsi:type="comp:Field" uuid="_29R9fDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane8800L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9fTQeEemkWqxD_XtUOw" name="pane800x800R"
+              visualId="pane800x800R">
+            <fields xsi:type="comp:Field" uuid="_29R9fjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane8800R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9fzQeEemkWqxD_XtUOw" name="pane800x950R"
+              visualId="pane800x950R">
+            <fields xsi:type="comp:Field" uuid="_29R9gDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane8950R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9gTQeEemkWqxD_XtUOw" name="pane800x950L"
+              visualId="pane800x950L">
+            <fields xsi:type="comp:Field" uuid="_29R9gjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane8950L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9gzQeEemkWqxD_XtUOw" name="pane550x1100L"
+              visualId="pane550x1100L">
+            <fields xsi:type="comp:Field" uuid="_29R9hDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51100L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9hTQeEemkWqxD_XtUOw" name="pane550x1250L"
+              visualId="pane550x1250L">
+            <fields xsi:type="comp:Field" uuid="_29R9hjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51250L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9hzQeEemkWqxD_XtUOw" name="pane550x1400L"
+              visualId="pane550x1400L">
+            <fields xsi:type="comp:Field" uuid="_29R9iDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51400L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9iTQeEemkWqxD_XtUOw" name="pane550L"
+              visualId="pane550L">
+            <fields xsi:type="comp:Field" uuid="_29R9ijQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane550L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9izQeEemkWqxD_XtUOw" name="pane550R"
+              visualId="pane550R">
+            <fields xsi:type="comp:Field" uuid="_29R9jDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane550R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9jTQeEemkWqxD_XtUOw" name="pane550x650L"
+              visualId="pane550x650L">
+            <fields xsi:type="comp:Field" uuid="_29R9jjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane5650L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9jzQeEemkWqxD_XtUOw" name="pane550x800L"
+              visualId="pane550x800L">
+            <fields xsi:type="comp:Field" uuid="_29R9kDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane5800L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9kTQeEemkWqxD_XtUOw" name="pane550x950L"
+              visualId="pane550x950L">
+            <fields xsi:type="comp:Field" uuid="_29R9kjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane5950L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9kzQeEemkWqxD_XtUOw" name="pane800L"
+              visualId="pane800L">
+            <fields xsi:type="comp:Field" uuid="_29R9lDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane800L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9lTQeEemkWqxD_XtUOw" name="pane800R"
+              visualId="pane800R">
+            <fields xsi:type="comp:Field" uuid="_29R9ljQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane800R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9lzQeEemkWqxD_XtUOw" name="pane800x650L"
+              visualId="pane800x650L">
+            <fields xsi:type="comp:Field" uuid="_29R9mDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane8650L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9mTQeEemkWqxD_XtUOw" name="pane550x1850L"
+              visualId="pane550x1850L">
+            <fields xsi:type="comp:Field" uuid="_29R9mjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane51850L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9mzQeEemkWqxD_XtUOw" name="pane800x1100L"
+              visualId="pane800x1100L">
+            <fields xsi:type="comp:Field" uuid="_29R9nDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81100L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9nTQeEemkWqxD_XtUOw" name="pane550x650R"
+              visualId="pane550x650R">
+            <fields xsi:type="comp:Field" uuid="_29R9njQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane5650R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9nzQeEemkWqxD_XtUOw" name="hingeLT"
+              visualId="hingeLT">
+            <fields xsi:type="comp:Field" uuid="_29R9oDQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeLTL"
+                target="transform"/>
+          </handles>
+          <handles uuid="_29R9oTQeEemkWqxD_XtUOw" name="hingeRT"
+              visualId="hingeRT">
+            <fields xsi:type="comp:Field" uuid="_29R9ojQeEemkWqxD_XtUOw"
+                name="move_xManipulation" fieldId="move_x"
+                variableReference="move_x_hingeRTR"
+                target="transform"/>
+          </handles>
+          <handles uuid="_29R9ozQeEemkWqxD_XtUOw" name="pane800x1250R"
+              visualId="pane800x1250R">
+            <fields xsi:type="comp:Field" uuid="_29R9pDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81250R"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9pTQeEemkWqxD_XtUOw" name="pane800x1250L"
+              visualId="pane800x1250L">
+            <fields xsi:type="comp:Field" uuid="_29R9pjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81250L"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9pzQeEemkWqxD_XtUOw" name="doorLeft"
+              visualId="doorLeft">
+            <fields xsi:type="comp:Field" uuid="_29R9qDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_doorLeft"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9qTQeEemkWqxD_XtUOw" name="doorRight"
+              visualId="doorRight">
+            <fields xsi:type="comp:Field" uuid="_29R9qjQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_doorRight"
+                target="css"/>
+          </handles>
+          <handles uuid="_29R9qzQeEemkWqxD_XtUOw" name="pane800x1850R"
+              visualId="pane800x1850R">
+            <fields xsi:type="comp:Field" uuid="_29R9rDQeEemkWqxD_XtUOw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_pane81850R"
+                target="css"/>
+          </handles>
+        </twoDElement>
+        <children uuid="_29R9rTQeEemkWqxD_XtUOw" name="doubleGlassDoor2">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_29R9rjQeEemkWqxD_XtUOw" variable="showDoorSecond">
+            <vector xsi:type="appl:Coordinate3D" uuid="_29R9sDQeEemkWqxD_XtUOw"
+                x="1.0"/>
+          </facets>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_29R9sTQeEemkWqxD_XtUOw" name="doubleGlassDoor02"
+              checksum="314f49c567abe6085c4801768bea8875af168550">
+            <translation uuid="_29R9szQeEemkWqxD_XtUOw"/>
+            <file href="../../model.build#_FsSAwJlqEeiBdIdaWvviww"/>
+            <handles uuid="_29R9tDQeEemkWqxD_XtUOw"
+                name="bridgeStrip" visualId="bridgeStrip">
+              <fields xsi:type="comp:Field" uuid="_29R9tTQeEemkWqxD_XtUOw"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_bridgeStrip2"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_29R9tjQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_bridgeStrip2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9tzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_bridgeStrip2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9uDQeEemkWqxD_XtUOw"
+                name="strip" visualId="strip">
+              <fields xsi:type="comp:Field" uuid="_29R9uTQeEemkWqxD_XtUOw"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_gripStrip2"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_29R9ujQeEemkWqxD_XtUOw"
+                name="hingeStripR" visualId="hingeStripR">
+              <fields xsi:type="comp:Field" uuid="_29R9uzQeEemkWqxD_XtUOw"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_hingeStripR2"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_29R9vDQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_hingeStrip"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9vTQeEemkWqxD_XtUOw"
+                name="gripStrip" visualId="gripStrip">
+              <fields xsi:type="comp:Field" uuid="_29R9vjQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_gripStrip2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9vzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_gripStrip2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9wDQeEemkWqxD_XtUOw"
+                name="hingeRB" visualId="hingeRB">
+              <fields xsi:type="comp:Field" uuid="_29R9wTQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_hingeRBR2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9wjQeEemkWqxD_XtUOw"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_hingeRBR2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9wzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_hingeRBR2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9xDQeEemkWqxD_XtUOw"
+                name="hingeRT" visualId="hingeRT">
+              <fields xsi:type="comp:Field" uuid="_29R9xTQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_hingeRTR2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9xjQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_hingeRTR2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9xzQeEemkWqxD_XtUOw"
+                name="hingeStripRight" visualId="hingeStripRight">
+              <fields xsi:type="comp:Field" uuid="_29R9yDQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_hingeRight2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9yTQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_hingeStripRight2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9yjQeEemkWqxD_XtUOw"
+                name="hingeRM" visualId="hingeRM">
+              <fields xsi:type="comp:Field" uuid="_29R9yzQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_hingeRMR2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9zDQeEemkWqxD_XtUOw"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_hingeRMR2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R9zTQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_hingeRMR2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9zjQeEemkWqxD_XtUOw"
+                name="imageRight" visualId="imageRight">
+              <fields xsi:type="comp:Field" uuid="_29R9zzQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_imageRight2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R90DQeEemkWqxD_XtUOw"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_imageRight2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R90TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_imageRight2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R90jQeEemkWqxD_XtUOw"
+                name="doorLock" visualId="doorLock">
+              <fields xsi:type="comp:Field" uuid="_29R90zQeEemkWqxD_XtUOw"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_doorLock2"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_29R91DQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_doorLock2"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_29R91TQeEemkWqxD_XtUOw"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_doorLock2"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_29R91jQeEemkWqxD_XtUOw"
+                name="doorLeft" visualId="doorLeft">
+              <fields xsi:type="comp:Field" uuid="_29R91zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_doorLeft2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R92DQeEemkWqxD_XtUOw"
+                name="hingeStripLeft" visualId="hingeStripLeft">
+              <fields xsi:type="comp:Field" uuid="_29R92TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_hingeStripLeft2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R92jQeEemkWqxD_XtUOw"
+                name="imageLeft" visualId="imageLeft">
+              <fields xsi:type="comp:Field" uuid="_29R92zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_imageLeft2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R93DQeEemkWqxD_XtUOw"
+                name="pane550x1100L" visualId="pane550x1100L">
+              <fields xsi:type="comp:Field" uuid="_29R93TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51100L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R93jQeEemkWqxD_XtUOw"
+                name="pane550x1250L" visualId="pane550x1250L">
+              <fields xsi:type="comp:Field" uuid="_29R93zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51250L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R94DQeEemkWqxD_XtUOw"
+                name="pane550x950L" visualId="pane550x950L">
+              <fields xsi:type="comp:Field" uuid="_29R94TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane5950L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R94jQeEemkWqxD_XtUOw"
+                name="pane550x800L" visualId="pane550x800L">
+              <fields xsi:type="comp:Field" uuid="_29R94zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane5800L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R95DQeEemkWqxD_XtUOw"
+                name="pane550x650L" visualId="pane550x650L">
+              <fields xsi:type="comp:Field" uuid="_29R95TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane5650L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R95jQeEemkWqxD_XtUOw"
+                name="pane550x1400L" visualId="pane550x1400L">
+              <fields xsi:type="comp:Field" uuid="_29R95zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51400L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R96DQeEemkWqxD_XtUOw"
+                name="pane550x1850L" visualId="pane550x1850L">
+              <fields xsi:type="comp:Field" uuid="_29R96TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51850L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R96jQeEemkWqxD_XtUOw"
+                name="pane550L" visualId="pane550L">
+              <fields xsi:type="comp:Field" uuid="_29R96zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane550L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R97DQeEemkWqxD_XtUOw"
+                name="pane800L" visualId="pane800L">
+              <fields xsi:type="comp:Field" uuid="_29R97TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane800L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R97jQeEemkWqxD_XtUOw"
+                name="pane800x650L" visualId="pane800x650L">
+              <fields xsi:type="comp:Field" uuid="_29R97zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane8650L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R98DQeEemkWqxD_XtUOw"
+                name="pane800x800L" visualId="pane800x800L">
+              <fields xsi:type="comp:Field" uuid="_29R98TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane8800L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R98jQeEemkWqxD_XtUOw"
+                name="pane800x950L" visualId="pane800x950L">
+              <fields xsi:type="comp:Field" uuid="_29R98zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane8950L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R99DQeEemkWqxD_XtUOw"
+                name="pane800x1100L" visualId="pane800x1100L">
+              <fields xsi:type="comp:Field" uuid="_29R99TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81100L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R99jQeEemkWqxD_XtUOw"
+                name="pane800x1250L" visualId="pane800x1250L">
+              <fields xsi:type="comp:Field" uuid="_29R99zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81250L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9-DQeEemkWqxD_XtUOw"
+                name="pane800x1400L" visualId="pane800x1400L">
+              <fields xsi:type="comp:Field" uuid="_29R9-TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81400L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9-jQeEemkWqxD_XtUOw"
+                name="pane800x1850L" visualId="pane800x1850L">
+              <fields xsi:type="comp:Field" uuid="_29R9-zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81850L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9_DQeEemkWqxD_XtUOw"
+                name="pane800R" visualId="pane800R">
+              <fields xsi:type="comp:Field" uuid="_29R9_TQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane800R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R9_jQeEemkWqxD_XtUOw"
+                name="pane800x650R" visualId="pane800x650R">
+              <fields xsi:type="comp:Field" uuid="_29R9_zQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane8650R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-ADQeEemkWqxD_XtUOw"
+                name="pane800x800R" visualId="pane800x800R">
+              <fields xsi:type="comp:Field" uuid="_29R-ATQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane8800R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-AjQeEemkWqxD_XtUOw"
+                name="pane800x950R" visualId="pane800x950R">
+              <fields xsi:type="comp:Field" uuid="_29R-AzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane8950R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-BDQeEemkWqxD_XtUOw"
+                name="pane800x1100R" visualId="pane800x1100R">
+              <fields xsi:type="comp:Field" uuid="_29R-BTQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81100R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-BjQeEemkWqxD_XtUOw"
+                name="pane800x1250R" visualId="pane800x1250R">
+              <fields xsi:type="comp:Field" uuid="_29R-BzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81250R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-CDQeEemkWqxD_XtUOw"
+                name="pane800x1400R" visualId="pane800x1400R">
+              <fields xsi:type="comp:Field" uuid="_29R-CTQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81400R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-CjQeEemkWqxD_XtUOw"
+                name="pane800x1850R" visualId="pane800x1850R">
+              <fields xsi:type="comp:Field" uuid="_29R-CzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane81850R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-DDQeEemkWqxD_XtUOw"
+                name="pane550R" visualId="pane550R">
+              <fields xsi:type="comp:Field" uuid="_29R-DTQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane550R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-DjQeEemkWqxD_XtUOw"
+                name="pane550x650R" visualId="pane550x650R">
+              <fields xsi:type="comp:Field" uuid="_29R-DzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane5650R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-EDQeEemkWqxD_XtUOw"
+                name="pane550x800R" visualId="pane550x800R">
+              <fields xsi:type="comp:Field" uuid="_29R-ETQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane5800R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-EjQeEemkWqxD_XtUOw"
+                name="pane550x950R" visualId="pane550x950R">
+              <fields xsi:type="comp:Field" uuid="_29R-EzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane5950R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-FDQeEemkWqxD_XtUOw"
+                name="pane550x1100R" visualId="pane550x1100R">
+              <fields xsi:type="comp:Field" uuid="_29R-FTQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51100R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-FjQeEemkWqxD_XtUOw"
+                name="pane550x1250R" visualId="pane550x1250R">
+              <fields xsi:type="comp:Field" uuid="_29R-FzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51250R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-GDQeEemkWqxD_XtUOw"
+                name="pane550x1400R" visualId="pane550x1400R">
+              <fields xsi:type="comp:Field" uuid="_29R-GTQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51400R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_29R-GjQeEemkWqxD_XtUOw"
+                name="pane500x1850R" visualId="pane500x1850R">
+              <fields xsi:type="comp:Field" uuid="_29R-GzQeEemkWqxD_XtUOw"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_pane51850R2"
+                  target="css"/>
+            </handles>
+          </twoDElement>
+        </children>
+      </children>
+    </units>
+    <parentPlugs uuid="_KGJDMjvDEeitUe2NsAba8w" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_P5s9QDvDEeitUe2NsAba8w" name="kit_frames_twinlineN"
+      components="kit_frames_twinlineN, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_P5tkVzvDEeitUe2NsAba8w"
+        geoUnit="_z9QEADvDEeitUe2NsAba8w"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_p16tkKVAEei8RLezMA1Jug">
+      <chains uuid="_qYG0oKVAEei8RLezMA1Jug" name="kit_yes"
+          flow="IN" chained="kit_yes" refVar="kit_yes"/>
+      <chains uuid="_lDp8EMb4EeicgqKXR55sSg" name="switch_front_view"
+          chained="switch_front_view" refVar="switch_front_view"/>
+      <chains uuid="_Pzpf0CBVEemyBN3LywSVPg" name="section_width_int"
+          chained="section_width_int" refVar="section_width_int"/>
+      <chains uuid="_VlzhwDX4EemhTYdIwrc9_Q" name="mounting_restriction_current"
+          flow="IN" chained="mounting_restriction" refVar="mounting_restriction_current"/>
+      <chains uuid="_oglCUDX7EemhTYdIwrc9_Q" name="flatpack_restriction_current"
+          flow="IN" chained="flatpack_restriction" refVar="flatpack_restriction_current"/>
+    </facets>
+    <domain uuid="_P5s9QTvDEeitUe2NsAba8w" name="local"
+        visibility="300">
+      <typeSet uuid="_P5s9QjvDEeitUe2NsAba8w" bitSet="65536"/>
+    </domain>
+  </roles>
+  <componentsUsingMe xsi:type="comp:Component" href="_xBUE4OO_EeexBuol6abmwg.xml#_xBUE4OO_EeexBuol6abmwg"/>
+</comp:ComponentTemplate>
