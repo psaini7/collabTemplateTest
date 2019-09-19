@@ -51,6 +51,13 @@
       </values>
     </domain>
   </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_5nA08NrlEemEP5RT1Omybg"
+      name="VariableTest1" visibility="800">
+    <domain uuid="_5nA08drlEemEP5RT1Omybg" name="local"
+        visibility="300">
+      <typeSet uuid="_5nA08trlEemEP5RT1Omybg" bitSet="393231"/>
+    </domain>
+  </variables>
   <logic uuid="_ZluCQIp1EeiOxKLEoqGITw" name="Logic_Rules"
       visibility="800">
     <children xsi:type="array:Expression" uuid="_ZluCQYp1EeiOxKLEoqGITw"
